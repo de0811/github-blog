@@ -5,6 +5,10 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/github-blog",
   assetPrefix: "/github-blog",
+  images: {
+    unoptimized: true,
+  },
+  trailingSlash: true,
 };
 
 export default nextConfig;
