@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/github-blog",
   assetPrefix: "/github-blog",
+  trailingSlash: true,
 };
 
 export default nextConfig;
