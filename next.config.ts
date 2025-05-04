@@ -5,9 +5,9 @@ const nextConfig: NextConfig = {
   output: "export",
   basePath: "/github-blog",
   assetPrefix: "/github-blog",
-  images: {
-    unoptimized: true,
-  },
+  // images: {
+  //   unoptimized: true,
+  // },
   trailingSlash: true,
 };
 
