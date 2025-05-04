@@ -7,6 +7,7 @@ export default function Home() {
       <p>테스트 추가 내용</p>
       <p>테스트 추가 내용 2</p>
       <p>테스트 추가 내용 3</p>
+      <p>테스트 추가 내용 4</p>
     </div>
   );
 }
