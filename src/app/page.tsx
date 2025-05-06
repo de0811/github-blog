@@ -54,7 +54,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <section className={styles.hero}>
-        <h1>서동민의 개발 블로그</h1>
+        <h1>서동민의 개roro발 블로그</h1>
         <p className={styles.subtitle}>
           웹 개발, 프로그래밍, 그리고 기술에 관한 이야기를 공유합니다.
         </p>
