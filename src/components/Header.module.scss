@@ -8,13 +8,19 @@
 }
 
 .container {
-  max-width: 1200px;
+  max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 1rem;
   height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  gap: 0.625rem;
+  align-items: baseline;
 }
 
 .logo {
@@ -29,11 +35,6 @@
       color: var(--link-hover-color);
     }
   }
-}
-
-.navigation {
-  display: flex;
-  gap: 1.5rem;
 }
 
 .navLink {

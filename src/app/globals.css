@@ -19,8 +19,8 @@
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
 
-  --color: var(--neutral-1000); /* 기본 색상 */
-  --background: var(--neutral-0); /* 기본 배경 색상 */
+  --color: var(--neutral-900); /* 기본 색상 */
+  --background: var(--neutral-100); /* 기본 배경 색상 */
 
   --blue-color: #0049FF;
   --blue-background: #D6E4FF;
@@ -122,7 +122,7 @@
   --point-selected-border-color: #0478B2;
 
   --font-size: 16px; /* 기본 폰트 사이즈 */
-
+  --max-width: 1200px; /* 최대 너비 */
 }
 
 html.dark {
@@ -147,8 +147,8 @@ html.dark {
   --shadow-lg: 0 10px 15px -3px rgba(255, 255, 255, 0.07);
 
 
-  --color: var(--neutral-1000); /* 기본 색상 */
-  --background: var(--neutral-0); /* 기본 배경 색상 */
+  /*--color: var(--neutral-1000); !* 기본 색상 *!*/
+  /*--background: var(--neutral-0); !* 기본 배경 색상 *!*/
 
   --blue-color: #D6E4FF;
   --blue-background: #618eff;

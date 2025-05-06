@@ -1,0 +1,82 @@
+// src/components/PostCard.module.scss
+.postCard {
+  background-color: var(--item-background);
+  border-radius: 8px;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; // 이미지가 카드를 벗어나지 않도록
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-md);
+  }
+}
+
+.coverImageLink {
+  display: block; // 링크 영역을 이미지 크기에 맞춤
+  width: 100%;
+}
+
+.coverImage {
+  width: 100%;
+  height: auto; // 이미지 비율 유지
+  max-height: 200px; // 최대 높이 제한 (선택 사항)
+  object-fit: cover; // 이미지가 영역을 채우도록
+  border-bottom: 1px solid var(--item-border-color); // 이미지와 내용 구분선
+}
+
+.cardContent {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; // 카드의 남은 공간을 채우도록
+}
+
+.postTitleLink {
+  text-decoration: none; // 링크 밑줄 제거
+  &:hover {
+    .postTitle {
+      color: var(--link-hover-color);
+    }
+  }
+}
+
+.postTitle {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--color);
+  // transition 추가 (선택 사항, 부드러운 색상 변경)
+  transition: color 0.2s ease-in-out;
+}
+
+.postDate {
+  font-size: 0.9rem;
+  color: var(--neutral-500);
+  margin-bottom: 0.75rem;
+}
+
+.postExcerpt {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--neutral-700);
+  flex-grow: 1; // excerpt 내용이 길어질 경우 다른 카드와의 높이 일관성 유지에 도움
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: auto; // 태그를 카드 하단에 위치시키도록 (내용이 짧을 경우)
+}
+
+.tag {
+  background-color: var(--blue-background);
+  color: var(--blue-color);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  font-weight: 500;
+}

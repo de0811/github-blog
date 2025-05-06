@@ -1,7 +1,7 @@
 // src/components/Header.tsx
 "use client";
 import Link from 'next/link';
-import { useState, useEffect } from 'react';
+import {useState, useEffect} from 'react';
 import styles from './Header.module.scss';
 
 export default function Header() {
@@ -36,13 +36,16 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.container}>
-        <div className={styles.logo}>
-          <Link href="/">Blog</Link>
+        <div className={styles.navigation}>
+          <div className={styles.logo}>
+            <Link href="/">Home</Link>
+          </div>
+
+          <Link href="/blog" className={styles.navLink}>Blog</Link>
+
+          <Link href="/about" className={styles.navLink}>About</Link>
         </div>
 
-        <nav className={styles.navigation}>
-          <Link href="/about" className={styles.navLink}>About</Link>
-        </nav>
 
         <div className={styles.actions}>
           <form className={styles.searchForm} onSubmit={handleSearch}>
