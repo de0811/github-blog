@@ -23,6 +23,7 @@ export default function PostCard({ post }: PostCardProps) {
           />
         </Link>
       )}
+
       <div className={styles.cardContent}>
         <Link href={`/blog/${post.slug}/`} className={styles.postTitleLink}>
           <h3 className={styles.postTitle}>{post.title}</h3>
