@@ -12,7 +12,7 @@ export default function PostCard({ post }: PostCardProps) {
   return (
     <article className={styles.postCard}>
       {post.coverImgUrl && (
-        <Link href={`/blog/${post.slug}/`} className={styles.coverImageLink}>
+        <Link href={`/blog/${post.slugHash}/`} className={styles.coverImageLink}>
           <Image
             src={post.coverImgUrl}
             alt={`${post.title} cover image`}
@@ -24,7 +24,7 @@ export default function PostCard({ post }: PostCardProps) {
         </Link>
       )}
       <div className={styles.cardContent}>
-        <Link href={`/blog/${post.slug}/`} className={styles.postTitleLink}>
+        <Link href={`/blog/${post.slugHash}/`} className={styles.postTitleLink}>
           <h3 className={styles.postTitle}>{post.title}</h3>
         </Link>
         <p className={styles.postDate}>

@@ -2,6 +2,8 @@
 export type Post = {
   /** 노트 파일의 고유 ID 또는 슬러그 (URL 경로용, 필수) */
   slug: string;
+  /** URL 사용할 해시 슬러그 */
+  slugHash: string;
   /** 공개 여부 (true: 공개, false: 비공개, 필수) */
   isPublished: boolean;
   /** 노트 제목 (필수) */
