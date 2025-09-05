@@ -25,6 +25,8 @@
   gap: 0.3em;
   font-weight: 500;
   white-space: nowrap; /* 제목이 줄바꿈되지 않도록 합니다. */
+  border-right: 4px solid var(--item-border-color);
+  padding-right: 0.2rem;
 }
 
 .custom-inline-code-icon svg {
@@ -38,6 +40,8 @@
 .custom-inline-code-title-text {
   /* 제목 텍스트는 약간 더 연한 보조 색상을 사용합니다. */
   color: var(--neutral-600);
+  font-size: 0.9rem;
+  font-weight: bold;
 }
 
 .custom-inline-code .hljs {
@@ -48,4 +52,5 @@
 
   /* 코드 텍스트는 가독성을 위해 기본 텍스트 색상을 사용합니다. */
   color: var(--color);
+  font-size: 0.8rem;
 }

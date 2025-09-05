@@ -822,11 +822,14 @@ export function remarkCodeBlock() {
 
       // 4. 하이라이트 라인 적용
       const highlightedLines = highlightedCode.split('\n').map((line, i) => {
+        // 각 라인을 span으로 감싸서 display:block을 적용할 수 있도록 하고,
+        // 빈 라인도 높이를 가질 수 있도록 &nbsp;를 추가합니다.
+        const lineContent = line || '&nbsp;';
         if (linesToHighlight.has(i + 1)) {
-          return `<span class="highlighted-line">${line}</span>`;
+          return `<span class="line highlighted-line">${lineContent}</span>`;
         }
-        return line;
-      }).join('\n');
+        return `<span class="line">${lineContent}</span>`;
+      }).join('');
 
 
       // 5. 최종 HTML 생성
@@ -835,18 +838,27 @@ export function remarkCodeBlock() {
 
       const headerHtml = `
         <div class="custom-code-block-header">
-          <div class="custom-code-block-lang">
-            ${icon ? `<span class="custom-code-block-icon">${icon}</span>` : ''}
-            <span class="custom-code-block-lang-text">${lang}</span>
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              ${icon ? `<span class="custom-code-block-icon">${icon}</span>` : ''}
+              <span class="custom-code-block-lang-text">${lang}</span>
+            </div>
+            ${title ? `<span class="custom-code-block-title">${title}</span>` : ''}
           </div>
-          ${title ? `<span class="custom-code-block-title">${title}</span>` : ''}
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
         </div>
       `;
 
       const codeHtml = `
         <div class="custom-code-block">
           ${headerHtml}
-          <pre><code class="hljs ${lang}">${highlightedLines}</code></pre>
+          <pre><code class="language-${lang} hljs">${highlightedLines}</code></pre>
         </div>
       `;
 
