@@ -1,0 +1,83 @@
+/* src/components/CodeBlock.module.scss */
+.customCodeBlock {
+  margin: 1.5em 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--neutral-100);
+  border: 1px solid var(--neutral-300);
+  box-shadow: var(--shadow-md);
+  position: relative;
+
+  pre {
+    margin: 0;
+    padding: 1rem;
+    overflow-x: auto;
+
+    code.hljs {
+      padding: 0;
+      background-color: transparent;
+      color: var(--neutral-900);
+    }
+  }
+}
+
+.customCodeBlockHeader {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--neutral-200);
+  border-bottom: 1px solid var(--neutral-300);
+  color: var(--neutral-700);
+  font-size: 0.875rem;
+  gap: 1rem;
+}
+
+.customCodeBlockLang {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+}
+
+.langText {
+  text-transform: lowercase;
+}
+
+.customCodeBlockIcon {
+  display: inline-flex;
+  align-items: center;
+
+  svg {
+    width: 1.2em;
+    height: 1.2em;
+    fill: currentColor;
+  }
+}
+
+.customCodeBlockTitle {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-weight: 500;
+  flex-grow: 1;
+  text-align: center;
+  color: var(--neutral-800);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 라인 및 단어 하이라이트 스타일 */
+.highlighted-line {
+  display: block;
+  background-color: var(--point-background);
+  border-left: 3px solid var(--point-border-color);
+  padding-left: calc(1em - 3px);
+  margin-left: -1em;
+  padding-right: 1em;
+  margin-right: -1em;
+}
+
+.word-highlight {
+  background-color: var(--yellow-background);
+  color: var(--yellow-color);
+  border-radius: 3px;
+  padding: 0.1em 0.2em;
+}

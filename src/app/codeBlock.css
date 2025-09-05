@@ -1,0 +1,113 @@
+/* src/app/globals.css 에 추가 */
+
+/* 코드 블록 전체 컨테이너 */
+.custom-code-block {
+  margin: 1.5em 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--neutral-200); /* 코드 블록 배경 */
+  border: 1px solid var(--neutral-300); /* 테두리 */
+  box-shadow: var(--shadow-md);
+}
+
+/* 코드 블록 헤더 (제목, 아이콘 등) */
+.custom-code-block-header {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: var(--neutral-300); /* 헤더 배경 */
+  border-bottom: 1px solid var(--neutral-400); /* 헤더 하단 테두리 */
+  color: var(--neutral-700); /* 헤더 텍스트 색상 */
+  font-size: 0.875rem;
+  gap: 10px;
+}
+
+.custom-code-block-lang {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+}
+
+/* 언어 아이콘 */
+.custom-code-block-icon {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 0.5rem;
+}
+
+.custom-code-block-icon svg {
+  width: 1.2em;
+  height: 1.2em;
+  fill: currentColor;
+}
+
+/* 코드 블록 제목 텍스트 */
+.custom-code-block-title {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-weight: 500;
+}
+
+/* 코드 내용이 담길 <pre> 태그 */
+.custom-code-block pre {
+  margin: 0;
+  padding: 1rem;
+  overflow-x: auto;
+}
+
+/* 코드 블록 내부의 <code> 태그 */
+.custom-code-block pre code.hljs {
+  padding: 0; /* pre에서 패딩을 제어하므로 code의 패딩은 제거 */
+  background-color: transparent; /* 컨테이너 배경색을 사용 */
+  display: block;
+  color: var(--neutral-900); /* 코드 텍스트 기본 색상 */
+}
+
+/* 줄(line) 스타일 (줄 단위로 래핑된 경우) */
+.custom-code-block .line {
+  display: table-row;
+}
+
+/* 줄 번호 스타일 */
+.custom-code-block .line-number {
+  display: table-cell;
+  text-align: right;
+  padding-right: 1em;
+  user-select: none;
+  opacity: 0.5;
+  border-right: 1px solid var(--neutral-400); /* 번호와 코드 구분선 */
+}
+
+/* 코드 내용 셀 */
+.custom-code-block .line-content {
+  display: table-cell;
+  padding-left: 1em;
+}
+
+/* 특정 줄 하이라이트 */
+.custom-code-block .line.highlight {
+  background-color: var(--point-background); /* 포인트 배경색 사용 */
+}
+
+.custom-code-block .line.highlight .line-number {
+  opacity: 0.8;
+  font-weight: bold;
+  color: var(--point-color);
+}
+
+/* 특정 단어 하이라이트 */
+.custom-code-block .word-highlight {
+  background-color: var(--yellow-background); /* 노란색 계열 배경색 사용 */
+  color: var(--yellow-color);
+  border-radius: 3px;
+  padding: 0.1em 0.2em;
+}
+
+.custom-code-block .highlighted-line {
+  display: block;
+  background-color: var(--point-background); /* 포인트 배경색 변수 사용 */
+  border-left: 3px solid var(--point-border-color); /* 포인트 테두리색 변수 사용 */
+  padding-left: calc(1em - 3px); /* 테두리 두께만큼 안쪽 여백 조정 */
+  margin-left: -1em; /* pre 태그의 패딩을 고려하여 전체 너비 차지 */
+  padding-right: 1em;
+  margin-right: -1em;
+}

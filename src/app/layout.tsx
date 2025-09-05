@@ -1,4 +1,9 @@
 import "./globals.css";
+import "./callout.css";
+import "./inlinecode.css";
+// import "./inlineCode.scss"
+import "highlight.js/styles/github-dark.css"
+import "./codeBlock.css";
 import {Metadata} from "next";
 import Header from "@/components/Header";
 

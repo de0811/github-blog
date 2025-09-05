@@ -2,7 +2,7 @@
 import styles from './page.module.scss';
 import Link from 'next/link';
 import PostCard from '@/components/PostCard';
-import { getAllPostsData } from '@/lib/post'; // 모든 게시물 데이터 가져오기 함수 임포트
+import { getAllPostsData } from '@/lib/post.lib';
 
 // 홈페이지는 비동기 컴포넌트로 구현
 export default async function Home() {

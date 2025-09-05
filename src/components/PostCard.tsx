@@ -2,10 +2,10 @@
 import Link from 'next/link';
 import Image from 'next/image'; // Next.js Image 컴포넌트 사용
 import styles from './PostCard.module.scss';
-import { Post } from '@/types/post';
+import { PostType } from '@/types/post.type';
 
 interface PostCardProps {
-  post: Post;
+  post: PostType;
 }
 
 export default function PostCard({ post }: PostCardProps) {

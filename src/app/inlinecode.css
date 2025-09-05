@@ -1,0 +1,51 @@
+/* /Users/sdm/Documents/SOURCE/BLOG/github-blog/src/app/inlinecode.css */
+
+.custom-inline-code {
+  /* 1. 레이아웃: inline-flex를 사용하여 아이템들을 한 줄로 정렬합니다. */
+  display: inline-flex;
+  align-items: center; /* 아이콘, 제목, 코드를 수직 중앙 정렬합니다. */
+  gap: 0.4em; /* 요소 사이에 약간의 간격을 줍니다. */
+
+  /*
+   * 2. 테마: globals.css의 CSS 변수를 사용합니다.
+   * 라이트/다크 모드에 따라 이 변수들의 값이 자동으로 변경됩니다.
+   */
+  background-color: var(--item-background);
+  border: 1px solid var(--item-border-color);
+  border-radius: 6px;
+  padding: 0.2em 0.5em;
+  font-size: 0.9em;
+  line-height: 1.2;
+  vertical-align: middle; /* 주변 텍스트와 수직 정렬을 맞춥니다. */
+}
+
+.custom-inline-code-title {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3em;
+  font-weight: 500;
+  white-space: nowrap; /* 제목이 줄바꿈되지 않도록 합니다. */
+}
+
+.custom-inline-code-icon svg {
+  width: 1.2em;
+  height: 1.2em;
+  /* 부모의 텍스트 색상을 아이콘 색상으로 사용합니다. */
+  color: var(--item-color);
+  fill: currentColor;
+}
+
+.custom-inline-code-title-text {
+  /* 제목 텍스트는 약간 더 연한 보조 색상을 사용합니다. */
+  color: var(--neutral-600);
+}
+
+.custom-inline-code .hljs {
+  /* 코드 부분 스타일 */
+  padding: 0; /* 부모 요소에 이미 패딩이 있습니다. */
+  background-color: transparent !important; /* highlight.js의 기본 배경을 제거합니다. */
+  display: inline; /* 인라인 텍스트처럼 동작하도록 합니다. */
+
+  /* 코드 텍스트는 가독성을 위해 기본 텍스트 색상을 사용합니다. */
+  color: var(--color);
+}
