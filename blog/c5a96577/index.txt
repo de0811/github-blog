@@ -1,0 +1,467 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","c5a96577",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","c5a96577","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","c5a96577","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","sir3zw3TNVq6b-duTT4qA",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T654e,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  Actuator(액츄에이터)
+                </h1>
+<ul>
+<li><a href="/github-blog/blog/34572929">프로덕션(운영환경) 준비 기능</a> 을 위한 모니터링 기능</li>
+<li>액츄에이터는 활성화 + 노출 상태여야 사용 가능</li>
+<li>액츄에이터는 기본적으로 모두 활성화 상태(shutdown 명령만 제외)</li>
+<li>어떤 엔드포인트를 어떻게 노출할지는 선택 사항
+<ul>
+<li>HTTP, JMX 방식이 있지만 보통 HTTP 방식만 사용</li>
+</ul>
+</li>
+<li>보안상 위험할 수 있는 정보가 많기 때문에 포트를 분리하여 내부로만 사용하거나 <code>/actuator</code> 경로에 <a href="/github-blog/blog/6577676e">서블릿 필터</a> , <a href="/github-blog/blog/1f5afb29">스프링 인터셉터</a> 또는 <a href="#">Spring Security</a>를 통해 인증된 사용자만 접근 가능하도록 추가 개발 필요</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  엔드포인트 목록
+                </h2>
+<ul>
+<li><code>beans</code> : 스프링 컨테이너에 등록된 스프링 빈을 보여준다.</li>
+<li><code>conditions</code> : <code>condition</code> 을 통해서 빈을 등록할 때 평가 조건과 일치하거나 일치하지 않는 이유를 표</li>
+<li><code>configprops</code> : <code>@ConfigurationProperties</code> 를 보여준다.</li>
+<li><code>env</code> : <code>Environment</code> 정보를 보여준다.</li>
+<li><code>health</code> : 애플리케이션 헬스 정보를 보여준다.</li>
+<li><code>httpexchanges</code> : HTTP 호출 응답 정보를 보여준다. <a href="/github-blog/blog/4d7cb75f">HttpExchangeRepository</a> 를 구현한 빈을 별도로 등록해야 한다.</li>
+<li><code>info</code> : 애플리케이션 정보를 보여준다.
+<ul>
+<li><code>java</code> : 자바 런타임 정보</li>
+<li><code>os</code> : OS 정보</li>
+<li><code>env</code> : <a href="/github-blog/blog/82954e71">Environment</a>에서 <code>info.</code> 으로 시작하는 정보</li>
+<li><code>build</code> : 빌드 정보,<code>META-INF/build-info.properties</code> 파일 필요</li>
+<li><code>git</code> : <code>git</code>정보 <code>git.properties</code> 파일 필요</li>
+</ul>
+</li>
+<li><code>loggers</code> : 애플리케이션 로거 설정을 보여주고 변경도 할 수 있다.</li>
+<li><code>metrics</code> : 애플리케이션의 메트릭 정보를 보여준다.</li>
+<li><code>mappings</code> : <code>@RequestMapping</code> 정보를 보여준다.</li>
+<li><code>threaddump</code> : 쓰레드 덤프를 실행해서 보여준다.</li>
+<li><code>shutdown</code> : 애플리케이션을 종료한다. 이 기능은 <strong><strong>기본으로</strong> <strong>비활성화</strong></strong> 되어 있다.</li>
+</ul>
+<blockquote>
+<p><a href="https://docs.spring.io/spring-boot/reference/actuator/endpoints.html#actuator.endpoints">전체 엔드 포인트 설명이 있는 공식 사이트</a></p>
+</blockquote>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  사용 방법
+                </h2>
+<ul>
+<li><a href="#">Gradle</a> 추가</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><title>Gradle</title><path d="M22.695 4.297a3.807 3.807 0 0 0 -5.29 -0.09 0.368 0.368 0 0 0 0 0.533l0.46 0.47a0.363 0.363 0 0 0 0.474 0.032 2.182 2.182 0 0 1 2.86 3.291c-3.023 3.02 -7.056 -5.447 -16.211 -1.083a1.24 1.24 0 0 0 -0.534 1.745l1.571 2.713a1.238 1.238 0 0 0 1.681 0.461l0.037 -0.02 -0.029 0.02 0.688 -0.384a16.083 16.083 0 0 0 2.193 -1.635 0.384 0.384 0 0 1 0.499 -0.016 0.357 0.357 0 0 1 0.016 0.534 16.435 16.435 0 0 1 -2.316 1.741H8.77l-0.696 0.39a1.958 1.958 0 0 1 -0.963 0.25 1.987 1.987 0 0 1 -1.726 -0.989L3.9 9.696C1.06 11.72 -0.686 15.603 0.26 20.522a0.363 0.363 0 0 0 0.354 0.296h1.675a0.363 0.363 0 0 0 0.37 -0.331 2.478 2.478 0 0 1 4.915 0 0.36 0.36 0 0 0 0.357 0.317h1.638a0.363 0.363 0 0 0 0.357 -0.317 2.478 2.478 0 0 1 4.914 0 0.363 0.363 0 0 0 0.358 0.317h1.627a0.363 0.363 0 0 0 0.363 -0.357c0.037 -2.294 0.656 -4.93 2.42 -6.25 6.108 -4.57 4.502 -8.486 3.088 -9.9zm-6.229 6.901 -1.165 -0.584a0.73 0.73 0 1 1 1.165 0.587z" stroke-width="1"></path></svg></span>
+              <span class="custom-code-block-lang-text">gradle</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-gradle hljs"><span class="line"><span class="hljs-keyword">dependencies</span> {  </span><span class="line">    implementation <span class="hljs-string">&#x27;org.springframework.boot:spring-boot-starter-actuator&#x27;</span> <span class="hljs-comment">//actuator 추가</span></span><span class="line">    ...</span><span class="line">}</span></code></pre>
+        </div>
+      
+<ul>
+<li>액츄에이터의 전용 포트 설정</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">properties</span>
+            </div>
+            <span class="custom-code-block-title">액츄에이터의 전용으로 사용할 포트 설정</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-properties hljs"><span class="line"><span class="hljs-attr">management.server.port</span>=<span class="hljs-string">9292</span></span></code></pre>
+        </div>
+      
+<ul>
+<li>실행 방법</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">http</span>
+            </div>
+            <span class="custom-code-block-title">접속 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-http hljs"><span class="line">http://localhost:8080/actuator</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JSON</title><path d="M1.59 2.085c-.51.345-.84 1.005-.84 1.665v16.5c0 .66.33 1.32.84 1.665.51.345 1.155.345 1.665 0l1.68-1.11c.345-.225.555-.615.555-1.02V4.215c0-.405-.21-.81-.555-1.02l-1.68-1.11c-.51-.345-1.155-.345-1.665 0zm20.82 0c-.51.345-1.155-.345-1.665 0l-1.68 1.11c-.345-.225-.555-.615-.555 1.02v15.45c0 .405.21.81.555 1.02l1.68 1.11c.51.345 1.155.345 1.665 0 .51-.345.84-1.005.84-1.665V3.75c0-.66-.33-1.32-.84-1.665zM9 15.75c0 1.245.99 2.25 2.25 2.25S13.5 17.01 13.5 15.75s-.99-2.25-2.25-2.25-2.25.99-2.25 2.25zm6 0c0 1.245.99 2.25 2.25 2.25s2.25-.99 2.25-2.25-.99-2.25-2.25-2.25-2.25.99-2.25 2.25z"/></svg></span>
+              <span class="custom-code-block-lang-text">json</span>
+            </div>
+            <span class="custom-code-block-title">액츄에이터 접속 결과</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-json hljs"><span class="line"><span class="hljs-punctuation">{</span></span><span class="line">  <span class="hljs-attr">&quot;_links&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span></span><span class="line">    <span class="hljs-attr">&quot;self&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span></span><span class="line">      <span class="hljs-attr">&quot;href&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;http://localhost:8080/actuator&quot;</span><span class="hljs-punctuation">,</span></span><span class="line">      <span class="hljs-attr">&quot;templated&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">false</span></span></span><span class="line">    <span class="hljs-punctuation">}</span><span class="hljs-punctuation">,</span></span><span class="line">    <span class="hljs-attr">&quot;health-path&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span></span><span class="line">      <span class="hljs-attr">&quot;href&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;http://localhost:8080/actuator/health/{*path}&quot;</span><span class="hljs-punctuation">,</span></span><span class="line">      <span class="hljs-attr">&quot;templated&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">true</span></span></span><span class="line">    <span class="hljs-punctuation">}</span><span class="hljs-punctuation">,</span></span><span class="line">    <span class="hljs-attr">&quot;health&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-punctuation">{</span></span><span class="line">      <span class="hljs-attr">&quot;href&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-string">&quot;http://localhost:8080/actuator/health&quot;</span><span class="hljs-punctuation">,</span></span><span class="line">      <span class="hljs-attr">&quot;templated&quot;</span><span class="hljs-punctuation">:</span> <span class="hljs-literal"><span class="hljs-keyword">false</span></span></span><span class="line">    <span class="hljs-punctuation">}</span></span><span class="line">  <span class="hljs-punctuation">}</span></span><span class="line"><span class="hljs-punctuation">}</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p><code>http://localhost:8080/actuator/health</code> 의 기능은 애플리케이션의 현재 상태를 나타냄</p>
+</blockquote>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  액츄에이터의 기능 노출 방법
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">properties</span>
+            </div>
+            <span class="custom-code-block-title">모든 기능 노출</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-properties hljs"><span class="line"><span class="hljs-attr">management.endpoints.web.exposure.include</span>=<span class="hljs-string">*</span></span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  액츄에이터의 기능 노출 차단 방법
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">properties</span>
+            </div>
+            <span class="custom-code-block-title">해당 기능들 노출하지 않음</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-properties hljs"><span class="line"><span class="hljs-attr">management.endpoints.web.exposure.exclude</span>=<span class="hljs-string">env,beans,info</span></span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  액츄에이터의 기능 활성화
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">properties</span>
+            </div>
+            <span class="custom-code-block-title">각종 기능 활성화</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-properties hljs"><span class="line"><span class="hljs-comment"># Enable the shutdown endpoint</span></span><span class="line"><span class="hljs-attr">management.endpoint.shutdown.enabled</span>=<span class="hljs-string">true</span></span><span class="line"><span class="hljs-comment"># health</span></span><span class="line"><span class="hljs-comment">## 아주 상세히 보기</span></span><span class="line"><span class="hljs-attr">management.endpoint.health.show-details</span>=<span class="hljs-string">always</span></span><span class="line"><span class="hljs-comment">## 대충 상세히 보기</span></span><span class="line"><span class="hljs-attr">management.endpoint.health.show-components</span>=<span class="hljs-string">always</span></span><span class="line"><span class="hljs-comment"># info  </span></span><span class="line"><span class="hljs-attr">management.info.java.enabled</span>=<span class="hljs-string">true  </span></span><span class="line"><span class="hljs-attr">management.info.os.enabled</span>=<span class="hljs-string">true</span></span><span class="line"><span class="hljs-attr">management.info.env.enabled</span>=<span class="hljs-string">true</span></span><span class="line"><span class="hljs-attr">management.info.git.mode</span>=<span class="hljs-string">full`</span></span><span class="line"><span class="hljs-comment"># log</span></span><span class="line"><span class="hljs-comment">## logging.level.&lt;package&gt; = DEBUG | INFO ...</span></span><span class="line"><span class="hljs-attr">logging.level.hello.controller</span>=<span class="hljs-string">DEBUG</span></span><span class="line"><span class="hljs-comment"># Tomcat  </span></span><span class="line"><span class="hljs-attr">server.tomcat.mbeanregistry.enabled</span>=<span class="hljs-string">true</span></span></code></pre>
+        </div>
+      
+<ul>
+<li><code>info</code> 의 <code>build</code> 정보를 보려면 <a href="#">Gradle</a>  설정 필요</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><title>Gradle</title><path d="M22.695 4.297a3.807 3.807 0 0 0 -5.29 -0.09 0.368 0.368 0 0 0 0 0.533l0.46 0.47a0.363 0.363 0 0 0 0.474 0.032 2.182 2.182 0 0 1 2.86 3.291c-3.023 3.02 -7.056 -5.447 -16.211 -1.083a1.24 1.24 0 0 0 -0.534 1.745l1.571 2.713a1.238 1.238 0 0 0 1.681 0.461l0.037 -0.02 -0.029 0.02 0.688 -0.384a16.083 16.083 0 0 0 2.193 -1.635 0.384 0.384 0 0 1 0.499 -0.016 0.357 0.357 0 0 1 0.016 0.534 16.435 16.435 0 0 1 -2.316 1.741H8.77l-0.696 0.39a1.958 1.958 0 0 1 -0.963 0.25 1.987 1.987 0 0 1 -1.726 -0.989L3.9 9.696C1.06 11.72 -0.686 15.603 0.26 20.522a0.363 0.363 0 0 0 0.354 0.296h1.675a0.363 0.363 0 0 0 0.37 -0.331 2.478 2.478 0 0 1 4.915 0 0.36 0.36 0 0 0 0.357 0.317h1.638a0.363 0.363 0 0 0 0.357 -0.317 2.478 2.478 0 0 1 4.914 0 0.363 0.363 0 0 0 0.358 0.317h1.627a0.363 0.363 0 0 0 0.363 -0.357c0.037 -2.294 0.656 -4.93 2.42 -6.25 6.108 -4.57 4.502 -8.486 3.088 -9.9zm-6.229 6.901 -1.165 -0.584a0.73 0.73 0 1 1 1.165 0.587z" stroke-width="1"></path></svg></span>
+              <span class="custom-code-block-lang-text">gradle</span>
+            </div>
+            <span class="custom-code-block-title">info의 build 정보를 보기 위한 META-INF/build-info.properties 파일 생성</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-gradle hljs"><span class="line">springBoot {</span><span class="line">    buildInfo()</span><span class="line">}</span></code></pre>
+        </div>
+      
+<ul>
+<li><code>info</code>의 <code>git</code> 정보를 보려면 <a href="#">Gradle</a>  설정 필요(git을 쓰지 않는다면 에러 발생)</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><title>Gradle</title><path d="M22.695 4.297a3.807 3.807 0 0 0 -5.29 -0.09 0.368 0.368 0 0 0 0 0.533l0.46 0.47a0.363 0.363 0 0 0 0.474 0.032 2.182 2.182 0 0 1 2.86 3.291c-3.023 3.02 -7.056 -5.447 -16.211 -1.083a1.24 1.24 0 0 0 -0.534 1.745l1.571 2.713a1.238 1.238 0 0 0 1.681 0.461l0.037 -0.02 -0.029 0.02 0.688 -0.384a16.083 16.083 0 0 0 2.193 -1.635 0.384 0.384 0 0 1 0.499 -0.016 0.357 0.357 0 0 1 0.016 0.534 16.435 16.435 0 0 1 -2.316 1.741H8.77l-0.696 0.39a1.958 1.958 0 0 1 -0.963 0.25 1.987 1.987 0 0 1 -1.726 -0.989L3.9 9.696C1.06 11.72 -0.686 15.603 0.26 20.522a0.363 0.363 0 0 0 0.354 0.296h1.675a0.363 0.363 0 0 0 0.37 -0.331 2.478 2.478 0 0 1 4.915 0 0.36 0.36 0 0 0 0.357 0.317h1.638a0.363 0.363 0 0 0 0.357 -0.317 2.478 2.478 0 0 1 4.914 0 0.363 0.363 0 0 0 0.358 0.317h1.627a0.363 0.363 0 0 0 0.363 -0.357c0.037 -2.294 0.656 -4.93 2.42 -6.25 6.108 -4.57 4.502 -8.486 3.088 -9.9zm-6.229 6.901 -1.165 -0.584a0.73 0.73 0 1 1 1.165 0.587z" stroke-width="1"></path></svg></span>
+              <span class="custom-code-block-lang-text">gradle</span>
+            </div>
+            <span class="custom-code-block-title">git.properties 파일 필요해서 설정하면 자동 생성</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-gradle hljs"><span class="line">plugins {</span><span class="line">    id <span class="hljs-string">&quot;com.gorylenko.gradle-git-properties&quot;</span> version <span class="hljs-string">&quot;2.4.1&quot;</span> <span class="hljs-comment">//git info</span></span><span class="line">    ...</span><span class="line">}</span></code></pre>
+        </div>
+      
+<ul>
+<li><code>loggers</code> 는 현재 로그 출력을 하는 각 레벨을 표시</li>
+<li>레벨을 원격으로 수정하는 방법</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">http</span>
+            </div>
+            <span class="custom-code-block-title">원격으로 logger level 변경</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-http hljs"><span class="line">POST http://localhost:8080/actuator/loggers/&lt;PackageName&gt;</span><span class="line">&nbsp;</span><span class="line">{</span><span class="line">	&quot;configuredLevel&quot; : &quot;TRACE&quot;</span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  HTTP 요청 응답 기록(httpexchanges)
+                </h2>
+<ul>
+<li><a href="/github-blog/blog/4d7cb75f">HttpExchangeRepository</a> 인터페이스 구현체를 빈으로 등록하면 <code>httpexchanges</code> 사용 가능</li>
+<li>실제 운영 서비스에서는 모니터링 툴이나 핀포인트, Zipkin 같은 다른 기술을 사용하는 것을 추천</li>
+</ul>
+15:T1635,---
+aliases:
+  - Actuator(액츄에이터)
+  - Actuator
+  - 액츄에이터
+tags:
+  - Spring
+  - Spring/모니터링
+특징: 
+---
+# Actuator(액츄에이터)
+- [[2.Ref(데이터 및 정보 저장)/Spring/모니터링/프로덕션(운영환경) 준비 기능|프로덕션(운영환경) 준비 기능]] 을 위한 모니터링 기능
+- 액츄에이터는 활성화 + 노출 상태여야 사용 가능
+- 액츄에이터는 기본적으로 모두 활성화 상태(shutdown 명령만 제외)
+- 어떤 엔드포인트를 어떻게 노출할지는 선택 사항
+	- HTTP, JMX 방식이 있지만 보통 HTTP 방식만 사용
+- 보안상 위험할 수 있는 정보가 많기 때문에 포트를 분리하여 내부로만 사용하거나 `/actuator` 경로에 [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Filter|서블릿 필터]] , [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Interceptor|스프링 인터셉터]] 또는 [[2.Ref(데이터 및 정보 저장)/Spring/Security/1.Spring Security.canvas|Spring Security]]를 통해 인증된 사용자만 접근 가능하도록 추가 개발 필요
+## 엔드포인트 목록
+- `beans` : 스프링 컨테이너에 등록된 스프링 빈을 보여준다.
+- `conditions` : `condition` 을 통해서 빈을 등록할 때 평가 조건과 일치하거나 일치하지 않는 이유를 표
+- `configprops` : `@ConfigurationProperties` 를 보여준다.
+- `env` : `Environment` 정보를 보여준다.
+- `health` : 애플리케이션 헬스 정보를 보여준다.
+- `httpexchanges` : HTTP 호출 응답 정보를 보여준다. [[2.Ref(데이터 및 정보 저장)/Spring/모니터링/HttpExchangeRepository]] 를 구현한 빈을 별도로 등록해야 한다.
+- `info` : 애플리케이션 정보를 보여준다.
+	- `java` : 자바 런타임 정보
+	- `os` : OS 정보
+	- `env` : [[2.Ref(데이터 및 정보 저장)/Spring/Configuration/Environment|Environment]]에서 `info.` 으로 시작하는 정보
+	- `build` : 빌드 정보,`META-INF/build-info.properties` 파일 필요
+	- `git` : `git`정보 `git.properties` 파일 필요
+- `loggers` : 애플리케이션 로거 설정을 보여주고 변경도 할 수 있다.
+- `metrics` : 애플리케이션의 메트릭 정보를 보여준다.
+- `mappings` : `@RequestMapping` 정보를 보여준다.
+- `threaddump` : 쓰레드 덤프를 실행해서 보여준다.
+- `shutdown` : 애플리케이션을 종료한다. 이 기능은 ****기본으로** **비활성화**** 되어 있다.
+> [전체 엔드 포인트 설명이 있는 공식 사이트](https://docs.spring.io/spring-boot/reference/actuator/endpoints.html#actuator.endpoints)
+## 사용 방법
+- [[2.Ref(데이터 및 정보 저장)/Intellij/Gradle|Gradle]] 추가
+```gradle
+dependencies {  
+    implementation 'org.springframework.boot:spring-boot-starter-actuator' //actuator 추가
+    ...
+}
+```
+- 액츄에이터의 전용 포트 설정
+```properties title:"액츄에이터의 전용으로 사용할 포트 설정"
+management.server.port=9292
+```
+- 실행 방법
+```http title:"접속 방법"
+http://localhost:8080/actuator
+```
+
+```json title:"액츄에이터 접속 결과"
+{
+  "_links": {
+    "self": {
+      "href": "http://localhost:8080/actuator",
+      "templated": false
+    },
+    "health-path": {
+      "href": "http://localhost:8080/actuator/health/{*path}",
+      "templated": true
+    },
+    "health": {
+      "href": "http://localhost:8080/actuator/health",
+      "templated": false
+    }
+  }
+}
+```
+>`http://localhost:8080/actuator/health` 의 기능은 애플리케이션의 현재 상태를 나타냄
+## 액츄에이터의 기능 노출 방법
+```properties title:"모든 기능 노출"
+management.endpoints.web.exposure.include=*
+```
+## 액츄에이터의 기능 노출 차단 방법
+```properties title:"해당 기능들 노출하지 않음"
+management.endpoints.web.exposure.exclude=env,beans,info
+```
+## 액츄에이터의 기능 활성화
+```properties title:"각종 기능 활성화"
+# Enable the shutdown endpoint
+management.endpoint.shutdown.enabled=true
+# health
+## 아주 상세히 보기
+management.endpoint.health.show-details=always
+## 대충 상세히 보기
+management.endpoint.health.show-components=always
+# info  
+management.info.java.enabled=true  
+management.info.os.enabled=true
+management.info.env.enabled=true
+management.info.git.mode=full`
+# log
+## logging.level.<package> = DEBUG | INFO ...
+logging.level.hello.controller=DEBUG
+# Tomcat  
+server.tomcat.mbeanregistry.enabled=true
+```
+- `info` 의 `build` 정보를 보려면 [[2.Ref(데이터 및 정보 저장)/Intellij/Gradle|Gradle]]  설정 필요
+```gradle title:"info의 build 정보를 보기 위한 META-INF/build-info.properties 파일 생성"
+springBoot {
+    buildInfo()
+}
+```
+- `info`의 `git` 정보를 보려면 [[2.Ref(데이터 및 정보 저장)/Intellij/Gradle|Gradle]]  설정 필요(git을 쓰지 않는다면 에러 발생)
+```gradle title:"git.properties 파일 필요해서 설정하면 자동 생성"
+plugins {
+    id "com.gorylenko.gradle-git-properties" version "2.4.1" //git info
+    ...
+}
+```
+- `loggers` 는 현재 로그 출력을 하는 각 레벨을 표시
+- 레벨을 원격으로 수정하는 방법
+```http title:"원격으로 logger level 변경"
+POST http://localhost:8080/actuator/loggers/<PackageName>
+
+{
+	"configuredLevel" : "TRACE"
+}
+```
+## HTTP 요청 응답 기록(`httpexchanges`)
+- [[2.Ref(데이터 및 정보 저장)/Spring/모니터링/HttpExchangeRepository]] 인터페이스 구현체를 빈으로 등록하면 `httpexchanges` 사용 가능
+- 실제 운영 서비스에서는 모니터링 툴이나 핀포인트, Zipkin 같은 다른 기술을 사용하는 것을 추천
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/모니터링/Actuator(액츄에이터)","slugHash":"c5a96577","content":"$14","markdownContent":"$15","title":"Actuator(액츄에이터)","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/모니터링"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["Actuator(액츄에이터)","Actuator","액츄에이터"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

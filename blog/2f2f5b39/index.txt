@@ -1,0 +1,645 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","2f2f5b39",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","2f2f5b39","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","2f2f5b39","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","5qct1-RHCho1A4IWLygDr",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:Tbbfd,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  @Transactional
+                </h1>
+<p>트랜잭션 공통 관심사 처리</p>
+<p>로직이 성공적으로 동작하게 되면 commit 하도록 수행<br>하지만 테스트에서는 rollback 하도록 처리</p>
+<p><a href="/github-blog/blog/ee2323b8">AOP</a> 를 사용해서 만들기 때문에 AOP를 알고 있다면 딱히 어려울건 없어보임<br><a href="/github-blog/blog/f499cc48">Proxy</a> 만들때 클래스 자체를 만들기 때문에 클래스 단위로 프록시를 만듬</p>
+<p>트랜잭션은 애초에 <a href="/github-blog/blog/ee2323b8">AOP</a> 사용하기 때문에 직접적으로 객체를 호출하면 <a href="/github-blog/blog/f499cc48">Proxy</a> 거치지 않아서 문제 발생<br>그렇지만 보통 이렇게 사용하는 경우는 없기 때문에 문제는 없는데<br>==이런 문제가 일어날 수 있는 방법이 하나는 대상 객체의 내부에서 메서드 호출이 발생하면 프록시를 거치지 않고 대상 객체를 직접 호출하는 문제 발생==<mark>이런 문제가 일어날 수 있는 방법이 하나는 대상 객체의 내부에서 메서드 호출이 발생하면 프록시를 거치지 않고 대상 객체를 직접 호출하는 문제 발생</mark></p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  규칙
+                </h2>
+<ul>
+<li>우선순위 규칙</li>
+<li>클래스에 적용하면 메서드는 자동 적용</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  적용 우선순위
+                </h3>
+<ol>
+<li>클래스의 메서드(우선순위 가장 높음)</li>
+<li>클래스의 타입</li>
+<li>인터페이스의 메서드</li>
+<li>인터페이스의 타입(우선순위 가장 낮음)<br>하지만 추천하지 않는 방법 (예전엔 버그가 있었지만 지금은 버그가 없지만 모든게 멀쩡하다는 확신할 수 없다함)</li>
+</ol>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  예외 발생시 기본 정책
+                </h3>
+<ul>
+<li>언체크 예외인 <code>RuntimeException</code>, <code>Error</code>와 그 하위 예외가 발생 시 롤백</li>
+<li>체크 예외인 <code>Exception</code>과 그 하위 예외들은 커밋<br>런타임(언체크) 예외는 복구 불가능한 예외로 가정<br>체크 예외는 비즈니스 의미가 있을 때 사용</li>
+</ul>
+<p>Spring 에서 Exception 처리를 비즈니스 로직(반환용)으로 사용을 허가한다는 것인데 이게 과연 옳을까<br>그리고 이렇게 쓸 수 있는 경우가 어떤게 있을까?</p>
+<p>현재 상태 값이 아닌 메세지만 전달할 경우엔 뭐 이렇게 처리할 수 있다고 치지만<br>현재 상태 값을 안넘겨주는 경우가 있을까?</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  옵션
+                </h2>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  value, transactionManager
+                </h3>
+<p><code>transactionManager</code> 등록<br>default 값으로 기본으로 등록된 트랜잭션매니저를 사용<br>트랜잭션 매니저가 둘 이상이라면 매니저의 이름을 지정해서 구분</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">value/transactionManager 설정</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">TxService</span> {</span><span class="line">	<span class="hljs-meta">@Transactional(&quot;memberTxManager&quot;)</span></span><span class="line">	<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">member</span><span class="hljs-params">()</span> {...}</span><span class="line">	<span class="hljs-meta">@Transactional(value = &quot;orderTxManager&quot;)</span></span><span class="line">	<span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">order</span><span class="hljs-params">()</span> {...}</span><span class="line">}</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  rollbackFor
+                </h3>
+<p>기본 정책에 추가로 어떤 예외 발생시 롤백할지 설정</p>
+<p>예외 발생시 기본 정책</p>
+<ul>
+<li>언체크 예외인 <code>RuntimeException</code>, <code>Error</code>와 그 하위 예외가 발생 시 롤백</li>
+<li>체크 예외인 <code>Exception</code>과 그 하위 예외들은 커밋<br><span class="custom-inline-code"><span class="custom-inline-code-title"><span class="custom-inline-code-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span><span class="custom-inline-code-title-text">특정 에러 롤백 지정</span></span><code class="hljs java"><span class="hljs-meta">@Transactional(roobackFor = Exception.class)</span></code></span></li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  noRollbackFor
+                </h3>
+<p>rollbackFor 반대 개념<br>기본 정책에 추가로 어떤 예외가 발생했을 때 롤백하면 안되는지 지정</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  propagation (전파)
+                </h3>
+<ul>
+<li>물리 트랜잭션<br><br>실제 커넥션을 통해서 <br>실제 커넥션을 통해 트랜잭션을 시작<span class="custom-inline-code"><code class="hljs java">setAutoCommit(<span class="hljs-literal">false</span>)</code></span>
+실제 커넥션을 통해서 <code>commit</code>/<code>rollback</code></li>
+<li>논리 트랜잭션<br>트랜잭션 매니저를 통해 트랜잭션을 사용하는 단위<br>트랜잭션이 진행되는 중에 내부에서 추가로 트랜잭션을 사용하는 경우 논리 트랜잭션이 적용</li>
+</ul>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  REQUIRED (Default)
+                </h4>
+<p><img src="/github-blog/images/AttachedFile/Pasted%20image%2020240605150403.png" alt="Pasted image 20240605150403.png" style="width:600px"><br>트랜잭션 전파의 기본 옵션 <code>REQUIRED</code> 기준으로 설명</p>
+<ul>
+<li>모든 논리 트랜잭션이 커밋 되어야만 물리 트랜잭션이 커밋</li>
+<li>하나의 논리 트랜잭션이라도 롤백되면 물리 트랜잭션은 롤백<br>내부적으로 논리 트랜잭션이 rollback 동작을 하게 되면 <code>rollbackOnly = true</code> 상태가 되어 물리 트랜잭션에서는 무조건 롤백을 진행하도록 강제함</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">commit 은 AND 연산 rollback 은 or 연산</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Test</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">inner_rollback</span><span class="hljs-params">()</span> {</span><span class="line">    log.info(<span class="hljs-string">&quot;외부 트랜잭션 Start&quot;</span>);</span><span class="line">    <span class="hljs-type">TransactionStatus</span> <span class="hljs-variable">outerStatus</span> <span class="hljs-operator">=</span> transactionManager.getTransaction(<span class="hljs-keyword">new</span> <span class="hljs-title class_">DefaultTransactionDefinition</span>());</span><span class="line">    log.info(<span class="hljs-string">&quot;outer.isNewTransaction()={}&quot;</span>, outerStatus.isNewTransaction()); <span class="hljs-comment">// true</span></span><span class="line">&nbsp;</span><span class="line">    log.info(<span class="hljs-string">&quot;내부 트랜잭션 Start&quot;</span>);</span><span class="line">    <span class="hljs-type">TransactionStatus</span> <span class="hljs-variable">innerStatus</span> <span class="hljs-operator">=</span> transactionManager.getTransaction(<span class="hljs-keyword">new</span> <span class="hljs-title class_">DefaultTransactionDefinition</span>());</span><span class="line">    log.info(<span class="hljs-string">&quot;inner.isNewTransaction()={}&quot;</span>, innerStatus.isNewTransaction()); <span class="hljs-comment">// false</span></span><span class="line">    log.info(<span class="hljs-string">&quot;내부 트랜잭션 rollback Start&quot;</span>);</span><span class="line">    transactionManager.rollback(innerStatus);</span><span class="line">    log.info(<span class="hljs-string">&quot;내부 트랜잭션 rollback End&quot;</span>);</span><span class="line">&nbsp;</span><span class="line">    log.info(<span class="hljs-string">&quot;내부 트랜잭션 isRollbackOnly={}&quot;</span>, innerStatus.isRollbackOnly());</span><span class="line">    log.info(<span class="hljs-string">&quot;외부 트랜잭션 isRollbackOnly={}&quot;</span>, outerStatus.isRollbackOnly());</span><span class="line">&nbsp;</span><span class="line">    log.info(<span class="hljs-string">&quot;외부 트랜잭션 Commit Start&quot;</span>);</span><span class="line highlighted-line">    Assertions.assertThrows(UnexpectedRollbackException.class, () -&gt; {</span><span class="line highlighted-line">      transactionManager.commit(outerStatus);</span><span class="line highlighted-line">    });</span><span class="line">    log.info(<span class="hljs-string">&quot;외부 트랜잭션 Commit End&quot;</span>);</span><span class="line">  }</span></code></pre>
+        </div>
+      
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  REQUIRES_NEW
+                </h4>
+<p><img src="/github-blog/images/AttachedFile/Pasted%20image%2020240605150448.png" alt="Pasted image 20240605150448.png" style="width:600px"><br>트랜잭션을 분리하는 옵션</p>
+
+<div class="callout" style="--callout-color: 0, 184, 148;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l.293.293a1 1 0 001.414-1.414l-3-3z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">로그 달아야할때 쓰면 좋을 것 같은데</div>
+  </div>
+  <div class="callout-content">
+    
+  </div>
+</div>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">PROPAGATION_REQUIRES_NEW 트랜잭션 분리</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Test</span>  </span><span class="line"><span class="hljs-keyword">void</span> <span class="hljs-title function_">inner_rollback_requires_new</span><span class="hljs-params">()</span>  {  </span><span class="line">  log.info(<span class="hljs-string">&quot;외부 트랜잭션 Start&quot;</span>);  </span><span class="line">  <span class="hljs-type">TransactionStatus</span> <span class="hljs-variable">outerStatus</span> <span class="hljs-operator">=</span> transactionManager.getTransaction(<span class="hljs-keyword">new</span> <span class="hljs-title class_">DefaultTransactionDefinition</span>());  </span><span class="line">  log.info(<span class="hljs-string">&quot;outer.isNewTransaction()={}&quot;</span>, outerStatus.isNewTransaction()); <span class="hljs-comment">// true  </span></span><span class="line">  </span><span class="line">  log.info(<span class="hljs-string">&quot;내부 트랜잭션 Start&quot;</span>);  </span><span class="line">  <span class="hljs-type">DefaultTransactionDefinition</span> <span class="hljs-variable">innerDefinition</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">DefaultTransactionDefinition</span>();  </span><span class="line highlighted-line">  innerDefinition.setPropagationBehavior(DefaultTransactionDefinition.PROPAGATION_REQUIRES_NEW);  </span><span class="line">  <span class="hljs-type">TransactionStatus</span> <span class="hljs-variable">innerStatus</span> <span class="hljs-operator">=</span> transactionManager.getTransaction(innerDefinition);  </span><span class="line">  log.info(<span class="hljs-string">&quot;inner.isNewTransaction()={}&quot;</span>, innerStatus.isNewTransaction()); <span class="hljs-comment">// true  </span></span><span class="line">  </span><span class="line">  log.info(<span class="hljs-string">&quot;내부 트랜잭션 rollback&quot;</span>);  </span><span class="line">  transactionManager.rollback(innerStatus);  </span><span class="line">  </span><span class="line">  log.info(<span class="hljs-string">&quot;외부 트랜잭션 Commit&quot;</span>);  </span><span class="line">  transactionManager.commit(outerStatus);  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  SUPPORT
+                </h4>
+<p>기존에 트랜잭션이 있으면 참여하고 없으면 없는대로 진행<br>거의 사용하지 않음</p>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  NOT_SUPPORT
+                </h4>
+<p>트랜잭션 없이 동작<br>기존 트랜잭션 있으면 기존 트랜잭션은 보류하고 자기 동작 진행<br>거의 사용하지 않음</p>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  MANDATORY
+                </h4>
+<p>트랜잭션이 반드시 필요<br><br>거의 사용하지 않음<code>IllegalTransactionStateException</code>
+거의 사용하지 않음</p>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  NEVER
+                </h4>
+<p>트랜잭션 사용하지 않음<br>기존 트랜잭션이 있으면 예외 발생<br>기존 트랜잭션도 사용하지 않는 강한 부정<br>거의 사용하지 않음</p>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  NESTED
+                </h4>
+<p>기존 트랜잭션 없을 경우 새로운 트랜잭션 생성<br>기존 트랜잭션 있을 경우 중첩 트랜잭션 생성<br>중첩 트랜잭션 : 외부 트랜잭션엔 영향을 받지만 중첩 트랜잭션은 외부에 영향을 주지 않음<br>중첩 트랜잭션이 롤백 되어도 트랜잭션은 커밋 가능<br>외부 트랜잭션이 롤백 되면 중첩 트랜잭션도 함께 롤백<br>DB 드라이버에서 지원하는 기능인지 확인 필요<br>JPA 에서 사용 불가능<br>거의 사용하지 않음</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  isolation
+                </h3>
+<p>트랜잭션 격리 수준 지정<br>일반적으로 설정하지 않음<br><mark>물리적 트랜잭션</mark>일 경우만 적용</p>
+<ul>
+<li><code>DEFAULT</code> : 데이터베이스에서 설정한 격리 수준을 따름</li>
+<li><code>READ_UNCOMMITTED</code> : 커밋되지 않은 읽기</li>
+<li><code>READ_COMMITTED</code> : 커밋된 읽기</li>
+<li><code>REPEATABLE_READ</code> : 반복 가능한 읽기</li>
+<li><code>SERIALIZABLE</code> : 직렬화 가능</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  timeout, timeoutString
+                </h3>
+<p>트랜잭션 수행 시간에 대한 타임아웃을 <mark>초 단위</mark>로 지정<br>기본 값은 트랜잭션 시스템의 타임아웃을 사용<br>운영 환경에 따라 동작하는 경우가 있고 그렇지 않은 경우가 있음<br><mark>물리적 트랜잭션</mark>일 경우만 적용</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  label
+                </h3>
+<p>트랜잭션 애노테이션에 있는 값을 직접 읽어서 어떤 동작을 하고 싶을때 사용<br>일반적으로 사용하지 않음</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  readOnly
+                </h3>
+<p><code>readOnly=true</code> 옵션을 사용하면 등록, 수정, 수정, 삭제가 안되고 읽기 기능만 동작<br>데이터베이스에 따라 정상 동작하지 않는 경우가 있음<br><mark>물리적 트랜잭션</mark>일 경우만 적용</p>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  적용되는 곳
+                </h4>
+<ul>
+<li>프레임워크
+<ul>
+<li>JdbcTemplate 읽기 전용 트랜잭션 안에서 변경 기능을 실행하면 예외를 던짐</li>
+<li><a href="/github-blog/blog/27ba878e">JPA</a> 읽기 전용 트랜잭션의 경우 커밋 시점에 플러시를 호출하지 않음</li>
+<li><a href="/github-blog/blog/27ba878e">JPA</a> 기타 등등의 다양한 최적화 발생</li>
+</ul>
+</li>
+<li>JDBC 드라이버
+<ul>
+<li>DB 드라이버 버전에 따라 다양하게 동작</li>
+<li>읽기 전용 트랜잭션에서 변경 쿼리가 발생 시 예외 발생</li>
+<li>읽기, 쓰기(마스터,슬레이브) 데이터베이스를 구분해서 요청 (읽기 전용 트랜잭션의 경우 읽기(슬레이브) 데이터베이스의 커넥션 획득해서 사용)</li>
+</ul>
+</li>
+<li>데이터베이스
+<ul>
+<li>데이터베이스에 따라 읽기 전용이기 때문에 성능 최적화 발생</li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  문제사항
+                </h2>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  객체 메소드 내부에서 메서드 호출 시 발생하는 문제
+                </h3>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">트랜잭션 걸리지 않은 함수에서 걸린 내부 함수를 호출 시 트랜잭션 걸리지 않음</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span></span><span class="line"><span class="hljs-meta">@SpringBootTest</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">InternalCallV1Test</span> {</span><span class="line">  <span class="hljs-meta">@Autowired</span></span><span class="line">  CallService callService;</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Test</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">checkProxy</span><span class="hljs-params">()</span> {</span><span class="line">    log.info(<span class="hljs-string">&quot;aop class = {}&quot;</span>, callService.getClass().getName());</span><span class="line">    Assertions.assertTrue(callService != <span class="hljs-literal">null</span>);</span><span class="line">    Assertions.assertTrue(callService <span class="hljs-keyword">instanceof</span> CallService);</span><span class="line">  }</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Test</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">internalCall</span><span class="hljs-params">()</span> {</span><span class="line">    callService.internal();</span><span class="line">  }</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Test</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">externalCall</span><span class="hljs-params">()</span> {</span><span class="line">    callService.external();</span><span class="line">  }</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@TestConfiguration</span></span><span class="line">  <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Config</span> {</span><span class="line">    <span class="hljs-meta">@Bean</span></span><span class="line">    CallService <span class="hljs-title function_">levelService</span><span class="hljs-params">()</span> {</span><span class="line">      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">CallService</span>();</span><span class="line">    }</span><span class="line">  }</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Slf4j</span></span><span class="line">  <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CallService</span> {</span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">external</span><span class="hljs-params">()</span> {</span><span class="line">      log.info(<span class="hljs-string">&quot;call external&quot;</span>);</span><span class="line">      printTxInfo();</span><span class="line highlighted-line">      internal();</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@Transactional</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">internal</span><span class="hljs-params">()</span> {</span><span class="line">      log.info(<span class="hljs-string">&quot;call internal&quot;</span>);</span><span class="line">      printTxInfo();</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">printTxInfo</span><span class="hljs-params">()</span> {</span><span class="line">      <span class="hljs-comment">// transaction 확성화 되어 있는지 확인</span></span><span class="line">      log.info(<span class="hljs-string">&quot;transaction Active: {}&quot;</span>, TransactionSynchronizationManager.isActualTransactionActive());</span><span class="line">    }</span><span class="line">  }</span><span class="line">&nbsp;</span><span class="line">}</span></code></pre>
+        </div>
+      
+<p>프록시에 감쌓여져있는 <a href="/github-blog/blog/ee2323b8">AOP</a> <code>internal()</code> 호출하는 것이 아닌 자기 자신의 함수를 호출해서 트랜잭션으로 보호되지 않음<br>이 문제를 해결하기 위한 방법은 <code>internal()</code> 함수를 별도의 클래스로 분리하는 방법이 존재</p>
+
+<div class="callout" style="--callout-color: 243, 156, 18;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-1 1v1a1 1 0 102 0V8a1 1 0 00-1-1zm1 9a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">그냥 다 트랜잭션 주면 되는거 아닌가?</div>
+  </div>
+  <div class="callout-content">
+    <p>트랜잭션이 과도하게 걸리게 되면 성능 이슈 발생</p>
+
+  </div>
+</div>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  public 메서드만 트랜잭션 적용
+                </h3>
+<p><code>protected</code>, <code>private</code>, <code>package-visible</code>에서는 트랜잭션이 적용되지 않음<br>java를 통해서 안되는 것이 아니라 단순히 Spring 에서 막아둔 것<br>강제로 <a href="/github-blog/blog/2f2f5b39">@Transactional</a> 을 주면 아에 <a href="/github-blog/blog/2f2f5b39">@Transactional</a> 을 무시</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  초기화 시점에 적용되지 않을 수 있음
+                </h3>
+<p><a href="/github-blog/blog/4e178d59">@PostConstruct</a> 의 경우 <a href="/github-blog/blog/ee2323b8">AOP</a> 초기화 되지 않은 시점에 동작할 가능성이 있음</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">@PostConstruct 초기화 문제점</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span></span><span class="line"><span class="hljs-meta">@SpringBootTest</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">InitTxTest</span> {</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Autowired</span></span><span class="line">  InitTest initTest;</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Test</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">init</span><span class="hljs-params">()</span> {</span><span class="line">    log.info(<span class="hljs-string">&quot;init&quot;</span>);</span><span class="line">  }</span><span class="line">&nbsp;</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@TestConfiguration</span></span><span class="line">  <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Config</span> {</span><span class="line">    <span class="hljs-meta">@Bean</span></span><span class="line">    InitTest <span class="hljs-title function_">hello</span><span class="hljs-params">()</span> {</span><span class="line">      <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">InitTest</span>();</span><span class="line">    }</span><span class="line">  }</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Slf4j</span></span><span class="line">  <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">InitTest</span> {</span><span class="line highlighted-line">    <span class="hljs-meta">@PostConstruct</span></span><span class="line highlighted-line">    <span class="hljs-meta">@Transactional</span></span><span class="line highlighted-line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">initV1</span><span class="hljs-params">()</span> {</span><span class="line highlighted-line">      log.info(<span class="hljs-string">&quot;initV1&quot;</span>);</span><span class="line highlighted-line">      printTxInfo();</span><span class="line highlighted-line">    }</span><span class="line highlighted-line">    <span class="hljs-meta">@EventListener(ApplicationReadyEvent.class)</span></span><span class="line highlighted-line">    <span class="hljs-meta">@Transactional</span></span><span class="line highlighted-line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">initV2</span><span class="hljs-params">()</span> {</span><span class="line highlighted-line">      log.info(<span class="hljs-string">&quot;initV2&quot;</span>);</span><span class="line highlighted-line">      printTxInfo();</span><span class="line highlighted-line">    }</span><span class="line">    <span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">printTxInfo</span><span class="hljs-params">()</span> {</span><span class="line">      <span class="hljs-comment">// transaction 확성화 되어 있는지 확인</span></span><span class="line">      log.info(<span class="hljs-string">&quot;transaction Active: {}&quot;</span>, TransactionSynchronizationManager.isActualTransactionActive());</span><span class="line">    }</span><span class="line">  }</span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  많이 실수하는 부분
+                </h2>
+<p><img src="/github-blog/images/AttachedFile/Pasted%20image%2020240607164744.png" alt="Pasted image 20240607164744.png" style="width:600px"><br>해당 부분에서 에러를 <code>MemeberService</code>에서 <code>try/catch</code> 처리하면 될줄 알지만 <code>rollbackOnly</code> 가 이미  로 설정되어서 모두 롤백이 발생<br>를 반환<br>이런 경우에  로 설정되어서 모두 롤백이 발생
+이런 상황에는 예상하지 못한 롤백 발생 에러<code>UnexpectedRollbackException</code>를 반환
+이런 경우에  에서는 <a href="#"></a> 를 사용하면 트랜잭션을 새로 생성하기 때문에 문제를 해결 가능 에서는 [[#REQUIRES_NEW]] 를 사용하면 트랜잭션을 새로 생성하기 때문에 문제를 해결 가능</p>
+15:T33d5,---
+aliases:
+  - "@Transactional"
+tags:
+  - Spring
+  - Annotation
+  - spring/Repository
+특징:
+---
+# @Transactional
+트랜잭션 공통 관심사 처리
+
+로직이 성공적으로 동작하게 되면 commit 하도록 수행
+하지만 테스트에서는 rollback 하도록 처리
+
+[[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AOP|AOP]] 를 사용해서 만들기 때문에 AOP를 알고 있다면 딱히 어려울건 없어보임
+[[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Proxy|Proxy]] 만들때 클래스 자체를 만들기 때문에 클래스 단위로 프록시를 만듬
+
+트랜잭션은 애초에 [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AOP|AOP]] 사용하기 때문에 직접적으로 객체를 호출하면 [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Proxy|Proxy]] 거치지 않아서 문제 발생
+그렇지만 보통 이렇게 사용하는 경우는 없기 때문에 문제는 없는데
+==이런 문제가 일어날 수 있는 방법이 하나는 대상 객체의 내부에서 메서드 호출이 발생하면 프록시를 거치지 않고 대상 객체를 직접 호출하는 문제 발생==
+## 규칙
+- 우선순위 규칙
+ - 클래스에 적용하면 메서드는 자동 적용
+### 적용 우선순위
+1. 클래스의 메서드(우선순위 가장 높음)
+2. 클래스의 타입
+3. 인터페이스의 메서드
+4. 인터페이스의 타입(우선순위 가장 낮음)
+하지만 추천하지 않는 방법 (예전엔 버그가 있었지만 지금은 버그가 없지만 모든게 멀쩡하다는 확신할 수 없다함)
+### 예외 발생시 기본 정책
+- 언체크 예외인 `RuntimeException`, `Error`와 그 하위 예외가 발생 시 롤백
+- 체크 예외인 `Exception`과 그 하위 예외들은 커밋
+런타임(언체크) 예외는 복구 불가능한 예외로 가정
+체크 예외는 비즈니스 의미가 있을 때 사용
+
+Spring 에서 Exception 처리를 비즈니스 로직(반환용)으로 사용을 허가한다는 것인데 이게 과연 옳을까
+그리고 이렇게 쓸 수 있는 경우가 어떤게 있을까?
+
+현재 상태 값이 아닌 메세지만 전달할 경우엔 뭐 이렇게 처리할 수 있다고 치지만
+현재 상태 값을 안넘겨주는 경우가 있을까?
+## 옵션
+### value, transactionManager
+`transactionManager` 등록
+default 값으로 기본으로 등록된 트랜잭션매니저를 사용
+트랜잭션 매니저가 둘 이상이라면 매니저의 이름을 지정해서 구분
+```java title:"value/transactionManager 설정"
+public class TxService {
+	@Transactional("memberTxManager")
+	public void member() {...}
+	@Transactional(value = "orderTxManager")
+	public void order() {...}
+}
+```
+### rollbackFor
+기본 정책에 추가로 어떤 예외 발생시 롤백할지 설정
+
+예외 발생시 기본 정책
+- 언체크 예외인 `RuntimeException`, `Error`와 그 하위 예외가 발생 시 롤백
+- 체크 예외인 `Exception`과 그 하위 예외들은 커밋
+`{java icon title:"특정 에러 롤백 지정"}@Transactional(roobackFor = Exception.class)`
+### noRollbackFor
+rollbackFor 반대 개념
+기본 정책에 추가로 어떤 예외가 발생했을 때 롤백하면 안되는지 지정
+### propagation (전파)
+- 물리 트랜잭션
+	실제 데이터베이스에 적용되는 트랜잭션
+	실제 커넥션을 통해 트랜잭션을 시작`{java}setAutoCommit(false)`
+	실제 커넥션을 통해서 `commit`/`rollback`
+- 논리 트랜잭션
+	트랜잭션 매니저를 통해 트랜잭션을 사용하는 단위
+	트랜잭션이 진행되는 중에 내부에서 추가로 트랜잭션을 사용하는 경우 논리 트랜잭션이 적용
+
+#### REQUIRED (Default)
+![[config/AttachedFile/Pasted image 20240605150403.png|600]]
+트랜잭션 전파의 기본 옵션 `REQUIRED` 기준으로 설명
+- 모든 논리 트랜잭션이 커밋 되어야만 물리 트랜잭션이 커밋
+- 하나의 논리 트랜잭션이라도 롤백되면 물리 트랜잭션은 롤백
+내부적으로 논리 트랜잭션이 rollback 동작을 하게 되면 `rollbackOnly = true` 상태가 되어 물리 트랜잭션에서는 무조건 롤백을 진행하도록 강제함
+```java title:"commit 은 AND 연산 rollback 은 or 연산" hl:18-20
+@Test
+  void inner_rollback() {
+    log.info("외부 트랜잭션 Start");
+    TransactionStatus outerStatus = transactionManager.getTransaction(new DefaultTransactionDefinition());
+    log.info("outer.isNewTransaction()={}", outerStatus.isNewTransaction()); // true
+
+    log.info("내부 트랜잭션 Start");
+    TransactionStatus innerStatus = transactionManager.getTransaction(new DefaultTransactionDefinition());
+    log.info("inner.isNewTransaction()={}", innerStatus.isNewTransaction()); // false
+    log.info("내부 트랜잭션 rollback Start");
+    transactionManager.rollback(innerStatus);
+    log.info("내부 트랜잭션 rollback End");
+
+    log.info("내부 트랜잭션 isRollbackOnly={}", innerStatus.isRollbackOnly());
+    log.info("외부 트랜잭션 isRollbackOnly={}", outerStatus.isRollbackOnly());
+
+    log.info("외부 트랜잭션 Commit Start");
+    Assertions.assertThrows(UnexpectedRollbackException.class, () -> {
+      transactionManager.commit(outerStatus);
+    });
+    log.info("외부 트랜잭션 Commit End");
+  }
+```
+#### REQUIRES_NEW
+![[config/AttachedFile/Pasted image 20240605150448.png|600]]
+트랜잭션을 분리하는 옵션
+> [!hint] 로그 달아야할때 쓰면 좋을 것 같은데
+```java title:"PROPAGATION_REQUIRES_NEW 트랜잭션 분리" hl:9
+@Test  
+void inner_rollback_requires_new()  {  
+  log.info("외부 트랜잭션 Start");  
+  TransactionStatus outerStatus = transactionManager.getTransaction(new DefaultTransactionDefinition());  
+  log.info("outer.isNewTransaction()={}", outerStatus.isNewTransaction()); // true  
+  
+  log.info("내부 트랜잭션 Start");  
+  DefaultTransactionDefinition innerDefinition = new DefaultTransactionDefinition();  
+  innerDefinition.setPropagationBehavior(DefaultTransactionDefinition.PROPAGATION_REQUIRES_NEW);  
+  TransactionStatus innerStatus = transactionManager.getTransaction(innerDefinition);  
+  log.info("inner.isNewTransaction()={}", innerStatus.isNewTransaction()); // true  
+  
+  log.info("내부 트랜잭션 rollback");  
+  transactionManager.rollback(innerStatus);  
+  
+  log.info("외부 트랜잭션 Commit");  
+  transactionManager.commit(outerStatus);  
+}
+```
+
+#### SUPPORT
+기존에 트랜잭션이 있으면 참여하고 없으면 없는대로 진행
+거의 사용하지 않음
+#### NOT_SUPPORT 
+트랜잭션 없이 동작
+기존 트랜잭션 있으면 기존 트랜잭션은 보류하고 자기 동작 진행
+거의 사용하지 않음
+#### MANDATORY
+트랜잭션이 반드시 필요
+기존 트랜잭션이 없으면 예외 발생`IllegalTransactionStateException`
+거의 사용하지 않음
+#### NEVER
+트랜잭션 사용하지 않음
+기존 트랜잭션이 있으면 예외 발생
+기존 트랜잭션도 사용하지 않는 강한 부정
+거의 사용하지 않음
+#### NESTED
+기존 트랜잭션 없을 경우 새로운 트랜잭션 생성
+기존 트랜잭션 있을 경우 중첩 트랜잭션 생성
+중첩 트랜잭션 : 외부 트랜잭션엔 영향을 받지만 중첩 트랜잭션은 외부에 영향을 주지 않음
+	중첩 트랜잭션이 롤백 되어도 트랜잭션은 커밋 가능
+	외부 트랜잭션이 롤백 되면 중첩 트랜잭션도 함께 롤백
+DB 드라이버에서 지원하는 기능인지 확인 필요
+JPA 에서 사용 불가능
+거의 사용하지 않음
+### isolation
+트랜잭션 격리 수준 지정
+일반적으로 설정하지 않음
+==물리적 트랜잭션==일 경우만 적용
+- `DEFAULT` : 데이터베이스에서 설정한 격리 수준을 따름
+- `READ_UNCOMMITTED` : 커밋되지 않은 읽기
+- `READ_COMMITTED` : 커밋된 읽기
+- `REPEATABLE_READ` : 반복 가능한 읽기
+- `SERIALIZABLE` : 직렬화 가능
+### timeout, timeoutString
+트랜잭션 수행 시간에 대한 타임아웃을 ==초 단위==로 지정
+기본 값은 트랜잭션 시스템의 타임아웃을 사용
+운영 환경에 따라 동작하는 경우가 있고 그렇지 않은 경우가 있음
+==물리적 트랜잭션==일 경우만 적용
+### label
+트랜잭션 애노테이션에 있는 값을 직접 읽어서 어떤 동작을 하고 싶을때 사용
+일반적으로 사용하지 않음
+### readOnly
+`readOnly=true` 옵션을 사용하면 등록, 수정, 수정, 삭제가 안되고 읽기 기능만 동작
+데이터베이스에 따라 정상 동작하지 않는 경우가 있음
+==물리적 트랜잭션==일 경우만 적용
+#### 적용되는 곳
+- 프레임워크
+	- JdbcTemplate 읽기 전용 트랜잭션 안에서 변경 기능을 실행하면 예외를 던짐
+	- [[2.Ref(데이터 및 정보 저장)/Spring/JPA/JPA|JPA]] 읽기 전용 트랜잭션의 경우 커밋 시점에 플러시를 호출하지 않음
+	- [[2.Ref(데이터 및 정보 저장)/Spring/JPA/JPA|JPA]] 기타 등등의 다양한 최적화 발생
+- JDBC 드라이버
+	- DB 드라이버 버전에 따라 다양하게 동작
+	- 읽기 전용 트랜잭션에서 변경 쿼리가 발생 시 예외 발생
+	- 읽기, 쓰기(마스터,슬레이브) 데이터베이스를 구분해서 요청 (읽기 전용 트랜잭션의 경우 읽기(슬레이브) 데이터베이스의 커넥션 획득해서 사용)
+- 데이터베이스
+	- 데이터베이스에 따라 읽기 전용이기 때문에 성능 최적화 발생
+## 문제사항
+### 객체 메소드 내부에서 메서드 호출 시 발생하는 문제
+```java title:"트랜잭션 걸리지 않은 함수에서 걸린 내부 함수를 호출 시 트랜잭션 걸리지 않음" hl:37
+@Slf4j
+@SpringBootTest
+public class InternalCallV1Test {
+  @Autowired
+  CallService callService;
+
+  @Test
+  void checkProxy() {
+    log.info("aop class = {}", callService.getClass().getName());
+    Assertions.assertTrue(callService != null);
+    Assertions.assertTrue(callService instanceof CallService);
+  }
+
+  @Test
+  void internalCall() {
+    callService.internal();
+  }
+
+  @Test
+  void externalCall() {
+    callService.external();
+  }
+
+  @TestConfiguration
+  static class Config {
+    @Bean
+    CallService levelService() {
+      return new CallService();
+    }
+  }
+
+  @Slf4j
+  static class CallService {
+    public void external() {
+      log.info("call external");
+      printTxInfo();
+      internal();
+    }
+
+    @Transactional
+    public void internal() {
+      log.info("call internal");
+      printTxInfo();
+    }
+
+    private void printTxInfo() {
+      // transaction 확성화 되어 있는지 확인
+      log.info("transaction Active: {}", TransactionSynchronizationManager.isActualTransactionActive());
+    }
+  }
+
+}
+```
+프록시에 감쌓여져있는 [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AOP|AOP]] `internal()` 호출하는 것이 아닌 자기 자신의 함수를 호출해서 트랜잭션으로 보호되지 않음
+이 문제를 해결하기 위한 방법은 `internal()` 함수를 별도의 클래스로 분리하는 방법이 존재
+> [!question] 그냥 다 트랜잭션 주면 되는거 아닌가?
+> 트랜잭션이 과도하게 걸리게 되면 성능 이슈 발생
+### public 메서드만 트랜잭션 적용
+`protected`, `private`, `package-visible`에서는 트랜잭션이 적용되지 않음
+java를 통해서 안되는 것이 아니라 단순히 Spring 에서 막아둔 것
+강제로 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Transactional|@Transactional]] 을 주면 아에 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Transactional|@Transactional]] 을 무시
+
+### 초기화 시점에 적용되지 않을 수 있음
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@PostConstruct|@PostConstruct]] 의 경우 [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AOP]] 초기화 되지 않은 시점에 동작할 가능성이 있음
+```java title:"@PostConstruct 초기화 문제점" hl:24-35
+@Slf4j
+@SpringBootTest
+public class InitTxTest {
+
+  @Autowired
+  InitTest initTest;
+
+  @Test
+  void init() {
+    log.info("init");
+  }
+
+
+  @TestConfiguration
+  static class Config {
+    @Bean
+    InitTest hello() {
+      return new InitTest();
+    }
+  }
+
+  @Slf4j
+  static class InitTest {
+    @PostConstruct
+    @Transactional
+    public void initV1() {
+      log.info("initV1");
+      printTxInfo();
+    }
+    @EventListener(ApplicationReadyEvent.class)
+    @Transactional
+    public void initV2() {
+      log.info("initV2");
+      printTxInfo();
+    }
+    private void printTxInfo() {
+      // transaction 확성화 되어 있는지 확인
+      log.info("transaction Active: {}", TransactionSynchronizationManager.isActualTransactionActive());
+    }
+  }
+}
+```
+
+## 많이 실수하는 부분
+![[config/AttachedFile/Pasted image 20240607164744.png|600]]
+해당 부분에서 에러를 `MemeberService`에서 `try/catch` 처리하면 될줄 알지만 `rollbackOnly` 가 이미 `true` 로 설정되어서 모두 롤백이 발생
+ 이런 상황에는 예상하지 못한 롤백 발생 에러`UnexpectedRollbackException`를 반환 
+이런 경우에 `LogRepository` 에서는 [[#REQUIRES_NEW]] 를 사용하면 트랜잭션을 새로 생성하기 때문에 문제를 해결 가능5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Annotation/@Transactional","slugHash":"2f2f5b39","content":"$14","markdownContent":"$15","title":"@Transactional","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Annotation","spring/Repository"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["@Transactional"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

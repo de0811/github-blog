@@ -1,0 +1,664 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","9206d4c8",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","9206d4c8","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","9206d4c8","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","bIYp9imFMbB5sWHrsxZSc",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:Tf3e8,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  @Pointcut
+                </h1>
+<p>다른 <a href="/github-blog/blog/45f0056f">@Around</a> 에서도 사용해야할 경우 사용<br>외부에 pointcut 을 빼서 사용 하는 방법도 존재</p>
+<ul>
+<li>반환 타입은 void 로 설정 필요</li>
+<li>코드 내용은 비워두기</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">@Pointcut 사용방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Aspect</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AspectV2</span> {  </span><span class="line">  <span class="hljs-meta">@Pointcut(&quot;execution(* hello.aop.order..*(..))&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">allOrder</span><span class="hljs-params">()</span>{} <span class="hljs-comment">// pointcut signature  </span></span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Around(&quot;allOrder()&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">doLog</span><span class="hljs-params">(ProceedingJoinPoint joinPoint)</span> <span class="hljs-keyword">throws</span> Throwable {  </span><span class="line">    log.info(<span class="hljs-string">&quot;AspectV1.doLog() Start&quot;</span>);  </span><span class="line">    log.info(<span class="hljs-string">&quot;joinPoint.getSignature().toShortString(): {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">    <span class="hljs-keyword">try</span> {  </span><span class="line">      <span class="hljs-keyword">return</span> joinPoint.proceed();  </span><span class="line">    } <span class="hljs-keyword">finally</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;AspectV1.doLog() End&quot;</span>);  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Around(&quot;allOrder()&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">doLog2</span><span class="hljs-params">(ProceedingJoinPoint joinPoint)</span> <span class="hljs-keyword">throws</span> Throwable {  </span><span class="line">    log.info(<span class="hljs-string">&quot;AspectV1.doLog() Start&quot;</span>);  </span><span class="line">    log.info(<span class="hljs-string">&quot;joinPoint.getSignature().toShortString(): {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">    <span class="hljs-keyword">try</span> {  </span><span class="line">      <span class="hljs-keyword">return</span> joinPoint.proceed();  </span><span class="line">    } <span class="hljs-keyword">finally</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;AspectV1.doLog() End&quot;</span>);  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  pointcut 따로 모아서 사용하기
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">pointcut 따로 모으기</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Pointcuts</span> {  </span><span class="line">  <span class="hljs-comment">// hello.aop.order 패키지와 하위  </span></span><span class="line">  <span class="hljs-meta">@Pointcut(&quot;execution(* hello.aop.order..*(..))&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">allOrder</span><span class="hljs-params">()</span>{} <span class="hljs-comment">// pointcut signature  </span></span><span class="line">  <span class="hljs-comment">// 클래스 이름이 *Service 클래스  </span></span><span class="line">  <span class="hljs-meta">@Pointcut(&quot;execution(* *..*Service.*(..))&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">allService</span><span class="hljs-params">()</span>{} <span class="hljs-comment">// pointcut signature  </span></span><span class="line">  <span class="hljs-comment">// hello.aop.order 패키지와 하위 패키지 이면서 클래스 이름 패턴이 *Service 인 클래스의 모든 메서드에 적용  </span></span><span class="line">  <span class="hljs-meta">@Pointcut(&quot;allOrder() &amp;&amp; allService()&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">allOrderAndService</span><span class="hljs-params">()</span>{} <span class="hljs-comment">// pointcut signature  </span></span><span class="line">}</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">따로 모은 Pointcut 사용 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Aspect</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AspectV4Pointcut</span> {  </span><span class="line">   </span><span class="line">  <span class="hljs-meta">@Around(&quot;hello.aop.order.aop.Pointcuts.allOrder()&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">doLog</span><span class="hljs-params">(ProceedingJoinPoint joinPoint)</span> <span class="hljs-keyword">throws</span> Throwable {  </span><span class="line">    log.info(<span class="hljs-string">&quot;AspectV1.doLog() Start&quot;</span>);  </span><span class="line">    log.info(<span class="hljs-string">&quot;joinPoint.getSignature().toShortString(): {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">    <span class="hljs-keyword">try</span> {  </span><span class="line">      <span class="hljs-keyword">return</span> joinPoint.proceed();  </span><span class="line">    } <span class="hljs-keyword">finally</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;AspectV1.doLog() End&quot;</span>);  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-comment">// hello.aop.order 패키지와 하위 패키지 이면서 클래스 이름 패턴이 *Service 인 클래스의 모든 메서드에 적용  </span></span><span class="line">  <span class="hljs-meta">@Around(&quot;hello.aop.order.aop.Pointcuts.allOrderAndService()&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">doTransaction</span><span class="hljs-params">(ProceedingJoinPoint joinPoint)</span> <span class="hljs-keyword">throws</span> Throwable {  </span><span class="line">    log.info(<span class="hljs-string">&quot;AspectV1.doLogService() Start&quot;</span>);  </span><span class="line">    log.info(<span class="hljs-string">&quot;joinPoint.getSignature().toShortString(): {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">    <span class="hljs-keyword">try</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;[트랜잭션 시작] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">      <span class="hljs-type">Object</span> <span class="hljs-variable">result</span> <span class="hljs-operator">=</span> joinPoint.proceed();  </span><span class="line">      log.info(<span class="hljs-string">&quot;[트랜잭션 커밋] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">      <span class="hljs-keyword">return</span> result;  </span><span class="line">    } <span class="hljs-keyword">catch</span> (Exception e) {  </span><span class="line">      log.info(<span class="hljs-string">&quot;[트랜잭션 롤백] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">      <span class="hljs-keyword">throw</span> e;  </span><span class="line">    }<span class="hljs-keyword">finally</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;[트랜잭션 종료] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  포인트컷 지시자
+                </h1>
+<p><a href="/github-blog/blog/9206d4c8">@Pointcut</a><br><a href="/github-blog/blog/45f0056f">@Around</a><br><code>AspectJExpressionPointcut</code></p>
+<ul>
+<li><code>execution</code> : 메소드 실행 조인 포인트를 매칭 스프링 AOP에서 가장 많이 사용하고, 기능도 복잡
+<ul>
+<li><a href="/github-blog/blog/a1afe82a">파라메터</a>는 부모타입으로 작성 시 선택되지 않는다는데 잘 됨</li>
+<li><code>execution(modifiers-pattern? ret-type-pattern declaring-type-pattern?name-pattern(param-pattern) throws-pattern?)</code></li>
+<li><code>execution(접근제어자? 반환타입 선언타입?메서드이름(파라미터) 예외?)</code></li>
+</ul>
+</li>
+<li><code>within</code> : 특정 타입 내의 조인 포인트를 매칭(표현식에 부모 타입 지정 불가능)</li>
+<li><code>args</code> : 인자가 주어진 타입의 인스턴스인 조인 포인트
+<ul>
+<li>런타임에 전달된 인수로 판단, 상속된 클래스의 파라메타라면 부모 타입을 적어도 검색해줌</li>
+<li>단독 사용 불가(<code>execution</code> 등 섞어서 사용 필요)</li>
+</ul>
+</li>
+<li><code>this</code> : 스프링 빈 객체(스프링 AOP 프록시)를 대상으로 하는 조인 포인트
+<ul>
+<li><a href="#"></a> 적용 상태에서 부모 interface 를 대상으로 할 경우 적용되지 않음</li>
+<li>적용 타입 하나를 정확하게 지정 필요</li>
+<li><mark>확인해보니 this와 target의 차이를 알 수 없었음</mark></li>
+</ul>
+</li>
+<li><code>target</code> : Target 객체(스프링 AOP 프록시가 가리키는 실제 대상)를 대상으로 하는 조인 포인트
+<ul>
+<li>적용 타입 하나를 정확하게 지정 필요</li>
+<li><mark>확인해보니 this와 target의 차이를 알 수 없었음</mark></li>
+</ul>
+</li>
+<li><code>@target</code> : 실행 객체의 클래스에 주어진 타입의 애노테이션이 있는 조인 포인트
+<ul>
+<li>자식과 부모 모두 조인 포인트로 적용</li>
+<li>단독 사용 불가(<code>execution</code> 등 섞어서 사용 필요)</li>
+</ul>
+</li>
+<li><code>@within</code> : 주어진 애노테이션이 있는 타입 내 조인 포인트
+<ul>
+<li>대상이 작성한 삼수만 조인 포인트로 적용 (부모가 만든 함수는 조인 포인트 대상 아님)</li>
+</ul>
+</li>
+<li><code>@annotation</code> : 메서드가 주어진 애노테이션을 가지고 있는 조인 포인트를 매칭</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">@annotation 사용법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Import(AtAnnotationTest.AtAnnotationAspect.class)</span>  </span><span class="line"><span class="hljs-meta">@SpringBootTest</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AtAnnotationTest</span> {  </span><span class="line">  <span class="hljs-meta">@Autowired</span>  </span><span class="line">  MemberService memberService;  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">success</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;memberService Proxy: {}&quot;</span>, memberService.getClass());  </span><span class="line">    memberService.hello(<span class="hljs-string">&quot;helloA&quot;</span>);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Aspect</span>  </span><span class="line">  <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AtAnnotationAspect</span> {  </span><span class="line">    <span class="hljs-meta">@Around(&quot;@annotation(hello.aop.order.aop.member.annotation.MethodAop)&quot;)</span>  </span><span class="line">    <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">execute</span><span class="hljs-params">(ProceedingJoinPoint joinPoint)</span> <span class="hljs-keyword">throws</span> Throwable {  </span><span class="line">      log.info(<span class="hljs-string">&quot;[AtAnnotationAspect] execute&quot;</span>);  </span><span class="line">      <span class="hljs-keyword">return</span> joinPoint.proceed();  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<ul>
+<li><code>@args</code> : 전달된 실제 인수의 런타임 타입이 주어진 타입의 애노테이션을 갖는 조인 포인트
+<ul>
+<li>단독 사용 불가(<code>execution</code> 등 섞어서 사용 필요)</li>
+</ul>
+</li>
+<li><code>bean</code> : 스프링 전용 포인트컷 지시자, 빈의 이름으로 포인트컷을 지정
+<ul>
+<li><span class="custom-inline-code"><span class="custom-inline-code-title"><span class="custom-inline-code-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span></span><code class="hljs java"><span class="hljs-meta">@Around(&quot;bean(orderService) || bean(*Repository)&quot;)</span></code></span></li>
+</ul>
+</li>
+</ul>
+<p><code>execution(modifiers-pattern? ret-type-pattern declaring-type-pattern?name-pattern(param-pattern) throws-pattern?)</code><br><code>execution(접근제어자? 반환타입 선언타입?메서드이름(파라미터) 예외?)</code></p>
+<ul>
+<li>
+<p><code>?</code> 생략할 수 있는 것</p>
+</li>
+<li>
+<p><code>*</code> : 패턴 지정</p>
+</li>
+<li>
+<p><code>.</code> : 정확하게 해당 위치의 패키지</p>
+</li>
+<li>
+<p><code>..</code> : 해당 위치의 패키지와 그 하위 패키지도 포함</p>
+</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">포인트컷 지시자 예제</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ExecutionTest</span> {  </span><span class="line">  <span class="hljs-type">AspectJExpressionPointcut</span> <span class="hljs-variable">pointcut</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">AspectJExpressionPointcut</span>();  </span><span class="line">  Method method;  </span><span class="line">  <span class="hljs-keyword">interface</span> <span class="hljs-title class_">MemberService</span> {  </span><span class="line">    <span class="hljs-keyword">void</span> <span class="hljs-title function_">hello</span><span class="hljs-params">(String name)</span>;  </span><span class="line">  }  </span><span class="line">  <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MemberServiceImpl</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">MemberService</span> {  </span><span class="line">    <span class="hljs-meta">@Override</span>  </span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">hello</span><span class="hljs-params">(String name)</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;hello() {}&quot;</span>, name);  </span><span class="line">    }  </span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">internal</span><span class="hljs-params">(String name)</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;internal() {}&quot;</span>, name);  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">  <span class="hljs-meta">@BeforeEach</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">setUp</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> NoSuchMethodException {  </span><span class="line">    method = MemberServiceImpl.class.getMethod(<span class="hljs-string">&quot;hello&quot;</span>, String.class);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">printMethod</span><span class="hljs-params">()</span> {  </span><span class="line">    <span class="hljs-comment">//public java.lang.String hello.aop.order.aop.member.MemberServiceImpl.hello(java.lang.String)  </span></span><span class="line">    log.info(<span class="hljs-string">&quot;method: {}&quot;</span>, method);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;hello 메서드 완전 일치&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">exactMatch</span><span class="hljs-params">()</span> {  </span><span class="line">    <span class="hljs-comment">//public java.lang.String hello.aop.order.aop.member.MemberServiceImpl.hello(java.lang.String)  </span></span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(String hello.aop.order.aop.member.MemberServiceImpl.hello(java.lang.String))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;모든 메서드&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">allMatch</span><span class="hljs-params">()</span> {  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* *(..))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;he로 시작하는 메서드&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">nameMatch</span><span class="hljs-params">()</span> {  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* he*(..))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;hello 패키지와 하위 패키지에 속한 모든 클래스의 모든 메서드&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">nameMatch1</span><span class="hljs-params">()</span> {  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* hello..*.*(..))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;MemberServiceImpl 클래스의 모든 메서드&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">typeExacMatch</span><span class="hljs-params">()</span> {  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* hello.aop.order.aop.member.MemberServiceImpl.*(..))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;MemberService와 상속 받는 클래스의 모든 메서드&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">typeExacMatch1</span><span class="hljs-params">()</span> {  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* hello.aop.order.aop.member.MemberService.*(..))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;MemberService 상속 받은 클래스에서 상속받지 않은 함수는 매치되지 않음&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">typeMatchInternal</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> NoSuchMethodException {  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* hello.aop.order.aop.member.MemberService.*(..))&quot;</span>);  </span><span class="line">    <span class="hljs-type">Method</span> <span class="hljs-variable">internal</span> <span class="hljs-operator">=</span> MemberServiceImpl.class.getMethod(<span class="hljs-string">&quot;internal&quot;</span>, String.class);  </span><span class="line">    Assertions.assertFalse(pointcut.getMethodMatcher().matches(internal, MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-comment">/*  </span><span class="line">  (String) : String 타입의 파라메터를 받는 메서드  </span><span class="line">  () : 파라메터를 받지 않는 메서드  </span><span class="line">  (*) : 하나의 파라메터를 받는 메서드  </span><span class="line">  (*, *) : 두 개의 파라메터를 받는 메서드  </span><span class="line">  (..) : 모든 파라메터를 받는 메서드  </span><span class="line">  (String, ..) : 첫 번째 파라메터는 String 타입이고 나머지 파라메터는 어떤 타입이든 상관 없는 메서드  </span><span class="line">   */</span>  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;하나의 파라메터만 받는 메서드&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">argsMatch</span><span class="hljs-params">()</span> {  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* *(*))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;(), (Xxx), (Xxx, Xxx) 모든 형태의 파라메터를 받는 메서드&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">argsMatchAll</span><span class="hljs-params">()</span> {  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* *(..))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;String 타입의 파라메터를 받는 메서드 (String), (String, Xxx), (String, ..) 모두 매치됨&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">argsMatchString</span><span class="hljs-params">()</span> {  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* *(String, ..))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-meta">@DisplayName(&quot;파라메터 부모 타입으로 매치&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">argsMatchDynamic</span><span class="hljs-params">()</span> {  </span><span class="line">    <span class="hljs-comment">// args  </span></span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;args(String)&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;args(Object)&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;args(java.io.Serializable)&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  </span><span class="line">    <span class="hljs-comment">// execution  </span></span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* *(String))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* *(Object))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">    pointcut.setExpression(<span class="hljs-string">&quot;execution(* *(java.io.Serializable))&quot;</span>);  </span><span class="line">    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  </span><span class="line">  }  </span><span class="line">  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  각종 매개변수 전달 방법
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">기본 환경 구성 상태</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Target(ElementType.TYPE)</span>  </span><span class="line"><span class="hljs-meta">@Retention(RetentionPolicy.RUNTIME)</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-meta">@interface</span> ClassAop {  </span><span class="line">}</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-meta">@Target(ElementType.METHOD)</span>  </span><span class="line"><span class="hljs-meta">@Retention(RetentionPolicy.RUNTIME)</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-meta">@interface</span> MethodAop {  </span><span class="line">  String <span class="hljs-title function_">value</span><span class="hljs-params">()</span>;  </span><span class="line">}</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title class_">MemberService</span> {  </span><span class="line">  <span class="hljs-keyword">public</span> String <span class="hljs-title function_">hello</span><span class="hljs-params">(String param)</span>;  </span><span class="line">}</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-meta">@ClassAop</span>  </span><span class="line"><span class="hljs-meta">@Component</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MemberServiceImpl</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">MemberService</span> {  </span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-meta">@MethodAop(&quot;test value&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> String <span class="hljs-title function_">hello</span><span class="hljs-params">(String param)</span> {  </span><span class="line">    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;ok&quot;</span>;  </span><span class="line">  }  </span><span class="line">  <span class="hljs-keyword">public</span> String <span class="hljs-title function_">internal</span><span class="hljs-params">(String param)</span> {  </span><span class="line">    <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;internal&quot;</span>;  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">매개변수 전달 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span> <span class="hljs-meta">@SpringBootTest</span></span><span class="line"><span class="hljs-meta">@Import(ParameterTest.ParameterAspect.class)</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ParameterTest</span> {</span><span class="line">  <span class="hljs-meta">@Autowired</span></span><span class="line">  MemberService memberService;</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Test</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">success</span><span class="hljs-params">()</span> {</span><span class="line">    log.info(<span class="hljs-string">&quot;memberService Proxy: {}&quot;</span>, memberService.getClass());</span><span class="line">    memberService.hello(<span class="hljs-string">&quot;helloA&quot;</span>);</span><span class="line">  }</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Aspect</span></span><span class="line">  <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ParameterAspect</span> {</span><span class="line">    <span class="hljs-meta">@Pointcut(&quot;execution(* hello.aop.order..*.*(..))&quot;)</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">alloMember</span><span class="hljs-params">()</span> {}</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 인자 받기</span></span><span class="line">    <span class="hljs-meta">@Around(&quot;alloMember() &amp;&amp; args(arg, ..)&quot;)</span></span><span class="line">    <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">argsType0</span><span class="hljs-params">(ProceedingJoinPoint joinPoint, Object arg)</span> <span class="hljs-keyword">throws</span> Throwable {</span><span class="line">      <span class="hljs-type">Object</span> <span class="hljs-variable">arg1</span> <span class="hljs-operator">=</span> joinPoint.getArgs()[<span class="hljs-number">0</span>];</span><span class="line">      log.info(<span class="hljs-string">&quot;[argsType0]{} arg={}&quot;</span>, joinPoint.getSignature().toShortString(), arg1);</span><span class="line">      <span class="hljs-keyword">return</span> joinPoint.proceed();</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 인자 타입 지정</span></span><span class="line">    <span class="hljs-meta">@Before(&quot;alloMember() &amp;&amp; args(arg, ..)&quot;)</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">argsType1</span><span class="hljs-params">(JoinPoint joinPoint, String arg)</span> {</span><span class="line">      log.info(<span class="hljs-string">&quot;[argsType1]{} arg={}&quot;</span>, joinPoint.getSignature().toShortString(), arg);</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 프록시 객체를 전달</span></span><span class="line">    <span class="hljs-meta">@Before(&quot;alloMember() &amp;&amp; this(obj)&quot;)</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">logThis</span><span class="hljs-params">(JoinPoint joinPoint, Object obj)</span> {</span><span class="line">      log.info(<span class="hljs-string">&quot;[logThis]{} obj={}&quot;</span>, joinPoint.getSignature().toShortString(), obj);</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 실제 대상 객체 전달</span></span><span class="line">    <span class="hljs-meta">@Before(&quot;alloMember() &amp;&amp; target(obj)&quot;)</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">logTarget</span><span class="hljs-params">(JoinPoint joinPoint, Object obj)</span> {</span><span class="line">      log.info(<span class="hljs-string">&quot;[logTarget]{} obj={}&quot;</span>, joinPoint.getSignature().toShortString(), obj);</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 타겟 객체의 클래스에 선언된 어노테이션 전달</span></span><span class="line">    <span class="hljs-meta">@Before(&quot;alloMember() &amp;&amp; @target(annotation)&quot;)</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">atTargetAnnotation</span><span class="hljs-params">(JoinPoint joinPoint, ClassAop annotation)</span> {</span><span class="line">      log.info(<span class="hljs-string">&quot;[atTargetAnnotation]{} annotation={}&quot;</span>, joinPoint.getSignature().toShortString(), annotation);</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 타겟 객체의 클래스에 선언된 어노테이션 전달</span></span><span class="line">    <span class="hljs-meta">@Before(&quot;alloMember() &amp;&amp; @within(annotation)&quot;)</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">atWithinAnnotation</span><span class="hljs-params">(JoinPoint joinPoint, ClassAop annotation)</span> {</span><span class="line">      log.info(<span class="hljs-string">&quot;[atWithinAnnotation]{} annotation={}&quot;</span>, joinPoint.getSignature().toShortString(), annotation);</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 메서드에 선언된 어노테이션</span></span><span class="line">    <span class="hljs-meta">@Before(&quot;alloMember() &amp;&amp; @annotation(annotation)&quot;)</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">atAnnotation</span><span class="hljs-params">(JoinPoint joinPoint, MethodAop annotation)</span> {</span><span class="line">      log.info(<span class="hljs-string">&quot;[atAnnotation]{} annotation.value={}&quot;</span>, joinPoint.getSignature().toShortString(), annotation.value());</span><span class="line">    }</span><span class="line">  }</span><span class="line">}</span></code></pre>
+        </div>
+      
+15:T3c64,---
+aliases:
+  - "@Pointcut"
+tags:
+  - Spring
+  - Spring/공통처리
+  - Spring/공통관심사
+  - Annotation
+특징: 
+---
+# @Pointcut
+다른 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Around]] 에서도 사용해야할 경우 사용
+외부에 pointcut 을 빼서 사용 하는 방법도 존재
+- 반환 타입은 void 로 설정 필요
+- 코드 내용은 비워두기
+```java title:"@Pointcut 사용방법"
+@Slf4j  
+@Aspect  
+public class AspectV2 {  
+  @Pointcut("execution(* hello.aop.order..*(..))")  
+  public void allOrder(){} // pointcut signature  
+  
+  @Around("allOrder()")  
+  public Object doLog(ProceedingJoinPoint joinPoint) throws Throwable {  
+    log.info("AspectV1.doLog() Start");  
+    log.info("joinPoint.getSignature().toShortString(): {}", joinPoint.getSignature().toShortString());  
+    try {  
+      return joinPoint.proceed();  
+    } finally {  
+      log.info("AspectV1.doLog() End");  
+    }  
+  }  
+  
+  @Around("allOrder()")  
+  public Object doLog2(ProceedingJoinPoint joinPoint) throws Throwable {  
+    log.info("AspectV1.doLog() Start");  
+    log.info("joinPoint.getSignature().toShortString(): {}", joinPoint.getSignature().toShortString());  
+    try {  
+      return joinPoint.proceed();  
+    } finally {  
+      log.info("AspectV1.doLog() End");  
+    }  
+  }  
+}
+```
+
+
+## pointcut 따로 모아서 사용하기
+```java title:"pointcut 따로 모으기"
+public class Pointcuts {  
+  // hello.aop.order 패키지와 하위  
+  @Pointcut("execution(* hello.aop.order..*(..))")  
+  public void allOrder(){} // pointcut signature  
+  // 클래스 이름이 *Service 클래스  
+  @Pointcut("execution(* *..*Service.*(..))")  
+  public void allService(){} // pointcut signature  
+  // hello.aop.order 패키지와 하위 패키지 이면서 클래스 이름 패턴이 *Service 인 클래스의 모든 메서드에 적용  
+  @Pointcut("allOrder() && allService()")  
+  public void allOrderAndService(){} // pointcut signature  
+}
+```
+
+```java title:"따로 모은 Pointcut 사용 방법"
+@Slf4j  
+@Aspect  
+public class AspectV4Pointcut {  
+   
+  @Around("hello.aop.order.aop.Pointcuts.allOrder()")  
+  public Object doLog(ProceedingJoinPoint joinPoint) throws Throwable {  
+    log.info("AspectV1.doLog() Start");  
+    log.info("joinPoint.getSignature().toShortString(): {}", joinPoint.getSignature().toShortString());  
+    try {  
+      return joinPoint.proceed();  
+    } finally {  
+      log.info("AspectV1.doLog() End");  
+    }  
+  }  
+  
+  // hello.aop.order 패키지와 하위 패키지 이면서 클래스 이름 패턴이 *Service 인 클래스의 모든 메서드에 적용  
+  @Around("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+  public Object doTransaction(ProceedingJoinPoint joinPoint) throws Throwable {  
+    log.info("AspectV1.doLogService() Start");  
+    log.info("joinPoint.getSignature().toShortString(): {}", joinPoint.getSignature().toShortString());  
+    try {  
+      log.info("[트랜잭션 시작] {}", joinPoint.getSignature().toShortString());  
+      Object result = joinPoint.proceed();  
+      log.info("[트랜잭션 커밋] {}", joinPoint.getSignature().toShortString());  
+      return result;  
+    } catch (Exception e) {  
+      log.info("[트랜잭션 롤백] {}", joinPoint.getSignature().toShortString());  
+      throw e;  
+    }finally {  
+      log.info("[트랜잭션 종료] {}", joinPoint.getSignature().toShortString());  
+    }  
+  }  
+  
+}
+```
+
+
+
+# 포인트컷 지시자
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Pointcut|@Pointcut]] 
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Around|@Around]]
+`AspectJExpressionPointcut`
+- `execution` : 메소드 실행 조인 포인트를 매칭 스프링 AOP에서 가장 많이 사용하고, 기능도 복잡
+	- [[2.Ref(데이터 및 정보 저장)/개발 이론/Parameter|파라메터]]는 부모타입으로 작성 시 선택되지 않는다는데 잘 됨
+	- `execution(modifiers-pattern? ret-type-pattern declaring-type-pattern?name-pattern(param-pattern) throws-pattern?)`
+	- `execution(접근제어자? 반환타입 선언타입?메서드이름(파라미터) 예외?)`
+- `within` : 특정 타입 내의 조인 포인트를 매칭(표현식에 부모 타입 지정 불가능)
+- `args` : 인자가 주어진 타입의 인스턴스인 조인 포인트
+	- 런타임에 전달된 인수로 판단, 상속된 클래스의 파라메타라면 부모 타입을 적어도 검색해줌
+	- 단독 사용 불가(`execution` 등 섞어서 사용 필요)
+- `this` : 스프링 빈 객체(스프링 AOP 프록시)를 대상으로 하는 조인 포인트 
+	- [[#Dynamic Proxy]] 적용 상태에서 부모 interface 를 대상으로 할 경우 적용되지 않음
+	- 적용 타입 하나를 정확하게 지정 필요
+	- ==확인해보니 this와 target의 차이를 알 수 없었음==
+- `target` : Target 객체(스프링 AOP 프록시가 가리키는 실제 대상)를 대상으로 하는 조인 포인트
+	- 적용 타입 하나를 정확하게 지정 필요
+	- ==확인해보니 this와 target의 차이를 알 수 없었음==
+- `@target` : 실행 객체의 클래스에 주어진 타입의 애노테이션이 있는 조인 포인트 
+	- 자식과 부모 모두 조인 포인트로 적용
+	- 단독 사용 불가(`execution` 등 섞어서 사용 필요)
+- `@within` : 주어진 애노테이션이 있는 타입 내 조인 포인트  
+	- 대상이 작성한 삼수만 조인 포인트로 적용 (부모가 만든 함수는 조인 포인트 대상 아님)
+- `@annotation` : 메서드가 주어진 애노테이션을 가지고 있는 조인 포인트를 매칭  
+```java title:"@annotation 사용법"
+@Slf4j  
+@Import(AtAnnotationTest.AtAnnotationAspect.class)  
+@SpringBootTest  
+public class AtAnnotationTest {  
+  @Autowired  
+  MemberService memberService;  
+  @Test  
+  void success() {  
+    log.info("memberService Proxy: {}", memberService.getClass());  
+    memberService.hello("helloA");  
+  }  
+  
+  @Aspect  
+  static class AtAnnotationAspect {  
+    @Around("@annotation(hello.aop.order.aop.member.annotation.MethodAop)")  
+    public Object execute(ProceedingJoinPoint joinPoint) throws Throwable {  
+      log.info("[AtAnnotationAspect] execute");  
+      return joinPoint.proceed();  
+    }  
+  }  
+}
+```
+- `@args` : 전달된 실제 인수의 런타임 타입이 주어진 타입의 애노테이션을 갖는 조인 포인트 
+	- 단독 사용 불가(`execution` 등 섞어서 사용 필요)
+- `bean` : 스프링 전용 포인트컷 지시자, 빈의 이름으로 포인트컷을 지정
+	- `{java icon} @Around("bean(orderService) || bean(*Repository)")`
+
+
+`execution(modifiers-pattern? ret-type-pattern declaring-type-pattern?name-pattern(param-pattern) throws-pattern?)`
+`execution(접근제어자? 반환타입 선언타입?메서드이름(파라미터) 예외?)`
+- `?` 생략할 수 있는 것
+- `*` : 패턴 지정
+
+- `.` : 정확하게 해당 위치의 패키지
+- `..` : 해당 위치의 패키지와 그 하위 패키지도 포함
+
+```java title:"포인트컷 지시자 예제"
+@Slf4j  
+public class ExecutionTest {  
+  AspectJExpressionPointcut pointcut = new AspectJExpressionPointcut();  
+  Method method;  
+  interface MemberService {  
+    void hello(String name);  
+  }  
+  static class MemberServiceImpl implements MemberService {  
+    @Override  
+    public void hello(String name) {  
+      log.info("hello() {}", name);  
+    }  
+    public void internal(String name) {  
+      log.info("internal() {}", name);  
+    }  
+  }  
+  @BeforeEach  
+  void setUp() throws NoSuchMethodException {  
+    method = MemberServiceImpl.class.getMethod("hello", String.class);  
+  }  
+  
+  @Test  
+  void printMethod() {  
+    //public java.lang.String hello.aop.order.aop.member.MemberServiceImpl.hello(java.lang.String)  
+    log.info("method: {}", method);  
+  }  
+  
+  @Test  
+  @DisplayName("hello 메서드 완전 일치")  
+  void exactMatch() {  
+    //public java.lang.String hello.aop.order.aop.member.MemberServiceImpl.hello(java.lang.String)  
+    pointcut.setExpression("execution(String hello.aop.order.aop.member.MemberServiceImpl.hello(java.lang.String))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+  @Test  
+  @DisplayName("모든 메서드")  
+  void allMatch() {  
+    pointcut.setExpression("execution(* *(..))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+  @Test  
+  @DisplayName("he로 시작하는 메서드")  
+  void nameMatch() {  
+    pointcut.setExpression("execution(* he*(..))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+  @Test  
+  @DisplayName("hello 패키지와 하위 패키지에 속한 모든 클래스의 모든 메서드")  
+  void nameMatch1() {  
+    pointcut.setExpression("execution(* hello..*.*(..))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+  @Test  
+  @DisplayName("MemberServiceImpl 클래스의 모든 메서드")  
+  void typeExacMatch() {  
+    pointcut.setExpression("execution(* hello.aop.order.aop.member.MemberServiceImpl.*(..))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+  @Test  
+  @DisplayName("MemberService와 상속 받는 클래스의 모든 메서드")  
+  void typeExacMatch1() {  
+    pointcut.setExpression("execution(* hello.aop.order.aop.member.MemberService.*(..))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+  @Test  
+  @DisplayName("MemberService 상속 받은 클래스에서 상속받지 않은 함수는 매치되지 않음")  
+  void typeMatchInternal() throws NoSuchMethodException {  
+    pointcut.setExpression("execution(* hello.aop.order.aop.member.MemberService.*(..))");  
+    Method internal = MemberServiceImpl.class.getMethod("internal", String.class);  
+    Assertions.assertFalse(pointcut.getMethodMatcher().matches(internal, MemberServiceImpl.class));  
+  }  
+  
+  /*  
+  (String) : String 타입의 파라메터를 받는 메서드  
+  () : 파라메터를 받지 않는 메서드  
+  (*) : 하나의 파라메터를 받는 메서드  
+  (*, *) : 두 개의 파라메터를 받는 메서드  
+  (..) : 모든 파라메터를 받는 메서드  
+  (String, ..) : 첫 번째 파라메터는 String 타입이고 나머지 파라메터는 어떤 타입이든 상관 없는 메서드  
+   */  
+  @Test  
+  @DisplayName("하나의 파라메터만 받는 메서드")  
+  void argsMatch() {  
+    pointcut.setExpression("execution(* *(*))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+  @Test  
+  @DisplayName("(), (Xxx), (Xxx, Xxx) 모든 형태의 파라메터를 받는 메서드")  
+  void argsMatchAll() {  
+    pointcut.setExpression("execution(* *(..))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+  @Test  
+  @DisplayName("String 타입의 파라메터를 받는 메서드 (String), (String, Xxx), (String, ..) 모두 매치됨")  
+  void argsMatchString() {  
+    pointcut.setExpression("execution(* *(String, ..))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+  @Test  
+  @DisplayName("파라메터 부모 타입으로 매치")  
+  void argsMatchDynamic() {  
+    // args  
+    pointcut.setExpression("args(String)");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+    pointcut.setExpression("args(Object)");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+    pointcut.setExpression("args(java.io.Serializable)");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  
+    // execution  
+    pointcut.setExpression("execution(* *(String))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+    pointcut.setExpression("execution(* *(Object))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+    pointcut.setExpression("execution(* *(java.io.Serializable))");  
+    Assertions.assertTrue(pointcut.getClassFilter().matches(MemberServiceImpl.class));  
+  }  
+  
+}
+```
+
+
+## 각종 매개변수 전달 방법
+
+```java title:"기본 환경 구성 상태"
+@Target(ElementType.TYPE)  
+@Retention(RetentionPolicy.RUNTIME)  
+public @interface ClassAop {  
+}
+
+@Target(ElementType.METHOD)  
+@Retention(RetentionPolicy.RUNTIME)  
+public @interface MethodAop {  
+  String value();  
+}
+
+public interface MemberService {  
+  public String hello(String param);  
+}
+
+@ClassAop  
+@Component  
+public class MemberServiceImpl implements MemberService {  
+  @Override  
+  @MethodAop("test value")  
+  public String hello(String param) {  
+    return "ok";  
+  }  
+  public String internal(String param) {  
+    return "internal";  
+  }  
+}
+```
+
+```java title:"매개변수 전달 방법"
+@Slf4j @SpringBootTest
+@Import(ParameterTest.ParameterAspect.class)
+public class ParameterTest {
+  @Autowired
+  MemberService memberService;
+
+  @Test
+  void success() {
+    log.info("memberService Proxy: {}", memberService.getClass());
+    memberService.hello("helloA");
+  }
+
+  @Aspect
+  static class ParameterAspect {
+    @Pointcut("execution(* hello.aop.order..*.*(..))")
+    public void alloMember() {}
+
+    // 인자 받기
+    @Around("alloMember() && args(arg, ..)")
+    public Object argsType0(ProceedingJoinPoint joinPoint, Object arg) throws Throwable {
+      Object arg1 = joinPoint.getArgs()[0];
+      log.info("[argsType0]{} arg={}", joinPoint.getSignature().toShortString(), arg1);
+      return joinPoint.proceed();
+    }
+
+    // 인자 타입 지정
+    @Before("alloMember() && args(arg, ..)")
+    public void argsType1(JoinPoint joinPoint, String arg) {
+      log.info("[argsType1]{} arg={}", joinPoint.getSignature().toShortString(), arg);
+    }
+
+    // 프록시 객체를 전달
+    @Before("alloMember() && this(obj)")
+    public void logThis(JoinPoint joinPoint, Object obj) {
+      log.info("[logThis]{} obj={}", joinPoint.getSignature().toShortString(), obj);
+    }
+
+    // 실제 대상 객체 전달
+    @Before("alloMember() && target(obj)")
+    public void logTarget(JoinPoint joinPoint, Object obj) {
+      log.info("[logTarget]{} obj={}", joinPoint.getSignature().toShortString(), obj);
+    }
+
+    // 타겟 객체의 클래스에 선언된 어노테이션 전달
+    @Before("alloMember() && @target(annotation)")
+    public void atTargetAnnotation(JoinPoint joinPoint, ClassAop annotation) {
+      log.info("[atTargetAnnotation]{} annotation={}", joinPoint.getSignature().toShortString(), annotation);
+    }
+
+    // 타겟 객체의 클래스에 선언된 어노테이션 전달
+    @Before("alloMember() && @within(annotation)")
+    public void atWithinAnnotation(JoinPoint joinPoint, ClassAop annotation) {
+      log.info("[atWithinAnnotation]{} annotation={}", joinPoint.getSignature().toShortString(), annotation);
+    }
+
+    // 메서드에 선언된 어노테이션
+    @Before("alloMember() && @annotation(annotation)")
+    public void atAnnotation(JoinPoint joinPoint, MethodAop annotation) {
+      log.info("[atAnnotation]{} annotation.value={}", joinPoint.getSignature().toShortString(), annotation.value());
+    }
+  }
+}
+```
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Annotation/@Pointcut","slugHash":"9206d4c8","content":"$14","markdownContent":"$15","title":"@Pointcut","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/공통처리","Spring/공통관심사","Annotation"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["@Pointcut"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

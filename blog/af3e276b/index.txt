@@ -1,0 +1,145 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","af3e276b",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","af3e276b","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","af3e276b","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","1ZOtDUIOYyiSVxkRri1m7",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T2566,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  사용자 관리
+                </h1>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  UserDetailsService, UserDetailsManager
+                </h2>
+<p><code>UserDetailsService</code> 는 <code>loadUserByUsername(username)</code> 으로 <code>username</code> 으로 사용자 정보를 반환하는 인터페이스<br><code>username</code> 정보만 전달하는 이유는 DB로 전달한다고 생각해보면 중간에 가 유출될 가능성이 있기 때문에 전달하지 않음<br>가 유출될 가능성이 있기 때문에 전달하지 않음
+<code>UserDetailsManager</code> 는 각종 생성 삭제 등등의 기능을 제공하는 인터페이스</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">UserDetailsManager</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">void</span> <span class="hljs-title function_">createUser</span><span class="hljs-params">(UserDetails user)</span>;  </span><span class="line"><span class="hljs-keyword">void</span> <span class="hljs-title function_">updateUser</span><span class="hljs-params">(UserDetails user)</span>;  </span><span class="line"><span class="hljs-keyword">void</span> <span class="hljs-title function_">deleteUser</span><span class="hljs-params">(String username)</span>;  </span><span class="line"><span class="hljs-keyword">void</span> <span class="hljs-title function_">changePassword</span><span class="hljs-params">(String oldPassword, String newPassword)</span>;  </span><span class="line"><span class="hljs-type">boolean</span> <span class="hljs-title function_">userExists</span><span class="hljs-params">(String username)</span>;</span></code></pre>
+        </div>
+      
+<p><code>UserDetailsManager</code>를 사용하기에는 생성과 삭제 갱신등에서 굳이 <code>Spring Security</code>가 연결될 필요는 없기 때문에 보통 <code>UserDetailsManager</code>를 사용하지 않음<br><code>InMemoryUserDetailsManager</code> 이나 <code>JdbcUserDetailsManager</code> 등 모두 그저 테스트 정도로 쓸 수 있는 것이지 실제 프로젝트에서 사용하기엔 문제가 있음</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  InMemoryUserDetailsManager
+                </h3>
+<p><code>Memory</code> 에 <code>UserDetails</code> 담아놓는 클래스</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  JdbcUserDetailsManager
+                </h3>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>SQL</title><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9v-2h2v2zm0-4H9V9h2v3zm0-5H9V5h2v2zm4 9h-2V5h2v11z"/></svg></span>
+              <span class="custom-code-block-lang-text">sql</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-sql hljs"><span class="line"><span class="hljs-keyword">create table</span> users(  </span><span class="line">                      id <span class="hljs-type">bigint</span> <span class="hljs-keyword">not null</span> <span class="hljs-keyword">primary key</span> auto_increment,  </span><span class="line">                      username varchar_ignorecase(<span class="hljs-number">50</span>) <span class="hljs-keyword">not null</span> <span class="hljs-keyword">unique</span>,  </span><span class="line">                      password varchar_ignorecase(<span class="hljs-number">500</span>) <span class="hljs-keyword">not null</span>,  </span><span class="line">                      enabled <span class="hljs-type">boolean</span> <span class="hljs-keyword">not null</span>  </span><span class="line">);  </span><span class="line">  </span><span class="line"><span class="hljs-keyword">create table</span> authorities (  </span><span class="line">                            id <span class="hljs-type">bigint</span> <span class="hljs-keyword">not null</span> <span class="hljs-keyword">primary key</span> auto_increment,  </span><span class="line">                             username varchar_ignorecase(<span class="hljs-number">50</span>) <span class="hljs-keyword">not null</span>,  </span><span class="line">                             authority varchar_ignorecase(<span class="hljs-number">50</span>) <span class="hljs-keyword">not null</span>,  </span><span class="line">                             <span class="hljs-keyword">constraint</span> fk_authorities_users <span class="hljs-keyword">foreign key</span>(username) <span class="hljs-keyword">references</span> users(username)  </span><span class="line">);  </span><span class="line"><span class="hljs-keyword">create</span> <span class="hljs-keyword">unique</span> index ix_auth_username <span class="hljs-keyword">on</span> authorities (username,authority);</span></code></pre>
+        </div>
+      
+<p>기본적으로 이런 스키마를 사용<br><br>공홈에 각 DB 마다 사용하는 내용이 정리되어 있음
+공홈에 각 DB 마다 사용하는 내용이 정리되어 있음</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  LdapUserDetailsManager
+                </h3>
+15:T980,---
+aliases:
+  - 사용자 관리
+  - UserDetailsService
+  - UserDetailsManager
+  - InMemoryUserDetailsManager
+  - JdbcUserDetailsManager
+  - LdapUserDetailsManager
+tags:
+  - Spring
+  - Spring/Security
+특징: 사용자 데이터를 관리(생성,삭제,수정,조회)
+---
+# 사용자 관리
+## UserDetailsService, UserDetailsManager
+`UserDetailsService` 는 `loadUserByUsername(username)` 으로 `username` 으로 사용자 정보를 반환하는 인터페이스
+`username` 정보만 전달하는 이유는 DB로 전달한다고 생각해보면 중간에 `password`가 유출될 가능성이 있기 때문에 전달하지 않음
+`UserDetailsManager` 는 각종 생성 삭제 등등의 기능을 제공하는 인터페이스
+```java title:"UserDetailsManager"
+void createUser(UserDetails user);  
+void updateUser(UserDetails user);  
+void deleteUser(String username);  
+void changePassword(String oldPassword, String newPassword);  
+boolean userExists(String username);
+```
+`UserDetailsManager`를 사용하기에는 생성과 삭제 갱신등에서 굳이 `Spring Security`가 연결될 필요는 없기 때문에 보통 `UserDetailsManager`를 사용하지 않음
+`InMemoryUserDetailsManager` 이나 `JdbcUserDetailsManager` 등 모두 그저 테스트 정도로 쓸 수 있는 것이지 실제 프로젝트에서 사용하기엔 문제가 있음
+### InMemoryUserDetailsManager
+`Memory` 에 `UserDetails` 담아놓는 클래스
+### JdbcUserDetailsManager
+```sql
+create table users(  
+                      id bigint not null primary key auto_increment,  
+                      username varchar_ignorecase(50) not null unique,  
+                      password varchar_ignorecase(500) not null,  
+                      enabled boolean not null  
+);  
+  
+create table authorities (  
+                            id bigint not null primary key auto_increment,  
+                             username varchar_ignorecase(50) not null,  
+                             authority varchar_ignorecase(50) not null,  
+                             constraint fk_authorities_users foreign key(username) references users(username)  
+);  
+create unique index ix_auth_username on authorities (username,authority);
+```
+
+기본적으로 이런 스키마를 사용
+https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/jdbc.html
+공홈에 각 DB 마다 사용하는 내용이 정리되어 있음
+### LdapUserDetailsManager
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Security/사용자 관리","slugHash":"af3e276b","content":"$14","markdownContent":"$15","title":"사용자 관리","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Security"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["사용자 관리","UserDetailsService","UserDetailsManager","InMemoryUserDetailsManager","JdbcUserDetailsManager","LdapUserDetailsManager"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

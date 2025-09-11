@@ -1,0 +1,138 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","bb5193d9",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","bb5193d9","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","bb5193d9","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","E1curwZhUs1LHhk7rav2h",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T152d,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  application.properties
+                </h1>
+<ul>
+<li>실행되는 파일의 바로 옆에 해당 이름으로 존재하면 Spring 설정 파일로 사용</li>
+<li>사용하는 표기법 방식은 <a href="/github-blog/blog/28964c67">케밥 표기법</a>을 사용</li>
+<li><a href="https://docs.spring.io/spring-boot/reference/features/external-config.html#features.external-config.typesafe-configuration-properties.conversion">Spring 지원 속성 변환기</a></li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  우선순위
+                </h2>
+<ul>
+<li>사실 읽는 순서대로 덮어쓰기 때문에 우선순위 발생</li>
+<li>더 유연한 것이 우선권을 가짐</li>
+<li>범위가 넓은 것 보다 좁은 것이 우선권을 가짐</li>
+</ul>
+<ol>
+<li>jar 외부 <code>application-{profile}.properties</code></li>
+<li>jar 외부 <code>application.properties</code></li>
+<li>jar 내부 <code>application-{profile}.properties</code></li>
+<li>jar 내부 <code>application.properties</code></li>
+</ol>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  외부 파일 분리 사용 방법
+                </h2>
+<ul>
+<li><code>src/main/resources/application.properties</code> 에서 각 상황에 맞는 profile 지정 가능<br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250115135027.png" alt="Pasted image 20250115135027.png" style=""></li>
+<li><code>--spring.profiles.active=dev</code> 외부 데이터를 통해 지정 (다중 선택도 가능, 중복일 경우 마지막에 읽는 것을 덮어 씌움)</li>
+<li>ex ) <code>java -Dspring.profiles.active=prod -jar external-0.0.1-SNAPSHOT.jar</code></li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  외부 파일 합체 사용 방법
+                </h2>
+<ul>
+<li>하나의 파일에서 profile 구분하여 설정</li>
+<li><code>properties</code>에서 하나의 프로파일 구분으로 <code>#---</code> 또는 <code>!---</code> 사용하여 구간을 분리</li>
+<li><code>yml</code>에서 하나의 프로파일 구분 방법으로 <code>---</code> 으로 구분</li>
+<li><strong>주의</strong> : 구분 기호에는 선행 공백 또는 주석이 있어서는 안됨</li>
+<li>이름을 정하는 방법으로 <code>spring.config.activate.on-profile</code> 사용</li>
+<li><strong>주의 : 아무것도 지정하지 않는다면 default 가 선택(default 는 <code>spring.config.activate.on-profile</code>를 지정하지 않은 것을 말함</strong></li>
+<li>값 세팅은 위에서 아래로 읽어서 저장(같은 Key 사용의 경우 마지막에 저장되는걸 덮음)</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">properties</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-properties hljs"><span class="line"><span class="hljs-attr">url</span>=<span class="hljs-string">normal.db.com</span></span><span class="line"><span class="hljs-attr">username</span>=<span class="hljs-string">normal_user</span></span><span class="line"><span class="hljs-attr">password</span>=<span class="hljs-string">normal_password</span></span><span class="line"><span class="hljs-comment">#---</span></span><span class="line"><span class="hljs-attr">spring.config.activate.on-profile</span>=<span class="hljs-string">dev</span></span><span class="line"><span class="hljs-attr">url</span>=<span class="hljs-string">dev.db.com</span></span><span class="line"><span class="hljs-attr">username</span>=<span class="hljs-string">dev_user</span></span><span class="line"><span class="hljs-attr">password</span>=<span class="hljs-string">dev_password</span></span><span class="line"><span class="hljs-comment">#---</span></span><span class="line"><span class="hljs-attr">spring.config.activate.on-profile</span>=<span class="hljs-string">prod</span></span><span class="line"><span class="hljs-attr">url</span>=<span class="hljs-string">prod.db.com</span></span><span class="line"><span class="hljs-attr">username</span>=<span class="hljs-string">prod_user</span></span><span class="line"><span class="hljs-attr">password</span>=<span class="hljs-string">prod_password</span></span></code></pre>
+        </div>
+      
+15:T921,---
+aliases:
+  - application.properties
+tags:
+  - Spring
+  - Spring/Configration
+특징: 외부 설정 파일
+---
+# application.properties
+- 실행되는 파일의 바로 옆에 해당 이름으로 존재하면 Spring 설정 파일로 사용
+- 사용하는 표기법 방식은 [[2.Ref(데이터 및 정보 저장)/개발 이론/Kebab Case|케밥 표기법]]을 사용
+- [Spring 지원 속성 변환기](https://docs.spring.io/spring-boot/reference/features/external-config.html#features.external-config.typesafe-configuration-properties.conversion)
+## 우선순위
+- 사실 읽는 순서대로 덮어쓰기 때문에 우선순위 발생
+- 더 유연한 것이 우선권을 가짐
+- 범위가 넓은 것 보다 좁은 것이 우선권을 가짐
+1. jar 외부 `application-{profile}.properties`
+2. jar 외부 `application.properties`
+3. jar 내부 `application-{profile}.properties`
+4. jar 내부 `application.properties`
+## 외부 파일 분리 사용 방법
+- `src/main/resources/application.properties` 에서 각 상황에 맞는 profile 지정 가능
+![[config/AttachedFile/Pasted image 20250115135027.png]]
+- `--spring.profiles.active=dev` 외부 데이터를 통해 지정 (다중 선택도 가능, 중복일 경우 마지막에 읽는 것을 덮어 씌움)
+- ex ) `java -Dspring.profiles.active=prod -jar external-0.0.1-SNAPSHOT.jar`
+## 외부 파일 합체 사용 방법
+- 하나의 파일에서 profile 구분하여 설정
+- `properties`에서 하나의 프로파일 구분으로 `#---` 또는 `!---` 사용하여 구간을 분리
+- `yml`에서 하나의 프로파일 구분 방법으로 `---` 으로 구분
+- **주의** : 구분 기호에는 선행 공백 또는 주석이 있어서는 안됨
+- 이름을 정하는 방법으로 `spring.config.activate.on-profile` 사용
+- **주의 : 아무것도 지정하지 않는다면 default 가 선택(default 는 `spring.config.activate.on-profile`를 지정하지 않은 것을 말함**
+- 값 세팅은 위에서 아래로 읽어서 저장(같은 Key 사용의 경우 마지막에 저장되는걸 덮음)
+```properties
+url=normal.db.com
+username=normal_user
+password=normal_password
+#---
+spring.config.activate.on-profile=dev
+url=dev.db.com
+username=dev_user
+password=dev_password
+#---
+spring.config.activate.on-profile=prod
+url=prod.db.com
+username=prod_user
+password=prod_password
+```5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Configuration/application.properties","slugHash":"bb5193d9","content":"$14","markdownContent":"$15","title":"application.properties","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Configration"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["application.properties"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

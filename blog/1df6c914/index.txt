@@ -1,0 +1,395 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","1df6c914",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","1df6c914","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","1df6c914","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","M8aLKaLWqEdCFCi-0i2Kl",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T5320,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  데이터 접근
+                </h1>
+<p>보통 95% 는 <a href="/github-blog/blog/27ba878e">JPA</a> 사용<br>일부 5% 정도는 복잡한 쿼리 수행을 위해 <a href="#"></a> 사용하여 처리<br>복잡한 쿼리가 많을 수록 사용 비중이 높아질 수 있음<br>트랜잭션 메니저는 <a href="#"></a> 사용하여 처리
+복잡한 쿼리가 많을 수록 사용 비중이 높아질 수 있음
+트랜잭션 메니저는 <code>JpaTransactionManager</code> 그대로 사용하는 것을 추천</p>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  JDBC(Java Database Connectivity)
+                </h1>
+<p><img src="/github-blog/images/AttachedFile/Pasted%20image%2020240517151106.png" alt="Pasted image 20240517151106.png" style="width:600px"></p>
+<blockquote>
+<p>이전에는 모두 다 방법이 달랐기 때문에 그 방법을 공통으로 사용할 인터페이스를 만든 것이 JDBC</p>
+</blockquote>
+<p>1997년 출시된 기술이기 때문에 사용 방법이 복잡하기에 편리하게 사용하기 위한 다양한 기술의 발전</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  JDBC를 편하게 사용하기 위해 만들어진 기술
+                </h2>
+<ul>
+<li>SQL Mapper</li>
+<li>ORM</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  SQL Mapper
+                </h2>
+<p>SQL만 작성하면 SQL 결과를 객체로 편리하게 매핑<br>JDBC 직접 사용시 발생하는 여러 중복을 제거<br>개발자에게 여러가지 편리한 기능 제공</p>
+<ul>
+<li>장점
+<ul>
+<li>JDBC 편리하게 사용하도록 도움</li>
+<li>JDBC 반복 코드 제거</li>
+</ul>
+</li>
+<li>단점
+<ul>
+<li>개발자가 SQL 직접 작성</li>
+</ul>
+</li>
+<li>대표 기술
+<ul>
+<li><code>JdbcTemplate</code></li>
+<li><code>Mybatis</code></li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  ORM
+                </h2>
+<p>관계형 데이터 베이스 테이블과 매핑해주는 기술<br>반복적인 SQL 직접 작성할 필요 없음<br>SQL 동적으로 사용</p>
+<ul>
+<li>대표 기술
+<ul>
+<li><a href="/github-blog/blog/27ba878e">JPA</a> (인터페이스)
+<ul>
+<li>JPA 구현체
+<ul>
+<li>JPA Hibernate(하이버네이트)[표준]</li>
+<li>이클립스링크<br><code>Spring Data JPA</code>,<a href="/github-blog/blog/b68b5b08">QueryDSL</a> <a href="/github-blog/blog/27ba878e">JPA</a>  더 편리하게 사용할 수 있게 도와주는 프로젝트</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  JDBC 동작 구조
+                </h2>
+<p>DriverManager(라이브러리에 등록된 모든 DB 드라이브) 를 통해서 getConnection 으로 URL 등을 가지고 등록된 Driver 모두 확인 해서 JdbcConnection 을 전달<br>SQL Injection 당하지 않기 위해 <span class="custom-inline-code"><code class="hljs java"><span class="hljs-type">String</span> <span class="hljs-variable">sql</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;insert into member(member_id, money) values(?, ?)&quot;</span>;</code></span> 이런 형식으로 ? 형태를 취함. ? 말고 문자열을 넣으면 문자열에다가 insert 문을 넣을수도 있잖아?</p>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  커넥션 풀
+                </h1>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">plantuml</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-plantuml hljs"><span class="line"><span class="hljs-variable">@startuml</span></span><span class="line">앱로직 -&gt; DB드라이버 : 커넥션 조회</span><span class="line">DB드라이버 -&gt; <span class="hljs-attribute">DB </span>: 커넥션 연결을 위한 준비(TCP/IP)</span><span class="line">DB드라이버 -&gt; <span class="hljs-attribute">DB </span>: ID,PW 부가정보 전달</span><span class="line">DB -&gt; <span class="hljs-attribute">DB </span>: 내부 인증 및 세션 생성</span><span class="line">DB -&gt; DB드라이버 : 세션 생성 완료 했기에 커넥션 완료됨을 응답</span><span class="line">DB드라이버 -&gt; 앱로직 : 커넥션 반환</span><span class="line"><span class="hljs-variable">@enduml</span></span></code></pre>
+        </div>
+      
+<p>해당 과정을 사용자마다 생성하기에는 번거롭고 시간이 많이 걸리기 때문에 한번에 만들어 놓는 방법을 커넥션 풀이라 함</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">plantuml</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-plantuml hljs"><span class="line">autonumber</span><span class="line">participant 앱로직 <span class="hljs-keyword">as</span> 앱로직</span><span class="line">participant DB드라이버 <span class="hljs-keyword">as</span> DB드라이버 </span><span class="line">participant 커넥션풀 <span class="hljs-keyword">as</span> 커넥션풀</span><span class="line">participant DB <span class="hljs-keyword">as</span> DB</span><span class="line">&nbsp;</span><span class="line">DB드라이버 -&gt; DB : 커넥션 연결 요청 *N</span><span class="line">DB -&gt; DB드라이버 : 커넥션 *N</span><span class="line">DB드라이버 -&gt; 커넥션풀 : 커넥션 *N개 저장</span><span class="line">앱로직 -&gt; DB드라이버 : 커넥션 조회</span><span class="line">DB드라이버 -&gt; 커넥션풀 : 커넥션 요청</span><span class="line">커넥션풀 -&gt; DB드라이버 : 커넥션 반환</span><span class="line">DB드라이버 -&gt; 앱로직 : 커넥션 전달</span><span class="line">앱로직 -&gt; 앱로직 : 커넥션 사용</span><span class="line">앱로직 -&gt; DB드라이버 : 커넥션 반환</span><span class="line">DB드라이버 -&gt; 커넥션풀 : 커넥션 반환</span></code></pre>
+        </div>
+      
+<p>정해진 개수의 커넥션만 연결하기 때문에 커넥션 제한 가능<br>미리 등록 하기 때문에 연결에 필요한 시간을 아낄 수 있음</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  대표적인 커넥션 풀 구현한 오픈소스
+                </h2>
+<ul>
+<li>commons-dbcp2</li>
+<li>tomcat-jdbc</li>
+<li>HikariCP</li>
+</ul>
+<p><a href="/github-blog/blog/7e79a0e3">DataSource</a><br><a href="/github-blog/blog/9146f4f2">1.Exception</a><br><a href="/github-blog/blog/ea46ca3e">JdbcTemplate</a><br><a href="/github-blog/blog/d0ba003b">Transaction</a></p>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  테스트
+                </h1>
+<p>#TEST</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  트랜잭션을 이용한 롤백 방법
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">트랜잭션을 이용한 롤백 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@SpringBootTest</span></span><span class="line"><span class="hljs-keyword">class</span> <span class="hljs-title class_">ItemRepositoryTest</span> {</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@Autowired</span></span><span class="line">    ItemRepository itemRepository;</span><span class="line">&nbsp;</span><span class="line highlighted-line">    <span class="hljs-meta">@Autowired</span></span><span class="line highlighted-line">    PlatformTransactionManager transactionManager;</span><span class="line highlighted-line">    TransactionStatus transactionStatus;</span><span class="line">&nbsp;</span><span class="line highlighted-line">    <span class="hljs-meta">@BeforeEach</span></span><span class="line highlighted-line">    <span class="hljs-keyword">void</span> <span class="hljs-title function_">beforeEach</span><span class="hljs-params">()</span> {</span><span class="line highlighted-line">        transactionStatus = transactionManager.getTransaction(<span class="hljs-keyword">new</span> <span class="hljs-title class_">DefaultTransactionDefinition</span>());</span><span class="line highlighted-line">    }</span><span class="line">&nbsp;</span><span class="line highlighted-line">    <span class="hljs-meta">@AfterEach</span></span><span class="line highlighted-line">    <span class="hljs-keyword">void</span> <span class="hljs-title function_">afterEach</span><span class="hljs-params">()</span> {</span><span class="line highlighted-line">        <span class="hljs-comment">//MemoryItemRepository 의 경우 제한적으로 사용</span></span><span class="line highlighted-line">        <span class="hljs-keyword">if</span> (itemRepository <span class="hljs-keyword">instanceof</span> MemoryItemRepository) {</span><span class="line highlighted-line">            ((MemoryItemRepository) itemRepository).clearStore();</span><span class="line highlighted-line">        }</span><span class="line highlighted-line">        transactionManager.rollback(transactionStatus);</span><span class="line highlighted-line">    }</span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                   이용한 롤백 방법
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">@Transactional 이용한 테스트 완료 후 rollback 방법 </span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line highlighted-line"><span class="hljs-meta">@Transactional</span></span><span class="line"><span class="hljs-meta">@SpringBootTest</span></span><span class="line"><span class="hljs-keyword">class</span> <span class="hljs-title class_">ItemRepositoryTest</span> {</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@Autowired</span></span><span class="line">    ItemRepository itemRepository;</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment">//    @Autowired</span></span><span class="line"><span class="hljs-comment">//    PlatformTransactionManager transactionManager;</span></span><span class="line"><span class="hljs-comment">//    TransactionStatus transactionStatus;</span></span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@BeforeEach</span></span><span class="line">    <span class="hljs-keyword">void</span> <span class="hljs-title function_">beforeEach</span><span class="hljs-params">()</span> {</span><span class="line"><span class="hljs-comment">//        transactionStatus = transactionManager.getTransaction(new DefaultTransactionDefinition());</span></span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@AfterEach</span></span><span class="line">    <span class="hljs-keyword">void</span> <span class="hljs-title function_">afterEach</span><span class="hljs-params">()</span> {</span><span class="line">        <span class="hljs-comment">//MemoryItemRepository 의 경우 제한적으로 사용</span></span><span class="line">        <span class="hljs-keyword">if</span> (itemRepository <span class="hljs-keyword">instanceof</span> MemoryItemRepository) {</span><span class="line">            ((MemoryItemRepository) itemRepository).clearStore();</span><span class="line">        }</span><span class="line"><span class="hljs-comment">//        transactionManager.rollback(transactionStatus);</span></span><span class="line">    }</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  강제 커밋하기
+                </h3>
+<p>테스트에서는 강제로 <code>rollback</code> 동작하지만 이걸 막고 <code>commit</code> 을 하고 싶다면 하고 싶은 함수 위에 <a href="/github-blog/blog/9e9671d9">@Commit</a> 또는 <a href="/github-blog/blog/4eac091f">@Rollback</a> 값으로 <code>false</code> 전달</p>
+<p><a href="/github-blog/blog/919fb040">H2</a></p>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  DB 초기 DDL 설정
+                </h1>
+<p><code>resource/schema.sql</code> 넣으면 자동으로 설정<br>test 의 경우 <code>test/resource/schema.sql</code> 사용</p>
+<p><a href="/github-blog/blog/43ce586b">MyBatis</a><br><a href="/github-blog/blog/27ba878e">JPA</a></p>
+15:T1920,---
+noteID: bddebae2-db4d-47c2-8c9d-ab3e6799cfbd
+aliases:
+  - JDBC
+  - 데이터 접근 핵심 원리
+tags:
+  - Spring
+  - spring/Repository
+특징: 
+---
+# 데이터 접근
+보통 95% 는 [[2.Ref(데이터 및 정보 저장)/Spring/JPA/JPA|JPA]] 사용
+일부 5% 정도는 복잡한 쿼리 수행을 위해 [[#JdbcTemplate]] 또는 [[#MyBatis]] 사용하여 처리
+복잡한 쿼리가 많을 수록 사용 비중이 높아질 수 있음
+트랜잭션 메니저는 `JpaTransactionManager` 그대로 사용하는 것을 추천
+
+
+# JDBC(Java Database Connectivity)
+![[config/AttachedFile/Pasted image 20240517151106.png|600]]
+> 이전에는 모두 다 방법이 달랐기 때문에 그 방법을 공통으로 사용할 인터페이스를 만든 것이 JDBC
+
+1997년 출시된 기술이기 때문에 사용 방법이 복잡하기에 편리하게 사용하기 위한 다양한 기술의 발전
+## JDBC를 편하게 사용하기 위해 만들어진 기술
+- SQL Mapper
+- ORM
+
+## SQL Mapper
+SQL만 작성하면 SQL 결과를 객체로 편리하게 매핑
+JDBC 직접 사용시 발생하는 여러 중복을 제거
+개발자에게 여러가지 편리한 기능 제공
+ - 장점
+	 - JDBC 편리하게 사용하도록 도움
+	 - JDBC 반복 코드 제거
+ - 단점
+	 - 개발자가 SQL 직접 작성
+ - 대표 기술
+	 - `JdbcTemplate`
+	 - `Mybatis`
+## ORM
+관계형 데이터 베이스 테이블과 매핑해주는 기술
+반복적인 SQL 직접 작성할 필요 없음
+SQL 동적으로 사용
+- 대표 기술
+	- [[2.Ref(데이터 및 정보 저장)/Spring/JPA/JPA|JPA]] (인터페이스)
+		- JPA 구현체
+			-  JPA Hibernate(하이버네이트)[표준]
+			- 이클립스링크
+`Spring Data JPA`,[[2.Ref(데이터 및 정보 저장)/Spring/Repository/QueryDSL]] [[2.Ref(데이터 및 정보 저장)/Spring/JPA/JPA|JPA]]  더 편리하게 사용할 수 있게 도와주는 프로젝트
+## JDBC 동작 구조
+DriverManager(라이브러리에 등록된 모든 DB 드라이브) 를 통해서 getConnection 으로 URL 등을 가지고 등록된 Driver 모두 확인 해서 JdbcConnection 을 전달
+SQL Injection 당하지 않기 위해 `{java}String sql = "insert into member(member_id, money) values(?, ?)";` 이런 형식으로 ? 형태를 취함. ? 말고 문자열을 넣으면 문자열에다가 insert 문을 넣을수도 있잖아?
+# 커넥션 풀
+```plantuml
+@startuml
+앱로직 -> DB드라이버 : 커넥션 조회
+DB드라이버 -> DB : 커넥션 연결을 위한 준비(TCP/IP)
+DB드라이버 -> DB : ID,PW 부가정보 전달
+DB -> DB : 내부 인증 및 세션 생성
+DB -> DB드라이버 : 세션 생성 완료 했기에 커넥션 완료됨을 응답
+DB드라이버 -> 앱로직 : 커넥션 반환
+@enduml
+```
+해당 과정을 사용자마다 생성하기에는 번거롭고 시간이 많이 걸리기 때문에 한번에 만들어 놓는 방법을 커넥션 풀이라 함
+
+```plantuml
+autonumber
+participant 앱로직 as 앱로직
+participant DB드라이버 as DB드라이버 
+participant 커넥션풀 as 커넥션풀
+participant DB as DB
+
+DB드라이버 -> DB : 커넥션 연결 요청 *N
+DB -> DB드라이버 : 커넥션 *N
+DB드라이버 -> 커넥션풀 : 커넥션 *N개 저장
+앱로직 -> DB드라이버 : 커넥션 조회
+DB드라이버 -> 커넥션풀 : 커넥션 요청
+커넥션풀 -> DB드라이버 : 커넥션 반환
+DB드라이버 -> 앱로직 : 커넥션 전달
+앱로직 -> 앱로직 : 커넥션 사용
+앱로직 -> DB드라이버 : 커넥션 반환
+DB드라이버 -> 커넥션풀 : 커넥션 반환
+```
+
+정해진 개수의 커넥션만 연결하기 때문에 커넥션 제한 가능
+미리 등록 하기 때문에 연결에 필요한 시간을 아낄 수 있음
+
+## 대표적인 커넥션 풀 구현한 오픈소스
+- commons-dbcp2
+- tomcat-jdbc
+- HikariCP
+
+[[2.Ref(데이터 및 정보 저장)/Spring/Repository/DataSource|DataSource]]
+[[2.Ref(데이터 및 정보 저장)/Spring/Exception/1.Exception|1.Exception]]
+[[2.Ref(데이터 및 정보 저장)/Spring/Repository/JdbcTemplate|JdbcTemplate]]
+[[2.Ref(데이터 및 정보 저장)/Spring/Repository/1.Transaction|Transaction]]
+# 테스트
+#TEST
+## 트랜잭션을 이용한 롤백 방법
+```java title:"트랜잭션을 이용한 롤백 방법" hl:7-9,11-14,16-23
+@SpringBootTest
+class ItemRepositoryTest {
+
+    @Autowired
+    ItemRepository itemRepository;
+
+    @Autowired
+    PlatformTransactionManager transactionManager;
+    TransactionStatus transactionStatus;
+
+    @BeforeEach
+    void beforeEach() {
+        transactionStatus = transactionManager.getTransaction(new DefaultTransactionDefinition());
+    }
+
+    @AfterEach
+    void afterEach() {
+        //MemoryItemRepository 의 경우 제한적으로 사용
+        if (itemRepository instanceof MemoryItemRepository) {
+            ((MemoryItemRepository) itemRepository).clearStore();
+        }
+        transactionManager.rollback(transactionStatus);
+    }
+}
+```
+
+## [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Transactional|@Transactional]] 이용한 롤백 방법
+```java title:"@Transactional 이용한 테스트 완료 후 rollback 방법 " hl:1
+@Transactional
+@SpringBootTest
+class ItemRepositoryTest {
+
+    @Autowired
+    ItemRepository itemRepository;
+
+//    @Autowired
+//    PlatformTransactionManager transactionManager;
+//    TransactionStatus transactionStatus;
+
+    @BeforeEach
+    void beforeEach() {
+//        transactionStatus = transactionManager.getTransaction(new DefaultTransactionDefinition());
+    }
+
+    @AfterEach
+    void afterEach() {
+        //MemoryItemRepository 의 경우 제한적으로 사용
+        if (itemRepository instanceof MemoryItemRepository) {
+            ((MemoryItemRepository) itemRepository).clearStore();
+        }
+//        transactionManager.rollback(transactionStatus);
+    }
+```
+### 강제 커밋하기
+테스트에서는 강제로 `rollback` 동작하지만 이걸 막고 `commit` 을 하고 싶다면 하고 싶은 함수 위에 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Commit|@Commit]] 또는 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Rollback|@Rollback]] 값으로 `false` 전달
+
+[[2.Ref(데이터 및 정보 저장)/Spring/Repository/H2]]
+# DB 초기 DDL 설정
+`resource/schema.sql` 넣으면 자동으로 설정
+test 의 경우 `test/resource/schema.sql` 사용
+
+[[2.Ref(데이터 및 정보 저장)/Spring/Repository/MyBatis|MyBatis]]
+[[2.Ref(데이터 및 정보 저장)/Spring/JPA/JPA|JPA]]
+
+
+
+
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Repository/🌱1.데이터 접근 핵심 원리","slugHash":"1df6c914","content":"$14","markdownContent":"$15","title":"🌱1.데이터 접근 핵심 원리","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","spring/Repository"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["JDBC","데이터 접근 핵심 원리"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

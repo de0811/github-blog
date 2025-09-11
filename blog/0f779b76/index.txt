@@ -1,0 +1,514 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","0f779b76",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","0f779b76","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","0f779b76","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","FotcMNOzcsBMbJD04mTCw",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T91ae,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  Multipart 설정
+                </h1>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">properties</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-properties hljs"><span class="line"><span class="hljs-comment"># 파일 하나의 최대 사이즈, 기본 1MB</span></span><span class="line"><span class="hljs-attr">spring.servlet.multipart.max-file-size</span>=<span class="hljs-string">1MB</span></span><span class="line"><span class="hljs-comment"># 멀티파트 요청 하나에 여러 파일을 업로드 할 수 있는데, 그 전체 합 기본 10MB</span></span><span class="line"><span class="hljs-attr">spring.servlet.multipart.max-request-size</span>=<span class="hljs-string">10MB</span></span><span class="line"><span class="hljs-comment"># multipart 기능을 끄고 켤지 선택 (default:true)</span></span><span class="line"><span class="hljs-attr">spring.servlet.multipart.enabled</span>=<span class="hljs-string">true</span></span></code></pre>
+        </div>
+      
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  폼 전송하는 방식
+                </h1>
+<ul>
+<li><code>application/x-www-form-urlencoded</code></li>
+<li><code>multipart/form-data</code></li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  application/x-www-form-urlencoded
+                </h2>
+<p>폼으로 파일 첨부가 아닌 단순 데이터 전달의 모습</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">html</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-html hljs"><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;/save&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;post&quot;</span>&gt;</span></span><span class="line">	<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;username&quot;</span>/&gt;</span></span><span class="line">	<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;age&quot;</span>/&gt;</span></span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p>해당 폼의 형태를 데이터로 전송하게 되면 아래 모습으로 전달</p>
+</blockquote>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">http</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-http hljs"><span class="line"><span class="hljs-keyword">POST</span> <span class="hljs-string">/save</span> <span class="hljs-meta">HTTP/1.1</span></span><span class="line"><span class="hljs-attribute">Host</span><span class="hljs-punctuation">: </span>localhost:8080</span><span class="line">Content-Type:application/x-www-form-urlencoded</span><span class="line">&nbsp;</span><span class="line"><span class="language-ini"><span class="hljs-attr">username</span>=kim&amp;age=<span class="hljs-number">20</span></span></span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  multipart/form-data
+                </h2>
+<p>파일 전송을 위한 form 사용</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">html</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-html hljs"><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">action</span>=<span class="hljs-string">&quot;/save&quot;</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;post&quot;</span> <span class="hljs-attr">enctype</span>=<span class="hljs-string">&quot;multipart/form-data&quot;</span>&gt;</span></span><span class="line">	<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;username&quot;</span>/&gt;</span></span><span class="line">	<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;age&quot;</span>/&gt;</span></span><span class="line">	<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;file&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;file1&quot;</span>/&gt;</span></span><span class="line">	<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span>&gt;</span>전송<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span></span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p>해당 폼의 형태를 데이터로 전송하게 되면 아래 모습으로 전달</p>
+</blockquote>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">http</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-http hljs"><span class="line"><span class="hljs-keyword">POST</span> <span class="hljs-string">/save</span> <span class="hljs-meta">HTTP/1.1</span></span><span class="line"><span class="hljs-attribute">Host</span><span class="hljs-punctuation">: </span>localhost:8080</span><span class="line"><span class="hljs-attribute">Content-Type</span><span class="hljs-punctuation">: </span>multipart/form-data; boundary=-----XXX</span><span class="line">-----XXX</span><span class="line">Content-Disposition:form-data;name=&quot;username&quot;</span><span class="line">&nbsp;</span><span class="line"><span class="language-ruby">kim</span><span class="line">-----<span class="hljs-variable constant_">XXX</span></span><span class="line"><span class="hljs-title class_">Content</span>-<span class="hljs-title class_">Disposition</span><span class="hljs-symbol">:form-data</span>;name=<span class="hljs-string">&quot;age&quot;</span></span><span class="line">&nbsp;</span><span class="line"><span class="hljs-number">20</span></span><span class="line">-----<span class="hljs-variable constant_">XXX</span></span><span class="line"><span class="hljs-title class_">Content</span>-<span class="hljs-title class_">Disposition</span><span class="hljs-symbol">:form-data</span>;name=<span class="hljs-string">&quot;file1&quot;</span>;filename=<span class="hljs-string">&quot;intro.png&quot;</span></span><span class="line"><span class="hljs-title class_">Content</span>-<span class="hljs-title class_">Type</span><span class="hljs-symbol">:image/png</span></span><span class="line">&nbsp;</span><span class="line">109238a9o0p3eqwokjasd09ou3oirjwoe9u34ouief...</span><span class="line">-----<span class="hljs-variable constant_">XXX</span>--</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p>맨 끝에는 -- 두개를 붙여서 마지막인것을 알림</p>
+</blockquote>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  처리 방법
+                </h3>
+<p>서블릿에 의한 처리 방법으로는 <a href="/github-blog/blog/bc7d8005">Part</a>를 이용한 방법이 있으며 몇가지 단점이 있기 때문에 Spring 에서는 <a href="/github-blog/blog/32bd1093">MultipartFile</a> 를 제공</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  MultipartHttpServletRequest
+                </h3>
+<p><code>spring.servlet.multipart.enabled=true</code> 일 경우 <code>MultipartResolver</code> 실행<br><code>MultipartResolver</code>는 멀티파트 요청인 경우 서블릿 컨테이너가 전달하는 <code>HttpServletRequest</code>가 아닌 로 변환하여 반환<br>보통 로 변환하여 반환
+보통 를 사용하는 것보다 편의성이 높기 때문에 따로 특별히 사용하지 않음<br>해당 인터페이스의 구현체는 을 사용하는 것이 <code>MultipartHttpServletRequest</code>를 사용하는 것보다 편의성이 높기 때문에 따로 특별히 사용하지 않음
+해당 인터페이스의 구현체는 <code>StandardMultipartHttpServletRequest</code>이 있음</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  혹시나 전체 메시지를 보고 싶다면
+                </h3>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">http</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-http hljs"><span class="line"><span class="hljs-keyword">POST</span> <span class="hljs-string">/servlet/v1/upload</span> <span class="hljs-meta">HTTP/1.1</span></span><span class="line"><span class="hljs-attribute">Host</span><span class="hljs-punctuation">: </span>localhost:8080</span><span class="line"><span class="hljs-attribute">Connection</span><span class="hljs-punctuation">: </span>keep-alive</span><span class="line"><span class="hljs-attribute">Content-Length</span><span class="hljs-punctuation">: </span>300</span><span class="line"><span class="hljs-attribute">Cache-Control</span><span class="hljs-punctuation">: </span>max-age=0</span><span class="line"><span class="hljs-attribute">sec-ch-ua</span><span class="hljs-punctuation">: </span>&quot;Not A(Brand&quot;;v=&quot;99&quot;, &quot;Google Chrome&quot;;v=&quot;121&quot;, &quot;Chromium&quot;;v=&quot;121&quot;</span><span class="line"><span class="hljs-attribute">sec-ch-ua-mobile</span><span class="hljs-punctuation">: </span>?0</span><span class="line"><span class="hljs-attribute">sec-ch-ua-platform</span><span class="hljs-punctuation">: </span>&quot;macOS&quot;</span><span class="line"><span class="hljs-attribute">Upgrade-Insecure-Requests</span><span class="hljs-punctuation">: </span>1</span><span class="line"><span class="hljs-attribute">Origin</span><span class="hljs-punctuation">: </span>http://localhost:8080</span><span class="line"><span class="hljs-attribute">Content-Type</span><span class="hljs-punctuation">: </span>multipart/form-data; boundary=----WebKitFormBoundaryjB3BUHmwUYmhhk6R</span><span class="line"><span class="hljs-attribute">User-Agent</span><span class="hljs-punctuation">: </span>Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36</span><span class="line"><span class="hljs-attribute">Accept</span><span class="hljs-punctuation">: </span>text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7</span><span class="line"><span class="hljs-attribute">Sec-Fetch-Site</span><span class="hljs-punctuation">: </span>same-origin</span><span class="line"><span class="hljs-attribute">Sec-Fetch-Mode</span><span class="hljs-punctuation">: </span>navigate</span><span class="line"><span class="hljs-attribute">Sec-Fetch-User</span><span class="hljs-punctuation">: </span>?1</span><span class="line"><span class="hljs-attribute">Sec-Fetch-Dest</span><span class="hljs-punctuation">: </span>document</span><span class="line"><span class="hljs-attribute">Referer</span><span class="hljs-punctuation">: </span>http://localhost:8080/servlet/v1/upload</span><span class="line"><span class="hljs-attribute">Accept-Encoding</span><span class="hljs-punctuation">: </span>gzip, deflate, br</span><span class="line"><span class="hljs-attribute">Accept-Language</span><span class="hljs-punctuation">: </span>ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7</span><span class="line"><span class="hljs-attribute">Cookie</span><span class="hljs-punctuation">: </span>JSESSIONID=8BFC73DC7BCB55B7AFF1559F734A293E</span><span class="line">&nbsp;</span><span class="line"><span class="language-pgsql"><span class="hljs-comment">------WebKitFormBoundaryjB3BUHmwUYmhhk6R</span></span><span class="line">Content-Disposition: form-data; <span class="hljs-type">name</span>=&quot;itemName&quot;</span><span class="line">&nbsp;</span><span class="line">sanwa</span><span class="line"><span class="hljs-comment">------WebKitFormBoundaryjB3BUHmwUYmhhk6R</span></span><span class="line">Content-Disposition: form-data; <span class="hljs-type">name</span>=&quot;file&quot;; filename=&quot;test.txt&quot;</span><span class="line">Content-<span class="hljs-keyword">Type</span>: <span class="hljs-type">text</span>/plain</span><span class="line">&nbsp;</span><span class="line">Hello I<span class="hljs-string">&#x27;m dongmin</span><span class="line">&nbsp;</span><span class="line">------WebKitFormBoundaryjB3BUHmwUYmhhk6R--</span></span></span></code></pre>
+        </div>
+      
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  업로드
+                </h1>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">html</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-html hljs"><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">form</span> <span class="hljs-attr">th:action</span> <span class="hljs-attr">method</span>=<span class="hljs-string">&quot;post&quot;</span> <span class="hljs-attr">enctype</span>=<span class="hljs-string">&quot;multipart/form-data&quot;</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">ul</span>&gt;</span>  </span><span class="line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>상품명 <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;text&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;itemName&quot;</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  </span><span class="line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>첨부파일<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;file&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;attachFile&quot;</span> &gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  </span><span class="line">        <span class="hljs-tag">&lt;<span class="hljs-name">li</span>&gt;</span>이미지들<span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;file&quot;</span> <span class="hljs-attr">multiple</span>=<span class="hljs-string">&quot;multiple&quot;</span> <span class="hljs-attr">name</span>=<span class="hljs-string">&quot;imageFiles&quot;</span> &gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">li</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;/<span class="hljs-name">ul</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">input</span> <span class="hljs-attr">type</span>=<span class="hljs-string">&quot;submit&quot;</span>/&gt;</span></span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">form</span>&gt;</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p>해당 Form 으로 전달할 때</p>
+</blockquote>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@PostMapping(&quot;/upload&quot;)</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">upload</span><span class="hljs-params">(<span class="hljs-meta">@RequestParam</span> String itemName,  </span><span class="line">                   <span class="hljs-meta">@RequestParam</span> List&lt;MultipartFile&gt; imageFiles,  </span><span class="line">                   <span class="hljs-meta">@RequestParam</span> MultipartFile attachFile)</span> <span class="hljs-keyword">throws</span> IOException {  </span><span class="line">  log.info(<span class="hljs-string">&quot;itemName={}&quot;</span>, itemName);  </span><span class="line">  log.info(<span class="hljs-string">&quot;imageFiles={}&quot;</span>, imageFiles);  </span><span class="line">  log.info(<span class="hljs-string">&quot;attachFile={}&quot;</span>, attachFile);  </span><span class="line">    attachFile.transferTo(<span class="hljs-keyword">new</span> <span class="hljs-title class_">File</span>(fileStore.getFullPath(attachFile.getOriginalFilename())));  </span><span class="line">    imageFiles.forEach(imageFile -&gt; {  </span><span class="line">      log.info(<span class="hljs-string">&quot;imageFile={}&quot;</span>, imageFile.getOriginalFilename());  </span><span class="line">      <span class="hljs-keyword">try</span> {  </span><span class="line">        imageFile.transferTo(<span class="hljs-keyword">new</span> <span class="hljs-title class_">File</span>(fileStore.getFullPath(imageFile.getOriginalFilename())));  </span><span class="line">      } <span class="hljs-keyword">catch</span> (IOException e) {  </span><span class="line">        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">RuntimeException</span>(e);  </span><span class="line">      }  </span><span class="line">    });  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<p><code>transferTo(특정경로|저장할File)</code></p>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  다운로드
+                </h1>
+<p>클라이언트에서 파일을 다운로드 하는 기능</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  Content-Disposition 타입
+                </h2>
+<ul>
+<li>inline : 기본 값, 내부 또는 웹 페이지로 표시될 수 있음</li>
+<li>attachment : 다운로드 해야함</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@GetMapping(&quot;/download&quot;)</span>  </span><span class="line"><span class="hljs-keyword">public</span> ResponseEntity&lt;Resource&gt; <span class="hljs-title function_">downloadAttachement</span><span class="hljs-params">()</span> <span class="hljs-keyword">throws</span> MalformedURLException {  </span><span class="line">  <span class="hljs-type">String</span> <span class="hljs-variable">path</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;/Users/Documents/TEMP/temp/&quot;</span>;  </span><span class="line">  <span class="hljs-type">String</span> <span class="hljs-variable">originFileName</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;2021-07-25-16-00-00-1.jpg&quot;</span>;  </span><span class="line">  <span class="hljs-type">UrlResource</span> <span class="hljs-variable">resource</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">UrlResource</span>(<span class="hljs-string">&quot;file:&quot;</span> + path + originFileName);  </span><span class="line">  </span><span class="line">  <span class="hljs-type">String</span> <span class="hljs-variable">encodedUploadFileName</span> <span class="hljs-operator">=</span> UriUtils.encode(originFileName, StandardCharsets.UTF_8);  </span><span class="line">  <span class="hljs-type">String</span> <span class="hljs-variable">contentDisposition</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;attachment; filename=\&quot;&quot;</span> + encodedUploadFileName + <span class="hljs-string">&quot;\&quot;&quot;</span>;  </span><span class="line">  <span class="hljs-keyword">return</span> ResponseEntity.ok()  </span><span class="line">          .header(HttpHeaders.CONTENT_DISPOSITION, contentDisposition)</span><span class="line">          .body(resource);  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p><code>attachment</code> 는 사용자가 해당 파일을 다운로드해야 함을 나타냄</p>
+</blockquote>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@ResponseBody</span>  </span><span class="line"><span class="hljs-meta">@GetMapping(&quot;/images/{filename}&quot;)</span>  </span><span class="line"><span class="hljs-keyword">public</span> Resource <span class="hljs-title function_">downloadImage</span><span class="hljs-params">(<span class="hljs-meta">@PathVariable</span> String filename)</span> <span class="hljs-keyword">throws</span> MalformedURLException {  </span><span class="line">  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">UrlResource</span>(<span class="hljs-string">&quot;file:&quot;</span> + fileStore.getFullPath(filename));  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p>리소스로 요청하면 그대로 전달하는 방법</p>
+</blockquote>
+15:T1919,---
+aliases:
+  - 1. 파일 업로드
+tags:
+  - Spring
+  - index
+특징: 
+---
+# Multipart 설정
+```properties
+# 파일 하나의 최대 사이즈, 기본 1MB
+spring.servlet.multipart.max-file-size=1MB
+# 멀티파트 요청 하나에 여러 파일을 업로드 할 수 있는데, 그 전체 합 기본 10MB
+spring.servlet.multipart.max-request-size=10MB
+# multipart 기능을 끄고 켤지 선택 (default:true)
+spring.servlet.multipart.enabled=true
+```
+
+# 폼 전송하는 방식
+- `application/x-www-form-urlencoded`
+- `multipart/form-data`
+
+## `application/x-www-form-urlencoded`
+폼으로 파일 첨부가 아닌 단순 데이터 전달의 모습
+```html
+<form action="/save" method="post">
+	<input type="text" name="username"/>
+	<input type="text" name="age"/>
+</form>
+```
+> 해당 폼의 형태를 데이터로 전송하게 되면 아래 모습으로 전달
+```http
+POST /save HTTP/1.1
+Host: localhost:8080
+Content-Type:application/x-www-form-urlencoded
+
+username=kim&age=20
+```
+
+## `multipart/form-data`
+파일 전송을 위한 form 사용
+```html
+<form action="/save" method="post" enctype="multipart/form-data">
+	<input type="text" name="username"/>
+	<input type="text" name="age"/>
+	<input type="file" name="file1"/>
+	<button type="submit">전송</button>
+</form>
+```
+> 해당 폼의 형태를 데이터로 전송하게 되면 아래 모습으로 전달
+```http
+POST /save HTTP/1.1
+Host: localhost:8080
+Content-Type: multipart/form-data; boundary=-----XXX
+-----XXX
+Content-Disposition:form-data;name="username"
+
+kim
+-----XXX
+Content-Disposition:form-data;name="age"
+
+20
+-----XXX
+Content-Disposition:form-data;name="file1";filename="intro.png"
+Content-Type:image/png
+
+109238a9o0p3eqwokjasd09ou3oirjwoe9u34ouief...
+-----XXX--
+```
+> 맨 끝에는 -- 두개를 붙여서 마지막인것을 알림
+
+### 처리 방법
+서블릿에 의한 처리 방법으로는 [[2.Ref(데이터 및 정보 저장)/Spring/Multipart/Part|Part]]를 이용한 방법이 있으며 몇가지 단점이 있기 때문에 Spring 에서는 [[2.Ref(데이터 및 정보 저장)/Spring/Multipart/MultipartFile|MultipartFile]] 를 제공
+
+
+### `MultipartHttpServletRequest`
+`spring.servlet.multipart.enabled=true` 일 경우 `MultipartResolver` 실행
+`MultipartResolver`는 멀티파트 요청인 경우 서블릿 컨테이너가 전달하는 `HttpServletRequest`가 아닌 `MultipartHttpServletRequest`로 변환하여 반환
+보통 `MultipartFile`을 사용하는 것이 `MultipartHttpServletRequest`를 사용하는 것보다 편의성이 높기 때문에 따로 특별히 사용하지 않음
+해당 인터페이스의 구현체는 `StandardMultipartHttpServletRequest`이 있음
+
+
+
+### 혹시나 전체 메시지를 보고 싶다면
+```http
+POST /servlet/v1/upload HTTP/1.1
+Host: localhost:8080
+Connection: keep-alive
+Content-Length: 300
+Cache-Control: max-age=0
+sec-ch-ua: "Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"
+sec-ch-ua-mobile: ?0
+sec-ch-ua-platform: "macOS"
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:8080
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjB3BUHmwUYmhhk6R
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8080/servlet/v1/upload
+Accept-Encoding: gzip, deflate, br
+Accept-Language: ko-KR,ko;q=0.9,en-US;q=0.8,en;q=0.7
+Cookie: JSESSIONID=8BFC73DC7BCB55B7AFF1559F734A293E
+
+------WebKitFormBoundaryjB3BUHmwUYmhhk6R
+Content-Disposition: form-data; name="itemName"
+
+sanwa
+------WebKitFormBoundaryjB3BUHmwUYmhhk6R
+Content-Disposition: form-data; name="file"; filename="test.txt"
+Content-Type: text/plain
+
+Hello I'm dongmin
+
+------WebKitFormBoundaryjB3BUHmwUYmhhk6R--
+```
+
+
+# 업로드
+```html
+<form th:action method="post" enctype="multipart/form-data">  
+    <ul>  
+        <li>상품명 <input type="text" name="itemName"></li>  
+        <li>첨부파일<input type="file" name="attachFile" ></li>  
+        <li>이미지들<input type="file" multiple="multiple" name="imageFiles" ></li>  
+    </ul>  
+    <input type="submit"/>
+</form>
+```
+> 해당 Form 으로 전달할 때
+```java title:""
+@PostMapping("/upload")  
+public void upload(@RequestParam String itemName,  
+                   @RequestParam List<MultipartFile> imageFiles,  
+                   @RequestParam MultipartFile attachFile) throws IOException {  
+  log.info("itemName={}", itemName);  
+  log.info("imageFiles={}", imageFiles);  
+  log.info("attachFile={}", attachFile);  
+    attachFile.transferTo(new File(fileStore.getFullPath(attachFile.getOriginalFilename())));  
+    imageFiles.forEach(imageFile -> {  
+      log.info("imageFile={}", imageFile.getOriginalFilename());  
+      try {  
+        imageFile.transferTo(new File(fileStore.getFullPath(imageFile.getOriginalFilename())));  
+      } catch (IOException e) {  
+        throw new RuntimeException(e);  
+      }  
+    });  
+}
+```
+`transferTo(특정경로|저장할File)`
+
+
+# 다운로드
+클라이언트에서 파일을 다운로드 하는 기능
+
+## `Content-Disposition` 타입
+- inline : 기본 값, 내부 또는 웹 페이지로 표시될 수 있음
+- attachment : 다운로드 해야함
+```java
+@GetMapping("/download")  
+public ResponseEntity<Resource> downloadAttachement() throws MalformedURLException {  
+  String path = "/Users/Documents/TEMP/temp/";  
+  String originFileName = "2021-07-25-16-00-00-1.jpg";  
+  UrlResource resource = new UrlResource("file:" + path + originFileName);  
+  
+  String encodedUploadFileName = UriUtils.encode(originFileName, StandardCharsets.UTF_8);  
+  String contentDisposition = "attachment; filename=\"" + encodedUploadFileName + "\"";  
+  return ResponseEntity.ok()  
+          .header(HttpHeaders.CONTENT_DISPOSITION, contentDisposition)
+          .body(resource);  
+}
+```
+> `attachment` 는 사용자가 해당 파일을 다운로드해야 함을 나타냄
+
+```java
+@ResponseBody  
+@GetMapping("/images/{filename}")  
+public Resource downloadImage(@PathVariable String filename) throws MalformedURLException {  
+  return new UrlResource("file:" + fileStore.getFullPath(filename));  
+}
+```
+> 리소스로 요청하면 그대로 전달하는 방법
+
+
+
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Multipart/1. 파일 업로드","slugHash":"0f779b76","content":"$14","markdownContent":"$15","title":"1. 파일 업로드","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","index"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["1. 파일 업로드"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

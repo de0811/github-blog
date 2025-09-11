@@ -1,0 +1,111 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","1fa201a8",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","1fa201a8","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","1fa201a8","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","jessC7vX_uH302MpPCjGE",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:Tbb1,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  컨트롤러(Controller / Handler)
+                </h1>
+<ul>
+<li><a href="#">MVC(Model-View-Controller)</a> 아키텍처에서 사용자의 <strong>HTTP 요청을 받아 비즈니스 로직(서비스)으로 연결</strong>하고, 그 <strong>처리 결과를 다시 사용자에게 응답</strong>하는 중간 관리자 역할</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  Controller vs Handler
+                </h2>
+<p>두 용어는 거의 동일한 의미로 사용되지만, 스프링 MVC의 관점에서는 미묘한 차이가 있습니다</p>
+<ul>
+<li><strong><code>Controller</code></strong>: 개발자가 작성하는 <strong>클래스 단위의 개념</strong> (<code>@Controller</code>, <code>@RestController</code>)
+<ul>
+<li>MVC 패턴에서 유래한 더 넓은 범위의 용어</li>
+</ul>
+</li>
+<li><strong><code>Handler</code></strong>: 스프링 <code>DispatcherServlet</code>이 요청을 처리할 대상을 지칭하는 <strong>내부 용어</strong>
+<ul>
+<li>현대 스프링 MVC에서는 주로 <strong><code>@RequestMapping</code>이 붙은 특정 메소드</strong>를 의미</li>
+<li>Controller Method 를 의미</li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  컨트롤러의 역활
+                </h2>
+<ul>
+<li>요청 수신 및 해석
+<ul>
+<li><a href="/github-blog/blog/50e6a885">DispatcherServlet</a>으로 HTTP 요청을 전달</li>
+<li><a href="/github-blog/blog/1fd56626">@RequestParam</a>, <a href="/github-blog/blog/7d08fd5c">@RequestBody</a>, <a href="/github-blog/blog/124b0e03">@PathVariable</a> 등 사용하여 요청 데이터(<a href="/github-blog/blog/a1afe82a">파라메터</a> Body 등) 해석</li>
+</ul>
+</li>
+<li>데이터 변환 및 검증
+<ul>
+<li><a href="/github-blog/blog/9aa34fb6">ArgumentResolver</a> 통해 데이터를 객체로 변환</li>
+<li><a href="/github-blog/blog/9cdc016c">Bean Validation</a>과 <a href="/github-blog/blog/dd5c85f5">@Validated</a> 등을 통해 데이터 유효성 검사하고 결과를 <a href="/github-blog/blog/0429bddc">BindingResult</a>로 전달</li>
+</ul>
+</li>
+<li>비즈니스 로직 호출
+<ul>
+<li><a href="#">Service</a> 통해 비즈니스 로직 동작 후 결과 반환 받기</li>
+<li><a href="/github-blog/blog/5e1dd139">ReturnValueHandler</a> 통해 다양한 형태로 응답 전달
+<ul>
+<li><a href="#">ModelAndView</a> 또는 <code>String</code> 같이 뷰를 렌더링하여 응답</li>
+<li><a href="/github-blog/blog/3b7510b4">@ResponseBody</a> 또는 <a href="/github-blog/blog/9cb00fc1">ResponseEntity</a> 같이 객체를 JSON 등으로 변환하여 데이터로 응답</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+15:Tad7,---
+aliases:
+  - Controller
+  - Handler
+  - 컨트롤러
+  - 핸들러
+  - Controller Method(Handler)
+tags:
+  - Spring
+  - Spring/용어
+특징: 요청 해석하고 검증하여 서비스에 비즈니스로직 돌리고 답 받아서 어떻게 전달할지 판단하는 애
+isPublic: false
+---
+# 컨트롤러(Controller / Handler)
+- [[MVC(Model-View-Controller)]] 아키텍처에서 사용자의 **HTTP 요청을 받아 비즈니스 로직(서비스)으로 연결**하고, 그 **처리 결과를 다시 사용자에게 응답**하는 중간 관리자 역할
+## Controller vs Handler
+두 용어는 거의 동일한 의미로 사용되지만, 스프링 MVC의 관점에서는 미묘한 차이가 있습니다
+-   **`Controller`**: 개발자가 작성하는 **클래스 단위의 개념** (`@Controller`, `@RestController`)
+    -   MVC 패턴에서 유래한 더 넓은 범위의 용어
+-   **`Handler`**: 스프링 `DispatcherServlet`이 요청을 처리할 대상을 지칭하는 **내부 용어**
+    -   현대 스프링 MVC에서는 주로 **`@RequestMapping`이 붙은 특정 메소드**를 의미
+    - Controller Method 를 의미
+## 컨트롤러의 역활
+- 요청 수신 및 해석
+	- [[2.Ref(데이터 및 정보 저장)/Spring/DispatcherServlet|DispatcherServlet]]으로 HTTP 요청을 전달
+	- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestParam|@RequestParam]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestBody|@RequestBody]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@PathVariable|@PathVariable]] 등 사용하여 요청 데이터([[2.Ref(데이터 및 정보 저장)/개발 이론/Parameter|파라메터]] Body 등) 해석
+- 데이터 변환 및 검증
+	- [[2.Ref(데이터 및 정보 저장)/Spring/ArgumentResolver(HandlerMethodArgumentResolver)|ArgumentResolver]] 통해 데이터를 객체로 변환
+	- [[2.Ref(데이터 및 정보 저장)/Spring/Validator/Bean Validation|Bean Validation]]과 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Validated-@Valid|@Validated]] 등을 통해 데이터 유효성 검사하고 결과를 [[2.Ref(데이터 및 정보 저장)/Spring/Validator/BindingResult|BindingResult]]로 전달
+- 비즈니스 로직 호출
+	- [[Service]] 통해 비즈니스 로직 동작 후 결과 반환 받기
+	- [[2.Ref(데이터 및 정보 저장)/Spring/ReturnValueHandler(HandlerMethodReturnValueHandler)|ReturnValueHandler]] 통해 다양한 형태로 응답 전달 
+		- [[ModelAndView]] 또는 `String` 같이 뷰를 렌더링하여 응답
+		- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@ResponseBody|@ResponseBody]] 또는 [[2.Ref(데이터 및 정보 저장)/Spring/HttpEntity|ResponseEntity]] 같이 객체를 JSON 등으로 변환하여 데이터로 응답   
+
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/용어설명/Controller","slugHash":"1fa201a8","content":"$14","markdownContent":"$15","title":"Controller","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/용어"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["Controller","Handler","컨트롤러","핸들러","Controller Method(Handler)"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

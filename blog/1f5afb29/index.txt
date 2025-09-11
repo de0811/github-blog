@@ -1,0 +1,262 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","1f5afb29",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","1f5afb29","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","1f5afb29","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","HXq5fOVzkZTLtSgO3hvjx",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T54df,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  HandlerInterceptor
+                </h1>
+<p>스프링이 제공하는 기능</p>
+
+<div class="callout" style="--callout-color: 0, 116, 217;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">전달 순서</div>
+  </div>
+  <div class="callout-content">
+    <p>HTTP 요청 -> WAS -> 필터 -> 서블릿 -> 스프링 인터셉터 -> 컨트롤러</p>
+
+  </div>
+</div>
+<p>필터보다 더 편리하고 정교하고 다양한 기능을 지원</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title class_">HandlerInterceptor</span> {</span><span class="line"><span class="hljs-comment">// 컨트롤러 호출 전 | return true 다음으로 진행 / false 중지</span></span><span class="line"> <span class="hljs-keyword">default</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">preHandle</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response, Object handler)</span> <span class="hljs-keyword">throws</span> Exception {}</span><span class="line"> <span class="hljs-comment">// 컨트롤러 호출 이후 // 컨트롤러에서 에러가 터졌으면 여기 안옴</span></span><span class="line"> <span class="hljs-keyword">default</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">postHandle</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response, Object handler, <span class="hljs-meta">@Nullable</span> ModelAndView modelAndView)</span><span class="hljs-keyword">throws</span> Exception {}</span><span class="line"> <span class="hljs-comment">// HTTP 요청이 완전히 끝난 뒤 //final 기능임</span></span><span class="line"> <span class="hljs-keyword">default</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">afterCompletion</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse</span><span class="line">response, Object handler, <span class="hljs-meta">@Nullable</span> Exception ex)</span> <span class="hljs-keyword">throws</span></span><span class="line">Exception {}</span><span class="line">}</span></code></pre>
+        </div>
+      
+<p><img src="/github-blog/images/AttachedFile/Pasted%20image%2020240202150956.png" alt="Pasted image 20240202150956.png" style=""></p>
+<p>여러 상황에 대해 지원하기 때문에 필터보단 인터셉터를 사용하는 것을 추천</p>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  등록 방법
+                </h1>
+<p>등록하기 위해선 <a href="/github-blog/blog/9c401e7c">WebMvcConfigurer</a> 를 통해서 등록 가능<br><a href="/github-blog/blog/1f5afb29">Interceptor</a> 의 경우 Filter 처럼 DispatchType 을 사용할 수 없기 때문에 <code>excludePathPatterns</code>를 이용하여 제외 처리</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Configuration</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">WebConfig</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">WebMvcConfigurer</span> {  </span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">addInterceptors</span><span class="hljs-params">(InterceptorRegistry registry)</span> {  </span><span class="line">    registry.addInterceptor(<span class="hljs-keyword">new</span> <span class="hljs-title class_">LogInterceptor</span>())  </span><span class="line">      .order(<span class="hljs-number">1</span>)  </span><span class="line">      .addPathPatterns(<span class="hljs-string">&quot;/**&quot;</span>) <span class="hljs-comment">// 적용할 URL 패턴  </span></span><span class="line">      .excludePathPatterns(<span class="hljs-string">&quot;/css/**&quot;</span>, <span class="hljs-string">&quot;/*.ico&quot;</span>, <span class="hljs-string">&quot;/error&quot;</span>, <span class="hljs-string">&quot;/error-page/**&quot;</span>); <span class="hljs-comment">// 제외할 경로  </span></span><span class="line">  }</span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p>해당 소스처럼 에러 페이지 자체를 제외 처리를 해버리는 방법을 사용</p>
+</blockquote>
+<p><a href="https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/util/pattern/PathPattern.html">PathPatterns</a> 규칙은 공식 페이지 확인 필요<br><a href="/github-blog/blog/0ee23623">Servlet</a> PathPatterns 와는 다름</p>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  사용
+                </h1>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">LogInterceptor</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">HandlerInterceptor</span> {  </span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">preHandle</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response, Object handler)</span> <span class="hljs-keyword">throws</span> Exception {  </span><span class="line">    log.info(<span class="hljs-string">&quot;LogInterceptor &gt; preHandle&quot;</span>);  </span><span class="line">    <span class="hljs-type">String</span> <span class="hljs-variable">requestURI</span> <span class="hljs-operator">=</span> request.getRequestURI();  </span><span class="line">  </span><span class="line">    <span class="hljs-comment">// @RequestMapping: HandlerMethod  </span></span><span class="line">    <span class="hljs-comment">// 정적 리소스: ResourceHttpRequestHandler  </span></span><span class="line">    <span class="hljs-keyword">if</span>( handler <span class="hljs-keyword">instanceof</span> HandlerMethod) {  </span><span class="line">      <span class="hljs-type">HandlerMethod</span> <span class="hljs-variable">hm</span> <span class="hljs-operator">=</span> (HandlerMethod) handler; <span class="hljs-comment">// 호출할 컨트롤러 메서드의 모든 정보가 포함  </span></span><span class="line">      log.info(<span class="hljs-string">&quot;REQUEST [{}][{}]&quot;</span>, requestURI, hm.getBeanType().getName() + <span class="hljs-string">&quot;.&quot;</span> + hm.getMethod().getName());  </span><span class="line">    } <span class="hljs-keyword">else</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;REQUEST [{}][{}]&quot;</span>, requestURI, handler);  </span><span class="line">    }  </span><span class="line">    <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>;  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">postHandle</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView)</span> <span class="hljs-keyword">throws</span> Exception {  </span><span class="line">    log.info(<span class="hljs-string">&quot;LogInterceptor &gt; postHandle&quot;</span>);  </span><span class="line">    <span class="hljs-type">String</span> <span class="hljs-variable">requestURI</span> <span class="hljs-operator">=</span> request.getRequestURI();  </span><span class="line">    log.info(<span class="hljs-string">&quot;REQUEST [{}][{}]&quot;</span>,requestURI, modelAndView);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">afterCompletion</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex)</span> <span class="hljs-keyword">throws</span> Exception {  </span><span class="line">    log.info(<span class="hljs-string">&quot;LogInterceptor &gt; afterCompletion&quot;</span>);  </span><span class="line">    <span class="hljs-type">String</span> <span class="hljs-variable">requestURI</span> <span class="hljs-operator">=</span> request.getRequestURI();  </span><span class="line">    log.info(<span class="hljs-string">&quot;REQUEST [{}][{}]&quot;</span>, requestURI, <span class="hljs-string">&quot;afterCompletion&quot;</span>);  </span><span class="line">    <span class="hljs-keyword">if</span>(ex != <span class="hljs-literal">null</span>) {  </span><span class="line">      log.error(<span class="hljs-string">&quot;afterCompletion error!!&quot;</span>, ex);  </span><span class="line">    }  </span><span class="line">    HandlerInterceptor.<span class="hljs-built_in">super</span>.afterCompletion(request, response, handler, ex);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  preHandle
+                </h3>
+<p><code>boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)</code><br>HTTP 요청이 들어와서 <a href="/github-blog/blog/50e6a885">DispatcherServlet</a> 에서 바로 <code>preHandle</code> 로 전달</p>
+<ul>
+<li><code>return boolean</code><br>해당 인스턴스에서 기능을 정지시키려면 false 반환<br>다음 인스턴스 또는 컨트롤러로 동작을 진행 시키려면 true 반환</li>
+<li><code>Object handle</code><br>리소스의 종류에 따라 Object handle 의 상속 내용이 달라짐<br><code>@RequestMapping</code> 를 상속되어 있음<br>정적 리소스 요청이라면 <code>HandlerMethod</code> 를 상속되어 있음
+정적 리소스 요청이라면 <code>ResourceHttpRequestHandler</code> 를 상속되어 있음</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  postHandle
+                </h3>
+<p><code>Controller</code> 동작 이후 <a href="/github-blog/blog/50e6a885">DispatcherServlet</a> 에서 전달<br>만일 <code>Controller</code>에서 에러가 발생된다면 <code>postHandle</code>은 건너 뛰게 됨</p>
+<ul>
+<li><code>Object Handler</code><br>아마 <a href="#"></a> 과 동일한게 아닐까 싶음(필요한가?)</li>
+<li><code>ModelAndView ModelAndView</code><br><code>Controller</code>에서 전달된 <code>ModelAndView</code></li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  afterCompletion
+                </h3>
+<p><code>view</code>까지 모두 처리한 뒤에 호출(HTTP 메시지를 모두 처리 후 호출)<br> 같은 기능을 수행<br><code>final</code> 같은 기능을 수행
+<code>Controller</code>에서 에러가 발생하더라도 <code>afterCompletion</code>는 동작</p>
+15:T14ce,---
+aliases:
+  - 인터셉터
+  - Interceptor
+  - HandlerInterceptor
+tags:
+  - Spring
+  - Spring/Request
+  - Spring/공통관심사
+특징: 
+---
+# HandlerInterceptor
+스프링이 제공하는 기능
+> [!info] 전달 순서
+> HTTP 요청 -> WAS -> 필터 -> 서블릿 -> 스프링 인터셉터 -> 컨트롤러
+
+필터보다 더 편리하고 정교하고 다양한 기능을 지원
+
+```java
+public interface HandlerInterceptor {
+// 컨트롤러 호출 전 | return true 다음으로 진행 / false 중지
+ default boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {}
+ // 컨트롤러 호출 이후 // 컨트롤러에서 에러가 터졌으면 여기 안옴
+ default void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, @Nullable ModelAndView modelAndView)throws Exception {}
+ // HTTP 요청이 완전히 끝난 뒤 //final 기능임
+ default void afterCompletion(HttpServletRequest request, HttpServletResponse
+response, Object handler, @Nullable Exception ex) throws
+Exception {}
+}
+```
+
+![[config/AttachedFile/Pasted image 20240202150956.png]]
+
+여러 상황에 대해 지원하기 때문에 필터보단 인터셉터를 사용하는 것을 추천
+# 등록 방법
+등록하기 위해선 [[2.Ref(데이터 및 정보 저장)/Spring/WebMvcConfigurer|WebMvcConfigurer]] 를 통해서 등록 가능
+[[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Interceptor|Interceptor]] 의 경우 Filter 처럼 DispatchType 을 사용할 수 없기 때문에 `excludePathPatterns`를 이용하여 제외 처리
+```java
+@Configuration  
+public class WebConfig implements WebMvcConfigurer {  
+  @Override  
+  public void addInterceptors(InterceptorRegistry registry) {  
+    registry.addInterceptor(new LogInterceptor())  
+      .order(1)  
+      .addPathPatterns("/**") // 적용할 URL 패턴  
+      .excludePathPatterns("/css/**", "/*.ico", "/error", "/error-page/**"); // 제외할 경로  
+  }
+}
+```
+> 해당 소스처럼 에러 페이지 자체를 제외 처리를 해버리는 방법을 사용
+
+[PathPatterns](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/util/pattern/PathPattern.html) 규칙은 공식 페이지 확인 필요
+[[2.Ref(데이터 및 정보 저장)/Spring/Servlet|Servlet]] PathPatterns 와는 다름
+
+# 사용
+```java
+@Slf4j  
+public class LogInterceptor implements HandlerInterceptor {  
+  @Override  
+  public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {  
+    log.info("LogInterceptor > preHandle");  
+    String requestURI = request.getRequestURI();  
+  
+    // @RequestMapping: HandlerMethod  
+    // 정적 리소스: ResourceHttpRequestHandler  
+    if( handler instanceof HandlerMethod) {  
+      HandlerMethod hm = (HandlerMethod) handler; // 호출할 컨트롤러 메서드의 모든 정보가 포함  
+      log.info("REQUEST [{}][{}]", requestURI, hm.getBeanType().getName() + "." + hm.getMethod().getName());  
+    } else {  
+      log.info("REQUEST [{}][{}]", requestURI, handler);  
+    }  
+    return true;  
+  }  
+  
+  @Override  
+  public void postHandle(HttpServletRequest request, HttpServletResponse response, Object handler, ModelAndView modelAndView) throws Exception {  
+    log.info("LogInterceptor > postHandle");  
+    String requestURI = request.getRequestURI();  
+    log.info("REQUEST [{}][{}]",requestURI, modelAndView);  
+  }  
+  
+  @Override  
+  public void afterCompletion(HttpServletRequest request, HttpServletResponse response, Object handler, Exception ex) throws Exception {  
+    log.info("LogInterceptor > afterCompletion");  
+    String requestURI = request.getRequestURI();  
+    log.info("REQUEST [{}][{}]", requestURI, "afterCompletion");  
+    if(ex != null) {  
+      log.error("afterCompletion error!!", ex);  
+    }  
+    HandlerInterceptor.super.afterCompletion(request, response, handler, ex);  
+  }  
+}
+```
+### preHandle
+`boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler)`
+HTTP 요청이 들어와서 [[2.Ref(데이터 및 정보 저장)/Spring/DispatcherServlet|DispatcherServlet]] 에서 바로 `preHandle` 로 전달
+- `return boolean`
+해당 인스턴스에서 기능을 정지시키려면 false 반환
+다음 인스턴스 또는 컨트롤러로 동작을 진행 시키려면 true 반환
+- `Object handle`
+리소스의 종류에 따라 Object handle 의 상속 내용이 달라짐
+  `@RequestMapping`을 사용하는 동적 컨트롤러 요청이라면 `HandlerMethod` 를 상속되어 있음
+  정적 리소스 요청이라면 `ResourceHttpRequestHandler` 를 상속되어 있음
+### postHandle
+`Controller` 동작 이후 [[2.Ref(데이터 및 정보 저장)/Spring/DispatcherServlet|DispatcherServlet]] 에서 전달
+만일 `Controller`에서 에러가 발생된다면 `postHandle`은 건너 뛰게 됨
+- `Object Handler`
+아마 [[#preHandle]] 과 동일한게 아닐까 싶음(필요한가?)
+- `ModelAndView ModelAndView` 
+`Controller`에서 전달된 `ModelAndView`
+### afterCompletion 
+`view`까지 모두 처리한 뒤에 호출(HTTP 메시지를 모두 처리 후 호출)
+모든 결과의 `final` 같은 기능을 수행
+`Controller`에서 에러가 발생하더라도 `afterCompletion`는 동작
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/공통관심사/Interceptor","slugHash":"1f5afb29","content":"$14","markdownContent":"$15","title":"Interceptor","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Request","Spring/공통관심사"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["인터셉터","Interceptor","HandlerInterceptor"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

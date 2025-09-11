@@ -1,0 +1,302 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","61ff5f33",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","61ff5f33","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","61ff5f33","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","NYdfo_wIMgrxQaBdmyif7",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T3796,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  외부 라이브러리 포함하기
+                </h1>
+<ul>
+<li><code>Maven Central</code> 등 원격 저장소에 없는 사내 라이브러리나 레거시 <code>JAR</code> 파일을 프로젝트에 포함시키는 방법</li>
+<li><code>Maven</code> 적는걸 잊어버림
+<ul>
+<li>귀찮으니 나중에 시간내서 다시 적어야지</li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  🚨 장단점 및 주의사항
+                </h2>
+<ul>
+<li><strong>장점</strong>
+<ul>
+<li>사내 Maven Repository에 종속되지 않아 개발 환경 구성이 자유로움</li>
+<li>중앙 저장소의 변경에 끌려다니지 않고 프로젝트별 독립성 유지 가능</li>
+</ul>
+</li>
+<li><strong>단점 및 주의사항</strong>
+<ul>
+<li><strong>의존성 전이 불가</strong>: 로컬 JAR이 의존하는 다른 라이브러리는 직접 명시해야 함</li>
+<li><strong>수동 버전 관리</strong>: 버전 변경 시 JAR 파일을 직접 교체해야 하므로 번거롭고 실수가 발생할 수 있음</li>
+</ul>
+</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  💡라이브러리가 필요할 경우
+                </h3>
+<ul>
+<li>라이브러리로 필요할 경우 <code>Nexus</code>, <code>Artifactory</code> 같은 <strong><code>사내 Maven Repository(Private Repository)</code>를 구축</strong> 하거나 <code>GitHub Packages</code>같은 기능을 사용하는 방법 밖에 없음<br>보통 Maven Repository 를 구축하는 것을 추천</li>
+<li>취향차이 또는 회사 환경차이기는 하지만 사내 환경에 종속적이지 않은게 더 맞다고 생각
+<ul>
+<li>사내 망에 연결하는 것이 외부(집)에서 작업하기 힘든 환경일 경우 이 방법을 쓰면 일 하기에도 시키기 너무 좋음(나 포함)</li>
+</ul>
+</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  💡 해결책: 코드만 필요할 경우 Git Submodule을 이용한 버전 관리
+                </h3>
+<p><mark>이렇게 생각은 했는데 사실 난 아직 안써봄 아마 되지 않을까? 될껄? 이 회사는 이렇게까지 쓸 일이 없었는걸?</mark></p>
+<ul>
+<li><a href="/github-blog/blog/940d75c1">Git Submodule</a>을 사용하면, 소스 코드를 직접 포함하면서도 <strong>특정 버전을 명시</strong>할 수 있어 위 단점을 해결 가능</li>
+<li>핵심은 라이브러리 프로젝트(Submodule)에서 <strong>Git Tag</strong>로 버전을 명시하는 것</li>
+</ul>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  1.라이브러리 저장소에서 버전 태그(Tag) 생성
+                </h4>
+<ul>
+<li>라이브러리 프로젝트(예: B Repository)에서 버전 릴리즈 시점에 맞춰 태그를 생성하고 push</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">bash</span>
+            </div>
+            <span class="custom-code-block-title">메인 프로젝트에서 사용할 서브 프로젝트에서 태그 설정</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-bash hljs"><span class="line"><span class="hljs-comment"># B Repository에서 실행</span></span><span class="line">git tag -a v1.1.0 -m <span class="hljs-string">&quot;Release version 1.1.0&quot;</span></span><span class="line">git push origin v1.1.0</span></code></pre>
+        </div>
+      
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  2.메인 프로젝트에서 Submodule 업데이트
+                </h4>
+<ul>
+<li>메인 프로젝트(예: A Project)에서 Submodule을 원하는 버전 태그로 업데이트하고, 이 변경사항을 커밋</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">bash</span>
+            </div>
+            <span class="custom-code-block-title">메인 프로젝트에서 서브 프로젝트 받기</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-bash hljs"><span class="line"><span class="hljs-comment"># A Project에서 실행</span></span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 1. Submodule 폴더로 이동</span></span><span class="line"><span class="hljs-built_in">cd</span> &lt;submodule-path&gt;</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 2. 최신 변경사항과 태그 가져오기</span></span><span class="line">git fetch --tags</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 3. 원하는 버전(태그)으로 체크아웃</span></span><span class="line">git checkout v1.1.0</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 4. 상위 프로젝트로 이동하여 변경된 Submodule 커밋</span></span><span class="line"><span class="hljs-built_in">cd</span> ..</span><span class="line">git add &lt;submodule-path&gt;</span><span class="line">git commit -m <span class="hljs-string">&quot;Update library to v1.1.0&quot;</span></span></code></pre>
+        </div>
+      
+<p>이 방식을 사용하면, 팀원들은 <code>git clone --recurse-submodules</code> 명령어로 프로젝트를 복제할 때 항상 <strong>고정된 <code>v1.1.0</code> 버전의 라이브러리</strong>를 받게 됨</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  build.gradle 설정
+                </h2>
+<ol>
+<li>프로젝트 최상위에 <code>libs</code> 폴더 생성</li>
+</ol>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">text</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-text hljs"><span class="line">my-project/</span><span class="line">├── libs/</span><span class="line">│   └── custom-library-v1.jar</span><span class="line">├── build.gradle</span><span class="line">└── src/</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  특정 파일만 지정
+                </h3>
+<ul>
+<li><code>build.gradle</code> jar 내용 추가하기</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><title>Gradle</title><path d="M22.695 4.297a3.807 3.807 0 0 0 -5.29 -0.09 0.368 0.368 0 0 0 0 0.533l0.46 0.47a0.363 0.363 0 0 0 0.474 0.032 2.182 2.182 0 0 1 2.86 3.291c-3.023 3.02 -7.056 -5.447 -16.211 -1.083a1.24 1.24 0 0 0 -0.534 1.745l1.571 2.713a1.238 1.238 0 0 0 1.681 0.461l0.037 -0.02 -0.029 0.02 0.688 -0.384a16.083 16.083 0 0 0 2.193 -1.635 0.384 0.384 0 0 1 0.499 -0.016 0.357 0.357 0 0 1 0.016 0.534 16.435 16.435 0 0 1 -2.316 1.741H8.77l-0.696 0.39a1.958 1.958 0 0 1 -0.963 0.25 1.987 1.987 0 0 1 -1.726 -0.989L3.9 9.696C1.06 11.72 -0.686 15.603 0.26 20.522a0.363 0.363 0 0 0 0.354 0.296h1.675a0.363 0.363 0 0 0 0.37 -0.331 2.478 2.478 0 0 1 4.915 0 0.36 0.36 0 0 0 0.357 0.317h1.638a0.363 0.363 0 0 0 0.357 -0.317 2.478 2.478 0 0 1 4.914 0 0.363 0.363 0 0 0 0.358 0.317h1.627a0.363 0.363 0 0 0 0.363 -0.357c0.037 -2.294 0.656 -4.93 2.42 -6.25 6.108 -4.57 4.502 -8.486 3.088 -9.9zm-6.229 6.901 -1.165 -0.584a0.73 0.73 0 1 1 1.165 0.587z" stroke-width="1"></path></svg></span>
+              <span class="custom-code-block-lang-text">gradle</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-gradle hljs"><span class="line"><span class="hljs-keyword">dependencies</span> {</span><span class="line">    implementation files(<span class="hljs-string">&#x27;libs/custom-library-v1.jar&#x27;</span>)</span><span class="line">}</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  폴더 내 모든 JAR 파일 포함
+                </h3>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" height="24" width="24"><title>Gradle</title><path d="M22.695 4.297a3.807 3.807 0 0 0 -5.29 -0.09 0.368 0.368 0 0 0 0 0.533l0.46 0.47a0.363 0.363 0 0 0 0.474 0.032 2.182 2.182 0 0 1 2.86 3.291c-3.023 3.02 -7.056 -5.447 -16.211 -1.083a1.24 1.24 0 0 0 -0.534 1.745l1.571 2.713a1.238 1.238 0 0 0 1.681 0.461l0.037 -0.02 -0.029 0.02 0.688 -0.384a16.083 16.083 0 0 0 2.193 -1.635 0.384 0.384 0 0 1 0.499 -0.016 0.357 0.357 0 0 1 0.016 0.534 16.435 16.435 0 0 1 -2.316 1.741H8.77l-0.696 0.39a1.958 1.958 0 0 1 -0.963 0.25 1.987 1.987 0 0 1 -1.726 -0.989L3.9 9.696C1.06 11.72 -0.686 15.603 0.26 20.522a0.363 0.363 0 0 0 0.354 0.296h1.675a0.363 0.363 0 0 0 0.37 -0.331 2.478 2.478 0 0 1 4.915 0 0.36 0.36 0 0 0 0.357 0.317h1.638a0.363 0.363 0 0 0 0.357 -0.317 2.478 2.478 0 0 1 4.914 0 0.363 0.363 0 0 0 0.358 0.317h1.627a0.363 0.363 0 0 0 0.363 -0.357c0.037 -2.294 0.656 -4.93 2.42 -6.25 6.108 -4.57 4.502 -8.486 3.088 -9.9zm-6.229 6.901 -1.165 -0.584a0.73 0.73 0 1 1 1.165 0.587z" stroke-width="1"></path></svg></span>
+              <span class="custom-code-block-lang-text">gradle</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-gradle hljs"><span class="line"><span class="hljs-keyword">dependencies</span> {</span><span class="line">    implementation <span class="hljs-keyword">fileTree</span>(dir: <span class="hljs-string">&#x27;libs&#x27;</span>, <span class="hljs-keyword">include</span>: [<span class="hljs-string">&#x27;*.jar&#x27;</span>])</span><span class="line">}</span></code></pre>
+        </div>
+      
+15:Te83,---
+aliases:
+  - 외부 라이브러리 포함하기
+tags:
+  - Spring
+  - Spring/Configration
+  - Gradle
+  - index
+특징:
+isPublic: true
+---
+# 외부 라이브러리 포함하기
+- `Maven Central` 등 원격 저장소에 없는 사내 라이브러리나 레거시 `JAR` 파일을 프로젝트에 포함시키는 방법
+- `Maven` 적는걸 잊어버림
+	- 귀찮으니 나중에 시간내서 다시 적어야지
+## 🚨 장단점 및 주의사항
+* **장점**
+    * 사내 Maven Repository에 종속되지 않아 개발 환경 구성이 자유로움
+    * 중앙 저장소의 변경에 끌려다니지 않고 프로젝트별 독립성 유지 가능
+* **단점 및 주의사항**
+    * **의존성 전이 불가**: 로컬 JAR이 의존하는 다른 라이브러리는 직접 명시해야 함
+    * **수동 버전 관리**: 버전 변경 시 JAR 파일을 직접 교체해야 하므로 번거롭고 실수가 발생할 수 있음
+### 💡라이브러리가 필요할 경우
+- 라이브러리로 필요할 경우 `Nexus`, `Artifactory` 같은 **`사내 Maven Repository(Private Repository)`를 구축** 하거나 `GitHub Packages`같은 기능을 사용하는 방법 밖에 없음
+  보통 Maven Repository 를 구축하는 것을 추천
+- 취향차이 또는 회사 환경차이기는 하지만 사내 환경에 종속적이지 않은게 더 맞다고 생각
+	- 사내 망에 연결하는 것이 외부(집)에서 작업하기 힘든 환경일 경우 이 방법을 쓰면 일 하기에도 시키기 너무 좋음(나 포함)
+### 💡 해결책: 코드만 필요할 경우 Git Submodule을 이용한 버전 관리
+==이렇게 생각은 했는데 사실 난 아직 안써봄 아마 되지 않을까? 될껄? 이 회사는 이렇게까지 쓸 일이 없었는걸?==
+- [[2.Ref(데이터 및 정보 저장)/GIT/Git Submodule|Git Submodule]]을 사용하면, 소스 코드를 직접 포함하면서도 **특정 버전을 명시**할 수 있어 위 단점을 해결 가능
+- 핵심은 라이브러리 프로젝트(Submodule)에서 **Git Tag**로 버전을 명시하는 것
+#### 1.라이브러리 저장소에서 버전 태그(Tag) 생성
+- 라이브러리 프로젝트(예: B Repository)에서 버전 릴리즈 시점에 맞춰 태그를 생성하고 push
+```bash title:"메인 프로젝트에서 사용할 서브 프로젝트에서 태그 설정"
+# B Repository에서 실행
+git tag -a v1.1.0 -m "Release version 1.1.0"
+git push origin v1.1.0
+```
+#### 2.메인 프로젝트에서 Submodule 업데이트
+- 메인 프로젝트(예: A Project)에서 Submodule을 원하는 버전 태그로 업데이트하고, 이 변경사항을 커밋
+```bash title:"메인 프로젝트에서 서브 프로젝트 받기"
+# A Project에서 실행
+
+# 1. Submodule 폴더로 이동
+cd <submodule-path>
+
+# 2. 최신 변경사항과 태그 가져오기
+git fetch --tags
+
+# 3. 원하는 버전(태그)으로 체크아웃
+git checkout v1.1.0
+
+# 4. 상위 프로젝트로 이동하여 변경된 Submodule 커밋
+cd ..
+git add <submodule-path>
+git commit -m "Update library to v1.1.0"
+```
+이 방식을 사용하면, 팀원들은 `git clone --recurse-submodules` 명령어로 프로젝트를 복제할 때 항상 **고정된 `v1.1.0` 버전의 라이브러리**를 받게 됨
+
+## build.gradle 설정
+1. 프로젝트 최상위에 `libs` 폴더 생성
+```
+my-project/
+├── libs/
+│   └── custom-library-v1.jar
+├── build.gradle
+└── src/
+```
+### 특정 파일만 지정
+- `build.gradle` jar 내용 추가하기
+```gradle
+dependencies {
+    implementation files('libs/custom-library-v1.jar')
+}
+```
+### 폴더 내 모든 JAR 파일 포함
+```gradle
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}
+```
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/외부 라이브러리 포함하기","slugHash":"61ff5f33","content":"$14","markdownContent":"$15","title":"외부 라이브러리 포함하기","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Configration","Gradle","index"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["외부 라이브러리 포함하기"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

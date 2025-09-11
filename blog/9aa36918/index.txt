@@ -1,0 +1,188 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","9aa36918",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","9aa36918","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","9aa36918","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","ZXuNLK3abNcPS6sRA6QBb",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T1ef5,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  Spring boot
+                </h1>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  왜? 만들어졌나
+                </h2>
+<ul>
+<li>너무 확장 많이 확장
+<ul>
+<li>설정할게 너무 많음</li>
+<li>너무 무거움</li>
+<li>조합식이 너무 많아짐</li>
+<li>버전 꼬임</li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  5가지 핵심 기능
+                </h2>
+<ul>
+<li>내장 서버 (빌드 결과인 jar 에 <a href="/github-blog/blog/ac36af75">WAS</a> 서버 포함하여 배포(빌드 배포 단순화))</li>
+<li>자동 라이브러리 관리
+<ul>
+<li>스타터 종속성 제공</li>
+<li>외부 라이브러리 버전 자동 관리</li>
+</ul>
+</li>
+<li>자동 구성(Auto Configuration)
+<ul>
+<li>외부라이브러리 빈(Bean) 자동 등록</li>
+</ul>
+</li>
+<li>외부 설정
+<ul>
+<li>환경에 따른 외부 설정 공통화</li>
+</ul>
+</li>
+<li>모니터링과 관리 기능 (프로덕션 준비)
+<ul>
+<li>스프링 부트 액츄에이터</li>
+<li>마이크로미터, 프로메테우스, 그라파나를 활용한 모니터링</li>
+<li>모니터링 활용</li>
+</ul>
+</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  내장서버
+                </h3>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@SpringBootApplication</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">BootApplication</span> {</span><span class="line">	<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {</span><span class="line">		SpringApplication.run(BootApplication.class, args);</span><span class="line">	}</span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p><code>SpringApplication.run(BootApplication.class, args);</code> 한줄에는 2가지 핵심 기능 동작</p>
+</blockquote>
+<ul>
+<li>스프링 컨테이너 생성</li>
+<li><a href="/github-blog/blog/ac36af75">WAS</a>(내장 톰캣) 생성</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  자동 라이브러리 관리
+                </h3>
+<ul>
+<li><code>dependency-management</code> 플러그인을 통해 버전 자동 관리 가능
+<ul>
+<li><code>spring-boot-dependencies</code> 파일에 있는 <code>bom</code> 정보 참고 (해당 Spring boot 에 맞는 모든 라이브러리의 정보를 포함한 정보)</li>
+</ul>
+</li>
+</ul>
+
+<div class="callout" style="--callout-color: 41, 128, 185;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M11 3a1 1 0 100 2h2.586l-6.293 6.293a1 1 0 101.414 1.414L15 6.414V9a1 1 0 102 0V4a1 1 0 00-1-1h-5z" /><path d="M5 5a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2v-3a1 1 0 10-2 0v3H5V7h3a1 1 0 000-2H5z" /></svg></div>
+    <div class="callout-title-text">Spring boot 에서 추천하는 버전의 라이브러리를 사용하고 싶지 않을 때</div>
+  </div>
+  <div class="callout-content">
+    <p><code>ext['tomcat.version'] = '10.1.4'</code> 이런 형식으로 <code>build.gradle</code> 에 포함
+<a href="https://docs.spring.io/spring-boot/appendix/dependency-versions/properties.html#appendix.dependency-versions.properties">해당 이름 찾는 방법</a></p>
+
+  </div>
+</div>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  auto configuration(자동 구성)
+                </h3>
+<ul>
+<li>직접 Bean 등록하지 않아도 자동 등록 및 설정되어 있는 구성</li>
+<li><code>spring-boot</code> 에 <code>spring-boot-autoconfigure</code> 라는 이름으로 라이브러리를 사용</li>
+<li><a href="/github-blog/blog/99771b1c">@ConditionalOnMissingBean</a> 를 사용하여 인자로 들어가는 class 가 없을 경우 해당 configuration 등록 (사용자가 등록할 경우 사용자 것을 사용하도록 하기 위해)</li>
+<li><a href="/github-blog/blog/abb84bb4">@AutoConfiguration</a> 통해서 순서 설정</li>
+</ul>
+15:T983,---
+aliases:
+  - Spring boot
+tags:
+  - Spring
+---
+# Spring boot
+## 왜? 만들어졌나
+- 너무 확장 많이 확장
+	- 설정할게 너무 많음
+	- 너무 무거움
+	- 조합식이 너무 많아짐
+	- 버전 꼬임
+## 5가지 핵심 기능
+- 내장 서버 (빌드 결과인 jar 에 [[Web Application Server(WAS)|WAS]] 서버 포함하여 배포(빌드 배포 단순화))
+- 자동 라이브러리 관리
+	- 스타터 종속성 제공
+	- 외부 라이브러리 버전 자동 관리
+- 자동 구성(Auto Configuration)
+	- 외부라이브러리 빈(Bean) 자동 등록
+- 외부 설정
+	- 환경에 따른 외부 설정 공통화
+- 모니터링과 관리 기능 (프로덕션 준비)
+	- 스프링 부트 액츄에이터
+	- 마이크로미터, 프로메테우스, 그라파나를 활용한 모니터링
+	- 모니터링 활용
+### 내장서버
+```java
+@SpringBootApplication
+public class BootApplication {
+	public static void main(String[] args) {
+		SpringApplication.run(BootApplication.class, args);
+	}
+}
+```
+> `SpringApplication.run(BootApplication.class, args);` 한줄에는 2가지 핵심 기능 동작
+
+- 스프링 컨테이너 생성
+- [[2.Ref(데이터 및 정보 저장)/Web (Application) Server/Web Application Server(WAS)|WAS]](내장 톰캣) 생성
+### 자동 라이브러리 관리
+- `dependency-management` 플러그인을 통해 버전 자동 관리 가능
+	- `spring-boot-dependencies` 파일에 있는 `bom` 정보 참고 (해당 Spring boot 에 맞는 모든 라이브러리의 정보를 포함한 정보)
+> [!seealso] Spring boot 에서 추천하는 버전의 라이브러리를 사용하고 싶지 않을 때
+> `ext['tomcat.version'] = '10.1.4'` 이런 형식으로 `build.gradle` 에 포함
+> [해당 이름 찾는 방법](https://docs.spring.io/spring-boot/appendix/dependency-versions/properties.html#appendix.dependency-versions.properties)
+### auto configuration(자동 구성)
+- 직접 Bean 등록하지 않아도 자동 등록 및 설정되어 있는 구성
+- `spring-boot` 에 `spring-boot-autoconfigure` 라는 이름으로 라이브러리를 사용
+- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@ConditionalOnMissingBean]] 를 사용하여 인자로 들어가는 class 가 없을 경우 해당 configuration 등록 (사용자가 등록할 경우 사용자 것을 사용하도록 하기 위해)
+- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@AutoConfiguration]] 통해서 순서 설정
+
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Spring boot","slugHash":"9aa36918","content":"$14","markdownContent":"$15","title":"Spring boot","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["Spring boot"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

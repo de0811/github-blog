@@ -1,0 +1,183 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","7309a882",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","7309a882","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","7309a882","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","-3d0xto4EO6vPhJx_TNE1",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T241a,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  서버 사이드 렌더링(SSR)
+                </h1>
+<ul>
+<li><a href="/github-blog/blog/862f6e07">클라이언트 사이드 렌더링(CSR)</a> 반대 개념</li>
+<li>HTML 최종 결과를 서버에서 제작하여 웹 브라우저로 전달</li>
+<li>주로 정적인 화면에 사용</li>
+<li>ex) JSP, Thymeleaf</li>
+</ul>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  
+                </h1>
+<ul>
+<li>기본적인 사전 렌더링 방식</li>
+<li>요청이 들어올 때 마다 사전 렌더링을 진행</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  ⚙️ 설정
+                </h2>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  🚨 주의사항
+                </h2>
+<ul>
+<li>정해진 이름인 <code>getServerSideProps</code> 함수 명을 써야함</li>
+<li>반환에는 <code>props</code> 라는 이름으로 반환</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  🔍 속성 설명
+                </h2>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  📌 GetServerSidePropsContext
+                </h3>
+<ul>
+<li>getServerSideProps <a href="/github-blog/blog/a1afe82a">파라메터</a> 로 사용할 수 있으며 각종 정보(<a href="#">Query String</a> <a href="#">Path Variable</a>) 를 가지고 있음</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  📌 InferGetServerSidePropsType<typeof getServerSideProps>
+                </h3>
+<ul>
+<li><a href="/github-blog/blog/a1afe82a">파라메터</a> 받는 방법</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  📌
+                </h3>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  🛠 사용 예제
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">tsx</span>
+            </div>
+            <span class="custom-code-block-title">서버사이드 랜더링 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-tsx hljs"><span class="line"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">async</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">fetchBooks</span>(<span class="hljs-params"><span class="hljs-attr">q</span>?:<span class="hljs-built_in">string</span></span>) : <span class="hljs-title class_">Promise</span>&lt;<span class="hljs-title class_">BookData</span>[]&gt; {</span><span class="line">  <span class="hljs-keyword">let</span> url = <span class="hljs-string">&#x27;http://localhost:12345/book&#x27;</span></span><span class="line">  <span class="hljs-keyword">if</span>( q ) {</span><span class="line">    url += <span class="hljs-string">`/search?q=<span class="hljs-subst">${q}</span>`</span></span><span class="line">  }</span><span class="line">  <span class="hljs-keyword">try</span> {</span><span class="line">    <span class="hljs-keyword">const</span> response = <span class="hljs-keyword">await</span> <span class="hljs-title function_">fetch</span>(url)</span><span class="line">    <span class="hljs-keyword">if</span> (response.<span class="hljs-property">ok</span>) {</span><span class="line">      <span class="hljs-keyword">const</span> books = <span class="hljs-keyword">await</span> response.<span class="hljs-title function_">json</span>()</span><span class="line">      <span class="hljs-keyword">return</span> books</span><span class="line">    } <span class="hljs-keyword">else</span> {</span><span class="line">      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">Error</span>()</span><span class="line">    }</span><span class="line">  } <span class="hljs-keyword">catch</span> (error) {</span><span class="line">    <span class="hljs-variable language_">console</span>.<span class="hljs-title function_">error</span>(error)</span><span class="line">    <span class="hljs-keyword">return</span> []</span><span class="line">  }</span><span class="line">}</span><span class="line">&nbsp;</span><span class="line highlighted-line"><span class="hljs-keyword">export</span> <span class="hljs-keyword">const</span> <span class="hljs-title function_">getServerSideProps</span> = <span class="hljs-keyword">async</span> (<span class="hljs-params">context : <span class="hljs-title class_">GetServerSidePropsContext</span></span>) =&gt; {</span><span class="line highlighted-line">  <span class="hljs-keyword">const</span> q = context.<span class="hljs-property">query</span>.<span class="hljs-property">q</span>;</span><span class="line highlighted-line">  <span class="hljs-keyword">const</span> searchBooks = <span class="hljs-keyword">await</span> <span class="hljs-title function_">fetchBooks</span>(q <span class="hljs-keyword">as</span> <span class="hljs-built_in">string</span>);</span><span class="line highlighted-line">&nbsp;</span><span class="line highlighted-line">  <span class="hljs-keyword">return</span> {</span><span class="line highlighted-line">    <span class="hljs-attr">props</span>: {</span><span class="line highlighted-line">      searchBooks</span><span class="line highlighted-line">    }</span><span class="line highlighted-line">  }</span><span class="line highlighted-line">}</span><span class="line">&nbsp;</span><span class="line highlighted-line"><span class="hljs-keyword">export</span> <span class="hljs-keyword">default</span> <span class="hljs-keyword">function</span> <span class="hljs-title function_">Page</span>(<span class="hljs-params"><span class="hljs-attr">props</span>:<span class="hljs-title class_">InferGetServerSidePropsType</span>&lt;<span class="hljs-keyword">typeof</span> getServerSideProps&gt;</span>) {</span><span class="line">  <span class="hljs-keyword">const</span> router = <span class="hljs-title function_">useRouter</span>()</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-keyword">const</span> { q } = router.<span class="hljs-property">query</span>;</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-keyword">return</span> (</span><span class="line">    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span>&gt;</span></span><span class="line">      {props.searchBooks.map((book) =&gt; (</span><span class="line">      <span class="hljs-tag">&lt;<span class="hljs-name">BookItem</span> <span class="hljs-attr">key</span>=<span class="hljs-string">{book.id}</span> {<span class="hljs-attr">...book</span>} /&gt;</span></span><span class="line">      ))}</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span></span><span class="line">  )</span><span class="line">}</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-title class_">Page</span>.<span class="hljs-property">getLayout</span> = <span class="hljs-keyword">function</span> <span class="hljs-title function_">getLayout</span>(<span class="hljs-params"><span class="hljs-attr">page</span>:<span class="hljs-title class_">ReactNode</span></span>) {</span><span class="line">  <span class="hljs-keyword">return</span> (</span><span class="line">    <span class="language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">SearchableLayout</span>&gt;</span></span><span class="line">      {page}</span><span class="line">    <span class="hljs-tag">&lt;/<span class="hljs-name">SearchableLayout</span>&gt;</span></span></span><span class="line">  )</span><span class="line">}</span></code></pre>
+        </div>
+      
+15:T9c7,---
+aliases:
+  - 서버 사이드 렌더링(SSR)
+  - 서버 사이드 렌더링
+  - SSR
+tags:
+  - 개발/개발이론
+  - Nextjs
+---
+# 서버 사이드 렌더링(SSR)
+- [[2.Ref(데이터 및 정보 저장)/개발 이론/클라이언트 사이드 렌더링(CSR)|클라이언트 사이드 렌더링(CSR)]] 반대 개념
+- HTML 최종 결과를 서버에서 제작하여 웹 브라우저로 전달
+- 주로 정적인 화면에 사용
+- ex) JSP, Thymeleaf
+# [[0.New Note/Next.js|Next.js]] 
+- 기본적인 사전 렌더링 방식
+- 요청이 들어올 때 마다 사전 렌더링을 진행
+## ⚙️ 설정
+## 🚨 주의사항
+- 정해진 이름인 `getServerSideProps` 함수 명을 써야함
+- 반환에는 `props` 라는 이름으로 반환
+## 🔍 속성 설명
+
+### 📌 GetServerSidePropsContext
+- getServerSideProps [[2.Ref(데이터 및 정보 저장)/개발 이론/Parameter|파라메터]] 로 사용할 수 있으며 각종 정보([[2.Ref(데이터 및 정보 저장)/Javascript/Query String or URL Params or Query Parameters, Path Variable|Query String]] [[2.Ref(데이터 및 정보 저장)/Javascript/Query String or URL Params or Query Parameters, Path Variable|Path Variable]]) 를 가지고 있음
+### 📌 `InferGetServerSidePropsType<typeof getServerSideProps>`
+- [[2.Ref(데이터 및 정보 저장)/개발 이론/Parameter|파라메터]] 받는 방법
+### 📌
+## 🛠 사용 예제
+```tsx title:"서버사이드 랜더링 방법" hl:20-29,31
+export default async function fetchBooks(q?:string) : Promise<BookData[]> {
+  let url = 'http://localhost:12345/book'
+  if( q ) {
+    url += `/search?q=${q}`
+  }
+  try {
+    const response = await fetch(url)
+    if (response.ok) {
+      const books = await response.json()
+      return books
+    } else {
+      throw new Error()
+    }
+  } catch (error) {
+    console.error(error)
+    return []
+  }
+}
+
+export const getServerSideProps = async (context : GetServerSidePropsContext) => {
+  const q = context.query.q;
+  const searchBooks = await fetchBooks(q as string);
+
+  return {
+    props: {
+      searchBooks
+    }
+  }
+}
+
+export default function Page(props:InferGetServerSidePropsType<typeof getServerSideProps>) {
+  const router = useRouter()
+
+  const { q } = router.query;
+
+  return (
+    <div>
+      {props.searchBooks.map((book) => (
+      <BookItem key={book.id} {...book} />
+      ))}
+
+    </div>
+  )
+}
+
+Page.getLayout = function getLayout(page:ReactNode) {
+  return (
+    <SearchableLayout>
+      {page}
+    </SearchableLayout>
+  )
+}
+```5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"개발 이론/서버 사이드 렌더링(SSR)","slugHash":"7309a882","content":"$14","markdownContent":"$15","title":"서버 사이드 렌더링(SSR)","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["개발/개발이론","Nextjs"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["서버 사이드 렌더링(SSR)","서버 사이드 렌더링","SSR"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

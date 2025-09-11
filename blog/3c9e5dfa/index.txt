@@ -1,0 +1,321 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","3c9e5dfa",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","3c9e5dfa","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","3c9e5dfa","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","OGypW4GBnT93V3_bsVSPC",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T3df1,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  OAUTH2(Open Authorization)
+                </h1>
+<p>마이크로 서비스는 보안로직, 인증, 허가로직을 분리해야함<br>OAUTH2 는 인증 공통 처리를 위해 개발<br><a href="https://www.oauth.com/">테스트를 해 볼 수 있는 사이트</a></p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  용어
+                </h2>
+<ul>
+<li>리소스 소유자(Resource Owner), 엔드유저
+<ul>
+<li>보호된 리소스(예: 트위터 트윗)의 소유자이며, OAuth 플로우를 통해 다른 애플리케이션이 이러한 리소스에 접근할 권한을 부여</li>
+</ul>
+</li>
+<li>클라이언트(Client)
+<ul>
+<li>OAuth 플로우를 통해 리소스에 접근하려는 애플리케이션</li>
+</ul>
+</li>
+<li>승인 서버(Authorization Server)
+<ul>
+<li>리소스 소유자의 인증 및 권한 부여를 처리하는 서버</li>
+<li>엔드 유저의 자격 증명을 검증하고, 클라이언트에게 접근 권한을 부여</li>
+</ul>
+</li>
+<li>리소스 서버(Resource Server)
+<ul>
+<li>보호된 리소스가 저장되어 있는 서버</li>
+<li>클라이언트가 접근하고자 하는 리소스에 대한 요청을 처리하고 응답</li>
+</ul>
+</li>
+<li>스코프(Scope)
+<ul>
+<li>클라이언트가 요청하는 리소스에 대한 권한 범위</li>
+<li>"트윗 읽기"나 "프로필 보기"와 같은 스코프를 설정</li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  OAuth 2.0 사용하는 과정
+                </h2>
+<ol>
+<li>인증 받으려는 접속하는 서버에 API 에 대한 액세스 요청</li>
+<li>나의 앱을 접속하는 서버에 등록하고 접속하는 서버로부터 클라이언트 ID와 기밀(비밀번호 같은 것)을 받음</li>
+<li>사용자가 접속하려는 서버의 인증 서버를 통해 로그인하고 나의 앱에 인증 코드를 부여</li>
+<li>앱은 인증 코드와 액세스 토큰을 요청하고 앱의 ID와 기밀을 전달</li>
+<li>인증 서버는 앱의 신원을 확인하고 인증 코드를 교환하여 액세스 토큰을 발급</li>
+<li>이제 서버에 요청 가능</li>
+</ol>
+<p><img src="/github-blog/images/AttachedFile/Pasted%20image%2020240418141210.png" alt="Pasted image 20240418141210.png" style="width:800px"></p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  앱 서버에 나의 정보를 엑세스 허용 요청 데이터
+                </h3>
+<ul>
+<li><code>client_id</code> : 클라이언트 앱의 ID</li>
+<li><code>redirect_uri</code> : 인증 성공 후 인증 서버가 사용자를 리디렉션해야하는 URI</li>
+<li><code>scope</code> : 클라이언트가 요청하는 액세스 수준</li>
+<li><code>state</code> : CSRF 공격으로부터 보호하기 위한 CSRF 토큰 값</li>
+<li><code>response_type</code> : 클라이언트가 인증 코드 부여 유형을 사용하고 있음을 나타내는 <code>code</code> 값</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  AUTHORIZATION_CODE 와 함께 전달할 데이터
+                </h3>
+<ul>
+<li><code>code</code> : 사용자가 허락했음을 전달하는 인증 코드</li>
+<li><code>client_id</code> &#x26; <code>client_secret</code> : 앱의 ID 및 기밀(비밀번호 같은 것)</li>
+<li><code>grant_type</code> : 클라이언트가 인증 코드 부여 유형을 사용하고 있음을 나타내는 "authorization_code" 값입니다. ???????????</li>
+<li><code>redirect_uri</code> : 인증 성공 후 인증 서버가 사용자를 리디렉션해야하는 URI</li>
+</ul>
+<p><img src="/github-blog/images/AttachedFile/Pasted%20image%2020240418164831.png" alt="Pasted image 20240418164831.png" style="width:800px"></p>
+<blockquote>
+<p>만료된 Access Token 재갱신 방법</p>
+</blockquote>
+<p>refresh 토큰을 사용하는 이유는 Access 토큰은 노출될 수 있기 때문에 만료하여 재갱신 필요</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  만료된 Access Token 재갱신 시 필요 데이터
+                </h3>
+<ul>
+<li><code>client_id</code> &#x26; <code>client_secret</code> :</li>
+<li><code>refresh_token</code> :</li>
+<li><code>scope</code> :</li>
+<li><code>grant_type</code> :</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  Resource Server 에서는 어떻게 Auth Server 와 동일하게 검증이 가능할까?
+                </h3>
+<ul>
+<li>매번 Auth Server 를 통해서 검증하는 방법</li>
+<li>같은 DB를 사용하여 토큰을 DB에 적제하는 방법</li>
+<li>동일한 공개 인증서를 사용하여 검증하는 방법</li>
+</ul>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  OIDC(OpenID Connect)
+                </h1>
+<p>OAuth 2.0 과 차이점<br>공통 : 승인과 허가를 활용<br>차이점 : 액세스 토큰과 스코프 세부 사항을 파악<br>OAuth 2.0은 구조물로는 누가 엔드 유저인지 디테일은 무엇인지 이메일은 무엇인지 주소 세부 사항이 무엇인지 알 수 없음 (JWT랑은 다르니까)<br>OpenID는 OAuth 구조 위에서 동작</p>
+<p>사용자의 추가 정보를 알고 싶어서 있는 건가본데</p>
+<p>엑세스 토큰 : 승인을 관리<br>OpenID 토큰 : 사용자 세부 사항의 권한을 관리<br>리프레시 토큰</p>
+<p>엑세스 토큰과 OpenID 토큰을 동시에 보내기 위해 접근 관리 방법으로<br>IAM 접근 방법이 탄생<br>IAM 접근 방법을 이용해 keycloak 도 탄생</p>
+<p>scope 로 전달하며 openID 는 JWT로 구성되어 있음<br>payload 에는 각종 아이디 및 사용자의 정보가 포함됨</p>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  Oauth2 인증 서버
+                </h1>
+<p><a href="#">keycloak</a>  사용하는 방법도 있음</p>
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  OAUTH2 Social Login
+                </h1>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  보안 설정 방법
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>XML</title><path d="M13.4 3l-2.8 18 2.8 0 2.8-18h-2.8zM6.4 6l-3.8 6 3.8 6 2.2 0-3.8-6 3.8-6-2.2 0zM21.4 6l-3.8 6 3.8 6 2.2 0-3.8-6 3.8-6-2.2 0z"/></svg></span>
+              <span class="custom-code-block-lang-text">xml</span>
+            </div>
+            <span class="custom-code-block-title">pom.xml 설정</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-xml hljs"><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework.boot<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-boot-starter-oauth2-client<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework.boot<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-boot-starter-security<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>org.springframework.boot<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>spring-boot-starter-web<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span></span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">java 에서 client-id, client-secret 등록 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Configuration</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">SpringSecOAUTH2GitHubConfig</span> {</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@Bean</span></span><span class="line">    SecurityFilterChain <span class="hljs-title function_">defaultSecurityFilterChain</span><span class="hljs-params">(HttpSecurity http)</span> <span class="hljs-keyword">throws</span> Exception {</span><span class="line">        http.authorizeHttpRequests((requests)-&gt;requests.anyRequest().authenticated())</span><span class="line">                .oauth2Login(Customizer.withDefaults());</span><span class="line">        <span class="hljs-keyword">return</span> http.build();</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@Bean</span></span><span class="line">    <span class="hljs-keyword">public</span> ClientRegistrationRepository <span class="hljs-title function_">clientRepository</span><span class="hljs-params">()</span> {</span><span class="line">        <span class="hljs-type">ClientRegistration</span> <span class="hljs-variable">clientReg</span> <span class="hljs-operator">=</span> clientRegistration();</span><span class="line">        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">InMemoryClientRegistrationRepository</span>(clientReg);</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-keyword">private</span> ClientRegistration <span class="hljs-title function_">clientRegistration</span><span class="hljs-params">()</span> {</span><span class="line">		<span class="hljs-keyword">return</span> CommonOAuth2Provider.GITHUB.getBuilder(<span class="hljs-string">&quot;github&quot;</span>).clientId(<span class="hljs-string">&quot;8cf67ab304dc500092e3&quot;</span>)</span><span class="line">	           .clientSecret(<span class="hljs-string">&quot;6e6f91851c864684af2f91eaa08fb5041162768e&quot;</span>).build();</span><span class="line">	 }</span><span class="line">}</span><span class="line">&nbsp;</span></code></pre>
+        </div>
+      
+15:T167e,---
+aliases:
+  - OAUTH2
+  - OIDC
+tags:
+  - Spring
+  - Spring/Security
+특징:
+---
+# OAUTH2(Open Authorization)
+마이크로 서비스는 보안로직, 인증, 허가로직을 분리해야함
+OAUTH2 는 인증 공통 처리를 위해 개발
+[테스트를 해 볼 수 있는 사이트](https://www.oauth.com/)
+## 용어
+- 리소스 소유자(Resource Owner), 엔드유저
+	- 보호된 리소스(예: 트위터 트윗)의 소유자이며, OAuth 플로우를 통해 다른 애플리케이션이 이러한 리소스에 접근할 권한을 부여
+- 클라이언트(Client)
+	- OAuth 플로우를 통해 리소스에 접근하려는 애플리케이션
+- 승인 서버(Authorization Server)
+	- 리소스 소유자의 인증 및 권한 부여를 처리하는 서버
+	- 엔드 유저의 자격 증명을 검증하고, 클라이언트에게 접근 권한을 부여
+- 리소스 서버(Resource Server)
+	- 보호된 리소스가 저장되어 있는 서버
+	- 클라이언트가 접근하고자 하는 리소스에 대한 요청을 처리하고 응답
+- 스코프(Scope)
+	- 클라이언트가 요청하는 리소스에 대한 권한 범위
+	- "트윗 읽기"나 "프로필 보기"와 같은 스코프를 설정
+## OAuth 2.0 사용하는 과정
+1. 인증 받으려는 접속하는 서버에 API 에 대한 액세스 요청
+2. 나의 앱을 접속하는 서버에 등록하고 접속하는 서버로부터 클라이언트 ID와 기밀(비밀번호 같은 것)을 받음
+3. 사용자가 접속하려는 서버의 인증 서버를 통해 로그인하고 나의 앱에 인증 코드를 부여
+4. 앱은 인증 코드와 액세스 토큰을 요청하고 앱의 ID와 기밀을 전달
+5. 인증 서버는 앱의 신원을 확인하고 인증 코드를 교환하여 액세스 토큰을 발급
+6. 이제 서버에 요청 가능
+
+![[config/AttachedFile/Pasted image 20240418141210.png|800]]
+
+### 앱 서버에 나의 정보를 엑세스 허용 요청 데이터
+- `client_id` : 클라이언트 앱의 ID
+- `redirect_uri` : 인증 성공 후 인증 서버가 사용자를 리디렉션해야하는 URI
+- `scope` : 클라이언트가 요청하는 액세스 수준
+- `state` : CSRF 공격으로부터 보호하기 위한 CSRF 토큰 값
+- `response_type` : 클라이언트가 인증 코드 부여 유형을 사용하고 있음을 나타내는 `code` 값
+
+### AUTHORIZATION_CODE 와 함께 전달할 데이터
+- `code` : 사용자가 허락했음을 전달하는 인증 코드
+- `client_id` & `client_secret` : 앱의 ID 및 기밀(비밀번호 같은 것)
+- `grant_type` : 클라이언트가 인증 코드 부여 유형을 사용하고 있음을 나타내는 "authorization_code" 값입니다. ???????????
+- `redirect_uri` : 인증 성공 후 인증 서버가 사용자를 리디렉션해야하는 URI
+
+![[config/AttachedFile/Pasted image 20240418164831.png|800]]
+> 만료된 Access Token 재갱신 방법
+
+refresh 토큰을 사용하는 이유는 Access 토큰은 노출될 수 있기 때문에 만료하여 재갱신 필요
+
+### 만료된 Access Token 재갱신 시 필요 데이터
+- `client_id` & `client_secret` : 
+- `refresh_token` : 
+- `scope` : 
+- `grant_type` :
+
+### Resource Server 에서는 어떻게 Auth Server 와 동일하게 검증이 가능할까?
+- 매번 Auth Server 를 통해서 검증하는 방법
+- 같은 DB를 사용하여 토큰을 DB에 적제하는 방법
+- 동일한 공개 인증서를 사용하여 검증하는 방법
+
+
+# OIDC(OpenID Connect)
+ OAuth 2.0 과 차이점
+ 공통 : 승인과 허가를 활용
+ 차이점 : 액세스 토큰과 스코프 세부 사항을 파악
+OAuth 2.0은 구조물로는 누가 엔드 유저인지 디테일은 무엇인지 이메일은 무엇인지 주소 세부 사항이 무엇인지 알 수 없음 (JWT랑은 다르니까)
+OpenID는 OAuth 구조 위에서 동작
+
+
+사용자의 추가 정보를 알고 싶어서 있는 건가본데
+
+
+엑세스 토큰 : 승인을 관리
+OpenID 토큰 : 사용자 세부 사항의 권한을 관리
+리프레시 토큰
+
+엑세스 토큰과 OpenID 토큰을 동시에 보내기 위해 접근 관리 방법으로
+IAM 접근 방법이 탄생
+IAM 접근 방법을 이용해 keycloak 도 탄생
+
+scope 로 전달하며 openID 는 JWT로 구성되어 있음
+payload 에는 각종 아이디 및 사용자의 정보가 포함됨
+
+# Oauth2 인증 서버
+[[2.Ref(데이터 및 정보 저장)/Docker/keycloak|keycloak]]  사용하는 방법도 있음
+
+
+# OAUTH2 Social Login
+## 보안 설정 방법
+```xml title:"pom.xml 설정"
+<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-oauth2-client</artifactId>  
+</dependency>  
+<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-security</artifactId>  
+</dependency>  
+<dependency>  
+    <groupId>org.springframework.boot</groupId>  
+    <artifactId>spring-boot-starter-web</artifactId>  
+</dependency>
+```
+
+```java title:"java 에서 client-id, client-secret 등록 방법"
+@Configuration
+public class SpringSecOAUTH2GitHubConfig {
+
+    @Bean
+    SecurityFilterChain defaultSecurityFilterChain(HttpSecurity http) throws Exception {
+        http.authorizeHttpRequests((requests)->requests.anyRequest().authenticated())
+                .oauth2Login(Customizer.withDefaults());
+        return http.build();
+    }
+
+    @Bean
+    public ClientRegistrationRepository clientRepository() {
+        ClientRegistration clientReg = clientRegistration();
+        return new InMemoryClientRegistrationRepository(clientReg);
+    }
+
+    private ClientRegistration clientRegistration() {
+		return CommonOAuth2Provider.GITHUB.getBuilder("github").clientId("8cf67ab304dc500092e3")
+	           .clientSecret("6e6f91851c864684af2f91eaa08fb5041162768e").build();
+	 }
+}
+
+```
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Security/OAUTH2","slugHash":"3c9e5dfa","content":"$14","markdownContent":"$15","title":"OAUTH2","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Security"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["OAUTH2","OIDC"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

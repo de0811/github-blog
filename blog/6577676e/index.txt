@@ -1,0 +1,231 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","6577676e",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","6577676e","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","6577676e","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Lp6Xzj7owC05RTBSSqTyG",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T4f1b,<p>서블릿이 제공</p>
+
+<div class="callout" style="--callout-color: 0, 116, 217;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">전달 순서</div>
+  </div>
+  <div class="callout-content">
+    <p>HTTP 요청 -> WAS -> 필터 -> 서블릿 -> 컨트롤러</p>
+
+  </div>
+</div>
+<p>로그인 여부 확인하기 좋음<br>체인 형태 (다양한 필터를 체인형식으로 연결)</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  Method
+                </h2>
+<p><code>init()</code> : 필터 초기화 메서드, 서블릿 컨테이너가 생성될 때 호출<br> : 요청이 올때 마다 해당 메서드 호출 (필터 로직 구현)<br> : 요청이 올때 마다 해당 메서드 호출 (필터 로직 구현)
+<code>destroy()</code> : 필터 종료 메서드, 서블릿 컨테이너가 종료될 때 호출</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  등록방법
+                </h2>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  FilterRegistrationBean 등록 방법
+                </h3>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Configuration</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">WebConfig</span> {  </span><span class="line">  <span class="hljs-meta">@Bean</span>  </span><span class="line">  <span class="hljs-keyword">public</span> FilterRegistrationBean <span class="hljs-title function_">logFilter</span><span class="hljs-params">()</span> {  </span><span class="line">    <span class="hljs-type">FilterRegistrationBean</span> <span class="hljs-variable">registrationBean</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">FilterRegistrationBean</span>();  </span><span class="line">    registrationBean.setFilter(<span class="hljs-keyword">new</span> <span class="hljs-title class_">LogFilter</span>());  <span class="hljs-comment">// 필터 등록</span></span><span class="line">    registrationBean.setOrder(<span class="hljs-number">1</span>);  <span class="hljs-comment">// 순서 지정</span></span><span class="line">    registrationBean.addUrlPatterns(<span class="hljs-string">&quot;/*&quot;</span>);  <span class="hljs-comment">// 서블릿 URL 패턴</span></span><span class="line">    registrationBean.setDispatcherTypes(DispatcherType.REQUEST, DispatcherType.ERROR); <span class="hljs-comment">// DispatcherType 지정</span></span><span class="line">    <span class="hljs-keyword">return</span> registrationBean;  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<p><a href="/github-blog/blog/9b517218">DispatchType</a> 상태에 따라 처리 가능 Exception으로 2번 필터를 지나는 것을 방지할 수 있음<br> 해당 모습처럼 아무런 설정을 하지 않는다면 <a href="/github-blog/blog/9b517218#REQUEST">DispatchType.REQUEST</a> 일 경우만 등록되어 있기 때문에 에러일 경우 다시 필터를 반복하는 문제는 없음 해당 모습처럼 아무런 설정을 하지 않는다면 [[2.Ref(데이터 및 정보 저장)/Spring/DispatchType#REQUEST|DispatchType.REQUEST]] 일 경우만 등록되어 있기 때문에 에러일 경우 다시 필터를 반복하는 문제는 없음</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  @WebFilter 등록 방법
+                </h3>
+<p>단점으로는 WebFilter 의 경우 내부 톰켓 라이브러리를 사용하기 때문에 Weblogic 14.1.1 을 사용할때 에러 발생</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Component</span>  </span><span class="line"><span class="hljs-meta">@NoArgsConstructor</span>  </span><span class="line"><span class="hljs-meta">@WebFilter(urlPatterns = &quot;/**&quot;)</span></span><span class="line"><span class="hljs-comment">//@Order(Ordered.HIGHEST_PRECEDENCE) // 가장 높은 우선순위</span></span><span class="line"><span class="hljs-meta">@Order(0)</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AllowIPFilter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">OncePerRequestFilter</span> {  </span><span class="line">    <span class="hljs-meta">@Autowired</span>  </span><span class="line">    XsConfig xsConfig;  </span><span class="line">  </span><span class="line">    <span class="hljs-meta">@Override</span>  </span><span class="line">    <span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">doFilterInternal</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)</span> <span class="hljs-keyword">throws</span> ServletException, IOException {  </span><span class="line">        <span class="hljs-type">String</span> <span class="hljs-variable">ip</span> <span class="hljs-operator">=</span> request.getRemoteAddr();  </span><span class="line">  </span><span class="line">        log.info(<span class="hljs-string">&quot;!!!!!!!!!! ALLOW IP CHECK FILTER !!!!!!!!!!&quot;</span>);  </span><span class="line">        <span class="hljs-comment">// 허용하는 IP 인지 확인  </span></span><span class="line">        <span class="hljs-keyword">if</span>( ObjectUtil.isNotEmpty(ip) &amp;&amp; xsConfig.hasAllowIp(ip) ){ <span class="hljs-comment">// 허용된 IP            log.info(&quot;[&quot; + ip + &quot;] 허용된 IP&quot;);  </span></span><span class="line">            filterChain.doFilter(request, response);  </span><span class="line">        }<span class="hljs-keyword">else</span>{ <span class="hljs-comment">// 차단된 IP            log.error(&quot;[&quot; + ip + &quot;] 차단된 IP&quot;);  </span></span><span class="line">            response.sendError(HttpServletResponse.SC_FORBIDDEN, <span class="hljs-string">&quot;IP DENY.&quot;</span>);  </span><span class="line">        }  </span><span class="line">    }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  정의 방법
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">LogFilter</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">Filter</span> {  </span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">init</span><span class="hljs-params">(FilterConfig filterConfig)</span> <span class="hljs-keyword">throws</span> ServletException {  </span><span class="line">    log.info(<span class="hljs-string">&quot;log filter init&quot;</span>);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">doFilter</span><span class="hljs-params">(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain)</span> <span class="hljs-keyword">throws</span> IOException, ServletException {  </span><span class="line">    log.info(<span class="hljs-string">&quot;log filter doFilter&quot;</span>);  </span><span class="line">    <span class="hljs-type">HttpServletRequest</span> <span class="hljs-variable">httpServletRequest</span> <span class="hljs-operator">=</span> (HttpServletRequest) servletRequest;  </span><span class="line">    <span class="hljs-type">String</span> <span class="hljs-variable">requestURI</span> <span class="hljs-operator">=</span> httpServletRequest.getRequestURI();  </span><span class="line">    <span class="hljs-type">String</span> <span class="hljs-variable">requestURL</span> <span class="hljs-operator">=</span> httpServletRequest.getRequestURL().toString();  </span><span class="line">  </span><span class="line">    log.info(<span class="hljs-string">&quot;requestURI = {}, requestURL = {}&quot;</span>, requestURI, requestURL);  </span><span class="line">  </span><span class="line">    <span class="hljs-type">String</span> <span class="hljs-variable">uuid</span> <span class="hljs-operator">=</span> UUID.randomUUID().toString();  </span><span class="line">    <span class="hljs-keyword">try</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;REQUEST [{}][{}]&quot;</span>, uuid, requestURI);  </span><span class="line">      filterChain.doFilter(servletRequest, servletResponse);  </span><span class="line">    } <span class="hljs-keyword">catch</span> (Exception e) {  </span><span class="line">      <span class="hljs-keyword">throw</span> e;  </span><span class="line">    } <span class="hljs-keyword">finally</span> {  </span><span class="line">      log.info(<span class="hljs-string">&quot;RESPONSE [{}][{}]&quot;</span>, uuid, requestURI);  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">destroy</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;log filter destroy&quot;</span>);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<p><code>filterChain.doFilter()</code>를 통해 전달되어야 필터들의 체인 되어 동작하며 컨트롤러까지 동작</p>
+15:Tfe2,---
+aliases:
+  - 필터
+  - Filter
+tags:
+  - Spring
+  - Spring/Request
+  - Servlet
+  - Spring/공통관심사
+특징: 
+---
+서블릿이 제공
+> [!info] 전달 순서
+> HTTP 요청 -> WAS -> 필터 -> 서블릿 -> 컨트롤러
+
+로그인 여부 확인하기 좋음
+체인 형태 (다양한 필터를 체인형식으로 연결)
+## Method
+`init()` : 필터 초기화 메서드, 서블릿 컨테이너가 생성될 때 호출
+`doFilter()` : 요청이 올때 마다 해당 메서드 호출 (필터 로직 구현)
+`destroy()` : 필터 종료 메서드, 서블릿 컨테이너가 종료될 때 호출 
+## 등록방법
+### FilterRegistrationBean 등록 방법
+```java
+@Configuration  
+public class WebConfig {  
+  @Bean  
+  public FilterRegistrationBean logFilter() {  
+    FilterRegistrationBean registrationBean = new FilterRegistrationBean();  
+    registrationBean.setFilter(new LogFilter());  // 필터 등록
+    registrationBean.setOrder(1);  // 순서 지정
+    registrationBean.addUrlPatterns("/*");  // 서블릿 URL 패턴
+    registrationBean.setDispatcherTypes(DispatcherType.REQUEST, DispatcherType.ERROR); // DispatcherType 지정
+    return registrationBean;  
+  }  
+}
+```
+[[2.Ref(데이터 및 정보 저장)/Spring/DispatchType|DispatchType]] 상태에 따라 처리 가능 Exception으로 2번 필터를 지나는 것을 방지할 수 있음
+`registrationBean.setDispatcherTypes(DispatcherType.REQUEST);` 해당 모습처럼 아무런 설정을 하지 않는다면 [[2.Ref(데이터 및 정보 저장)/Spring/DispatchType#REQUEST|DispatchType.REQUEST]] 일 경우만 등록되어 있기 때문에 에러일 경우 다시 필터를 반복하는 문제는 없음
+### @WebFilter 등록 방법
+단점으로는 WebFilter 의 경우 내부 톰켓 라이브러리를 사용하기 때문에 Weblogic 14.1.1 을 사용할때 에러 발생
+```java
+@Component  
+@NoArgsConstructor  
+@WebFilter(urlPatterns = "/**")
+//@Order(Ordered.HIGHEST_PRECEDENCE) // 가장 높은 우선순위
+@Order(0)  
+public class AllowIPFilter extends OncePerRequestFilter {  
+    @Autowired  
+    XsConfig xsConfig;  
+  
+    @Override  
+    protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {  
+        String ip = request.getRemoteAddr();  
+  
+        log.info("!!!!!!!!!! ALLOW IP CHECK FILTER !!!!!!!!!!");  
+        // 허용하는 IP 인지 확인  
+        if( ObjectUtil.isNotEmpty(ip) && xsConfig.hasAllowIp(ip) ){ // 허용된 IP            log.info("[" + ip + "] 허용된 IP");  
+            filterChain.doFilter(request, response);  
+        }else{ // 차단된 IP            log.error("[" + ip + "] 차단된 IP");  
+            response.sendError(HttpServletResponse.SC_FORBIDDEN, "IP DENY.");  
+        }  
+    }  
+}
+```
+
+## 정의 방법
+```java
+@Slf4j  
+public class LogFilter implements Filter {  
+  @Override  
+  public void init(FilterConfig filterConfig) throws ServletException {  
+    log.info("log filter init");  
+  }  
+  
+  @Override  
+  public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {  
+    log.info("log filter doFilter");  
+    HttpServletRequest httpServletRequest = (HttpServletRequest) servletRequest;  
+    String requestURI = httpServletRequest.getRequestURI();  
+    String requestURL = httpServletRequest.getRequestURL().toString();  
+  
+    log.info("requestURI = {}, requestURL = {}", requestURI, requestURL);  
+  
+    String uuid = UUID.randomUUID().toString();  
+    try {  
+      log.info("REQUEST [{}][{}]", uuid, requestURI);  
+      filterChain.doFilter(servletRequest, servletResponse);  
+    } catch (Exception e) {  
+      throw e;  
+    } finally {  
+      log.info("RESPONSE [{}][{}]", uuid, requestURI);  
+    }  
+  }  
+  
+  @Override  
+  public void destroy() {  
+    log.info("log filter destroy");  
+  }  
+}
+```
+
+`filterChain.doFilter()`를 통해 전달되어야 필터들의 체인 되어 동작하며 컨트롤러까지 동작5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/공통관심사/Filter","slugHash":"6577676e","content":"$14","markdownContent":"$15","title":"Filter","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Request","Servlet","Spring/공통관심사"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["필터","Filter"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

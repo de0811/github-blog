@@ -1,0 +1,166 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","e2a9efcc",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","e2a9efcc","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","e2a9efcc","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","O-XxaeT8NqPLV1vfs_jLJ",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T1c4a,<p>#옵시디언</p>
+<blockquote>
+<p><strong>헬로</strong><br>일단 적어보는거죠<br>한번 적는다고 뭐 달라질것도 아니고</p>
+</blockquote>
+<blockquote>
+<p><strong>note</strong><br>asdasd<br>asdasd</p>
+</blockquote>
+<blockquote>
+<p><strong>Note</strong><br>asdasd<br>asdasdasd</p>
+</blockquote>
+
+<div class="callout" style="--callout-color: 155, 89, 182;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" /></svg></div>
+    <div class="callout-title-text">여기에 타이틀을 입력</div>
+  </div>
+  <div class="callout-content">
+    <p>여기엔 내용을 입력
+근데 이거 줄여져야 하지 않나?
+왜 안줄여져</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 0, 116, 217;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Info</div>
+  </div>
+  <div class="callout-content">
+    <p>일단 정보 [!info]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 0, 184, 148;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l.293.293a1 1 0 001.414-1.414l-3-3z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Tip</div>
+  </div>
+  <div class="callout-content">
+    <p>팁을 작성 [!tip]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 0, 116, 217;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Todo</div>
+  </div>
+  <div class="callout-content">
+    <p>투두 [!todo]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 127, 140, 141;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 1a1 1 0 00-1 1v1a1 1 0 001 1h8a1 1 0 001-1V6a1 1 0 00-1-1H6zM6 9a1 1 0 011-1h8a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h8a1 1 0 100-2H7z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Example</div>
+  </div>
+  <div class="callout-content">
+    <p>예제 [!example]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 0, 184, 148;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Success</div>
+  </div>
+  <div class="callout-content">
+    <p>성공 [!success]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 243, 156, 18;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-1 1v1a1 1 0 102 0V8a1 1 0 00-1-1zm1 9a1 1 0 11-2 0 1 1 0 012 0z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Question</div>
+  </div>
+  <div class="callout-content">
+    <p>질문 [!question]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 243, 156, 18;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.21 3.03-1.742 3.03H4.42c-1.532 0-2.492-1.696-1.742-3.03l5.58-9.92zM10 13a1 1 0 110-2 1 1 0 010 2zm-1-8a1 1 0 00-1 1v3a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Warning</div>
+  </div>
+  <div class="callout-content">
+    <p>경고 [!warning]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 211, 84, 0;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Failure</div>
+  </div>
+  <div class="callout-content">
+    <p>실패 [!failure]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 231, 76, 60;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.21 3.03-1.742 3.03H4.42c-1.532 0-2.492-1.696-1.742-3.03l5.58-9.92zM10 13a1 1 0 110-2 1 1 0 010 2zm-1-8a1 1 0 00-1 1v3a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Danger</div>
+  </div>
+  <div class="callout-content">
+    <p>위험 [!danger]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 231, 76, 60;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM8.707 7.293a1 1 0 00-1.414 1.414L8.586 10l-1.293 1.293a1 1 0 101.414 1.414L10 11.414l1.293 1.293a1 1 0 001.414-1.414L11.414 10l1.293-1.293a1 1 0 00-1.414-1.414L10 8.586 8.707 7.293z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Bug</div>
+  </div>
+  <div class="callout-content">
+    <p>버그 [!bug]</p>
+
+  </div>
+</div>
+
+<div class="callout" style="--callout-color: 127, 140, 141;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M4 4a2 2 0 012-2h8a2 2 0 012 2v12a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 1a1 1 0 00-1 1v1a1 1 0 001 1h8a1 1 0 001-1V6a1 1 0 00-1-1H6zM6 9a1 1 0 011-1h8a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h8a1 1 0 100-2H7z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">Example</div>
+  </div>
+  <div class="callout-content">
+    <p>예제 [!example]</p>
+
+  </div>
+</div>
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"옵시디언/blockquotes","slugHash":"e2a9efcc","content":"$14","markdownContent":"---\naliases:\n  - blockquotes\ntags:\n  - 옵시디언\n  - Obsidian\n---\n#옵시디언 \n\n\n\n>**헬로**\n> 일단 적어보는거죠\n> 한번 적는다고 뭐 달라질것도 아니고\n\n>**note**\n>asdasd\n>asdasd\n\n> **Note**\n> asdasd\n> asdasdasd\n\n>[!quote] 여기에 타이틀을 입력\n>여기엔 내용을 입력\n>근데 이거 줄여져야 하지 않나?\n>왜 안줄여져\n\n>[!info]\n>일단 정보 [!info]\n\n>[!tip]\n>팁을 작성 [!tip]\n\n>[!todo]\n>투두 [!todo]\n\n>[!example]\n>예제 [!example]\n\n>[!success]\n>성공 [!success]\n\n>[!question]\n>질문 [!question]\n\n>[!warning]\n>경고 [!warning]\n\n>[!failure]\n>실패 [!failure]\n\n>[!danger]\n>위험 [!danger]\n\n>[!bug]\n> \t버그 [!bug]\n\n>[!example]\n>\t\t예제 [!example]\n\n","title":"blockquotes","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["옵시디언","Obsidian"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["blockquotes"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

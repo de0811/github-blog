@@ -1,0 +1,353 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","9cdc016c",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","9cdc016c","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","9cdc016c","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","6NAv4YGdIDnNzzoiys7Ja",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T6170,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  Bean Validation
+                </h1>
+<ul>
+<li>Bean Validation 2.0(JSR-380) 이라는 기술 표준</li>
+<li>검증 애노테이션과 여러 인터페이스의 모음</li>
+<li>Spring 에서 동작하기 위해서 <a href="#">LocalValidatorFactoryBean</a> 을 통해서 Spring의 <a href="/github-blog/blog/710e8f82">Validator</a> 인척 동작</li>
+<li>구현체로는 하이버네이트 자주 사용</li>
+</ul>
+
+<div class="callout" style="--callout-color: 0, 116, 217;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">하이버네이트 reference</div>
+  </div>
+  <div class="callout-content">
+    
+  </div>
+</div>
+<ul>
+<li>공식 사이트: <a href="http://hibernate.org/validator/">http://hibernate.org/validator/</a></li>
+<li>공식 메뉴얼: <a href="https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/">https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/</a></li>
+<li>검증 애노테이션 모음: <a href="https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/#validator-defineconstraints-spec">https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/#validator-defineconstraints-spec</a></li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  사용 방법
+                </h2>
+<p><a href="/github-blog/blog/dd5c85f5">@Validated</a> 에서 사용 방법 참조를 추천</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Data</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Item</span> {</span><span class="line">    <span class="hljs-meta">@NotBlank</span></span><span class="line">    <span class="hljs-keyword">private</span> String itemName;</span><span class="line">    <span class="hljs-meta">@NotNull</span> <span class="hljs-meta">@Range(min = 1000, max = 1000000)</span></span><span class="line">    <span class="hljs-keyword">private</span> Integer price;</span><span class="line">}</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@PostMapping(&quot;/add&quot;)</span></span><span class="line"><span class="hljs-keyword">public</span> String <span class="hljs-title function_">addItem</span><span class="hljs-params">(<span class="hljs-meta">@Validated</span> <span class="hljs-meta">@ModelAttribute</span> Item item, BindingResult bindingResult)</span> {</span><span class="line">    <span class="hljs-comment">// @Validated: Item 객체를 검증하라는 지시</span></span><span class="line">    <span class="hljs-comment">// BindingResult: 검증 결과를 담을 객체 (반드시 검증 대상 바로 뒤에 위치)</span></span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 검증 실패 시</span></span><span class="line">    <span class="hljs-keyword">if</span> (bindingResult.hasErrors()) {</span><span class="line">        log.info(<span class="hljs-string">&quot;errors={}&quot;</span>, bindingResult);</span><span class="line">        <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;add-form&quot;</span>; <span class="hljs-comment">// 에러 메시지와 함께 폼으로 다시 이동</span></span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 검증 성공 시 로직</span></span><span class="line">    <span class="hljs-comment">// ...</span></span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  검증 실패 처리 방식
+                </h2>
+<ul>
+<li><a href="#">Content-Type</a> 에 따른 데이터가 넘어오는 형태가 달라서 검증 실패시 처리되는 결과가 다름</li>
+<li><a href="#">WebDataBinder</a>가 각 필드를 개별적으로 바인딩 처리
+<ul>
+<li><a href="/github-blog/blog/50777fae">@ModelAttribute</a> , <a href="/github-blog/blog/1fd56626">@RequestParam</a>, <a href="/github-blog/blog/124b0e03">@PathVariable</a> 처럼 필드 단위로 분석하는 것들</li>
+<li><code>Body</code>에 담겨진 내용이 <code>key-value</code> 쌍으로 넘어옴</li>
+</ul>
+<ol>
+<li><code>itemName=사과</code> -> <code>item.itemName</code> 필드에 바인딩 (성공)</li>
+<li><code>price=abc</code> -> <code>item.price</code> (Integer) 필드에 바인딩 시도 (실패)</li>
+<li>실패 사실을 <a href="/github-blog/blog/0429bddc">BindingResult</a> 에 <code>typeMismatch</code> 에러로 기록하고, <code>item.price</code>는 <code>null</code>로 둠</li>
+<li><strong>일단 컨트롤러는 정상 호출</strong></li>
+</ol>
+</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">Body</span>
+            </div>
+            <span class="custom-code-block-title">form 데이터의 전달되는 body 형태</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-Body hljs"><span class="line"><span class="hljs-symbol">itemName:</span>qwe</span><span class="line"><span class="hljs-symbol">price:</span><span class="hljs-number">1</span></span><span class="line"><span class="hljs-symbol">quantity:</span><span class="hljs-number">1</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p>ex) <a href="/github-blog/blog/50777fae">@ModelAttribute</a> form 데이터의 body 형태</p>
+</blockquote>
+<ul>
+<li><a href="/github-blog/blog/f9416c12">HttpMessageConverter</a>가 전체 텍스트를 객체로 변환 시도
+<ul>
+<li><a href="/github-blog/blog/7d08fd5c">@RequestBody</a> , <a href="/github-blog/blog/3b7510b4">@ResponseBody</a> , <a href="/github-blog/blog/9cb00fc1">HttpEntity</a></li>
+<li><code>Body</code>에 담겨진 내용이 텍스트 덩어리로 넘어옴</li>
+</ul>
+<ol>
+<li>JSON 텍스트 전체를 <code>Item</code>객체로 변환 시작</li>
+<li><code>"price": "abc"</code>를 <code>Integer</code> 타입으로 변환하려다 <strong>예외(Exception) 발생</strong></li>
+<li>객체 변환 자체가 실패했으므로, <strong>컨트롤러를 호출하기 전에</strong> 프로세스가 중단되고 400 (Bad Request) 에러를 응답</li>
+</ol>
+</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">Body</span>
+            </div>
+            <span class="custom-code-block-title">데이터의 전달되는 body 형태</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-Body hljs"><span class="line"><span class="hljs-attribute">itemName</span>:qwe,price:<span class="hljs-number">1</span>,quantity:<span class="hljs-number">1</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p>ex) <a href="/github-blog/blog/7d08fd5c">@RequestBody</a> 데이터의 body 형태</p>
+</blockquote>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  에러 메시지 관리
+                </h2>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  어노테이션 직접 작성(비추천)
+                </h3>
+<ul>
+<li>Bean Validation 등록 시 message <a href="/github-blog/blog/a1afe82a">파라메터</a>를 넣을 경우 defaultMessage 로 동작</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">직접 작성 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Data</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">Item</span> {  </span><span class="line">    <span class="hljs-keyword">private</span> Long id;  </span><span class="line">    <span class="hljs-meta">@NotBlank(message = &quot;1.상품 이름은 필수입니다.&quot;)</span>  </span><span class="line">    <span class="hljs-keyword">private</span> String itemName;  </span><span class="line">    <span class="hljs-meta">@NotNull(message = &quot;2.가격은 필수입니다.&quot;)</span>  </span><span class="line">    <span class="hljs-meta">@Range(min = 1000, max = 1000000)</span>  </span><span class="line">    <span class="hljs-keyword">private</span> Integer price;  </span><span class="line">    <span class="hljs-meta">@NotNull(message = &quot;4.수량은 필수입니다.&quot;)</span>  </span><span class="line">    <span class="hljs-meta">@Range(min = 1, max = 9999, message = &quot;5.수량은 최대 9,999 까지 허용합니다.&quot;)</span>  </span><span class="line">    <span class="hljs-keyword">private</span> Integer quantity;</span><span class="line">}</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  errors.properties 사용 방법
+                </h3>
+<ul>
+<li><code>resources/errors.properties</code> 파일을 생성하면 스프링부트가 자동으로 인식</li>
+<li>메시지를 한 곳에서 관리 가능하여 유지보수와 <a href="/github-blog/blog/73891858">i18n</a> 에 유리</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"># Bean Validation <span class="hljs-title function_">Codes</span> <span class="hljs-params">(Level <span class="hljs-number">1</span>)</span></span><span class="line">NotBlank=공백일 수 없습니다</span><span class="line">Range=범위를 벗어났습니다. ({<span class="hljs-number">2</span>}~{<span class="hljs-number">1</span>})</span><span class="line">&nbsp;</span><span class="line"># Custom Codes by <span class="hljs-title function_">Field</span> <span class="hljs-params">(Level <span class="hljs-number">2</span>)</span></span><span class="line">NotBlank.item.itemName=상품 이름은 필수입니다</span><span class="line">Range.item.price=가격은 {<span class="hljs-number">2</span>}원에서 {<span class="hljs-number">1</span>}원 사이여야 합니다</span></code></pre>
+        </div>
+      
+15:T13f8,---
+aliases:
+  - Bean Validation
+tags:
+  - BeanValidation
+  - Spring
+  - Spring/Validation
+특징:
+---
+# Bean Validation
+- Bean Validation 2.0(JSR-380) 이라는 기술 표준
+- 검증 애노테이션과 여러 인터페이스의 모음
+- Spring 에서 동작하기 위해서 [[0.New Note/LocalValidatorFactoryBean|LocalValidatorFactoryBean]] 을 통해서 Spring의 [[2.Ref(데이터 및 정보 저장)/Spring/Validator/Validator|Validator]] 인척 동작
+- 구현체로는 하이버네이트 자주 사용
+> [!info] 하이버네이트 reference
+- 공식 사이트: http://hibernate.org/validator/  
+- 공식 메뉴얼: https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/ 
+- 검증 애노테이션 모음: https://docs.jboss.org/hibernate/validator/6.2/reference/en-US/html_single/#validator-defineconstraints-spec
+
+## 사용 방법
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Validated-@Valid|@Validated]] 에서 사용 방법 참조를 추천
+
+```java
+@Data
+public class Item {
+    @NotBlank
+    private String itemName;
+    @NotNull @Range(min = 1000, max = 1000000)
+    private Integer price;
+}
+```
+
+```java
+@PostMapping("/add")
+public String addItem(@Validated @ModelAttribute Item item, BindingResult bindingResult) {
+    // @Validated: Item 객체를 검증하라는 지시
+    // BindingResult: 검증 결과를 담을 객체 (반드시 검증 대상 바로 뒤에 위치)
+
+    // 검증 실패 시
+    if (bindingResult.hasErrors()) {
+        log.info("errors={}", bindingResult);
+        return "add-form"; // 에러 메시지와 함께 폼으로 다시 이동
+    }
+
+    // 검증 성공 시 로직
+    // ...
+}
+```
+
+## 검증 실패 처리 방식
+- [[Content-Type]] 에 따른 데이터가 넘어오는 형태가 달라서 검증 실패시 처리되는 결과가 다름
+- [[WebDataBinder]]가 각 필드를 개별적으로 바인딩 처리
+	- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@ModelAttribute|@ModelAttribute]] , [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestParam|@RequestParam]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@PathVariable|@PathVariable]] 처럼 필드 단위로 분석하는 것들 
+	- `Body`에 담겨진 내용이 `key-value` 쌍으로 넘어옴
+	1. `itemName=사과` -> `item.itemName` 필드에 바인딩 (성공)
+	2. `price=abc` -> `item.price` (Integer) 필드에 바인딩 시도 (실패)
+	3. 실패 사실을 [[2.Ref(데이터 및 정보 저장)/Spring/Validator/BindingResult|BindingResult]] 에 `typeMismatch` 에러로 기록하고, `item.price`는 `null`로 둠
+	4. **일단 컨트롤러는 정상 호출**
+```Body title:"form 데이터의 전달되는 body 형태"
+itemName:qwe
+price:1
+quantity:1
+```
+> ex) [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@ModelAttribute|@ModelAttribute]] form 데이터의 body 형태
+
+- [[2.Ref(데이터 및 정보 저장)/Spring/변환기/HttpMessageConverter|HttpMessageConverter]]가 전체 텍스트를 객체로 변환 시도
+	- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestBody|@RequestBody]] , [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@ResponseBody|@ResponseBody]] , [[2.Ref(데이터 및 정보 저장)/Spring/HttpEntity|HttpEntity]]
+	- `Body`에 담겨진 내용이 텍스트 덩어리로 넘어옴
+	1. JSON 텍스트 전체를 `Item`객체로 변환 시작
+	2. `"price": "abc"`를 `Integer` 타입으로 변환하려다 **예외(Exception) 발생**
+	3. 객체 변환 자체가 실패했으므로, **컨트롤러를 호출하기 전에** 프로세스가 중단되고 400 (Bad Request) 에러를 응답
+```Body title:"데이터의 전달되는 body 형태"
+itemName:qwe,price:1,quantity:1
+```
+> ex) [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestBody|@RequestBody]] 데이터의 body 형태
+
+## 에러 메시지 관리
+### 어노테이션 직접 작성(비추천)
+- Bean Validation 등록 시 message [[2.Ref(데이터 및 정보 저장)/개발 이론/Parameter|파라메터]]를 넣을 경우 defaultMessage 로 동작
+```java title:"직접 작성 방법"
+@Data  
+public class Item {  
+    private Long id;  
+    @NotBlank(message = "1.상품 이름은 필수입니다.")  
+    private String itemName;  
+    @NotNull(message = "2.가격은 필수입니다.")  
+    @Range(min = 1000, max = 1000000)  
+    private Integer price;  
+    @NotNull(message = "4.수량은 필수입니다.")  
+    @Range(min = 1, max = 9999, message = "5.수량은 최대 9,999 까지 허용합니다.")  
+    private Integer quantity;
+}
+```
+### `errors.properties` 사용 방법
+- `resources/errors.properties` 파일을 생성하면 스프링부트가 자동으로 인식
+- 메시지를 한 곳에서 관리 가능하여 유지보수와 [[2.Ref(데이터 및 정보 저장)/Spring/MessageSource|i18n]] 에 유리
+```java
+# Bean Validation Codes (Level 1)
+NotBlank=공백일 수 없습니다
+Range=범위를 벗어났습니다. ({2}~{1})
+
+# Custom Codes by Field (Level 2)
+NotBlank.item.itemName=상품 이름은 필수입니다
+Range.item.price=가격은 {2}원에서 {1}원 사이여야 합니다
+```
+
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Validator/Bean Validation","slugHash":"9cdc016c","content":"$14","markdownContent":"$15","title":"Bean Validation","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["BeanValidation","Spring","Spring/Validation"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["Bean Validation"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

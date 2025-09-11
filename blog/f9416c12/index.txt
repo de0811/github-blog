@@ -1,0 +1,386 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","f9416c12",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","f9416c12","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","f9416c12","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","rFGd64FuetOyK2QYS2lHp",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T7592,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  HttpMessageConverter
+                </h1>
+<ul>
+<li><strong>요청, 응답 모두 사용</strong> 되며 즉, <a href="/github-blog/blog/9cb00fc1">HttpEntity</a> 또는 <a href="/github-blog/blog/7d08fd5c">@RequestBody</a> 또는 <a href="/github-blog/blog/3b7510b4">@ResponseBody</a> 에서 사용
+<ul>
+<li>Response 경우 <code>Accept: application/json</code> 이 부분을 보고 판단</li>
+</ul>
+</li>
+<li>byte 처리 등등 기타 여러 컨버터가 기본적으로 등록 되어 있음</li>
+<li>[[2.Ref(데이터 및 정보 저장)/Spring/변환기/Converter#<code>ConversionService</code>|ConversionService]] 사용불가</li>
+<li>HttpMessageConverter 역활은 HTTP 메시지 바디의 내용을 객체로 변환하거나 객체를 HTTP 메시지 바디에 입력하는 것
+<ul>
+<li>한번에 변환되는 특징</li>
+</ul>
+</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title class_">HttpMessageConverter</span>&lt;T&gt; {</span><span class="line">&nbsp;</span><span class="line">	<span class="hljs-comment">/**</span><span class="line">	 * 컨버터가 읽을 수 있는지 확인(요청)</span><span class="line">	 * <span class="hljs-doctag">@param</span> clazz 가독성 테스트를 위한 클래스</span><span class="line">	 * <span class="hljs-doctag">@param</span> mediaType 일반적으로 {<span class="hljs-doctag">@code</span> Content-Type} 헤더의 값입니다.</span><span class="line">	 * <span class="hljs-doctag">@return</span> 읽을 수 있으면 <span class="hljs-doctag">@return</span> {<span class="hljs-doctag">@code</span> true}; 그렇지 않으면 {<span class="hljs-doctag">@code</span> false}</span><span class="line">	 */</span></span><span class="line">	<span class="hljs-type">boolean</span> <span class="hljs-title function_">canRead</span><span class="hljs-params">(Class&lt;?&gt; clazz, <span class="hljs-meta">@Nullable</span> MediaType mediaType)</span>;</span><span class="line">&nbsp;</span><span class="line">	<span class="hljs-comment">/**</span><span class="line">	 * 컨버터가 쓸 수 있는지 확인(응답)</span><span class="line">	 * <span class="hljs-doctag">@param</span> clazz 쓰기 가능성 테스트를 위한 클래스</span><span class="line">	 * <span class="hljs-doctag">@param</span> mediaType 일반적으로 {<span class="hljs-doctag">@code</span> Accept} 헤더의 값입니다.</span><span class="line">	 * 쓰기 가능한 경우 <span class="hljs-doctag">@return</span> {<span class="hljs-doctag">@code</span> true}; 그렇지 않으면 {<span class="hljs-doctag">@code</span> false}</span><span class="line">	 */</span></span><span class="line">	<span class="hljs-type">boolean</span> <span class="hljs-title function_">canWrite</span><span class="hljs-params">(Class&lt;?&gt; clazz, <span class="hljs-meta">@Nullable</span> MediaType mediaType)</span>;</span><span class="line">&nbsp;</span><span class="line">	<span class="hljs-comment">/**</span><span class="line">	 * 이 컨버터가 지원하는 미디어 타입 목록을 반환</span><span class="line">	 * {<span class="hljs-doctag">@link</span> #canWrite(Class, MediaType) 먼저 써서 확인 필수</span><span class="line">   * <span class="hljs-doctag">@return</span> 지원되는 미디어 유형 목록</span><span class="line">	 */</span></span><span class="line">	List&lt;MediaType&gt; <span class="hljs-title function_">getSupportedMediaTypes</span><span class="hljs-params">()</span>;</span><span class="line">&nbsp;</span><span class="line">	<span class="hljs-comment">/**</span><span class="line">	 * 클래스가 지원하는 유형이라면 타입 목록을 주고 아니라면 빈 값을 전달</span><span class="line">	 * <span class="hljs-doctag">@param</span> clazz 확인할 클래스</span><span class="line">	 * <span class="hljs-doctag">@return</span> 해당 클래스에 지원되는 미디어 영역</span><span class="line">	 */</span></span><span class="line">	<span class="hljs-keyword">default</span> List&lt;MediaType&gt; <span class="hljs-title function_">getSupportedMediaTypes</span><span class="hljs-params">(Class&lt;?&gt; clazz)</span> {</span><span class="line">		<span class="hljs-keyword">return</span> (canRead(clazz, <span class="hljs-literal">null</span>) || canWrite(clazz, <span class="hljs-literal">null</span>) ?</span><span class="line">				getSupportedMediaTypes() : Collections.emptyList());</span><span class="line">	}</span><span class="line">&nbsp;</span><span class="line">	<span class="hljs-comment">/**</span><span class="line">	 * 메세지를 특정 객체로 반환</span><span class="line">	 * <span class="hljs-doctag">@param</span> clazz 반환할 객체 유형</span><span class="line">	 * canRead 함수가 true 일때 사용</span><span class="line">	 * <span class="hljs-doctag">@param</span> inputMessage HTTP 입력 메세지</span><span class="line">	 * <span class="hljs-doctag">@return</span> 변환될 객체</span><span class="line">	 * <span class="hljs-doctag">@throws</span> IOException I/O 에러</span><span class="line">	 * <span class="hljs-doctag">@throws</span> HttpMessageNotReadableException 컨버터 에러</span><span class="line">	 */</span></span><span class="line">	T <span class="hljs-title function_">read</span><span class="hljs-params">(Class&lt;? extends T&gt; clazz, HttpInputMessage inputMessage)</span></span><span class="line">			<span class="hljs-keyword">throws</span> IOException, HttpMessageNotReadableException;</span><span class="line">&nbsp;</span><span class="line">	<span class="hljs-comment">/**</span><span class="line">	 * 객체를 메세지로 작성</span><span class="line">	 * <span class="hljs-doctag">@param</span> t 작성할 객체</span><span class="line">	 * canWrite 함수가 true 일때 사용</span><span class="line">	 * <span class="hljs-doctag">@param</span> contentType 어떤 ContentType으로 쓸지 정하는 것(default:null)</span><span class="line">	 * <span class="hljs-doctag">@param</span> outputMessage 쓸 메세지</span><span class="line">	 * <span class="hljs-doctag">@throws</span> IOException I/O 에러</span><span class="line">	 * <span class="hljs-doctag">@throws</span> HttpMessageNotWritableException 컨버터 에러</span><span class="line">	 */</span></span><span class="line">	<span class="hljs-keyword">void</span> <span class="hljs-title function_">write</span><span class="hljs-params">(T t, <span class="hljs-meta">@Nullable</span> MediaType contentType, HttpOutputMessage outputMessage)</span></span><span class="line">			<span class="hljs-keyword">throws</span> IOException, HttpMessageNotWritableException;</span><span class="line">&nbsp;</span><span class="line">}</span><span class="line">&nbsp;</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  주요 HttpMessageConverter 종류 및 우선순위
+                </h2>
+<p>스프링 부트는 다양한 <code>HttpMessageConverter</code>를 자동으로 등록하며, 아래 순서대로 우선권을 가짐<br><span class="custom-inline-code"><code class="hljs java"><span class="hljs-type">boolean</span> <span class="hljs-title function_">canRead</span><span class="hljs-params">(Class&lt;?&gt; clazz, <span class="hljs-meta">@Nullable</span> MediaType mediaType)</span>;</code></span> 통해서 처리할 수 있는지 확인</p>
+<table>
+<thead>
+<tr>
+<th align="left">우선순위</th>
+<th align="left">컨버터 클래스</th>
+<th align="left">주요 처리 타입 (Java)</th>
+<th align="left">지원하는 미디어 타입 (<code>Content-Type</code>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>1 (최상위)</strong></td>
+<td align="left"><code>ByteArrayHttpMessageConverter</code></td>
+<td align="left"><code>byte[]</code>, <code>InputStream</code></td>
+<td align="left"><code>application/octet-stream</code>, <code>*/*</code></td>
+</tr>
+<tr>
+<td align="left"><strong>2</strong></td>
+<td align="left"><code>StringHttpMessageConverter</code></td>
+<td align="left"><code>String</code></td>
+<td align="left"><code>text/plain</code>, <code>*/*</code></td>
+</tr>
+<tr>
+<td align="left"><strong>3</strong></td>
+<td align="left"><code>MappingJackson2HttpMessageConverter</code></td>
+<td align="left">Java 객체 (DTO, Map)</td>
+<td align="left"><code>application/json</code></td>
+</tr>
+<tr>
+<td align="left"><strong>4</strong></td>
+<td align="left"><code>MappingJackson2XmlHttpMessageConverter</code></td>
+<td align="left">Java 객체</td>
+<td align="left"><code>application/xml</code></td>
+</tr>
+</tbody>
+</table>
+
+<div class="callout" style="--callout-color: 0, 184, 148;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l.293.293a1 1 0 001.414-1.414l-3-3z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">왜 이 순서일까</div>
+  </div>
+  <div class="callout-content">
+    <p><code>ByteArrayHttpMessageConverter</code>는 원시 데이터를 다루므로 가장 빠르고 명확해서 최우선 순위
+<code>StringHttpMessageConverter</code>는 거의 모든 타입을 문자열로 변환할 수 있어 범위가 너무 넓기 때문에, JSON 컨버터보다 후순위가 되면 JSON 객체까지 문자열로 뺏어갈 수 있음
+따라서 <strong>더 구체적이고 한정적인 컨버터가 높은 우선순위</strong>를 가짐</p>
+
+  </div>
+</div>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  커스텀 HttpMessageConverter 등록
+                </h2>
+<ul>
+<li><a href="/github-blog/blog/9c401e7c">WebMvcConfigurer</a> 를 사용하여 기본 컨버터를 바꾸거나 새로운 컨버터를 추가할 수 있음</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">WebConfig.java</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Configuration</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">WebConfig</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">WebMvcConfigurer</span> {</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@Override</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">extendMessageConverters</span><span class="hljs-params">(List&lt;HttpMessageConverter&lt;?&gt;&gt; converters)</span> {</span><span class="line">        <span class="hljs-comment">// 기본 컨버터는 유지하면서, 새로운 커스텀 컨버터를 추가</span></span><span class="line">        <span class="hljs-comment">// 우선순위를 높이고 싶다면 리스트의 앞쪽(index 0)에 추가</span></span><span class="line">        converters.add(<span class="hljs-number">0</span>, <span class="hljs-keyword">new</span> <span class="hljs-title class_">MyCustomConverter</span>());</span><span class="line">    }</span><span class="line">}</span><span class="line">&nbsp;</span></code></pre>
+        </div>
+      
+<ul>
+<li><code>extendMessageConverters</code>: 기존 컨버터 목록에 새 컨버터를 추가 (권장)</li>
+<li><code>configureMessageConverters</code>: 기존 컨버터를 모두 무시하고 완전히 새로운 컨버터 목록을 설정</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  구현체
+                </h2>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  ByteArrayHttpMessageConverter
+                </h3>
+<p>clazz : byte[]<br>MediaType : */*</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@RequestBody</span> <span class="hljs-type">byte</span>[] data</span><span class="line"><span class="hljs-meta">@ResponseBody</span> <span class="hljs-keyword">return</span> <span class="hljs-type">byte</span>[] <span class="hljs-comment">// MediaType : application/octet-stream</span></span></code></pre>
+        </div>
+      
+<p>응답할때는 자동으로 <code>MediaType : application/octet-stream</code> 적용</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  StringHttpMessageConverter
+                </h3>
+<p>기본 문자 처리 컨버터<br>clazz : String<br>MediaType : */*</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@RequestBody</span> String data</span><span class="line"><span class="hljs-meta">@ResponseBody</span> <span class="hljs-keyword">return</span> String <span class="hljs-comment">// MediaType : text/plain</span></span></code></pre>
+        </div>
+      
+<p>응답할때는 자동으로 <code>MediaType : text/plain</code> 적용</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  MappingJackson2HttpMessageConverter
+                </h3>
+<p>기본 객체 처리 컨버터<br>JSON 분석에 사용<br>clazz : HashMap<br>MediaType : application/json</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@RequestBody</span> HelloData data</span><span class="line"><span class="hljs-meta">@ResponseBody</span> <span class="hljs-keyword">return</span> helloData <span class="hljs-comment">// MediaType : application/json</span></span></code></pre>
+        </div>
+      
+<p>응답할때는 자동으로 <code>MediaType : application/json</code> 적용</p>
+15:T18ae,---
+aliases:
+  - HttpMessageConverter
+  - ByteArrayHttpMessageConverter
+  - StringHttpMessageConverter
+  - MappingJackson2HttpMessageConverter
+tags:
+  - Spring
+  - Spring/Converter
+---
+# HttpMessageConverter 
+- **요청, 응답 모두 사용** 되며 즉, [[HttpEntity]] 또는 [[@RequestBody]] 또는 [[@ResponseBody]] 에서 사용
+	- Response 경우 `Accept: application/json` 이 부분을 보고 판단
+- byte 처리 등등 기타 여러 컨버터가 기본적으로 등록 되어 있음
+- [[2.Ref(데이터 및 정보 저장)/Spring/변환기/Converter#`ConversionService`|ConversionService]] 사용불가
+- HttpMessageConverter 역활은 HTTP 메시지 바디의 내용을 객체로 변환하거나 객체를 HTTP 메시지 바디에 입력하는 것
+	- 한번에 변환되는 특징
+
+```java
+public interface HttpMessageConverter<T> {
+
+	/**
+	 * 컨버터가 읽을 수 있는지 확인(요청)
+	 * @param clazz 가독성 테스트를 위한 클래스
+	 * @param mediaType 일반적으로 {@code Content-Type} 헤더의 값입니다.
+	 * @return 읽을 수 있으면 @return {@code true}; 그렇지 않으면 {@code false}
+	 */
+	boolean canRead(Class<?> clazz, @Nullable MediaType mediaType);
+
+	/**
+	 * 컨버터가 쓸 수 있는지 확인(응답)
+	 * @param clazz 쓰기 가능성 테스트를 위한 클래스
+	 * @param mediaType 일반적으로 {@code Accept} 헤더의 값입니다.
+	 * 쓰기 가능한 경우 @return {@code true}; 그렇지 않으면 {@code false}
+	 */
+	boolean canWrite(Class<?> clazz, @Nullable MediaType mediaType);
+
+	/**
+	 * 이 컨버터가 지원하는 미디어 타입 목록을 반환
+	 * {@link #canWrite(Class, MediaType) 먼저 써서 확인 필수
+   * @return 지원되는 미디어 유형 목록
+	 */
+	List<MediaType> getSupportedMediaTypes();
+
+	/**
+	 * 클래스가 지원하는 유형이라면 타입 목록을 주고 아니라면 빈 값을 전달
+	 * @param clazz 확인할 클래스
+	 * @return 해당 클래스에 지원되는 미디어 영역
+	 */
+	default List<MediaType> getSupportedMediaTypes(Class<?> clazz) {
+		return (canRead(clazz, null) || canWrite(clazz, null) ?
+				getSupportedMediaTypes() : Collections.emptyList());
+	}
+
+	/**
+	 * 메세지를 특정 객체로 반환
+	 * @param clazz 반환할 객체 유형
+	 * canRead 함수가 true 일때 사용
+	 * @param inputMessage HTTP 입력 메세지
+	 * @return 변환될 객체
+	 * @throws IOException I/O 에러
+	 * @throws HttpMessageNotReadableException 컨버터 에러
+	 */
+	T read(Class<? extends T> clazz, HttpInputMessage inputMessage)
+			throws IOException, HttpMessageNotReadableException;
+
+	/**
+	 * 객체를 메세지로 작성
+	 * @param t 작성할 객체
+	 * canWrite 함수가 true 일때 사용
+	 * @param contentType 어떤 ContentType으로 쓸지 정하는 것(default:null)
+	 * @param outputMessage 쓸 메세지
+	 * @throws IOException I/O 에러
+	 * @throws HttpMessageNotWritableException 컨버터 에러
+	 */
+	void write(T t, @Nullable MediaType contentType, HttpOutputMessage outputMessage)
+			throws IOException, HttpMessageNotWritableException;
+
+}
+
+```
+
+## 주요 HttpMessageConverter 종류 및 우선순위
+스프링 부트는 다양한 `HttpMessageConverter`를 자동으로 등록하며, 아래 순서대로 우선권을 가짐
+`{java}boolean canRead(Class<?> clazz, @Nullable MediaType mediaType);` 통해서 처리할 수 있는지 확인
+
+| 우선순위        | 컨버터 클래스                                  | 주요 처리 타입 (Java)         | 지원하는 미디어 타입 (`Content-Type`)      |
+| :---------- | :--------------------------------------- | :---------------------- | :-------------------------------- |
+| **1 (최상위)** | `ByteArrayHttpMessageConverter`          | `byte[]`, `InputStream` | `application/octet-stream`, `*/*` |
+| **2**       | `StringHttpMessageConverter`             | `String`                | `text/plain`, `*/*`               |
+| **3**       | `MappingJackson2HttpMessageConverter`    | Java 객체 (DTO, Map)      | `application/json`                |
+| **4**       | `MappingJackson2XmlHttpMessageConverter` | Java 객체                 | `application/xml`                 |
+
+> [!tip] 왜 이 순서일까
+> `ByteArrayHttpMessageConverter`는 원시 데이터를 다루므로 가장 빠르고 명확해서 최우선 순위
+> `StringHttpMessageConverter`는 거의 모든 타입을 문자열로 변환할 수 있어 범위가 너무 넓기 때문에, JSON 컨버터보다 후순위가 되면 JSON 객체까지 문자열로 뺏어갈 수 있음
+> 따라서 **더 구체적이고 한정적인 컨버터가 높은 우선순위**를 가짐
+## 커스텀 HttpMessageConverter 등록
+- [[2.Ref(데이터 및 정보 저장)/Spring/WebMvcConfigurer|WebMvcConfigurer]] 를 사용하여 기본 컨버터를 바꾸거나 새로운 컨버터를 추가할 수 있음
+
+```java title:"WebConfig.java"
+@Configuration
+public class WebConfig implements WebMvcConfigurer {
+
+    @Override
+    public void extendMessageConverters(List<HttpMessageConverter<?>> converters) {
+        // 기본 컨버터는 유지하면서, 새로운 커스텀 컨버터를 추가
+        // 우선순위를 높이고 싶다면 리스트의 앞쪽(index 0)에 추가
+        converters.add(0, new MyCustomConverter());
+    }
+}
+
+```
+- `extendMessageConverters`: 기존 컨버터 목록에 새 컨버터를 추가 (권장)
+- `configureMessageConverters`: 기존 컨버터를 모두 무시하고 완전히 새로운 컨버터 목록을 설정
+## 구현체
+### ByteArrayHttpMessageConverter
+clazz : byte[]
+MediaType : \*/\*
+```java
+@RequestBody byte[] data
+@ResponseBody return byte[] // MediaType : application/octet-stream
+```
+응답할때는 자동으로 `MediaType : application/octet-stream` 적용
+### StringHttpMessageConverter
+기본 문자 처리 컨버터
+clazz : String
+MediaType : \*/\*
+```java
+@RequestBody String data
+@ResponseBody return String // MediaType : text/plain
+```
+응답할때는 자동으로 `MediaType : text/plain` 적용
+### MappingJackson2HttpMessageConverter
+기본 객체 처리 컨버터
+JSON 분석에 사용
+clazz : HashMap
+MediaType : application/json
+```java
+@RequestBody HelloData data
+@ResponseBody return helloData // MediaType : application/json
+```
+응답할때는 자동으로 `MediaType : application/json` 적용
+
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/변환기/HttpMessageConverter","slugHash":"f9416c12","content":"$14","markdownContent":"$15","title":"HttpMessageConverter","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Converter"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["HttpMessageConverter","ByteArrayHttpMessageConverter","StringHttpMessageConverter","MappingJackson2HttpMessageConverter"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

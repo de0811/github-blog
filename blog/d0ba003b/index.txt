@@ -1,0 +1,740 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","d0ba003b",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","d0ba003b","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","d0ba003b","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","tEUfzVZrAfkq6LGepwVjr",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T10d36,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  Transaction
+                </h1>
+<p>하나의 과정을 안전하게 처리하도록 보장한다는 뜻<br>과정이 정상적으로 반영하는 것을 커밋(Commit) 이라 하고 실패해서 이전으로 되돌리는 것을 롤백(Rollback) 이라 함</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  트랜잭션 ACID
+                </h2>
+<ul>
+<li>원자성(Atomicity)
+<ul>
+<li>트랜젝션에서 실행한 작업들은 하나의 작업인 것처럼 모두 성공 하거나 실패해야함</li>
+</ul>
+</li>
+<li>일관성(Consistency)
+<ul>
+<li>모든 트랜젝션은 일관성 있는 데이터베이스 상태를 유지</li>
+<li>데이터베이스에서 정한 무결성 제약 조건을 항상 만족</li>
+</ul>
+</li>
+<li>격리성(Isolation)
+<ul>
+<li>동시에 실행되는 트랜잭션들이 서로 영향을 미치지 않도록 격리</li>
+<li>동시에 같은 데이터를 수정하지 못하도록 보호</li>
+<li>격리성은 동시성과 관련된 성능 이슈로 인해 트랜잭션 격리 수준(Isolation level) 선택</li>
+</ul>
+</li>
+<li>지속성(Durability)
+<ul>
+<li>트랜잭션을 성공적으로 끝내면 결과가 항상 기록</li>
+<li>시스템에 문제가 발생해도 데이터베이스 로그 등을 사용해서 성공한 트랜잭션 내용을 복구 할 수 있어야함</li>
+</ul>
+</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  트랜잭션 격리 수준(Isolation level )
+                </h3>
+<ul>
+<li>READ UNCOMMITED (커밋되지 않은 읽기)</li>
+<li>READ COMMITTED (커밋된 읽기) <font color="#00b050">일반적으로 사용</font></li>
+<li>REPEATABLE READ (반복 가능한 읽기)</li>
+<li>SERIALIZABLE (직렬화 가능)</li>
+</ul>
+<blockquote>
+<p>밑으로 갈수록 높은 성능을 요구</p>
+</blockquote>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  트랜잭션의 단점
+                </h2>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  트랜잭션 사용의 요구 사항
+                </h3>
+<ol>
+<li>오토 커밋을 꺼야함</li>
+<li>같은 커넥션을 전달 해야함</li>
+<li>비즈니스 로직이 모두 돌고 난 뒤</li>
+<li>오토 커밋을 다시 켜야함</li>
+<li>커넥션을 반환해야함</li>
+</ol>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">트랜잭션 사용의 예</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">accountTransfer</span><span class="hljs-params">(String fromMemberId, String toMemberId, <span class="hljs-type">int</span> money)</span> <span class="hljs-keyword">throws</span> SQLException {  </span><span class="line">  log.info(<span class="hljs-string">&quot;accountTransfer fromMemberId={}, toMemberId={}, money={}&quot;</span>, fromMemberId, toMemberId, money);  </span><span class="line">  <span class="hljs-type">Connection</span> <span class="hljs-variable">connection</span> <span class="hljs-operator">=</span> dataSource.getConnection();  </span><span class="line">  <span class="hljs-keyword">try</span> {  </span><span class="line">    connection.setAutoCommit(<span class="hljs-literal">false</span>);  </span><span class="line">&nbsp;</span><span class="line">	<span class="hljs-comment">// 비즈니스 로직</span></span><span class="line">    accountTransfer(connection, fromMemberId, toMemberId, money);  </span><span class="line">  </span><span class="line">    connection.commit();  </span><span class="line">  }  </span><span class="line">  <span class="hljs-comment">// SQLException IllegalArgumentException 둘다 처리  </span></span><span class="line">  <span class="hljs-keyword">catch</span> (SQLException | IllegalArgumentException e) {  </span><span class="line">    connection.rollback();  </span><span class="line">    <span class="hljs-keyword">throw</span> e;  </span><span class="line">  } <span class="hljs-keyword">finally</span> {  </span><span class="line">    <span class="hljs-keyword">try</span> {  </span><span class="line">      <span class="hljs-keyword">if</span>( connection != <span class="hljs-literal">null</span> ) connection.setAutoCommit(<span class="hljs-literal">true</span>);  </span><span class="line">    } <span class="hljs-keyword">catch</span> (SQLException e) {  </span><span class="line">      log.error(<span class="hljs-string">&quot;error=&quot;</span>, e);  </span><span class="line">    } <span class="hljs-keyword">finally</span> {  </span><span class="line">      JdbcUtils.closeConnection(connection);  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p>비즈니스 로직은 아주 작지만 트랜잭션 기능의 소스가 너무 방대함</p>
+</blockquote>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  구현 기술마다 사용방법이 다른 트랜잭션
+                </h3>
+<p>JDBC : <span class="custom-inline-code"><code class="hljs java">con.setAutoCommit(<span class="hljs-literal">false</span>)</code></span><br>JPA : <span class="custom-inline-code"><code class="hljs java">transaction.begin()</code></span></p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">JDBC 에서 트랜잭션 사용하는 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">accountTransferJDBC</span><span class="hljs-params">(String fromId, String toId, <span class="hljs-type">int</span> money)</span> <span class="hljs-keyword">throws</span> SQLException {  </span><span class="line">  <span class="hljs-type">Connection</span> <span class="hljs-variable">connection</span> <span class="hljs-operator">=</span> dataSource.getConnection();  </span><span class="line">  <span class="hljs-keyword">try</span> {  </span><span class="line highlighted-line">    connection.setAutoCommit(<span class="hljs-literal">false</span>);  </span><span class="line">  </span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">from</span> <span class="hljs-operator">=</span> memberRepository.findById(connection, fromId);  </span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">to</span> <span class="hljs-operator">=</span> memberRepository.findById(connection, toId);  </span><span class="line">  </span><span class="line">    <span class="hljs-keyword">if</span> (from.getMoney() &lt; money) {  </span><span class="line">      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;잔액이 부족합니다.&quot;</span>);  </span><span class="line">    }  </span><span class="line">  </span><span class="line">    memberRepository.update(connection, fromId, from.getMoney() - money);  </span><span class="line">    validation(toId);  </span><span class="line">    memberRepository.update(connection, toId, to.getMoney() + money);  </span><span class="line">  </span><span class="line highlighted-line">    connection.commit();  </span><span class="line highlighted-line">  } <span class="hljs-keyword">catch</span> (SQLException | IllegalArgumentException e) {  </span><span class="line highlighted-line">    connection.rollback();  </span><span class="line highlighted-line">    <span class="hljs-keyword">throw</span> e;  </span><span class="line highlighted-line">  } <span class="hljs-keyword">finally</span> {  </span><span class="line highlighted-line">    <span class="hljs-keyword">try</span> {  </span><span class="line highlighted-line">      <span class="hljs-keyword">if</span>( connection != <span class="hljs-literal">null</span> ) connection.setAutoCommit(<span class="hljs-literal">true</span>);  </span><span class="line highlighted-line">    } <span class="hljs-keyword">catch</span> (SQLException e) {  </span><span class="line highlighted-line">      log.error(<span class="hljs-string">&quot;error=&quot;</span>, e);  </span><span class="line highlighted-line">    } <span class="hljs-keyword">finally</span> {  </span><span class="line highlighted-line">      JdbcUtils.closeConnection(connection);  </span><span class="line highlighted-line">    }  </span><span class="line highlighted-line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">JPA 에서 트랜잭션 사용하는 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">accountTransferJPA</span><span class="hljs-params">(String fromId, String toId, <span class="hljs-type">int</span> money)</span> {  </span><span class="line">  <span class="hljs-comment">// 엔티티 매니저 팩토리 생성  </span></span><span class="line">  <span class="hljs-type">EntityManagerFactory</span> <span class="hljs-variable">emf</span> <span class="hljs-operator">=</span> Persistence.createEntityManagerFactory(<span class="hljs-string">&quot;hello&quot;</span>);  </span><span class="line">  <span class="hljs-comment">// 엔티티 매니저 생성  </span></span><span class="line">  <span class="hljs-type">EntityManager</span> <span class="hljs-variable">em</span> <span class="hljs-operator">=</span> emf.createEntityManager();  </span><span class="line">  <span class="hljs-comment">// 트랜잭션 획득  </span></span><span class="line">  <span class="hljs-type">EntityTransaction</span> <span class="hljs-variable">tx</span> <span class="hljs-operator">=</span> em.getTransaction();  </span><span class="line">  <span class="hljs-keyword">try</span> {  </span><span class="line">    <span class="hljs-comment">// 트랜잭션 시작  </span></span><span class="line highlighted-line">    tx.begin();  </span><span class="line">    <span class="hljs-comment">// 비즈니스 로직  </span></span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">from</span> <span class="hljs-operator">=</span> em.find(Member.class, fromId);  </span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">to</span> <span class="hljs-operator">=</span> em.find(Member.class, toId);  </span><span class="line">  </span><span class="line">    <span class="hljs-keyword">if</span> (from.getMoney() &lt; money) {  </span><span class="line">      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;잔액이 부족합니다.&quot;</span>);  </span><span class="line">    }  </span><span class="line">  </span><span class="line">    from.setMoney(from.getMoney() - money);  </span><span class="line">    to.setMoney(to.getMoney() + money);  </span><span class="line">  </span><span class="line">    <span class="hljs-comment">// 트랜잭션 커밋  </span></span><span class="line highlighted-line">    tx.commit();  </span><span class="line highlighted-line">  } <span class="hljs-keyword">catch</span> (Exception e) {  </span><span class="line highlighted-line">    <span class="hljs-comment">// 트랜잭션 롤백  </span></span><span class="line highlighted-line">    tx.rollback();  </span><span class="line highlighted-line">    <span class="hljs-keyword">throw</span> e;  </span><span class="line highlighted-line">  } <span class="hljs-keyword">finally</span> {  </span><span class="line highlighted-line">    <span class="hljs-comment">// 엔티티 매니저 종료  </span></span><span class="line highlighted-line">    em.close();  </span><span class="line highlighted-line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  다양한 트랜잭션 해결 방법
+                </h2>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  공통적인 소스를 정리하는 방법
+                </h3>
+<p>하나의 추상화를 만들어서 사용<br><br>
+<span class="custom-inline-code"><code class="hljs java">PlatformTransactionManager</code></span> 이름이 원래는 <code>TransactionManager</code> 로 만들려고 했는데 다른 회사에서 <code>TransactionManager</code> 라는 이름을 선점해버려서 사용하지 못하게 되었음</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">트랜잭션 공통 인터페이스</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title class_">PlatformTransactionManager</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">TransactionManager</span> {  </span><span class="line">  TransactionStatus <span class="hljs-title function_">getTransaction</span><span class="hljs-params">(<span class="hljs-meta">@Nullable</span> TransactionDefinition definition)</span> <span class="hljs-keyword">throws</span> TransactionException;  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">commit</span><span class="hljs-params">(TransactionStatus status)</span> <span class="hljs-keyword">throws</span> TransactionException;  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">rollback</span><span class="hljs-params">(TransactionStatus status)</span> <span class="hljs-keyword">throws</span> TransactionException;  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  하나의 작업에 하나의 커낵션을 사용해야하는 방법
+                </h3>
+<p><code>트랜잭션 동기화 매니저</code>는 <code>ThreadLocal</code>을 사용해서 스레드를 보고 커넥션들을 관리</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">plantuml</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-plantuml hljs"><span class="line"><span class="hljs-attribute">autonumber</span></span><span class="line"><span class="hljs-attribute">participant</span> 서비스 as <span class="hljs-number">1</span></span><span class="line"><span class="hljs-attribute">participant</span> <span class="hljs-string">&quot;트랜잭션 매니저&quot;</span> as <span class="hljs-number">2</span></span><span class="line"><span class="hljs-attribute">participant</span> <span class="hljs-string">&quot;트랜잭션 동기화 매니저&quot;</span> as <span class="hljs-number">3</span></span><span class="line"><span class="hljs-attribute">participant</span> <span class="hljs-string">&quot;커넥션 풀&quot;</span> as <span class="hljs-number">4</span></span><span class="line"><span class="hljs-attribute">participant</span> <span class="hljs-string">&quot;데이터 접근 로직&quot;</span> as <span class="hljs-number">5</span></span><span class="line"><span class="hljs-attribute">1</span> -&gt; <span class="hljs-number">2</span> : 서비스<span class="hljs-number">1</span>-<span class="hljs-number">1</span> 실행</span><span class="line"><span class="hljs-attribute">2</span> -&gt; <span class="hljs-number">3</span> : 커낵션 요청</span><span class="line"><span class="hljs-attribute">3</span> -&gt; <span class="hljs-number">4</span> : 커낵션 대여 요청</span><span class="line"><span class="hljs-attribute">4</span> -&gt; <span class="hljs-number">3</span> : 커낵션 전달</span><span class="line"><span class="hljs-attribute">3</span> -&gt; <span class="hljs-number">2</span> : 커낵션 전달</span><span class="line"><span class="hljs-attribute">2</span> -&gt; <span class="hljs-number">5</span> : 커낵션으로 데이터 요청</span><span class="line"><span class="hljs-attribute">5</span> -&gt; <span class="hljs-number">2</span> : 데이터 응답</span><span class="line"><span class="hljs-attribute">2</span> -&gt; <span class="hljs-number">3</span> : 커낵션 반납</span><span class="line"><span class="hljs-attribute">3</span> -&gt; <span class="hljs-number">3</span> : 커낵션 보관</span><span class="line"><span class="hljs-attribute">2</span> -&gt; <span class="hljs-number">1</span> : 서비스<span class="hljs-number">1</span>-<span class="hljs-number">1</span> 실행 완료</span><span class="line"><span class="hljs-attribute">1</span> -&gt; <span class="hljs-number">2</span> : 서비스<span class="hljs-number">1</span>-<span class="hljs-number">2</span> 실행</span><span class="line"><span class="hljs-attribute">2</span> -&gt; <span class="hljs-number">3</span> : 커낵션 요청</span><span class="line"><span class="hljs-attribute">3</span> -&gt; <span class="hljs-number">2</span> : &lt;red&gt;아까 쓰던 커낵션 다시 전달</span><span class="line"><span class="hljs-attribute">2</span> -&gt; <span class="hljs-number">5</span> : 커낵션으로 데이터 요청</span><span class="line"><span class="hljs-attribute">5</span> -&gt; <span class="hljs-number">2</span> : 데이터 응답</span><span class="line"><span class="hljs-attribute">2</span> -&gt; <span class="hljs-number">3</span> : 커낵션 반납</span><span class="line"><span class="hljs-attribute">3</span> -&gt; <span class="hljs-number">3</span> : 커낵션 보관</span><span class="line"><span class="hljs-attribute">2</span> -&gt; <span class="hljs-number">1</span> : 서비스<span class="hljs-number">1</span>-<span class="hljs-number">2</span> 실행 완료</span></code></pre>
+        </div>
+      
+<p>트랜잭션 동기화 매니저인 <code>TransactionSynchronizationManager</code> 내부를 살펴보면 <code>ThreadLocal</code> 사용하는 것을 확인 할 수 있음<br> 이기 때문에 이것을 이용하여 사용하여야 함<br> 통해서 커넥션을 받아와야 트랜잭션 동기화 매니저에서 커넥션을 관리 할 수 있음<br>8. close 를 하면 커낵션이 끊기게 되기에 안되고 트랜잭션 동기화 매니저를 통해 관리 되어야 하기 때문에 <code>DataSourceUtils</code> 이기 때문에 이것을 이용하여 사용하여야 함
+3. <span class="custom-inline-code"><code class="hljs java"><span class="hljs-type">Connection</span> <span class="hljs-variable">connection</span> <span class="hljs-operator">=</span> DataSourceUtils.getConnection(dataSource);</code></span> 통해서 커넥션을 받아와야 트랜잭션 동기화 매니저에서 커넥션을 관리 할 수 있음
+8. close 를 하면 커낵션이 끊기게 되기에 안되고 트랜잭션 동기화 매니저를 통해 관리 되어야 하기 때문에 <span class="custom-inline-code"><code class="hljs java">DataSourceUtils.releaseConnection(connection, dataSource);</code></span> 통해서 커넥션을 반환해야함</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">transactionManager 사용 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@RequiredArgsConstructor</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MemberServiceV3_1</span> {  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> PlatformTransactionManager transactionManager;  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> MemberRepositoryV3 memberRepository;  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">accountTransfer</span><span class="hljs-params">(String fromMemberId, String toMemberId, <span class="hljs-type">int</span> money)</span> <span class="hljs-keyword">throws</span> SQLException, IllegalArgumentException {  </span><span class="line highlighted-line">    <span class="hljs-type">TransactionStatus</span> <span class="hljs-variable">transaction</span> <span class="hljs-operator">=</span> transactionManager.getTransaction(<span class="hljs-keyword">new</span> <span class="hljs-title class_">DefaultTransactionDefinition</span>());  </span><span class="line">  </span><span class="line">    <span class="hljs-keyword">try</span> {  </span><span class="line">      bizLogic(fromMemberId, toMemberId, money);  </span><span class="line">  </span><span class="line highlighted-line">      transactionManager.commit(transaction);  </span><span class="line highlighted-line">    } <span class="hljs-keyword">catch</span> (Exception e) {  </span><span class="line highlighted-line">      transactionManager.rollback(transaction);  </span><span class="line highlighted-line">      <span class="hljs-keyword">throw</span> e;  </span><span class="line highlighted-line">    }  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">bizLogic</span><span class="hljs-params">(String fromMemberId, String toMemberId, <span class="hljs-type">int</span> money)</span> <span class="hljs-keyword">throws</span> SQLException {  </span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">from</span> <span class="hljs-operator">=</span> memberRepository.findById(fromMemberId);  </span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">to</span> <span class="hljs-operator">=</span> memberRepository.findById(toMemberId);  </span><span class="line">    <span class="hljs-keyword">if</span> (from.getMoney() &lt; money) {  </span><span class="line">      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;잔액이 부족합니다.&quot;</span>);  </span><span class="line">    }  </span><span class="line">    memberRepository.update(fromMemberId, from.getMoney() - money);  </span><span class="line">    validation(toMemberId);  </span><span class="line">    memberRepository.update(toMemberId, to.getMoney() + money);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">validation</span><span class="hljs-params">(String toMemberId)</span> <span class="hljs-keyword">throws</span> IllegalArgumentException {  </span><span class="line">    <span class="hljs-keyword">if</span> (<span class="hljs-string">&quot;ex&quot;</span>.equals(toMemberId)) {  </span><span class="line">      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;toMemberId is null&quot;</span>);  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+
+<div class="callout" style="--callout-color: 243, 156, 18;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.21 3.03-1.742 3.03H4.42c-1.532 0-2.492-1.696-1.742-3.03l5.58-9.92zM10 13a1 1 0 110-2 1 1 0 010 2zm-1-8a1 1 0 00-1 1v3a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">아직도 트랜잭션을 사용하는 모습을 보여줌, 공통적인 소스 보여줌, Exception 처리 문제</div>
+  </div>
+  <div class="callout-content">
+    
+  </div>
+</div>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  중복적인 try, catch 사용에 대한 문제 해결
+                </h3>
+<p>템플릿 콜백 패턴 사용으로 해결<br>Spring 에서는 <code>TransactionTemplate</code> 으로 만들어서 제공</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">TransactionTemplate</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">DefaultTransactionDefinition</span>  </span><span class="line">   <span class="hljs-keyword">implements</span> <span class="hljs-title class_">TransactionOperations</span>, InitializingBean {</span><span class="line">	<span class="hljs-meta">@Nullable</span>  </span><span class="line">	<span class="hljs-keyword">private</span> PlatformTransactionManager transactionManager; </span><span class="line">	<span class="hljs-comment">// 반환 값이 있을 때 사용</span></span><span class="line">	<span class="hljs-keyword">public</span> &lt;T&gt; T <span class="hljs-title function_">execute</span><span class="hljs-params">(TransactionCallback&lt;T&gt; action)</span> <span class="hljs-keyword">throws</span> TransactionException { ... }</span><span class="line">	<span class="hljs-comment">// 반환 값이 없을 때 사용</span></span><span class="line">	<span class="hljs-keyword">default</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">executeWithoutResult</span><span class="hljs-params">(Consumer&lt;TransactionStatus&gt; action)</span> <span class="hljs-keyword">throws</span> TransactionException { ... }</span><span class="line">}</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">transactionTemplate 이용한 트랜잭션 사용 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MemberServiceV3_2</span> {  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> TransactionTemplate transactionTemplate;  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> MemberRepositoryV3 memberRepository;  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-title function_">MemberServiceV3_2</span><span class="hljs-params">(PlatformTransactionManager transactionManager, MemberRepositoryV3 memberRepository)</span> {  </span><span class="line">    <span class="hljs-built_in">this</span>.transactionTemplate = <span class="hljs-keyword">new</span> <span class="hljs-title class_">TransactionTemplate</span>(transactionManager);  </span><span class="line">    <span class="hljs-built_in">this</span>.memberRepository = memberRepository;  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">accountTransfer</span><span class="hljs-params">(String fromMemberId, String toMemberId, <span class="hljs-type">int</span> money)</span> <span class="hljs-keyword">throws</span> SQLException, IllegalArgumentException {  </span><span class="line highlighted-line">    transactionTemplate.execute(status -&gt; {  </span><span class="line highlighted-line">      <span class="hljs-keyword">try</span> {  </span><span class="line highlighted-line">        bizLogic(fromMemberId, toMemberId, money);  </span><span class="line highlighted-line">      } <span class="hljs-keyword">catch</span> (Exception e) {  </span><span class="line highlighted-line">        <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">RuntimeException</span>(e);  </span><span class="line highlighted-line">      }  </span><span class="line highlighted-line">      <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>;  </span><span class="line highlighted-line">    });  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">bizLogic</span><span class="hljs-params">(String fromMemberId, String toMemberId, <span class="hljs-type">int</span> money)</span> <span class="hljs-keyword">throws</span> SQLException {  </span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">from</span> <span class="hljs-operator">=</span> memberRepository.findById(fromMemberId);  </span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">to</span> <span class="hljs-operator">=</span> memberRepository.findById(toMemberId);  </span><span class="line">    <span class="hljs-keyword">if</span> (from.getMoney() &lt; money) {  </span><span class="line">      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;잔액이 부족합니다.&quot;</span>);  </span><span class="line">    }  </span><span class="line">    memberRepository.update(fromMemberId, from.getMoney() - money);  </span><span class="line">    validation(toMemberId);  </span><span class="line">    memberRepository.update(toMemberId, to.getMoney() + money);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">validation</span><span class="hljs-params">(String toMemberId)</span> <span class="hljs-keyword">throws</span> IllegalArgumentException {  </span><span class="line">    <span class="hljs-keyword">if</span> (<span class="hljs-string">&quot;ex&quot;</span>.equals(toMemberId)) {  </span><span class="line">      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;toMemberId is null&quot;</span>);  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+
+<div class="callout" style="--callout-color: 243, 156, 18;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.21 3.03-1.742 3.03H4.42c-1.532 0-2.492-1.696-1.742-3.03l5.58-9.92zM10 13a1 1 0 110-2 1 1 0 010 2zm-1-8a1 1 0 00-1 1v3a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">아직도 트랜잭션을 사용하는 모습을 보여주게 됨</div>
+  </div>
+  <div class="callout-content">
+    
+  </div>
+</div>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                   이용한 트랜잭션 사용방법
+                </h2>
+
+<div class="callout" style="--callout-color: 243, 156, 18;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.21 3.03-1.742 3.03H4.42c-1.532 0-2.492-1.696-1.742-3.03l5.58-9.92zM10 13a1 1 0 110-2 1 1 0 010 2zm-1-8a1 1 0 00-1 1v3a1 1 0 102 0V6a1 1 0 00-1-1z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">해당 방법은 Spring 에서 지원하는 내용이기 때문에 Spring 과 함께 동작되어야함</div>
+  </div>
+  <div class="callout-content">
+    <p>테스트할 때 @SpringBootTest 어노테이션 필요</p>
+
+  </div>
+</div>
+<p><a href="/github-blog/blog/f499cc48">CGLIB</a> 방법을 사용하기 전에는 서비스의 비즈니스 로직과 트랜잭션 처리 로직이 함께 되어 있었지만<br>이후 <a href="/github-blog/blog/f499cc48">CGLIB</a> 방법을 사용하게 되면서 프록시가 트랜잭션 처리 로직을 모두 가져가며 서비스를 대신 호출</p>
+<p>사용 방법은 <a href="/github-blog/blog/2f2f5b39">@Transactional</a>  어노테이션을 사용<br>메소드에 직접 사용해도 되지만 클래스에 붙여도 됨<br>클래스에서 붙이면 외부에서 호출 가능한 <code>public</code> 메서드가 AOP 적용 대상자로 선택</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">@Transactional 이용한 트랜젝션 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line highlighted-line"><span class="hljs-meta">@Transactional</span>  </span><span class="line"><span class="hljs-meta">@RequiredArgsConstructor</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MemberServiceV3_3</span> {  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> MemberRepositoryV3 memberRepository;  </span><span class="line">  </span><span class="line highlighted-line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">accountTransfer</span><span class="hljs-params">(String fromMemberId, String toMemberId, <span class="hljs-type">int</span> money)</span> <span class="hljs-keyword">throws</span> SQLException, IllegalArgumentException {  </span><span class="line highlighted-line">    bizLogic(fromMemberId, toMemberId, money);  </span><span class="line highlighted-line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">bizLogic</span><span class="hljs-params">(String fromMemberId, String toMemberId, <span class="hljs-type">int</span> money)</span> <span class="hljs-keyword">throws</span> SQLException {  </span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">from</span> <span class="hljs-operator">=</span> memberRepository.findById(fromMemberId);  </span><span class="line">    <span class="hljs-type">Member</span> <span class="hljs-variable">to</span> <span class="hljs-operator">=</span> memberRepository.findById(toMemberId);  </span><span class="line">    <span class="hljs-keyword">if</span> (from.getMoney() &lt; money) {  </span><span class="line">      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;잔액이 부족합니다.&quot;</span>);  </span><span class="line">    }  </span><span class="line">    memberRepository.update(fromMemberId, from.getMoney() - money);  </span><span class="line">    validation(toMemberId);  </span><span class="line">    memberRepository.update(toMemberId, to.getMoney() + money);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">validation</span><span class="hljs-params">(String toMemberId)</span> <span class="hljs-keyword">throws</span> IllegalArgumentException {  </span><span class="line">    <span class="hljs-keyword">if</span> (<span class="hljs-string">&quot;ex&quot;</span>.equals(toMemberId)) {  </span><span class="line">      <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">IllegalArgumentException</span>(<span class="hljs-string">&quot;toMemberId is null&quot;</span>);  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p>메소드에 직접 붙여도 되지만 클래스에서 붙이면 외부에서 호출 가능한 <code>public</code> 메서드가 AOP 적용 대상자로 선택</p>
+</blockquote>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">테스트에 필요한 Bean</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@TestConfiguration</span>  </span><span class="line"><span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MemberServiceV3_3TestConfig</span> {  </span><span class="line">  <span class="hljs-meta">@Bean</span>  </span><span class="line">  DataSource <span class="hljs-title function_">dataSource</span><span class="hljs-params">()</span> {  </span><span class="line">    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">DriverManagerDataSource</span>(ConnectionConst.URL, ConnectionConst.USERNAME, ConnectionConst.PASSWORD);  </span><span class="line">  }  </span><span class="line highlighted-line">  <span class="hljs-meta">@Bean</span>  </span><span class="line highlighted-line">  PlatformTransactionManager <span class="hljs-title function_">transactionManager</span><span class="hljs-params">(DataSource dataSource)</span> {  </span><span class="line highlighted-line">    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">DataSourceTransactionManager</span>(dataSource);  </span><span class="line highlighted-line">  }  </span><span class="line">  <span class="hljs-meta">@Bean</span>  </span><span class="line">  MemberRepositoryV3 <span class="hljs-title function_">memberRepositoryV3</span><span class="hljs-params">(DataSource dataSource)</span> {  </span><span class="line">    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MemberRepositoryV3</span>(dataSource);  </span><span class="line">  }  </span><span class="line">  <span class="hljs-meta">@Bean</span>  </span><span class="line">  MemberServiceV3_3 <span class="hljs-title function_">memberServiceV3_3</span><span class="hljs-params">(MemberRepositoryV3 memberRepositoryV3)</span> {  </span><span class="line">    <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MemberServiceV3_3</span>(memberRepositoryV3);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+15:T386c,---
+aliases:
+  - Transaction
+  - TransactionTemplate
+tags:
+  - Spring
+  - spring/Repository
+  - Spring/JPA
+  - Spring/공통관심사
+특징: 
+---
+# Transaction
+하나의 과정을 안전하게 처리하도록 보장한다는 뜻
+과정이 정상적으로 반영하는 것을 커밋(Commit) 이라 하고 실패해서 이전으로 되돌리는 것을 롤백(Rollback) 이라 함
+
+## 트랜잭션 ACID
+- 원자성(Atomicity)
+	- 트랜젝션에서 실행한 작업들은 하나의 작업인 것처럼 모두 성공 하거나 실패해야함
+- 일관성(Consistency)
+	- 모든 트랜젝션은 일관성 있는 데이터베이스 상태를 유지
+	- 데이터베이스에서 정한 무결성 제약 조건을 항상 만족
+- 격리성(Isolation)
+	- 동시에 실행되는 트랜잭션들이 서로 영향을 미치지 않도록 격리
+	- 동시에 같은 데이터를 수정하지 못하도록 보호
+	- 격리성은 동시성과 관련된 성능 이슈로 인해 트랜잭션 격리 수준(Isolation level) 선택
+- 지속성(Durability)
+	- 트랜잭션을 성공적으로 끝내면 결과가 항상 기록
+	- 시스템에 문제가 발생해도 데이터베이스 로그 등을 사용해서 성공한 트랜잭션 내용을 복구 할 수 있어야함
+### 트랜잭션 격리 수준(Isolation level )
+- READ UNCOMMITED (커밋되지 않은 읽기)
+- READ COMMITTED (커밋된 읽기) <font color="#00b050">일반적으로 사용</font>
+- REPEATABLE READ (반복 가능한 읽기)
+- SERIALIZABLE (직렬화 가능)
+> 밑으로 갈수록 높은 성능을 요구
+
+## 트랜잭션의 단점
+### 트랜잭션 사용의 요구 사항
+1. 오토 커밋을 꺼야함
+2. 같은 커넥션을 전달 해야함
+3. 비즈니스 로직이 모두 돌고 난 뒤
+4. 오토 커밋을 다시 켜야함
+5. 커넥션을 반환해야함
+
+```java title:"트랜잭션 사용의 예" error:7-8
+public void accountTransfer(String fromMemberId, String toMemberId, int money) throws SQLException {  
+  log.info("accountTransfer fromMemberId={}, toMemberId={}, money={}", fromMemberId, toMemberId, money);  
+  Connection connection = dataSource.getConnection();  
+  try {  
+    connection.setAutoCommit(false);  
+
+	// 비즈니스 로직
+    accountTransfer(connection, fromMemberId, toMemberId, money);  
+  
+    connection.commit();  
+  }  
+  // SQLException IllegalArgumentException 둘다 처리  
+  catch (SQLException | IllegalArgumentException e) {  
+    connection.rollback();  
+    throw e;  
+  } finally {  
+    try {  
+      if( connection != null ) connection.setAutoCommit(true);  
+    } catch (SQLException e) {  
+      log.error("error=", e);  
+    } finally {  
+      JdbcUtils.closeConnection(connection);  
+    }  
+  }  
+}
+```
+> 비즈니스 로직은 아주 작지만 트랜잭션 기능의 소스가 너무 방대함
+
+### 구현 기술마다 사용방법이 다른 트랜잭션
+JDBC : `{java}con.setAutoCommit(false)`
+JPA : `{java}transaction.begin()`
+
+```java title:"JDBC 에서 트랜잭션 사용하는 방법" hl:4,17-29
+public void accountTransferJDBC(String fromId, String toId, int money) throws SQLException {  
+  Connection connection = dataSource.getConnection();  
+  try {  
+    connection.setAutoCommit(false);  
+  
+    Member from = memberRepository.findById(connection, fromId);  
+    Member to = memberRepository.findById(connection, toId);  
+  
+    if (from.getMoney() < money) {  
+      throw new IllegalArgumentException("잔액이 부족합니다.");  
+    }  
+  
+    memberRepository.update(connection, fromId, from.getMoney() - money);  
+    validation(toId);  
+    memberRepository.update(connection, toId, to.getMoney() + money);  
+  
+    connection.commit();  
+  } catch (SQLException | IllegalArgumentException e) {  
+    connection.rollback();  
+    throw e;  
+  } finally {  
+    try {  
+      if( connection != null ) connection.setAutoCommit(true);  
+    } catch (SQLException e) {  
+      log.error("error=", e);  
+    } finally {  
+      JdbcUtils.closeConnection(connection);  
+    }  
+  }  
+}
+```
+
+
+```java title:"JPA 에서 트랜잭션 사용하는 방법" hl:10,23-31
+public void accountTransferJPA(String fromId, String toId, int money) {  
+  // 엔티티 매니저 팩토리 생성  
+  EntityManagerFactory emf = Persistence.createEntityManagerFactory("hello");  
+  // 엔티티 매니저 생성  
+  EntityManager em = emf.createEntityManager();  
+  // 트랜잭션 획득  
+  EntityTransaction tx = em.getTransaction();  
+  try {  
+    // 트랜잭션 시작  
+    tx.begin();  
+    // 비즈니스 로직  
+    Member from = em.find(Member.class, fromId);  
+    Member to = em.find(Member.class, toId);  
+  
+    if (from.getMoney() < money) {  
+      throw new IllegalArgumentException("잔액이 부족합니다.");  
+    }  
+  
+    from.setMoney(from.getMoney() - money);  
+    to.setMoney(to.getMoney() + money);  
+  
+    // 트랜잭션 커밋  
+    tx.commit();  
+  } catch (Exception e) {  
+    // 트랜잭션 롤백  
+    tx.rollback();  
+    throw e;  
+  } finally {  
+    // 엔티티 매니저 종료  
+    em.close();  
+  }  
+}
+```
+
+## 다양한 트랜잭션 해결 방법
+### 공통적인 소스를 정리하는 방법
+하나의 추상화를 만들어서 사용
+![[config/AttachedFile/Pasted image 20240522100445.png]]
+`{java}PlatformTransactionManager` 이름이 원래는 `TransactionManager` 로 만들려고 했는데 다른 회사에서 `TransactionManager` 라는 이름을 선점해버려서 사용하지 못하게 되었음
+
+```java title:"트랜잭션 공통 인터페이스"
+public interface PlatformTransactionManager extends TransactionManager {  
+  TransactionStatus getTransaction(@Nullable TransactionDefinition definition) throws TransactionException;  
+  
+  void commit(TransactionStatus status) throws TransactionException;  
+  
+  void rollback(TransactionStatus status) throws TransactionException;  
+}
+```
+
+### 하나의 작업에 하나의 커낵션을 사용해야하는 방법
+`트랜잭션 동기화 매니저`는 `ThreadLocal`을 사용해서 스레드를 보고 커넥션들을 관리
+```plantuml
+autonumber
+participant 서비스 as 1
+participant "트랜잭션 매니저" as 2
+participant "트랜잭션 동기화 매니저" as 3
+participant "커넥션 풀" as 4
+participant "데이터 접근 로직" as 5
+1 -> 2 : 서비스1-1 실행
+2 -> 3 : 커낵션 요청
+3 -> 4 : 커낵션 대여 요청
+4 -> 3 : 커낵션 전달
+3 -> 2 : 커낵션 전달
+2 -> 5 : 커낵션으로 데이터 요청
+5 -> 2 : 데이터 응답
+2 -> 3 : 커낵션 반납
+3 -> 3 : 커낵션 보관
+2 -> 1 : 서비스1-1 실행 완료
+1 -> 2 : 서비스1-2 실행
+2 -> 3 : 커낵션 요청
+3 -> 2 : <red>아까 쓰던 커낵션 다시 전달
+2 -> 5 : 커낵션으로 데이터 요청
+5 -> 2 : 데이터 응답
+2 -> 3 : 커낵션 반납
+3 -> 3 : 커낵션 보관
+2 -> 1 : 서비스1-2 실행 완료
+```
+
+트랜잭션 동기화 매니저인 `TransactionSynchronizationManager` 내부를 살펴보면 `ThreadLocal` 사용하는 것을 확인 할 수 있음
+트랜잭션 동기화 매니저를 더 사용하기 쉽게 하기 위해 만들어 진 것이 `DataSourceUtils` 이기 때문에 이것을 이용하여 사용하여야 함
+3. `{java}Connection connection = DataSourceUtils.getConnection(dataSource);` 통해서 커넥션을 받아와야 트랜잭션 동기화 매니저에서 커넥션을 관리 할 수 있음
+8. close 를 하면 커낵션이 끊기게 되기에 안되고 트랜잭션 동기화 매니저를 통해 관리 되어야 하기 때문에 `{java}DataSourceUtils.releaseConnection(connection, dataSource);` 통해서 커넥션을 반환해야함
+```java title:"transactionManager 사용 방법" hl:8,13-17
+@Slf4j  
+@RequiredArgsConstructor  
+public class MemberServiceV3_1 {  
+  private final PlatformTransactionManager transactionManager;  
+  private final MemberRepositoryV3 memberRepository;  
+  
+  public void accountTransfer(String fromMemberId, String toMemberId, int money) throws SQLException, IllegalArgumentException {  
+    TransactionStatus transaction = transactionManager.getTransaction(new DefaultTransactionDefinition());  
+  
+    try {  
+      bizLogic(fromMemberId, toMemberId, money);  
+  
+      transactionManager.commit(transaction);  
+    } catch (Exception e) {  
+      transactionManager.rollback(transaction);  
+      throw e;  
+    }  
+  }  
+  
+  private void bizLogic(String fromMemberId, String toMemberId, int money) throws SQLException {  
+    Member from = memberRepository.findById(fromMemberId);  
+    Member to = memberRepository.findById(toMemberId);  
+    if (from.getMoney() < money) {  
+      throw new IllegalArgumentException("잔액이 부족합니다.");  
+    }  
+    memberRepository.update(fromMemberId, from.getMoney() - money);  
+    validation(toMemberId);  
+    memberRepository.update(toMemberId, to.getMoney() + money);  
+  }  
+  
+  private void validation(String toMemberId) throws IllegalArgumentException {  
+    if ("ex".equals(toMemberId)) {  
+      throw new IllegalArgumentException("toMemberId is null");  
+    }  
+  }  
+}
+```
+
+> [!warning] 아직도 트랜잭션을 사용하는 모습을 보여줌, 공통적인 소스 보여줌, Exception 처리 문제
+### 중복적인 try, catch 사용에 대한 문제 해결
+템플릿 콜백 패턴 사용으로 해결
+Spring 에서는 `TransactionTemplate` 으로 만들어서 제공
+```java
+public class TransactionTemplate extends DefaultTransactionDefinition  
+   implements TransactionOperations, InitializingBean {
+	@Nullable  
+	private PlatformTransactionManager transactionManager; 
+	// 반환 값이 있을 때 사용
+	public <T> T execute(TransactionCallback<T> action) throws TransactionException { ... }
+	// 반환 값이 없을 때 사용
+	default void executeWithoutResult(Consumer<TransactionStatus> action) throws TransactionException { ... }
+}
+```
+
+```java title:"transactionTemplate 이용한 트랜잭션 사용 방법" hl:11-18
+@Slf4j  
+public class MemberServiceV3_2 {  
+  private final TransactionTemplate transactionTemplate;  
+  private final MemberRepositoryV3 memberRepository;  
+  public MemberServiceV3_2(PlatformTransactionManager transactionManager, MemberRepositoryV3 memberRepository) {  
+    this.transactionTemplate = new TransactionTemplate(transactionManager);  
+    this.memberRepository = memberRepository;  
+  }  
+  
+  public void accountTransfer(String fromMemberId, String toMemberId, int money) throws SQLException, IllegalArgumentException {  
+    transactionTemplate.execute(status -> {  
+      try {  
+        bizLogic(fromMemberId, toMemberId, money);  
+      } catch (Exception e) {  
+        throw new RuntimeException(e);  
+      }  
+      return null;  
+    });  
+  }  
+  
+  private void bizLogic(String fromMemberId, String toMemberId, int money) throws SQLException {  
+    Member from = memberRepository.findById(fromMemberId);  
+    Member to = memberRepository.findById(toMemberId);  
+    if (from.getMoney() < money) {  
+      throw new IllegalArgumentException("잔액이 부족합니다.");  
+    }  
+    memberRepository.update(fromMemberId, from.getMoney() - money);  
+    validation(toMemberId);  
+    memberRepository.update(toMemberId, to.getMoney() + money);  
+  }  
+  
+  private void validation(String toMemberId) throws IllegalArgumentException {  
+    if ("ex".equals(toMemberId)) {  
+      throw new IllegalArgumentException("toMemberId is null");  
+    }  
+  }  
+}
+```
+
+> [!warning] 아직도 트랜잭션을 사용하는 모습을 보여주게 됨
+
+## [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AOP|AOP]] 이용한 트랜잭션 사용방법
+> [!warning] 해당 방법은 Spring 에서 지원하는 내용이기 때문에 Spring 과 함께 동작되어야함
+> 테스트할 때 @SpringBootTest 어노테이션 필요
+
+[[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Proxy|CGLIB]] 방법을 사용하기 전에는 서비스의 비즈니스 로직과 트랜잭션 처리 로직이 함께 되어 있었지만
+이후 [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Proxy|CGLIB]] 방법을 사용하게 되면서 프록시가 트랜잭션 처리 로직을 모두 가져가며 서비스를 대신 호출
+
+사용 방법은 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Transactional]]  어노테이션을 사용
+메소드에 직접 사용해도 되지만 클래스에 붙여도 됨
+클래스에서 붙이면 외부에서 호출 가능한 `public` 메서드가 AOP 적용 대상자로 선택
+
+```java title:"@Transactional 이용한 트랜젝션 방법" hl:2,7-9
+@Slf4j  
+@Transactional  
+@RequiredArgsConstructor  
+public class MemberServiceV3_3 {  
+  private final MemberRepositoryV3 memberRepository;  
+  
+  public void accountTransfer(String fromMemberId, String toMemberId, int money) throws SQLException, IllegalArgumentException {  
+    bizLogic(fromMemberId, toMemberId, money);  
+  }  
+  
+  private void bizLogic(String fromMemberId, String toMemberId, int money) throws SQLException {  
+    Member from = memberRepository.findById(fromMemberId);  
+    Member to = memberRepository.findById(toMemberId);  
+    if (from.getMoney() < money) {  
+      throw new IllegalArgumentException("잔액이 부족합니다.");  
+    }  
+    memberRepository.update(fromMemberId, from.getMoney() - money);  
+    validation(toMemberId);  
+    memberRepository.update(toMemberId, to.getMoney() + money);  
+  }  
+  
+  private void validation(String toMemberId) throws IllegalArgumentException {  
+    if ("ex".equals(toMemberId)) {  
+      throw new IllegalArgumentException("toMemberId is null");  
+    }  
+  }  
+}
+```
+> 메소드에 직접 붙여도 되지만 클래스에서 붙이면 외부에서 호출 가능한 `public` 메서드가 AOP 적용 대상자로 선택
+
+```java title:"테스트에 필요한 Bean" hl:7-10
+@TestConfiguration  
+static class MemberServiceV3_3TestConfig {  
+  @Bean  
+  DataSource dataSource() {  
+    return new DriverManagerDataSource(ConnectionConst.URL, ConnectionConst.USERNAME, ConnectionConst.PASSWORD);  
+  }  
+  @Bean  
+  PlatformTransactionManager transactionManager(DataSource dataSource) {  
+    return new DataSourceTransactionManager(dataSource);  
+  }  
+  @Bean  
+  MemberRepositoryV3 memberRepositoryV3(DataSource dataSource) {  
+    return new MemberRepositoryV3(dataSource);  
+  }  
+  @Bean  
+  MemberServiceV3_3 memberServiceV3_3(MemberRepositoryV3 memberRepositoryV3) {  
+    return new MemberServiceV3_3(memberRepositoryV3);  
+  }  
+}
+```
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Repository/1.Transaction","slugHash":"d0ba003b","content":"$14","markdownContent":"$15","title":"1.Transaction","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","spring/Repository","Spring/JPA","Spring/공통관심사"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["Transaction","TransactionTemplate"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

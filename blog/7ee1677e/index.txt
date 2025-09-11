@@ -1,0 +1,486 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","7ee1677e",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","7ee1677e","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","7ee1677e","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","-4ZBEkyxt1UsFVcXS7FmD",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:Ta0e5,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  JWT(JSON Web Token)
+                </h1>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  JSESSIONID 단점
+                </h2>
+<p>토큰에 유저 데이터를 넣을 수 없음<br>JSESSIONID 훔치기 가능 (JWT 또한 훔칠 수 있는데?)</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  토큰의 장점
+                </h2>
+<p>자격 증명을 반복해서 공유하지 않아도 되므로 보안적인 이점<br>해커가 토큰을 탈취해도 토큰을 무효화시킬 수 있어서 보안에 유리 (? 누가 들으면 JSESSIONID 는 무효화 안되는지 알겠네)<br>토큰의 수명 설정 가능 및 재사용 가능<br>무상태 유지 가능<br>단순하게 무상태 유지와 토큰의 발행자가 서버라는 것을 증명가능한 것</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  JWT 토큰의 내부 구조
+                </h2>
+<p><code>aaaaaaa.bbbbbbb.ccccc</code><br>aaa 로 된 부분은 헤더(header) 부분<br>bbb 로 된 부분은 내용(payload) 부분<br>ccc 로 된 부분은 서명(signature) 부분 - 해당 부분은 선택 사항</p>
+<p>각 부분의 구분은 <code>.</code> 을 통해서 구분<br><code>HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), secret)</code></p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  header
+                </h3>
+<p>어떤 알고리즘을 사용하는지<br>토큰의 종류가 무엇인지<br>JWT 토큰을 생성하며 사용된 토큰의 형식은 어떤것인지<br>보통 해당 데이터를 Base64 Encoded 를 진행하여 가장 앞에 붙임</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JSON</title><path d="M1.59 2.085c-.51.345-.84 1.005-.84 1.665v16.5c0 .66.33 1.32.84 1.665.51.345 1.155.345 1.665 0l1.68-1.11c.345-.225.555-.615.555-1.02V4.215c0-.405-.21-.81-.555-1.02l-1.68-1.11c-.51-.345-1.155-.345-1.665 0zm20.82 0c-.51.345-1.155-.345-1.665 0l-1.68 1.11c-.345-.225-.555-.615-.555 1.02v15.45c0 .405.21.81.555 1.02l1.68 1.11c.51.345 1.155.345 1.665 0 .51-.345.84-1.005.84-1.665V3.75c0-.66-.33-1.32-.84-1.665zM9 15.75c0 1.245.99 2.25 2.25 2.25S13.5 17.01 13.5 15.75s-.99-2.25-2.25-2.25-2.25.99-2.25 2.25zm6 0c0 1.245.99 2.25 2.25 2.25s2.25-.99 2.25-2.25-.99-2.25-2.25-2.25-2.25.99-2.25 2.25z"/></svg></span>
+              <span class="custom-code-block-lang-text">json</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-json hljs"><span class="line"><span class="hljs-punctuation">{</span></span><span class="line">	<span class="hljs-attr">&quot;alg&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;HS256&quot;</span><span class="hljs-punctuation">,</span></span><span class="line">	<span class="hljs-attr">&quot;typ&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;JWT&quot;</span></span><span class="line"><span class="hljs-punctuation">}</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p>해당 데이터를 Base64 로 변환하여 header 위치에 등록</p>
+</blockquote>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  payload
+                </h3>
+<p>유저에 대한 정보를 저장 (넣는 사람이 넣고 싶은 내용을 작성)</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>JSON</title><path d="M1.59 2.085c-.51.345-.84 1.005-.84 1.665v16.5c0 .66.33 1.32.84 1.665.51.345 1.155.345 1.665 0l1.68-1.11c.345-.225.555-.615.555-1.02V4.215c0-.405-.21-.81-.555-1.02l-1.68-1.11c-.51-.345-1.155-.345-1.665 0zm20.82 0c-.51.345-1.155-.345-1.665 0l-1.68 1.11c-.345-.225-.555-.615-.555 1.02v15.45c0 .405.21.81.555 1.02l1.68 1.11c.51.345 1.155.345 1.665 0 .51-.345.84-1.005.84-1.665V3.75c0-.66-.33-1.32-.84-1.665zM9 15.75c0 1.245.99 2.25 2.25 2.25S13.5 17.01 13.5 15.75s-.99-2.25-2.25-2.25-2.25.99-2.25 2.25zm6 0c0 1.245.99 2.25 2.25 2.25s2.25-.99 2.25-2.25-.99-2.25-2.25-2.25-2.25.99-2.25 2.25z"/></svg></span>
+              <span class="custom-code-block-lang-text">json</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-json hljs"><span class="line"><span class="hljs-punctuation">{</span></span><span class="line">	<span class="hljs-attr">&quot;sub&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;12345&quot;</span><span class="hljs-punctuation">,</span></span><span class="line">	<span class="hljs-attr">&quot;name&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-string">&quot;John Doe&quot;</span><span class="hljs-punctuation">,</span></span><span class="line">	<span class="hljs-attr">&quot;iat&quot;</span><span class="hljs-punctuation">:</span><span class="hljs-number">1516239022</span></span><span class="line"><span class="hljs-punctuation">}</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p>해당 데이터를 Base64 로 변환하여 payload 위치에 등록</p>
+</blockquote>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  Registered Claim(등록된 클레임)
+                </h4>
+<ul>
+<li><code>iss</code>: 토큰 발급자(issuer)</li>
+<li><code>sub</code>: 토큰 제목 (subject)</li>
+<li><code>aud</code>: 토큰 대상자 (audience)</li>
+<li><code>exp</code>: 토큰의 만료시간 (expiraton), 시간은 NumericDate 형식으로 되어있어야 하며 (예: 1480849147370) 언제나 현재 시간보다 이후로 설정되어있어야합니다.</li>
+<li><code>nbf</code>: Not Before 를 의미하며, 토큰의 활성 날짜와 비슷한 개념입니다. 여기에도 NumericDate 형식으로 날짜를 지정하며, 이 날짜가 지나기 전까지는 토큰이 처리되지 않습니다.</li>
+<li><code>iat</code>: 토큰이 발급된 시간 (issued at), 이 값을 사용하여 토큰의 <code>age</code> 가 얼마나 되었는지 판단 할 수 있습니다.</li>
+<li><code>jti</code>: JWT의 고유 식별자로서, 주로 중복적인 처리를 방지하기 위하여 사용됩니다. 일회용 토큰에 사용하면 유용합니다.</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  signature
+                </h3>
+<p>서명 값을 등록해서 보낼 경우 내부 값을 해시값에 의해 보호 됨으로 수정해도 의미가 없기 때문에 보안적으로 안전</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  jjwt 라이브러리 JWT 설정
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>XML</title><path d="M13.4 3l-2.8 18 2.8 0 2.8-18h-2.8zM6.4 6l-3.8 6 3.8 6 2.2 0-3.8-6 3.8-6-2.2 0zM21.4 6l-3.8 6 3.8 6 2.2 0-3.8-6 3.8-6-2.2 0z"/></svg></span>
+              <span class="custom-code-block-lang-text">xml</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-xml hljs"><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>io.jsonwebtoken<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>jjwt-api<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>0.12.3<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>io.jsonwebtoken<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>jjwt-impl<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>0.12.3<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">scope</span>&gt;</span>runtime<span class="hljs-tag">&lt;/<span class="hljs-name">scope</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>io.jsonwebtoken<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>jjwt-jackson<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>0.12.3<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span></span></code></pre>
+        </div>
+      
+<blockquote>
+<p>pom.xml</p>
+</blockquote>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@EnableWebSecurity</span></span><span class="line"><span class="hljs-meta">@Configuration</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">SecurityConfig</span> {  </span><span class="line">  <span class="hljs-meta">@Bean</span>  </span><span class="line">  SecurityFilterChain <span class="hljs-title function_">securityFilterChain</span><span class="hljs-params">(HttpSecurity http)</span> <span class="hljs-keyword">throws</span> Exception {  </span><span class="line">  ...</span><span class="line">  http.sessionManagement(sessionManagement -&gt; sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS));</span><span class="line">  ...</span><span class="line">  }</span><span class="line">  ...</span><span class="line">  <span class="hljs-keyword">public</span> CorsConfiguration <span class="hljs-title function_">corsConfiguration</span><span class="hljs-params">()</span> {  </span><span class="line">    <span class="hljs-type">CorsConfiguration</span> <span class="hljs-variable">corsConfig</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">CorsConfiguration</span>();  </span><span class="line">    ...</span><span class="line">    <span class="hljs-comment">// JWT 토큰을 사용하기 위해 Authorization 헤더를 노출시킴  </span></span><span class="line">    corsConfig.setExposedHeaders(List.of(<span class="hljs-string">&quot;Authorization&quot;</span>));  </span><span class="line">    <span class="hljs-keyword">return</span> corsConfig;</span><span class="line">  }</span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p>session 불필요, Authorization 헤더 받는 것을 허용</p>
+</blockquote>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">JWTTokenGeneratorFilter</span> <span class="hljs-keyword">extends</span> <span class="hljs-title class_">OncePerRequestFilter</span> {  </span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-keyword">protected</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">doFilterInternal</span><span class="hljs-params">(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain)</span> <span class="hljs-keyword">throws</span> ServletException, IOException {  </span><span class="line">    <span class="hljs-type">Authentication</span> <span class="hljs-variable">authentication</span> <span class="hljs-operator">=</span> SecurityContextHolder.getContext().getAuthentication();  </span><span class="line">    <span class="hljs-keyword">if</span> (<span class="hljs-literal">null</span> != authentication) {  </span><span class="line">      <span class="hljs-type">SecretKey</span> <span class="hljs-variable">secretKey</span> <span class="hljs-operator">=</span> Keys.hmacShaKeyFor(JwtProperties.getSecretKey().getBytes());  </span><span class="line">      <span class="hljs-type">String</span> <span class="hljs-variable">jwt</span> <span class="hljs-operator">=</span> Jwts.builder()  </span><span class="line">        .issuer(<span class="hljs-string">&quot;EasyBank&quot;</span>)  </span><span class="line">        .subject(<span class="hljs-string">&quot;JWT Token&quot;</span>)  </span><span class="line">        .claim(<span class="hljs-string">&quot;username&quot;</span>, authentication.getName())  </span><span class="line">        .claim(<span class="hljs-string">&quot;authorities&quot;</span>, populateAuthorities(authentication))  </span><span class="line">        .issuedAt(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>())  </span><span class="line">        .expiration(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(System.currentTimeMillis() + (JwtProperties.getExpirationMinuteTime() * <span class="hljs-number">60</span> * <span class="hljs-number">1000</span>)))  </span><span class="line">        .signWith(secretKey)  </span><span class="line">        .compact();  </span><span class="line">  </span><span class="line">      response.addHeader(JwtProperties.getHeaderString(), JwtProperties.getTokenPrefix() + jwt);  </span><span class="line">  </span><span class="line">      filterChain.doFilter(request, response);  </span><span class="line">    }  </span><span class="line">  </span><span class="line">  }  </span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment">// 로그인 할때만 해당 필터를 타도록 설정</span></span><span class="line">  <span class="hljs-meta">@Override</span>  </span><span class="line">  <span class="hljs-keyword">protected</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">shouldNotFilter</span><span class="hljs-params">(HttpServletRequest request)</span> <span class="hljs-keyword">throws</span> ServletException {  </span><span class="line">    <span class="hljs-keyword">return</span> !request.getServletPath().equals(<span class="hljs-string">&quot;/login&quot;</span>);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">private</span> String <span class="hljs-title function_">populateAuthorities</span><span class="hljs-params">(Authentication authentication)</span> {  </span><span class="line">    Set&lt;String&gt; authorities = authentication.getAuthorities().stream()  </span><span class="line">      .map(grantedAuthority -&gt; grantedAuthority.getAuthority())  </span><span class="line">      .collect(Collectors.toSet());  </span><span class="line">    <span class="hljs-keyword">return</span> String.join(<span class="hljs-string">&quot;,&quot;</span>, authorities);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  Auth0 라이브러리 JWT 사용
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>XML</title><path d="M13.4 3l-2.8 18 2.8 0 2.8-18h-2.8zM6.4 6l-3.8 6 3.8 6 2.2 0-3.8-6 3.8-6-2.2 0zM21.4 6l-3.8 6 3.8 6 2.2 0-3.8-6 3.8-6-2.2 0z"/></svg></span>
+              <span class="custom-code-block-lang-text">xml</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-xml hljs"><span class="line"><span class="hljs-tag">&lt;<span class="hljs-name">dependency</span>&gt;</span><span class="hljs-comment">&lt;!-- JWT Token --&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">groupId</span>&gt;</span>com.auth0<span class="hljs-tag">&lt;/<span class="hljs-name">groupId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">artifactId</span>&gt;</span>java-jwt<span class="hljs-tag">&lt;/<span class="hljs-name">artifactId</span>&gt;</span>  </span><span class="line">    <span class="hljs-tag">&lt;<span class="hljs-name">version</span>&gt;</span>3.18.2<span class="hljs-tag">&lt;/<span class="hljs-name">version</span>&gt;</span>  </span><span class="line"><span class="hljs-tag">&lt;/<span class="hljs-name">dependency</span>&gt;</span></span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">JwtUtil</span> {  </span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> String <span class="hljs-title function_">create</span><span class="hljs-params">(String subject, Long expirationMinuteTime, String secretKey, Map&lt;String, String&gt; claim)</span>{  </span><span class="line">        JWTCreator.<span class="hljs-type">Builder</span> <span class="hljs-variable">builder</span> <span class="hljs-operator">=</span>JWT.create()  </span><span class="line">                .withSubject(subject)  </span><span class="line">                .withExpiresAt(<span class="hljs-keyword">new</span> <span class="hljs-title class_">Date</span>(System.currentTimeMillis()+ (<span class="hljs-number">1000L</span> * <span class="hljs-number">60</span> * expirationMinuteTime) )); <span class="hljs-comment">//만료 시간 milliSecond 1/1000초 30분으로 설정함  </span></span><span class="line">        claim.forEach(builder::withClaim);  </span><span class="line">        <span class="hljs-type">String</span> <span class="hljs-variable">jwtToken</span> <span class="hljs-operator">=</span> builder.sign( Algorithm.HMAC512(secretKey) ); <span class="hljs-comment">//서버만 아는 고유한 값으로 설정  </span></span><span class="line">  </span><span class="line">        <span class="hljs-keyword">return</span> jwtToken;  </span><span class="line">    }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p>JWT 생성 방법</p>
+</blockquote>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-type">String</span> <span class="hljs-variable">jwtToken</span> <span class="hljs-operator">=</span> request.getHeader(jwtProperties.getHeaderString()).replace(jwtProperties.getTokenPrefix(), <span class="hljs-string">&quot;&quot;</span>);  </span><span class="line">            <span class="hljs-type">DecodedJWT</span> <span class="hljs-variable">decodedJWT</span> <span class="hljs-operator">=</span> JWT.require(Algorithm.HMAC512(jwtProperties.getSecretKey())).build().verify(jwtToken);  </span><span class="line">            <span class="hljs-comment">// 이거 만료 제대로 되는지를 모르겠는데  </span></span><span class="line"><span class="hljs-comment">//            decodedJWT.getExpiresAt()  </span></span><span class="line">            <span class="hljs-type">String</span> <span class="hljs-variable">username</span> <span class="hljs-operator">=</span> decodedJWT.getClaim(<span class="hljs-string">&quot;username&quot;</span>).asString();  </span><span class="line">            <span class="hljs-comment">//서명이 정상적으로 됨  </span></span><span class="line">            <span class="hljs-keyword">if</span>( username != <span class="hljs-literal">null</span> ){  </span><span class="line">                <span class="hljs-type">User</span> <span class="hljs-variable">user</span> <span class="hljs-operator">=</span> userRepository.findByUsername(username);  </span><span class="line">  </span><span class="line">                <span class="hljs-type">PrincipalDetails</span> <span class="hljs-variable">principalDetails</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">PrincipalDetails</span>(user);  </span><span class="line">                <span class="hljs-comment">//JWT 토큰 서명을 통해서 서명이 정상이면 Authentication 객체 생성  </span></span><span class="line">                <span class="hljs-comment">//2번째 인자는 비밀번호 인데  </span></span><span class="line">                <span class="hljs-type">Authentication</span> <span class="hljs-variable">authentication</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">UsernamePasswordAuthenticationToken</span>(principalDetails, <span class="hljs-literal">null</span>, principalDetails.getAuthorities());  </span><span class="line">                <span class="hljs-comment">//Security Session  </span></span><span class="line">                <span class="hljs-comment">//강제로 시큐리티 세션에 접근하여 Authentication 객체를 저장  </span></span><span class="line">                SecurityContextHolder.getContext().setAuthentication(authentication);  </span><span class="line">  </span><span class="line">                <span class="hljs-type">String</span> <span class="hljs-variable">token_ip</span> <span class="hljs-operator">=</span> decodedJWT.getClaim(<span class="hljs-string">&quot;ip&quot;</span>).asString();  </span><span class="line">                <span class="hljs-keyword">if</span>( xsConfig.getConsoleConfig().isJwtIpCheckYn() &amp;&amp; !WebUtil.getIp(request).equals(token_ip) ){  </span><span class="line">                    <span class="hljs-keyword">throw</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">InvalidClaimException</span>(String.format(<span class="hljs-string">&quot;The Claim &#x27;%s&#x27; value doesn&#x27;t match the required one.&quot;</span>, <span class="hljs-string">&quot;ip&quot;</span>));  </span><span class="line">                }  </span><span class="line">                {   <span class="hljs-comment">//강제로 재갱신 로직을 추가  </span></span><span class="line">                    Map&lt;String, String&gt; claim = <span class="hljs-keyword">new</span> <span class="hljs-title class_">HashMap</span>&lt;&gt;();  </span><span class="line">                    claim.put( <span class="hljs-string">&quot;id&quot;</span>, principalDetails.getUser().getId().toString() );  </span><span class="line">                    claim.put( <span class="hljs-string">&quot;username&quot;</span>, principalDetails.getUser().getUsername() );  </span><span class="line">                    <span class="hljs-type">String</span> <span class="hljs-variable">ip</span> <span class="hljs-operator">=</span> WebUtil.getIp(request);  </span><span class="line">                    claim.put( <span class="hljs-string">&quot;ip&quot;</span>, ip );  </span><span class="line">                    <span class="hljs-type">String</span> <span class="hljs-variable">newJwtToken</span> <span class="hljs-operator">=</span> JwtUtil.create(principalDetails.getUsername(), jwtProperties.getExpirationMinuteTime(), jwtProperties.getSecretKey(), claim);  </span><span class="line">  </span><span class="line">                    <span class="hljs-comment">// 클라이언트에게 JWT 토큰을 전달  </span></span><span class="line">                    response.addHeader(jwtProperties.getHeaderString(), jwtProperties.getTokenPrefix() + newJwtToken);  </span><span class="line">                }  </span><span class="line">            }</span></code></pre>
+        </div>
+      
+<blockquote>
+<p>JWT 검증 방법</p>
+</blockquote>
+15:T220a,---
+aliases:
+  - JWT
+  - JWT(JSON Web Token)
+tags:
+  - Spring
+  - Spring/Security
+특징: 
+---
+# JWT(JSON Web Token)
+
+## JSESSIONID 단점
+토큰에 유저 데이터를 넣을 수 없음
+JSESSIONID 훔치기 가능 (JWT 또한 훔칠 수 있는데?)
+## 토큰의 장점
+자격 증명을 반복해서 공유하지 않아도 되므로 보안적인 이점
+해커가 토큰을 탈취해도 토큰을 무효화시킬 수 있어서 보안에 유리 (? 누가 들으면 JSESSIONID 는 무효화 안되는지 알겠네)
+토큰의 수명 설정 가능 및 재사용 가능
+무상태 유지 가능
+단순하게 무상태 유지와 토큰의 발행자가 서버라는 것을 증명가능한 것
+## JWT 토큰의 내부 구조
+`aaaaaaa.bbbbbbb.ccccc`
+aaa 로 된 부분은 헤더(header) 부분
+bbb 로 된 부분은 내용(payload) 부분
+ccc 로 된 부분은 서명(signature) 부분 - 해당 부분은 선택 사항
+
+각 부분의 구분은 `.` 을 통해서 구분
+`HMACSHA256(base64UrlEncode(header) + "." + base64UrlEncode(payload), secret)`
+
+### header 
+어떤 알고리즘을 사용하는지 
+토큰의 종류가 무엇인지 
+JWT 토큰을 생성하며 사용된 토큰의 형식은 어떤것인지
+보통 해당 데이터를 Base64 Encoded 를 진행하여 가장 앞에 붙임
+
+```json
+{
+	"alg":"HS256",
+	"typ":"JWT"
+}
+```
+> 해당 데이터를 Base64 로 변환하여 header 위치에 등록
+### payload 
+유저에 대한 정보를 저장 (넣는 사람이 넣고 싶은 내용을 작성)
+```json
+{
+	"sub":"12345",
+	"name":"John Doe",
+	"iat":1516239022
+}
+```
+> 해당 데이터를 Base64 로 변환하여 payload 위치에 등록
+
+#### Registered Claim(등록된 클레임)
+- `iss`: 토큰 발급자(issuer)
+- `sub`: 토큰 제목 (subject)
+- `aud`: 토큰 대상자 (audience)
+- `exp`: 토큰의 만료시간 (expiraton), 시간은 NumericDate 형식으로 되어있어야 하며 (예: 1480849147370) 언제나 현재 시간보다 이후로 설정되어있어야합니다.
+- `nbf`: Not Before 를 의미하며, 토큰의 활성 날짜와 비슷한 개념입니다. 여기에도 NumericDate 형식으로 날짜를 지정하며, 이 날짜가 지나기 전까지는 토큰이 처리되지 않습니다.
+- `iat`: 토큰이 발급된 시간 (issued at), 이 값을 사용하여 토큰의 `age` 가 얼마나 되었는지 판단 할 수 있습니다.
+- `jti`: JWT의 고유 식별자로서, 주로 중복적인 처리를 방지하기 위하여 사용됩니다. 일회용 토큰에 사용하면 유용합니다.
+### signature 
+서명 값을 등록해서 보낼 경우 내부 값을 해시값에 의해 보호 됨으로 수정해도 의미가 없기 때문에 보안적으로 안전
+
+## jjwt 라이브러리 JWT 설정
+```xml
+<dependency>  
+    <groupId>io.jsonwebtoken</groupId>  
+    <artifactId>jjwt-api</artifactId>  
+    <version>0.12.3</version>  
+</dependency>  
+<dependency>  
+    <groupId>io.jsonwebtoken</groupId>  
+    <artifactId>jjwt-impl</artifactId>  
+    <version>0.12.3</version>  
+    <scope>runtime</scope>  
+</dependency>  
+<dependency>  
+    <groupId>io.jsonwebtoken</groupId>  
+    <artifactId>jjwt-jackson</artifactId>  
+    <version>0.12.3</version>  
+</dependency>
+```
+> pom.xml
+
+```java
+@EnableWebSecurity
+@Configuration  
+public class SecurityConfig {  
+  @Bean  
+  SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {  
+  ...
+  http.sessionManagement(sessionManagement -> sessionManagement.sessionCreationPolicy(SessionCreationPolicy.STATELESS));
+  ...
+  }
+  ...
+  public CorsConfiguration corsConfiguration() {  
+    CorsConfiguration corsConfig = new CorsConfiguration();  
+    ...
+    // JWT 토큰을 사용하기 위해 Authorization 헤더를 노출시킴  
+    corsConfig.setExposedHeaders(List.of("Authorization"));  
+    return corsConfig;
+  }
+}
+```
+> session 불필요, Authorization 헤더 받는 것을 허용
+
+```java
+@Slf4j  
+public class JWTTokenGeneratorFilter extends OncePerRequestFilter {  
+  @Override  
+  protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain filterChain) throws ServletException, IOException {  
+    Authentication authentication = SecurityContextHolder.getContext().getAuthentication();  
+    if (null != authentication) {  
+      SecretKey secretKey = Keys.hmacShaKeyFor(JwtProperties.getSecretKey().getBytes());  
+      String jwt = Jwts.builder()  
+        .issuer("EasyBank")  
+        .subject("JWT Token")  
+        .claim("username", authentication.getName())  
+        .claim("authorities", populateAuthorities(authentication))  
+        .issuedAt(new Date())  
+        .expiration(new Date(System.currentTimeMillis() + (JwtProperties.getExpirationMinuteTime() * 60 * 1000)))  
+        .signWith(secretKey)  
+        .compact();  
+  
+      response.addHeader(JwtProperties.getHeaderString(), JwtProperties.getTokenPrefix() + jwt);  
+  
+      filterChain.doFilter(request, response);  
+    }  
+  
+  }  
+
+// 로그인 할때만 해당 필터를 타도록 설정
+  @Override  
+  protected boolean shouldNotFilter(HttpServletRequest request) throws ServletException {  
+    return !request.getServletPath().equals("/login");  
+  }  
+  
+  private String populateAuthorities(Authentication authentication) {  
+    Set<String> authorities = authentication.getAuthorities().stream()  
+      .map(grantedAuthority -> grantedAuthority.getAuthority())  
+      .collect(Collectors.toSet());  
+    return String.join(",", authorities);  
+  }  
+}
+```
+
+## Auth0 라이브러리 JWT 사용
+```xml
+<dependency><!-- JWT Token -->  
+    <groupId>com.auth0</groupId>  
+    <artifactId>java-jwt</artifactId>  
+    <version>3.18.2</version>  
+</dependency>
+```
+
+```java
+public class JwtUtil {  
+    public static String create(String subject, Long expirationMinuteTime, String secretKey, Map<String, String> claim){  
+        JWTCreator.Builder builder =JWT.create()  
+                .withSubject(subject)  
+                .withExpiresAt(new Date(System.currentTimeMillis()+ (1000L * 60 * expirationMinuteTime) )); //만료 시간 milliSecond 1/1000초 30분으로 설정함  
+        claim.forEach(builder::withClaim);  
+        String jwtToken = builder.sign( Algorithm.HMAC512(secretKey) ); //서버만 아는 고유한 값으로 설정  
+  
+        return jwtToken;  
+    }  
+}
+```
+> JWT 생성 방법
+
+```java
+String jwtToken = request.getHeader(jwtProperties.getHeaderString()).replace(jwtProperties.getTokenPrefix(), "");  
+            DecodedJWT decodedJWT = JWT.require(Algorithm.HMAC512(jwtProperties.getSecretKey())).build().verify(jwtToken);  
+            // 이거 만료 제대로 되는지를 모르겠는데  
+//            decodedJWT.getExpiresAt()  
+            String username = decodedJWT.getClaim("username").asString();  
+            //서명이 정상적으로 됨  
+            if( username != null ){  
+                User user = userRepository.findByUsername(username);  
+  
+                PrincipalDetails principalDetails = new PrincipalDetails(user);  
+                //JWT 토큰 서명을 통해서 서명이 정상이면 Authentication 객체 생성  
+                //2번째 인자는 비밀번호 인데  
+                Authentication authentication = new UsernamePasswordAuthenticationToken(principalDetails, null, principalDetails.getAuthorities());  
+                //Security Session  
+                //강제로 시큐리티 세션에 접근하여 Authentication 객체를 저장  
+                SecurityContextHolder.getContext().setAuthentication(authentication);  
+  
+                String token_ip = decodedJWT.getClaim("ip").asString();  
+                if( xsConfig.getConsoleConfig().isJwtIpCheckYn() && !WebUtil.getIp(request).equals(token_ip) ){  
+                    throw new InvalidClaimException(String.format("The Claim '%s' value doesn't match the required one.", "ip"));  
+                }  
+                {   //강제로 재갱신 로직을 추가  
+                    Map<String, String> claim = new HashMap<>();  
+                    claim.put( "id", principalDetails.getUser().getId().toString() );  
+                    claim.put( "username", principalDetails.getUser().getUsername() );  
+                    String ip = WebUtil.getIp(request);  
+                    claim.put( "ip", ip );  
+                    String newJwtToken = JwtUtil.create(principalDetails.getUsername(), jwtProperties.getExpirationMinuteTime(), jwtProperties.getSecretKey(), claim);  
+  
+                    // 클라이언트에게 JWT 토큰을 전달  
+                    response.addHeader(jwtProperties.getHeaderString(), jwtProperties.getTokenPrefix() + newJwtToken);  
+                }  
+            }
+```
+> JWT 검증 방법5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Security/JWT","slugHash":"7ee1677e","content":"$14","markdownContent":"$15","title":"JWT","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Security"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["JWT","JWT(JSON Web Token)"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

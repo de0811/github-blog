@@ -1,0 +1,891 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","ee2323b8",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","ee2323b8","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","ee2323b8","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","UoblRXj1FkdIe1zhGn-4g",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T12f0f,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  횡단 관심사(흩어진 관심사 cross-cutting concerns)
+                </h1>
+<p>핵심적인 기능이 아닌 중간중간 삽입되어야하는 기능들인 관심들을 횡단관심사라고 함<br><strong>주요 기능이 아니지만 중복된 동일한 기능들을 말함</strong></p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">helloA</span><span class="hljs-params">()</span> {</span><span class="line">	System.out.println(<span class="hljs-string">&quot;Start...&quot;</span>);</span><span class="line">	AAA();</span><span class="line">	System.out.println(<span class="hljs-string">&quot;End...);</span><span class="line">}</span><span class="line">public void helloB() {</span><span class="line">	System.out.println(&quot;</span>Start...<span class="hljs-string">&quot;);</span><span class="line">	BBB();</span><span class="line">	System.out.println(&quot;</span>End...);</span><span class="line">}</span></code></pre>
+        </div>
+      
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  AOP
+                </h1>
+<p>관점 지향 프로그래밍<br>를 모듈화하는 프로그래밍 패러다임<br>예를 들어, 로깅, 트랜잭션 관리, 보안 등이 횡단 관심사에 해당<br><a href="#"></a>를 모듈화하는 프로그래밍 패러다임
+예를 들어, 로깅, 트랜잭션 관리, 보안 등이 횡단 관심사에 해당
+<a href="/github-blog/blog/f499cc48">Proxy</a> 를 사용하여 만든 방법으로 <a href="/github-blog/blog/f499cc48">CGLIB</a>를 사용</p>
+<hr>
+<p><a href="/github-blog/blog/f499cc48">Dynamic Proxy</a>와 <a href="/github-blog/blog/f499cc48">CGLIB</a> 이용한 기술<br>AspectJ 프레임워크가 아닌 스프링 자체에서 AOP를 지원하기위해 AspectJ 문법을 차용하고 AspectJ 제공하는 기능의 일부만 제공<br>간단하게 AspectJ 프레임워크를 빼꼇음</p>
+<p><a href="/github-blog/blog/ce20fca8">AspectJ</a>의 주요 설명</p>
+<ul>
+<li>자바 프로그래밍에 대한 완벽한 관점 지향 확장</li>
+<li>횡단 관심자의 깔끔한 모듈화
+<ul>
+<li>오류 검사 및 처리</li>
+<li>동기화</li>
+<li>성능 최적화(캐싱)</li>
+<li>모니터링 및 로깅<br>AOP를 사용할 때 부가 기능 로직을 실제 로직에 추가할 수 있는 방법 3가지</li>
+</ul>
+</li>
+<li>위빙(Weaving) : 컴파일 시점 (<a href="/github-blog/blog/ce20fca8">AspectJ</a> 프레임 워크 사용 시 사용 가능)
+<ul>
+<li><code>.java</code>파일을 AspectJ 컴파일러를 이용해서 <code>.class</code> 만드는 시점에 부가 기능 추가 가능</li>
+<li>단점 : 특별한 컴파일러 필요와 복잡성</li>
+</ul>
+</li>
+<li>로드타임 위빙 : 클래스 로딩 시점(<a href="/github-blog/blog/ce20fca8">AspectJ</a> 프레임 워크 사용 시 사용 가능)
+<ul>
+<li><code>.class</code> 파일을 JVM 에 올리기 직전에 추가하여 저장</li>
+<li><code>java instrumentation</code> 기술 사용</li>
+<li>단점 : 특별한 옵션을 통해서 클래스 로더 조작기를 지정 필요, 번거롭고 복잡</li>
+</ul>
+</li>
+<li>런타임 시점(프록시)
+<ul>
+<li>단점 : @Override 되는 것만 적용 가능</li>
+</ul>
+</li>
+</ul>
+<p>Join Point(조인 포인트) : AOP를 어디다가 적용을 시킬지 설정(생성자, 필드 값 접근, static 메서드 접근, 메서드 실행 등)<br>하지만 Spring AOP인 <mark>프록시 방식</mark>의 경우 메서드 실행 지점에만 적용 가능</p>
+<p><a href="/github-blog/blog/ce20fca8">AspectJ</a> : 공부할게 너무 많음, 실무에선 이것까지 필요하진 않은 경우가 대부분</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  용어
+                </h2>
+<p>AOP 중요 용어 : <a href="/github-blog/blog/cd416d78">@Aspect</a>, <a href="/github-blog/blog/9206d4c8">@Pointcut</a>, <a href="/github-blog/blog/45f0056f">@Around</a>, <a href="/github-blog/blog/56fd8c2d">@Before</a>, <a href="/github-blog/blog/a2be8bdc">@AfterReturning</a>, <a href="/github-blog/blog/41aa02c0">@AfterThrowing</a>, <a href="/github-blog/blog/b09094f5">@After</a>, <a href="/github-blog/blog/7f6479ef">@Order</a></p>
+<ul>
+<li>Join Point(조인 포인트)
+<ul>
+<li>AOP를 어디다가 적용을 시킬지 설정(생성자, 필드 값 접근, static 메서드 접근, 메서드 실행 등)</li>
+<li><a href="/github-blog/blog/ce20fca8">AspectJ</a>의 경우에는 모든 곳에서 할 수 있지만 Spring AOP인 ==프록시 방식==의 경우 메서드 실행 지점에만 적용 가능<mark>프록시 방식</mark>의 경우 메서드 실행 지점에만 적용 가능</li>
+</ul>
+</li>
+<li>Pointcut(포인트컷)
+<ul>
+<li>조인 포인트 중에서 어드바이스가 적용될 위치를 선별하는 기능</li>
+<li>주로 <a href="/github-blog/blog/45f0056f">@Around</a> <a href="/github-blog/blog/ce20fca8">AspectJ</a> 표현식을 사용해서 지정</li>
+<li>포인트컷 분리 방법은 <a href="/github-blog/blog/9206d4c8">@Pointcut</a> 사용</li>
+<li>프록시를 사용하는 Spring AOP는 메서드 실행 지점만 포인트컷으로 선별 가능</li>
+</ul>
+</li>
+<li>Target(타겟)
+<ul>
+<li>어드바이스를 받는 객체, 포인트컷으로 결정</li>
+</ul>
+</li>
+<li>Advice(어드바이스)
+<ul>
+<li>부가 기능</li>
+<li>Advice(어드바이스) 종류 (<a href="/github-blog/blog/45f0056f">@Around</a> 이외엔 작업 흐름을 변경할 수 없음)
+<ul>
+<li><a href="/github-blog/blog/45f0056f">@Around</a> : 메서드 호출 전후 수행, 가장 강력한 어드바이스, 조인 포인트 실행 여부 선택, 반환 값 변환, 예외 변환 등 사용</li>
+<li><a href="/github-blog/blog/56fd8c2d">@Before</a> : 조인 포인트가 정상 완료 후 실행</li>
+<li><a href="/github-blog/blog/a2be8bdc">@AfterReturning</a> : 조인 포인트가 정상 완료 후 실행</li>
+<li><a href="/github-blog/blog/41aa02c0">@AfterThrowing</a> : 메서드가 예외를 던지는 경우 실행</li>
+<li><a href="/github-blog/blog/b09094f5">@After</a> : 조인 포인트가 정상 또는 예외에 관계없이 실행(finally)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Aspect(애스팩트)
+<ul>
+<li>어드바이스 + 포인트컷을 모듈화 한 것</li>
+<li><a href="/github-blog/blog/cd416d78">@Aspect</a></li>
+<li>여러 디바이스와 포인트컷이 함께 존재</li>
+</ul>
+</li>
+<li>Advisor(어드바이저)
+<ul>
+<li>Advisor = Pointcut + Advice</li>
+<li>Spring AOP 에서만 사용되는 것</li>
+</ul>
+</li>
+<li>Weaving(위빙)
+<ul>
+<li>포인트컷으로 결정한 타겟의 조인 포인트에 어드바이스를 적용하는 것</li>
+<li>위빙을 통해 핵심 기능 코드에 영향을 주지 않고 부가 기능을 추가</li>
+<li>AOP 적용을 위해 애스팩트를 객체에 연결한 상태
+<ul>
+<li>컴파일 타임(AspectJ Compiler)</li>
+<li>로드 타임</li>
+<li>런타임, (프록시 방식) 스프링 AOP는 런타임</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>AOP 프록시
+<ul>
+<li>AOP 기능을 구현하기 위해 만든 프록시 객체</li>
+<li>스프링에서 AOP 프록시는 JDK 동적 프록시 또는 CGLIB 프록시를 의미</li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  사용
+                </h2>
+<p><a href="/github-blog/blog/cd416d78">@Aspect</a> 컴포넌트 스캔이 안되기 때문에 직접 <a href="#">@Bean</a>을 호출해야함</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  어드바이스 순서 바꾸는 방법
+                </h3>
+<ul>
+<li>내부 클래스를 사용하는 방법</li>
+<li>외부 클래스로 따로 빼는 방법<br>의 경우 클래스의 순서를 정하는 것이기 때문에 method로 만든 어드바이스의 순서에 개입할 수 없음<br>방법은 클래스로 따로 빼면 가능의 경우 클래스의 순서를 정하는 것이기 때문에 method로 만든 어드바이스의 순서에 개입할 수 없음
+방법은 클래스로 따로 빼면 가능</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">Advisor 순서 변경</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Aspect</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AspectV5Order</span> {  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Aspect</span>  </span><span class="line">  <span class="hljs-meta">@Order(2)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">LogAspect</span> {  </span><span class="line">    <span class="hljs-meta">@Around(&quot;hello.aop.order.aop.Pointcuts.allOrder()&quot;)</span>  </span><span class="line">    <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">doLog</span><span class="hljs-params">(ProceedingJoinPoint joinPoint)</span> <span class="hljs-keyword">throws</span> Throwable {  </span><span class="line">      log.info(<span class="hljs-string">&quot;AspectV1.doLog() Start&quot;</span>);  </span><span class="line">      log.info(<span class="hljs-string">&quot;joinPoint.getSignature().toShortString(): {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">      <span class="hljs-keyword">try</span> {  </span><span class="line">        <span class="hljs-keyword">return</span> joinPoint.proceed();  </span><span class="line">      } <span class="hljs-keyword">finally</span> {  </span><span class="line">        log.info(<span class="hljs-string">&quot;AspectV1.doLog() End&quot;</span>);  </span><span class="line">      }  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Aspect</span>  </span><span class="line">  <span class="hljs-meta">@Order(1)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">TransactionAspect</span> {  </span><span class="line">    <span class="hljs-comment">// hello.aop.order 패키지와 하위 패키지 이면서 클래스 이름 패턴이 *Service 인 클래스의 모든 메서드에 적용  </span></span><span class="line">    <span class="hljs-meta">@Around(&quot;hello.aop.order.aop.Pointcuts.allOrderAndService()&quot;)</span>  </span><span class="line">    <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">doTransaction</span><span class="hljs-params">(ProceedingJoinPoint joinPoint)</span> <span class="hljs-keyword">throws</span> Throwable {  </span><span class="line">      log.info(<span class="hljs-string">&quot;AspectV1.doLogService() Start&quot;</span>);  </span><span class="line">      log.info(<span class="hljs-string">&quot;joinPoint.getSignature().toShortString(): {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">      <span class="hljs-keyword">try</span> {  </span><span class="line">        log.info(<span class="hljs-string">&quot;[트랜잭션 시작] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">        <span class="hljs-type">Object</span> <span class="hljs-variable">result</span> <span class="hljs-operator">=</span> joinPoint.proceed();  </span><span class="line">        log.info(<span class="hljs-string">&quot;[트랜잭션 커밋] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">        <span class="hljs-keyword">return</span> result;  </span><span class="line">      } <span class="hljs-keyword">catch</span> (Exception e) {  </span><span class="line">        log.info(<span class="hljs-string">&quot;[트랜잭션 롤백] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">        <span class="hljs-keyword">throw</span> e;  </span><span class="line">      }<span class="hljs-keyword">finally</span> {  </span><span class="line">        log.info(<span class="hljs-string">&quot;[트랜잭션 종료] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">      }  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p>내부 클래스로 만들어도 되지만 외부에 클래스로 만들어도 문제 없음</p>
+</blockquote>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  어드바이스 종류별 사용
+                </h2>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">어드바이스 종류별 사용</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Aspect</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">AspectV6Advice</span> {  </span><span class="line">  <span class="hljs-meta">@Around(&quot;hello.aop.order.aop.Pointcuts.allOrderAndService()&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">doTransaction</span><span class="hljs-params">(ProceedingJoinPoint joinPoint)</span> <span class="hljs-keyword">throws</span> Throwable {  </span><span class="line">    <span class="hljs-keyword">try</span> {  </span><span class="line">      <span class="hljs-comment">//@Before  </span></span><span class="line">      log.info(<span class="hljs-string">&quot;[트랜잭션 시작] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">      <span class="hljs-type">Object</span> <span class="hljs-variable">result</span> <span class="hljs-operator">=</span> joinPoint.proceed();  </span><span class="line">      <span class="hljs-comment">//@AfterReturning  </span></span><span class="line">      log.info(<span class="hljs-string">&quot;[트랜잭션 커밋] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">      <span class="hljs-keyword">return</span> result;  </span><span class="line">    } <span class="hljs-keyword">catch</span> (Exception e) {  </span><span class="line">      <span class="hljs-comment">//@AfterThrowing  </span></span><span class="line">      log.info(<span class="hljs-string">&quot;[트랜잭션 롤백] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">      <span class="hljs-keyword">throw</span> e;  </span><span class="line">    }<span class="hljs-keyword">finally</span> {  </span><span class="line">      <span class="hljs-comment">//@After  </span></span><span class="line">      log.info(<span class="hljs-string">&quot;[트랜잭션 종료] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">    }  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Before(&quot;hello.aop.order.aop.Pointcuts.allOrderAndService()&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">doBefore</span><span class="hljs-params">(JoinPoint joinPoint)</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;[Before] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@AfterReturning(pointcut = &quot;hello.aop.order.aop.Pointcuts.allOrderAndService()&quot;, returning = &quot;result&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">doAfterReturning</span><span class="hljs-params">(JoinPoint joinPoint, Object result)</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;[AfterReturning] {} return {}&quot;</span>, joinPoint.getSignature().toShortString(), result);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@AfterThrowing(pointcut = &quot;hello.aop.order.aop.Pointcuts.allOrderAndService()&quot;, throwing = &quot;e&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">doAfterThrowing</span><span class="hljs-params">(JoinPoint joinPoint, Exception e)</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;[AfterThrowing] {} Exception {}&quot;</span>, joinPoint.getSignature().toShortString(), e);  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@After(&quot;hello.aop.order.aop.Pointcuts.allOrderAndService()&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">doAfter</span><span class="hljs-params">(JoinPoint joinPoint)</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;[After] {}&quot;</span>, joinPoint.getSignature().toShortString());  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  어노테이션과 엮어서 사용한 예제
+                </h1>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">로그 남기기</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Target(ElementType.METHOD)</span>  </span><span class="line"><span class="hljs-meta">@Retention(RetentionPolicy.RUNTIME)</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-meta">@interface</span> Trace {  </span><span class="line">}</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Aspect</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">TraceAspect</span> {  </span><span class="line">  <span class="hljs-meta">@Before(&quot;@annotation(hello.aop.exam.annotation.Trace)&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">beforeTrace</span><span class="hljs-params">(JoinPoint joinPoint)</span> {  </span><span class="line">    Object[] args = joinPoint.getArgs();  </span><span class="line">    log.info(<span class="hljs-string">&quot;[trace] {} args: {}&quot;</span>, joinPoint.getSignature().toShortString(), args);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">재실행하기</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Target(ElementType.METHOD)</span>  </span><span class="line"><span class="hljs-meta">@Retention(RetentionPolicy.RUNTIME)</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-meta">@interface</span> Retry {  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-type">int</span> <span class="hljs-title function_">maxRetryCount</span><span class="hljs-params">()</span> <span class="hljs-keyword">default</span> <span class="hljs-number">3</span>;  </span><span class="line">}</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Aspect</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">RetryAspect</span> {  </span><span class="line">  <span class="hljs-meta">@Around(&quot;@annotation(retry)&quot;)</span>  </span><span class="line">  <span class="hljs-keyword">public</span> Object <span class="hljs-title function_">retry</span><span class="hljs-params">(ProceedingJoinPoint joinPoint, Retry retry)</span> <span class="hljs-keyword">throws</span> Throwable {  </span><span class="line">    <span class="hljs-type">int</span> <span class="hljs-variable">retryCount</span> <span class="hljs-operator">=</span> retry.maxRetryCount();  </span><span class="line">    log.info(<span class="hljs-string">&quot;[retry]{} retryCount={} Start&quot;</span>,  joinPoint.getSignature().toShortString(), retryCount);  </span><span class="line">    <span class="hljs-type">Exception</span> <span class="hljs-variable">e</span> <span class="hljs-operator">=</span> <span class="hljs-literal">null</span>;  </span><span class="line">  </span><span class="line">    <span class="hljs-keyword">for</span> (<span class="hljs-type">int</span> <span class="hljs-variable">count</span> <span class="hljs-operator">=</span> <span class="hljs-number">0</span>; count &lt; retryCount; count++) {  </span><span class="line">      <span class="hljs-keyword">try</span> {  </span><span class="line">        <span class="hljs-keyword">return</span> joinPoint.proceed();  </span><span class="line">      } <span class="hljs-keyword">catch</span> (Exception e1) {  </span><span class="line">        e = e1;  </span><span class="line">      }  </span><span class="line">    }  </span><span class="line">    <span class="hljs-keyword">throw</span> e;  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  AOP 사용시 주의 사항
+                </h1>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  내부에서 내부 함수 호출 시 프록시 거치지 않아 발생 문제
+                </h2>
+<p><a href="/github-blog/blog/2f2f5b39">@Transactional</a> 때와 동일한 문제로 대상 객체의 내부에서 메서드 호출시 프록시를 거치지 않아 문제 발생</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">내부 메서드 호출 시 프록시 적용되지 않는 사항</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Component</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CallServiceV0</span> {  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">external</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;external&quot;</span>);  </span><span class="line">    internal();  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">internal</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;internal&quot;</span>);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  해결 방안 : 자기 자신 주입
+                </h3>
+<p><span class="custom-inline-code"><span class="custom-inline-code-title"><span class="custom-inline-code-title-text">자기 자신 주입 시 필수 설정</span></span><code class="hljs properties"><span class="hljs-attr">spring.main.allow-circular-references</span>=<span class="hljs-string">true</span></code></span></p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">자기 자신을 주입 받아서 호출하는 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Component</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CallServiceV1</span> {  </span><span class="line">  <span class="hljs-keyword">private</span> CallServiceV1 self;  </span><span class="line highlighted-line">  <span class="hljs-meta">@Autowired</span>  </span><span class="line highlighted-line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">setSelf</span><span class="hljs-params">(CallServiceV1 self)</span> {  </span><span class="line highlighted-line">    log.info(<span class="hljs-string">&quot;setSelf {}&quot;</span>, self.getClass());  </span><span class="line highlighted-line">    <span class="hljs-built_in">this</span>.self = self;  </span><span class="line highlighted-line">  }  </span><span class="line">  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">external</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;external&quot;</span>);  </span><span class="line">    self.internal();  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">internal</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;internal&quot;</span>);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  해결 방안 : 지연(LAZY) 조회
+                </h3>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">ApplicationContext 사용 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Component</span>  </span><span class="line"><span class="hljs-meta">@RequiredArgsConstructor</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CallServiceV2</span> {  </span><span class="line highlighted-line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> ApplicationContext applicationContext;  </span><span class="line">  </span><span class="line highlighted-line">  <span class="hljs-keyword">public</span> CallServiceV2 <span class="hljs-title function_">self</span><span class="hljs-params">()</span> {  </span><span class="line highlighted-line">    <span class="hljs-keyword">return</span> applicationContext.getBean(CallServiceV2.class);  </span><span class="line highlighted-line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">external</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;external&quot;</span>);  </span><span class="line">    self().internal();  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">internal</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;internal&quot;</span>);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p><code>ApplicationContext</code>은 너무 많은 기능을 제공하기 때문에 딱 Bean 을 꺼내오는 기능을 다시 구현</p>
+</blockquote>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">너무 큰 ApplicationContext 사용을 하지 않는 방법</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Component</span>  </span><span class="line"><span class="hljs-meta">@RequiredArgsConstructor</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CallServiceV2</span> {  </span><span class="line highlighted-line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> ObjectProvider&lt;CallServiceV2&gt; callServiceProvider;  </span><span class="line">  </span><span class="line highlighted-line">  <span class="hljs-keyword">public</span> CallServiceV2 <span class="hljs-title function_">self</span><span class="hljs-params">()</span> {  </span><span class="line highlighted-line">    <span class="hljs-keyword">return</span> callServiceProvider.getObject();  </span><span class="line highlighted-line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">external</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;external&quot;</span>);  </span><span class="line">    self().internal();  </span><span class="line">  }  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">internal</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;internal&quot;</span>);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  해결 방안 : 구조 변경 (강추)
+                </h3>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">정말 이게 맞다고...?</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Component</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">InternalService</span> {  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">internal</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;internal&quot;</span>);  </span><span class="line">  }  </span><span class="line">}</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@Component</span>  </span><span class="line"><span class="hljs-meta">@RequiredArgsConstructor</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">CallServiceV3</span> {  </span><span class="line">  <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> InternalService internalService;  </span><span class="line">  </span><span class="line">  <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">external</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;external&quot;</span>);  </span><span class="line">    internalService.internal();  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  타입 캐스팅 (Dynamic Proxy 의 주의점)
+                </h2>
+<p>인터페이스 기반으로 프록시 생성하는 JDK <a href="#"></a>의 경우 구체 클래스로 타입 캐스팅이 불가능한 한계 존재<br>타입 캐스팅 문제는 의존관계 주입 시 발생</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span></span><span class="line"><span class="hljs-meta">@SpringBootTest</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ProxyCastingTest</span> {</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Test</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">jdkProxy</span><span class="hljs-params">()</span> {</span><span class="line">    <span class="hljs-type">MemberServiceImpl</span> <span class="hljs-variable">target</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MemberServiceImpl</span>();</span><span class="line">    <span class="hljs-type">ProxyFactory</span> <span class="hljs-variable">factory</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">ProxyFactory</span>(target);</span><span class="line">    factory.setProxyTargetClass(<span class="hljs-literal">false</span>); <span class="hljs-comment">// JDK Dynamic Proxy</span></span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// Proxy 를 interface 로 캐스팅 (성공)</span></span><span class="line">    <span class="hljs-type">MemberService</span> <span class="hljs-variable">memberServiceProxy</span> <span class="hljs-operator">=</span> (MemberService) factory.getProxy();</span><span class="line">    <span class="hljs-comment">// Proxy 를 interface 자식인 MemberServiceImpl 로 캐스팅 (실패) ClassCastException</span></span><span class="line">    Assertions.assertThrows(ClassCastException.class, () -&gt; {</span><span class="line">      <span class="hljs-type">MemberServiceImpl</span> <span class="hljs-variable">memberServiceImpl</span> <span class="hljs-operator">=</span> (MemberServiceImpl) memberServiceProxy;</span><span class="line">    });</span><span class="line">  }</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-meta">@Test</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">cglibProxy</span><span class="hljs-params">()</span> {</span><span class="line">    <span class="hljs-type">MemberServiceImpl</span> <span class="hljs-variable">target</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MemberServiceImpl</span>();</span><span class="line">    <span class="hljs-type">ProxyFactory</span> <span class="hljs-variable">factory</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">ProxyFactory</span>(target);</span><span class="line">    factory.setProxyTargetClass(<span class="hljs-literal">true</span>); <span class="hljs-comment">// CGLIB Proxy</span></span><span class="line">&nbsp;</span><span class="line highlighted-line">    <span class="hljs-comment">// Proxy 를 interface 로 캐스팅 (성공)</span></span><span class="line highlighted-line">    <span class="hljs-type">MemberService</span> <span class="hljs-variable">memberServiceProxy</span> <span class="hljs-operator">=</span> (MemberService) factory.getProxy();</span><span class="line highlighted-line">    <span class="hljs-comment">// Proxy 를 interface 자식인 MemberServiceImpl 로 캐스팅 (성공)</span></span><span class="line highlighted-line">    <span class="hljs-type">MemberServiceImpl</span> <span class="hljs-variable">memberServiceImpl</span> <span class="hljs-operator">=</span> (MemberServiceImpl) memberServiceProxy;</span><span class="line">  }</span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p><a href="#"></a>의 경우 구현체를 알지 못하는 문제로 전환 불가</p>
+</blockquote>
+<p>보통 이 문제는 직접 캐스팅 할때는 어라? 하면서 알아차릴 수 있지만 동적 DI를 받는 상황에서는 왜 이런지 알 수 없는 경우가 많음</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">DI 문제</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Slf4j</span>  </span><span class="line"><span class="hljs-meta">@SpringBootTest(properties = {&quot;spring.aop.proxy-target-class=false&quot;})</span> <span class="hljs-comment">// JDK Dynamic Proxy (이 경우 interface만 알기 때문에 구체 클래스를 몰라서 ClassCastException 발생)  </span></span><span class="line highlighted-line"><span class="hljs-comment">//@SpringBootTest(properties = {&quot;spring.aop.proxy-target-class=true&quot;}) // CGLIB Proxy (구체 클래스로 만들기에 정상 동작)  </span></span><span class="line"><span class="hljs-meta">@Import(ProxyIDAspect.class)</span>  </span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ProxyDITest</span> {  </span><span class="line">  <span class="hljs-meta">@Autowired</span>  </span><span class="line">  MemberService memberService;  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Autowired</span>  </span><span class="line">  MemberServiceImpl memberServiceImpl;  </span><span class="line">  </span><span class="line">  <span class="hljs-meta">@Test</span>  </span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">go</span><span class="hljs-params">()</span> {  </span><span class="line">    log.info(<span class="hljs-string">&quot;memberService: {}&quot;</span>, memberService.getClass());  </span><span class="line">    log.info(<span class="hljs-string">&quot;memberServiceImpl: {}&quot;</span>, memberServiceImpl.getClass());  </span><span class="line">    memberServiceImpl.hello(<span class="hljs-string">&quot;hello&quot;</span>);  </span><span class="line">  }  </span><span class="line">}</span></code></pre>
+        </div>
+      
+15:T433d,---
+aliases:
+  - AOP
+  - 관점 지향 프로그래밍
+  - 관점 지향 프로그래밍(AOP, Aspect-Oriented Programming)
+tags:
+  - Spring
+  - Spring/Request
+  - Spring/공통관심사
+특징: 
+---
+# 횡단 관심사(흩어진 관심사 cross-cutting concerns)
+핵심적인 기능이 아닌 중간중간 삽입되어야하는 기능들인 관심들을 횡단관심사라고 함
+__주요 기능이 아니지만 중복된 동일한 기능들을 말함__
+
+```java
+public void helloA() {
+	System.out.println("Start...");
+	AAA();
+	System.out.println("End...);
+}
+public void helloB() {
+	System.out.println("Start...");
+	BBB();
+	System.out.println("End...);
+}
+```
+# AOP
+관점 지향 프로그래밍
+AOP는 프로그램의 주요 기능에서 분리된 [[#횡단 관심사(흩어진 관심사 cross-cutting concerns)]]를 모듈화하는 프로그래밍 패러다임
+예를 들어, 로깅, 트랜잭션 관리, 보안 등이 횡단 관심사에 해당
+[[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Proxy|Proxy]] 를 사용하여 만든 방법으로 [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Proxy|CGLIB]]를 사용
+
+---
+
+[[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Proxy|Dynamic Proxy]]와 [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Proxy|CGLIB]] 이용한 기술
+AspectJ 프레임워크가 아닌 스프링 자체에서 AOP를 지원하기위해 AspectJ 문법을 차용하고 AspectJ 제공하는 기능의 일부만 제공
+간단하게 AspectJ 프레임워크를 빼꼇음
+
+[[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AspectJ|AspectJ]]의 주요 설명
+- 자바 프로그래밍에 대한 완벽한 관점 지향 확장
+- 횡단 관심자의 깔끔한 모듈화
+	- 오류 검사 및 처리
+	- 동기화
+	- 성능 최적화(캐싱)
+	- 모니터링 및 로깅
+AOP를 사용할 때 부가 기능 로직을 실제 로직에 추가할 수 있는 방법 3가지
+- 위빙(Weaving) : 컴파일 시점 ([[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AspectJ|AspectJ]] 프레임 워크 사용 시 사용 가능)
+	- `.java`파일을 AspectJ 컴파일러를 이용해서 `.class` 만드는 시점에 부가 기능 추가 가능
+	- 단점 : 특별한 컴파일러 필요와 복잡성
+- 로드타임 위빙 : 클래스 로딩 시점([[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AspectJ|AspectJ]] 프레임 워크 사용 시 사용 가능)
+	- `.class` 파일을 JVM 에 올리기 직전에 추가하여 저장
+	- `java instrumentation` 기술 사용
+	- 단점 : 특별한 옵션을 통해서 클래스 로더 조작기를 지정 필요, 번거롭고 복잡
+- 런타임 시점(프록시)
+	- 단점 : @Override 되는 것만 적용 가능
+
+Join Point(조인 포인트) : AOP를 어디다가 적용을 시킬지 설정(생성자, 필드 값 접근, static 메서드 접근, 메서드 실행 등)
+	하지만 Spring AOP인 ==프록시 방식==의 경우 메서드 실행 지점에만 적용 가능
+
+[[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AspectJ|AspectJ]] : 공부할게 너무 많음, 실무에선 이것까지 필요하진 않은 경우가 대부분
+
+## 용어
+AOP 중요 용어 : [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Aspect|@Aspect]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Pointcut|@Pointcut]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Around|@Around]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Before|@Before]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@AfterReturning|@AfterReturning]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@AfterThrowing|@AfterThrowing]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@After|@After]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Order|@Order]]
+
+- Join Point(조인 포인트)
+	- AOP를 어디다가 적용을 시킬지 설정(생성자, 필드 값 접근, static 메서드 접근, 메서드 실행 등)
+	- [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AspectJ|AspectJ]]의 경우에는 모든 곳에서 할 수 있지만 Spring AOP인 ==프록시 방식==의 경우 메서드 실행 지점에만 적용 가능
+- Pointcut(포인트컷)
+	- 조인 포인트 중에서 어드바이스가 적용될 위치를 선별하는 기능
+	- 주로 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Around|@Around]] [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AspectJ|AspectJ]] 표현식을 사용해서 지정
+	- 포인트컷 분리 방법은 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Pointcut|@Pointcut]] 사용
+	- 프록시를 사용하는 Spring AOP는 메서드 실행 지점만 포인트컷으로 선별 가능
+- Target(타겟)
+	- 어드바이스를 받는 객체, 포인트컷으로 결정
+- Advice(어드바이스)
+	- 부가 기능
+	- Advice(어드바이스) 종류 ([[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Around|@Around]] 이외엔 작업 흐름을 변경할 수 없음)
+		- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Around|@Around]] : 메서드 호출 전후 수행, 가장 강력한 어드바이스, 조인 포인트 실행 여부 선택, 반환 값 변환, 예외 변환 등 사용
+		- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Before|@Before]] : 조인 포인트가 정상 완료 후 실행
+		- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@AfterReturning|@AfterReturning]] : 조인 포인트가 정상 완료 후 실행
+		- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@AfterThrowing|@AfterThrowing]] : 메서드가 예외를 던지는 경우 실행
+		- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@After|@After]] : 조인 포인트가 정상 또는 예외에 관계없이 실행(finally)
+- Aspect(애스팩트)
+	- 어드바이스 + 포인트컷을 모듈화 한 것
+	- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Aspect|@Aspect]]
+	- 여러 디바이스와 포인트컷이 함께 존재
+- Advisor(어드바이저)
+	- Advisor = Pointcut + Advice
+	- Spring AOP 에서만 사용되는 것
+- Weaving(위빙)
+	- 포인트컷으로 결정한 타겟의 조인 포인트에 어드바이스를 적용하는 것
+	- 위빙을 통해 핵심 기능 코드에 영향을 주지 않고 부가 기능을 추가
+	- AOP 적용을 위해 애스팩트를 객체에 연결한 상태
+		- 컴파일 타임(AspectJ Compiler)
+		- 로드 타임
+		- 런타임, (프록시 방식) 스프링 AOP는 런타임
+- AOP 프록시
+	- AOP 기능을 구현하기 위해 만든 프록시 객체
+	- 스프링에서 AOP 프록시는 JDK 동적 프록시 또는 CGLIB 프록시를 의미
+
+## 사용
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Aspect|@Aspect]] 컴포넌트 스캔이 안되기 때문에 직접 [[@Bean]]을 호출해야함
+### 어드바이스 순서 바꾸는 방법
+- 내부 클래스를 사용하는 방법
+- 외부 클래스로 따로 빼는 방법
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Order]]의 경우 클래스의 순서를 정하는 것이기 때문에 method로 만든 어드바이스의 순서에 개입할 수 없음
+방법은 클래스로 따로 빼면 가능
+```java title:"Advisor 순서 변경"
+@Slf4j  
+@Aspect  
+public class AspectV5Order {  
+  
+  @Aspect  
+  @Order(2)  
+  public static class LogAspect {  
+    @Around("hello.aop.order.aop.Pointcuts.allOrder()")  
+    public Object doLog(ProceedingJoinPoint joinPoint) throws Throwable {  
+      log.info("AspectV1.doLog() Start");  
+      log.info("joinPoint.getSignature().toShortString(): {}", joinPoint.getSignature().toShortString());  
+      try {  
+        return joinPoint.proceed();  
+      } finally {  
+        log.info("AspectV1.doLog() End");  
+      }  
+    }  
+  }  
+  
+  @Aspect  
+  @Order(1)  
+  public static class TransactionAspect {  
+    // hello.aop.order 패키지와 하위 패키지 이면서 클래스 이름 패턴이 *Service 인 클래스의 모든 메서드에 적용  
+    @Around("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+    public Object doTransaction(ProceedingJoinPoint joinPoint) throws Throwable {  
+      log.info("AspectV1.doLogService() Start");  
+      log.info("joinPoint.getSignature().toShortString(): {}", joinPoint.getSignature().toShortString());  
+      try {  
+        log.info("[트랜잭션 시작] {}", joinPoint.getSignature().toShortString());  
+        Object result = joinPoint.proceed();  
+        log.info("[트랜잭션 커밋] {}", joinPoint.getSignature().toShortString());  
+        return result;  
+      } catch (Exception e) {  
+        log.info("[트랜잭션 롤백] {}", joinPoint.getSignature().toShortString());  
+        throw e;  
+      }finally {  
+        log.info("[트랜잭션 종료] {}", joinPoint.getSignature().toShortString());  
+      }  
+    }  
+  }  
+  
+}
+```
+> 내부 클래스로 만들어도 되지만 외부에 클래스로 만들어도 문제 없음
+
+## 어드바이스 종류별 사용
+```java title:"어드바이스 종류별 사용"
+@Slf4j  
+@Aspect  
+public class AspectV6Advice {  
+  @Around("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+  public Object doTransaction(ProceedingJoinPoint joinPoint) throws Throwable {  
+    try {  
+      //@Before  
+      log.info("[트랜잭션 시작] {}", joinPoint.getSignature().toShortString());  
+      Object result = joinPoint.proceed();  
+      //@AfterReturning  
+      log.info("[트랜잭션 커밋] {}", joinPoint.getSignature().toShortString());  
+      return result;  
+    } catch (Exception e) {  
+      //@AfterThrowing  
+      log.info("[트랜잭션 롤백] {}", joinPoint.getSignature().toShortString());  
+      throw e;  
+    }finally {  
+      //@After  
+      log.info("[트랜잭션 종료] {}", joinPoint.getSignature().toShortString());  
+    }  
+  }  
+  
+  @Before("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+  public void doBefore(JoinPoint joinPoint) {  
+    log.info("[Before] {}", joinPoint.getSignature().toShortString());  
+  }  
+  
+  @AfterReturning(pointcut = "hello.aop.order.aop.Pointcuts.allOrderAndService()", returning = "result")  
+  public void doAfterReturning(JoinPoint joinPoint, Object result) {  
+    log.info("[AfterReturning] {} return {}", joinPoint.getSignature().toShortString(), result);  
+  }  
+  
+  @AfterThrowing(pointcut = "hello.aop.order.aop.Pointcuts.allOrderAndService()", throwing = "e")  
+  public void doAfterThrowing(JoinPoint joinPoint, Exception e) {  
+    log.info("[AfterThrowing] {} Exception {}", joinPoint.getSignature().toShortString(), e);  
+  }  
+  
+  @After("hello.aop.order.aop.Pointcuts.allOrderAndService()")  
+  public void doAfter(JoinPoint joinPoint) {  
+    log.info("[After] {}", joinPoint.getSignature().toShortString());  
+  }  
+}
+```
+# 어노테이션과 엮어서 사용한 예제
+```java title:"로그 남기기"
+@Target(ElementType.METHOD)  
+@Retention(RetentionPolicy.RUNTIME)  
+public @interface Trace {  
+}
+
+@Slf4j  
+@Aspect  
+public class TraceAspect {  
+  @Before("@annotation(hello.aop.exam.annotation.Trace)")  
+  public void beforeTrace(JoinPoint joinPoint) {  
+    Object[] args = joinPoint.getArgs();  
+    log.info("[trace] {} args: {}", joinPoint.getSignature().toShortString(), args);  
+  }  
+}
+```
+
+```java title:"재실행하기"
+@Target(ElementType.METHOD)  
+@Retention(RetentionPolicy.RUNTIME)  
+public @interface Retry {  
+  public int maxRetryCount() default 3;  
+}
+
+@Slf4j  
+@Aspect  
+public class RetryAspect {  
+  @Around("@annotation(retry)")  
+  public Object retry(ProceedingJoinPoint joinPoint, Retry retry) throws Throwable {  
+    int retryCount = retry.maxRetryCount();  
+    log.info("[retry]{} retryCount={} Start",  joinPoint.getSignature().toShortString(), retryCount);  
+    Exception e = null;  
+  
+    for (int count = 0; count < retryCount; count++) {  
+      try {  
+        return joinPoint.proceed();  
+      } catch (Exception e1) {  
+        e = e1;  
+      }  
+    }  
+    throw e;  
+  }  
+}
+```
+# AOP 사용시 주의 사항
+## 내부에서 내부 함수 호출 시 프록시 거치지 않아 발생 문제
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Transactional|@Transactional]] 때와 동일한 문제로 대상 객체의 내부에서 메서드 호출시 프록시를 거치지 않아 문제 발생
+
+```java title:"내부 메서드 호출 시 프록시 적용되지 않는 사항" error:7
+@Slf4j  
+@Component  
+public class CallServiceV0 {  
+  
+  public void external() {  
+    log.info("external");  
+    internal();  
+  }  
+  
+  public void internal() {  
+    log.info("internal");  
+  }  
+}
+```
+
+### 해결 방안 : 자기 자신 주입
+`{properties title:"자기 자신 주입 시 필수 설정" icon}spring.main.allow-circular-references=true`
+```java title:"자기 자신을 주입 받아서 호출하는 방법" hl:5-9
+@Slf4j  
+@Component  
+public class CallServiceV1 {  
+  private CallServiceV1 self;  
+  @Autowired  
+  public void setSelf(CallServiceV1 self) {  
+    log.info("setSelf {}", self.getClass());  
+    this.self = self;  
+  }  
+  
+  
+  public void external() {  
+    log.info("external");  
+    self.internal();  
+  }  
+  
+  public void internal() {  
+    log.info("internal");  
+  }  
+}
+```
+
+### 해결 방안 : 지연(LAZY) 조회
+```java title:"ApplicationContext 사용 방법" hl:5,7-9
+@Slf4j  
+@Component  
+@RequiredArgsConstructor  
+public class CallServiceV2 {  
+  private final ApplicationContext applicationContext;  
+  
+  public CallServiceV2 self() {  
+    return applicationContext.getBean(CallServiceV2.class);  
+  }  
+  
+  public void external() {  
+    log.info("external");  
+    self().internal();  
+  }  
+  
+  public void internal() {  
+    log.info("internal");  
+  }  
+}
+```
+> `ApplicationContext`은 너무 많은 기능을 제공하기 때문에 딱 Bean 을 꺼내오는 기능을 다시 구현
+
+```java title:"너무 큰 ApplicationContext 사용을 하지 않는 방법" hl:5,7-9
+@Slf4j  
+@Component  
+@RequiredArgsConstructor  
+public class CallServiceV2 {  
+  private final ObjectProvider<CallServiceV2> callServiceProvider;  
+  
+  public CallServiceV2 self() {  
+    return callServiceProvider.getObject();  
+  }  
+  
+  public void external() {  
+    log.info("external");  
+    self().internal();  
+  }  
+  
+  public void internal() {  
+    log.info("internal");  
+  }  
+}
+```
+
+### 해결 방안 : 구조 변경 (강추)
+```java title:"정말 이게 맞다고...?"
+@Slf4j  
+@Component  
+public class InternalService {  
+  public void internal() {  
+    log.info("internal");  
+  }  
+}
+
+@Slf4j  
+@Component  
+@RequiredArgsConstructor  
+public class CallServiceV3 {  
+  private final InternalService internalService;  
+  
+  public void external() {  
+    log.info("external");  
+    internalService.internal();  
+  }  
+}
+```
+
+## 타입 캐스팅 (Dynamic Proxy 의 주의점)
+인터페이스 기반으로 프록시 생성하는 JDK [[#Dynamic Proxy]]의 경우 구체 클래스로 타입 캐스팅이 불가능한 한계 존재
+타입 캐스팅 문제는 의존관계 주입 시 발생
+```java title:"" error:11-16 hl:25-28
+@Slf4j
+@SpringBootTest
+public class ProxyCastingTest {
+
+  @Test
+  void jdkProxy() {
+    MemberServiceImpl target = new MemberServiceImpl();
+    ProxyFactory factory = new ProxyFactory(target);
+    factory.setProxyTargetClass(false); // JDK Dynamic Proxy
+
+    // Proxy 를 interface 로 캐스팅 (성공)
+    MemberService memberServiceProxy = (MemberService) factory.getProxy();
+    // Proxy 를 interface 자식인 MemberServiceImpl 로 캐스팅 (실패) ClassCastException
+    Assertions.assertThrows(ClassCastException.class, () -> {
+      MemberServiceImpl memberServiceImpl = (MemberServiceImpl) memberServiceProxy;
+    });
+  }
+
+  @Test
+  void cglibProxy() {
+    MemberServiceImpl target = new MemberServiceImpl();
+    ProxyFactory factory = new ProxyFactory(target);
+    factory.setProxyTargetClass(true); // CGLIB Proxy
+
+    // Proxy 를 interface 로 캐스팅 (성공)
+    MemberService memberServiceProxy = (MemberService) factory.getProxy();
+    // Proxy 를 interface 자식인 MemberServiceImpl 로 캐스팅 (성공)
+    MemberServiceImpl memberServiceImpl = (MemberServiceImpl) memberServiceProxy;
+  }
+}
+```
+> [[#Dynamic Proxy]]의 경우 구현체를 알지 못하는 문제로 전환 불가
+
+보통 이 문제는 직접 캐스팅 할때는 어라? 하면서 알아차릴 수 있지만 동적 DI를 받는 상황에서는 왜 이런지 알 수 없는 경우가 많음
+```java title:"DI 문제" error:2 hl:3
+@Slf4j  
+@SpringBootTest(properties = {"spring.aop.proxy-target-class=false"}) // JDK Dynamic Proxy (이 경우 interface만 알기 때문에 구체 클래스를 몰라서 ClassCastException 발생)  
+//@SpringBootTest(properties = {"spring.aop.proxy-target-class=true"}) // CGLIB Proxy (구체 클래스로 만들기에 정상 동작)  
+@Import(ProxyIDAspect.class)  
+public class ProxyDITest {  
+  @Autowired  
+  MemberService memberService;  
+  
+  @Autowired  
+  MemberServiceImpl memberServiceImpl;  
+  
+  @Test  
+  void go() {  
+    log.info("memberService: {}", memberService.getClass());  
+    log.info("memberServiceImpl: {}", memberServiceImpl.getClass());  
+    memberServiceImpl.hello("hello");  
+  }  
+}
+```
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/공통관심사/AOP","slugHash":"ee2323b8","content":"$14","markdownContent":"$15","title":"AOP","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Request","Spring/공통관심사"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["AOP","관점 지향 프로그래밍","관점 지향 프로그래밍(AOP, Aspect-Oriented Programming)"],"noteUUID":"$undefined"}}]}]
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

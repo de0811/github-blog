@@ -1,0 +1,201 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","1acd477f",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","1acd477f","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","1acd477f","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","Gfs9FKTyoMJRGgA3cmXrL",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T2375,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  plantuml
+                </h1>
+<p>uml 적는 플러그인<br><a href="https://pdf.plantuml.net/PlantUML_Language_Reference_Guide_ko.pdf">설명서</a></p>
+<p>각종 필터 동작</p>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">plantuml</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-plantuml hljs"><span class="line"><span class="hljs-variable">@startuml</span></span><span class="line">Class01 &lt;|-- Class02</span><span class="line">Class03 *-- Class04</span><span class="line">Class05 o-- Class06</span><span class="line">Class07 .. Class08</span><span class="line">Class09 -- Class10</span><span class="line"><span class="hljs-variable">@enduml</span></span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">plantuml</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-plantuml hljs"><span class="line">@startuml</span><span class="line"><span class="hljs-keyword">abstract</span>        <span class="hljs-keyword">abstract</span></span><span class="line"><span class="hljs-keyword">abstract</span> <span class="hljs-keyword">class</span>  &quot;<span class="hljs-symbol">abstract</span> <span class="hljs-symbol">class</span>&quot;</span><span class="line"><span class="hljs-symbol">annotation</span>      <span class="hljs-symbol">annotation</span></span><span class="line"><span class="hljs-symbol">circle</span>          <span class="hljs-symbol">circle</span></span><span class="line">()              <span class="hljs-symbol">circle_short_form</span></span><span class="line"><span class="hljs-symbol">class</span>           <span class="hljs-symbol">class</span></span><span class="line"><span class="hljs-symbol">class</span>           <span class="hljs-symbol">class_stereo</span>  &lt;&lt;<span class="hljs-symbol">stereotype</span>&gt;&gt;</span><span class="line"><span class="hljs-symbol">diamond</span>         <span class="hljs-symbol">diamond</span></span><span class="line">&lt;&gt;              <span class="hljs-symbol">diamond_short_form</span></span><span class="line"><span class="hljs-symbol">entity</span>          <span class="hljs-symbol">entity</span></span><span class="line"><span class="hljs-symbol">enum</span>            <span class="hljs-symbol">enum</span></span><span class="line"><span class="hljs-symbol">exception</span>       <span class="hljs-symbol">exception</span></span><span class="line"><span class="hljs-symbol">interface</span>       <span class="hljs-symbol">interface</span></span><span class="line"><span class="hljs-symbol">metaclass</span>       <span class="hljs-symbol">metaclass</span></span><span class="line"><span class="hljs-symbol">protocol</span>        <span class="hljs-symbol">protocol</span></span><span class="line"><span class="hljs-symbol">stereotype</span>      <span class="hljs-symbol">stereotype</span></span><span class="line"><span class="hljs-symbol">struct</span>          <span class="hljs-symbol">struct</span></span><span class="line">@<span class="hljs-symbol">enduml</span></span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">text</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-text hljs"><span class="line">@startuml</span><span class="line">abstract        abstract</span><span class="line">abstract class  &quot;abstract class&quot;</span><span class="line">annotation      annotation</span><span class="line">circle          circle</span><span class="line">()              circle_short_form</span><span class="line">class           class</span><span class="line">class           class_stereo  &lt;&lt;stereotype&gt;&gt;</span><span class="line">diamond         diamond</span><span class="line">&lt;&gt;              diamond_short_form</span><span class="line">entity          entity</span><span class="line">enum            enum</span><span class="line">exception       exception</span><span class="line">interface       interface</span><span class="line">metaclass       metaclass</span><span class="line">protocol        protocol</span><span class="line">stereotype      stereotype</span><span class="line">struct          struct</span><span class="line">@enduml</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              
+              <span class="custom-code-block-lang-text">plantuml</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-plantuml hljs"><span class="line"><span class="hljs-variable">@startuml</span></span><span class="line">title Spring AOP - Advisor, Pointcut, Advice, Proxy</span><span class="line">&nbsp;</span><span class="line">autonumber</span><span class="line">participant 사용자 as a</span><span class="line">participant <span class="hljs-string">&quot;자동 프록시 생성기&quot;</span> as b </span><span class="line">participant <span class="hljs-string">&quot;스프링 컨테이너&quot;</span> as c</span><span class="line">&nbsp;</span><span class="line">a -&gt; <span class="hljs-attribute">b </span>: <span class="hljs-variable">@Bean</span> 객체 전달</span><span class="line">b -&gt; <span class="hljs-attribute">c </span>: Advisor 모두 가져오기</span><span class="line">b -&gt; <span class="hljs-attribute">b </span>: 객체가 Advisor의 Pointcut 조건에 맞는 모든 Advisor 적용하여 Proxy 객체 생성</span><span class="line">b -&gt; <span class="hljs-attribute">c </span>: <span class="hljs-variable">@Bean</span> 객체 또는 적용된 Proxy 객체 등록</span><span class="line"><span class="hljs-variable">@enduml</span></span></code></pre>
+        </div>
+      
+15:T6f7,---
+aliases:
+  - plantuml
+tags:
+  - Obsidian
+  - Obsidian/plugin
+특징: 
+---
+# plantuml
+uml 적는 플러그인
+[설명서](https://pdf.plantuml.net/PlantUML_Language_Reference_Guide_ko.pdf)
+
+각종 필터 동작
+```plantuml
+@startuml
+Class01 <|-- Class02
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 -- Class10
+@enduml
+```
+
+```plantuml
+@startuml
+abstract        abstract
+abstract class  "abstract class"
+annotation      annotation
+circle          circle
+()              circle_short_form
+class           class
+class           class_stereo  <<stereotype>>
+diamond         diamond
+<>              diamond_short_form
+entity          entity
+enum            enum
+exception       exception
+interface       interface
+metaclass       metaclass
+protocol        protocol
+stereotype      stereotype
+struct          struct
+@enduml
+```
+```
+@startuml
+abstract        abstract
+abstract class  "abstract class"
+annotation      annotation
+circle          circle
+()              circle_short_form
+class           class
+class           class_stereo  <<stereotype>>
+diamond         diamond
+<>              diamond_short_form
+entity          entity
+enum            enum
+exception       exception
+interface       interface
+metaclass       metaclass
+protocol        protocol
+stereotype      stereotype
+struct          struct
+@enduml
+```
+
+
+```plantuml
+@startuml
+title Spring AOP - Advisor, Pointcut, Advice, Proxy
+
+autonumber
+participant 사용자 as a
+participant "자동 프록시 생성기" as b 
+participant "스프링 컨테이너" as c
+
+a -> b : @Bean 객체 전달
+b -> c : Advisor 모두 가져오기
+b -> b : 객체가 Advisor의 Pointcut 조건에 맞는 모든 Advisor 적용하여 Proxy 객체 생성
+b -> c : @Bean 객체 또는 적용된 Proxy 객체 등록
+@enduml
+```5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"옵시디언/plantuml","slugHash":"1acd477f","content":"$14","markdownContent":"$15","title":"plantuml","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Obsidian","Obsidian/plugin"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["plantuml"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

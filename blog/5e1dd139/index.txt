@@ -1,0 +1,183 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","5e1dd139",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","5e1dd139","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","5e1dd139","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","UVHXR1oqjC9tCvb_c1Zkw",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T267e,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  ReturnValueHandler(HandlerMethodReturnValueHandler)
+                </h1>
+<ul>
+<li><a href="/github-blog/blog/f1963688">@RequestMapping</a> 사용하는 함수에서 반환 값을 HTTP 형태로 변환 하기 위한 인터페이스</li>
+<li><a href="/github-blog/blog/9aa34fb6">ArgumentResolver</a> 는 요청을 처리하기 위한 것이라면 이것은 그 반대로 응답을 처리하기 위한 것</li>
+<li><a href="https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/return-types.html">지원하는 반환 목록</a></li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">인터페이스 코드</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title class_">HandlerMethodReturnValueHandler</span> {</span><span class="line">  <span class="hljs-comment">// 반환하려는 값을 지원하는지 확인하는 함수</span></span><span class="line">  <span class="hljs-type">boolean</span> <span class="hljs-title function_">supportsReturnType</span><span class="hljs-params">(MethodParameter returnType)</span>;</span><span class="line">&nbsp;</span><span class="line">  <span class="hljs-comment">// 반환하려는 값을 처리</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">handleReturnValue</span><span class="hljs-params">(<span class="hljs-meta">@Nullable</span> Object returnValue, MethodParameter returnType, ModelAndViewContainer mavContainer, NativeWebRequest webRequest)</span> <span class="hljs-keyword">throws</span> Exception;</span><span class="line">}</span></code></pre>
+        </div>
+      
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  내부 동작 흐름
+                </h2>
+<ul>
+<li><code>ReturnValueHandler</code>는 <a href="/github-blog/blog/6708b2d8">HandlerAdapter</a>  내부에서 동작합니다</li>
+</ul>
+<ol>
+<li><a href="/github-blog/blog/50e6a885">DispatcherServlet</a> 이 <a href="/github-blog/blog/6708b2d8">HandlerAdapter</a> 를 통해 컨트롤러 메소드를 실행</li>
+<li>컨트롤러가 특정 값(예: <code>String</code> <code>"home"</code>)을 반환</li>
+<li><a href="/github-blog/blog/6708b2d8">HandlerAdapter</a> 는 반환 값을 받아서, 등록된 <code>HandlerMethodReturnValueHandler</code> 목록을 순회</li>
+<li>각 <code>ReturnValueHandler</code>에게 **"이 반환 타입을 네가 처리할 수 있니?"**라고 질문 (<code>supportsReturnType</code> 호출)</li>
+<li><code>ViewNameMethodReturnValueHandler</code>가 "네, <code>String</code>은 제가 처리할 수 있습니다"라고 응답 (<code>true</code> 반환)</li>
+<li><code>HandlerAdapter</code>는 해당 핸들러에게 작업을 위임 (<code>handleReturnValue</code> 호출)</li>
+<li><code>ViewNameMethodReturnValueHandler</code>는 반환된 <code>String</code> 값을 뷰 이름으로 사용하여 <code>ModelAndView</code> 객체를 생성하고, 이를 <code>DispatcherServlet</code>에 전달하여 뷰 렌더링 절차를 밟게 함</li>
+</ol>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  다른 컴포넌트와의 관계
+                </h2>
+<ul>
+<li><a href="/github-blog/blog/6708b2d8">HandlerAdapter</a>: <code>ReturnValueHandler</code>를 <strong>실행</strong>하는 주체</li>
+<li><a href="/github-blog/blog/f9416c12">HttpMessageConverter</a> : <a href="/github-blog/blog/4b06849d">RequestResponseBodyMethodProcessor</a>가 객체를 JSON 등으로 변환할 때 <strong>사용</strong>하는 도구</li>
+<li><a href="/github-blog/blog/9aa34fb6">ArgumentResolver</a> : 요청 처리 파트너. <a href="/github-blog/blog/9aa34fb6">ArgumentResolver</a> 가 요청을 객체로 만들고, <code>ReturnValueHandler</code>가 객체를 응답으로 만듦</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  구현체
+                </h2>
+<table>
+<thead>
+<tr>
+<th align="left">컨트롤러 반환 값</th>
+<th align="left">선택되는 <code>ReturnValueHandler</code></th>
+<th align="left">최종 결과</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>String</code></td>
+<td align="left"><code>ViewNameMethodReturnValueHandler</code></td>
+<td align="left"><code>ModelAndView</code> 생성 후 뷰 렌더링</td>
+</tr>
+<tr>
+<td align="left"><code>ModelAndView</code></td>
+<td align="left"><code>ModelAndViewMethodReturnValueHandler</code></td>
+<td align="left"><code>ModelAndView</code> 그대로 사용하여 뷰 렌더링</td>
+</tr>
+<tr>
+<td align="left"><code>@ResponseBody</code> + <code>DTO</code></td>
+<td align="left"><code>RequestResponseBodyMethodProcessor</code></td>
+<td align="left"><code>HttpMessageConverter</code>를 사용해 DTO를 JSON 등으로 변환 후 응답</td>
+</tr>
+<tr>
+<td align="left"><code>ResponseEntity&#x3C;DTO></code></td>
+<td align="left"><code>HttpEntityMethodProcessor</code></td>
+<td align="left"><code>ResponseEntity</code>의 상태코드, 헤더, Body(객체)를 HTTP 응답으로 변환</td>
+</tr>
+<tr>
+<td align="left"><code>void</code></td>
+<td align="left"><code>ModelAndViewMethodReturnValueHandler</code></td>
+<td align="left">요청 URL을 기반으로 뷰를 렌더링 시도</td>
+</tr>
+</tbody>
+</table>
+
+<div class="callout" style="--callout-color: 0, 184, 148;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l.293.293a1 1 0 001.414-1.414l-3-3z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">RequestResponseBodyMethodProcessor</div>
+  </div>
+  <div class="callout-content">
+    <p>이 클래스는 <code>ArgumentResolver</code>이면서 동시에 <code>ReturnValueHandler</code>입니다
+<code>@RequestBody</code> 처리(요청)와 <code>@ResponseBody</code> 처리(응답)를 모두 담당하는 만능 해결사입니다</p>
+
+  </div>
+</div>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  ViewNameMethodReturnValueHandler
+                </h3>
+15:T10f1,---
+aliases:
+  - ReturnValueHandler
+  - HandlerMethodReturnValueHandler
+tags:
+  - Spring
+특징: 응답 처리
+isPublic: true
+---
+# ReturnValueHandler(HandlerMethodReturnValueHandler)
+- [[@RequestMapping]] 사용하는 함수에서 반환 값을 HTTP 형태로 변환 하기 위한 인터페이스
+- [[2.Ref(데이터 및 정보 저장)/Spring/ArgumentResolver(HandlerMethodArgumentResolver)|ArgumentResolver]] 는 요청을 처리하기 위한 것이라면 이것은 그 반대로 응답을 처리하기 위한 것
+- [지원하는 반환 목록](https://docs.spring.io/spring-framework/reference/web/webmvc/mvc-controller/ann-methods/return-types.html)
+```java title:"인터페이스 코드"
+public interface HandlerMethodReturnValueHandler {
+  // 반환하려는 값을 지원하는지 확인하는 함수
+  boolean supportsReturnType(MethodParameter returnType);
+
+  // 반환하려는 값을 처리
+  void handleReturnValue(@Nullable Object returnValue, MethodParameter returnType, ModelAndViewContainer mavContainer, NativeWebRequest webRequest) throws Exception;
+}
+```
+## 내부 동작 흐름
+- `ReturnValueHandler`는 [[2.Ref(데이터 및 정보 저장)/Spring/HandlerAdapter|HandlerAdapter]]  내부에서 동작합니다
+1.  [[2.Ref(데이터 및 정보 저장)/Spring/DispatcherServlet|DispatcherServlet]] 이 [[2.Ref(데이터 및 정보 저장)/Spring/HandlerAdapter|HandlerAdapter]] 를 통해 컨트롤러 메소드를 실행
+2.  컨트롤러가 특정 값(예: `String` `"home"`)을 반환
+3.  [[2.Ref(데이터 및 정보 저장)/Spring/HandlerAdapter|HandlerAdapter]] 는 반환 값을 받아서, 등록된 `HandlerMethodReturnValueHandler` 목록을 순회
+4.  각 `ReturnValueHandler`에게 **"이 반환 타입을 네가 처리할 수 있니?"**라고 질문 (`supportsReturnType` 호출)
+5.  `ViewNameMethodReturnValueHandler`가 "네, `String`은 제가 처리할 수 있습니다"라고 응답 (`true` 반환)
+6.  `HandlerAdapter`는 해당 핸들러에게 작업을 위임 (`handleReturnValue` 호출)
+7.  `ViewNameMethodReturnValueHandler`는 반환된 `String` 값을 뷰 이름으로 사용하여 `ModelAndView` 객체를 생성하고, 이를 `DispatcherServlet`에 전달하여 뷰 렌더링 절차를 밟게 함
+## 다른 컴포넌트와의 관계
+-   [[2.Ref(데이터 및 정보 저장)/Spring/HandlerAdapter|HandlerAdapter]]: `ReturnValueHandler`를 **실행**하는 주체
+-   [[2.Ref(데이터 및 정보 저장)/Spring/변환기/HttpMessageConverter|HttpMessageConverter]] : [[2.Ref(데이터 및 정보 저장)/Spring/RequestResponseBodyMethodProcessor|RequestResponseBodyMethodProcessor]]가 객체를 JSON 등으로 변환할 때 **사용**하는 도구
+-   [[2.Ref(데이터 및 정보 저장)/Spring/ArgumentResolver(HandlerMethodArgumentResolver)|ArgumentResolver]] : 요청 처리 파트너. [[2.Ref(데이터 및 정보 저장)/Spring/ArgumentResolver(HandlerMethodArgumentResolver)|ArgumentResolver]] 가 요청을 객체로 만들고, `ReturnValueHandler`가 객체를 응답으로 만듦
+## 구현체
+| 컨트롤러 반환 값               | 선택되는 `ReturnValueHandler`              | 최종 결과                                              |
+| :---------------------- | :------------------------------------- | :------------------------------------------------- |
+| `String`                | `ViewNameMethodReturnValueHandler`     | `ModelAndView` 생성 후 뷰 렌더링                          |
+| `ModelAndView`          | `ModelAndViewMethodReturnValueHandler` | `ModelAndView` 그대로 사용하여 뷰 렌더링                      |
+| `@ResponseBody` + `DTO` | `RequestResponseBodyMethodProcessor`   | `HttpMessageConverter`를 사용해 DTO를 JSON 등으로 변환 후 응답  |
+| `ResponseEntity<DTO>`   | `HttpEntityMethodProcessor`            | `ResponseEntity`의 상태코드, 헤더, Body(객체)를 HTTP 응답으로 변환 |
+| `void`                  | `ModelAndViewMethodReturnValueHandler` | 요청 URL을 기반으로 뷰를 렌더링 시도                             |
+
+> [!tip] RequestResponseBodyMethodProcessor
+> 이 클래스는 `ArgumentResolver`이면서 동시에 `ReturnValueHandler`입니다
+> `@RequestBody` 처리(요청)와 `@ResponseBody` 처리(응답)를 모두 담당하는 만능 해결사입니다
+### ViewNameMethodReturnValueHandler
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/ReturnValueHandler(HandlerMethodReturnValueHandler)","slugHash":"5e1dd139","content":"$14","markdownContent":"$15","title":"ReturnValueHandler(HandlerMethodReturnValueHandler)","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["ReturnValueHandler","HandlerMethodReturnValueHandler"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

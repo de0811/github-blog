@@ -1,0 +1,121 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","c5687da7",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","c5687da7","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","c5687da7","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","qsl-2-QclktrXEs5Pz9jn",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:Td15,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  @EnableGlobalMethodSecurity / @EnableMethodSecurity
+                </h1>
+<p>메서드 수준의 보안 활성화<br>쉽게 말해 메서드를 사용하는데 권한을 확인해서 사용할 수 있도록 하는 어노테이션을 사용하겠다고 설정하는 어노테이션</p>
+<p><code>@EnableGlobalMethodSecurity</code>는 Spring Security에서 메서드 수준의 보안을 활성화하는 어노테이션입니다. 이 어노테이션을 사용하면 특정 메서드에 대한 접근을 제한하거나, 특정 권한을 가진 사용자만이 메서드를 호출할 수 있도록 설정할 수 있습니다.</p>
+<p>이 어노테이션의 속성</p>
+<ul>
+<li><code>prePostEnabled</code>
+<ul>
+<li><code>@EnableGlobalMethodSecurity(prePostEnabled = true)</code></li>
+<li><a href="/github-blog/blog/13ac5ff9">@PreAuthorize</a> 및 <a href="/github-blog/blog/19bea1bf">@PostAuthorize</a> 어노테이션을 활성화</li>
+<li>보안 표현식 사용 가능</li>
+</ul>
+</li>
+<li><code>securedEnabled</code>
+<ul>
+<li><code>@EnableMethodSecurity(securedEnabled = true)</code></li>
+<li><code>@EnableGlobalMethodSecurity(securedEnabled = true)</code> 해당 방법은 deprecated</li>
+<li><a href="/github-blog/blog/b377e3cc">@Secured</a> 어노테이션을 활성화</li>
+<li>메서드에 접근하는 권한 지정</li>
+</ul>
+</li>
+<li><code>jsr250Enabled</code>
+<ul>
+<li><code>@EnableGlobalMethodSecurity(jsr250Enabled = true)</code></li>
+<li>JSR-250 어노테이션(<a href="/github-blog/blog/41129160">@RolesAllowed</a>)을 활성화</li>
+<li>메서드에 접근할 수 있는 역할을 지정</li>
+</ul>
+</li>
+<li><code>mode</code>
+<ul>
+<li><code>@EnableMethodSecurity(mode = AdviceMode.ASPECTJ, securedEnabled = true, prePostEnabled = false)</code></li>
+<li><code>AdviceMode.ASPECTJ</code> 와 <code>AdviceMode.PROXY</code> 설정 가능</li>
+<li><code>AdviceMode.ASPECTJ</code> 설정할 경우 <a href="/github-blog/blog/ee2323b8">AOP</a> 사용 가능</li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  @EnableMethodSecurity(prePostEnabled = true)
+                </h2>
+<p><a href="/github-blog/blog/13ac5ff9">@PreAuthorize</a> 및 <a href="/github-blog/blog/19bea1bf">@PostAuthorize</a> 어노테이션을 활성화(배열 아닌 처리)<br><a href="/github-blog/blog/4be7d2ae">@PreFilter</a> 및  어노테이션 활성화(배열 처리)<br>가장 추천하는 방식이라 함 어노테이션 활성화(배열 처리)
+가장 추천하는 방식이라 함</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  @EnableMethodSecurity(securedEnabled = true)
+                </h2>
+<p><a href="/github-blog/blog/b377e3cc">@Secured</a> 어노테이션을 활성화</p>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  @EnableMethodSecurity(jsr250Enabled = true)
+                </h2>
+<p>JSR-250 어노테이션(<a href="/github-blog/blog/41129160">@RolesAllowed</a>)을 활성화</p>
+15:Tacf,---
+aliases:
+  - "@EnableGlobalMethodSecurity"
+  - "@EnableMethodSecurity"
+tags:
+  - Spring
+  - Spring/Security
+  - Annotation
+특징: 
+---
+# @EnableGlobalMethodSecurity / @EnableMethodSecurity
+메서드 수준의 보안 활성화
+쉽게 말해 메서드를 사용하는데 권한을 확인해서 사용할 수 있도록 하는 어노테이션을 사용하겠다고 설정하는 어노테이션
+
+`@EnableGlobalMethodSecurity`는 Spring Security에서 메서드 수준의 보안을 활성화하는 어노테이션입니다. 이 어노테이션을 사용하면 특정 메서드에 대한 접근을 제한하거나, 특정 권한을 가진 사용자만이 메서드를 호출할 수 있도록 설정할 수 있습니다.
+
+
+
+이 어노테이션의 속성
+- `prePostEnabled`
+	- `@EnableGlobalMethodSecurity(prePostEnabled = true)` 
+	- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@PreAuthorize|@PreAuthorize]] 및 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@PostAuthorize|@PostAuthorize]] 어노테이션을 활성화
+	- 보안 표현식 사용 가능
+- `securedEnabled`
+	- `@EnableMethodSecurity(securedEnabled = true)`
+	- `@EnableGlobalMethodSecurity(securedEnabled = true)` 해당 방법은 deprecated
+	- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Secured|@Secured]] 어노테이션을 활성화
+	- 메서드에 접근하는 권한 지정
+- `jsr250Enabled`
+	- `@EnableGlobalMethodSecurity(jsr250Enabled = true)`
+	- JSR-250 어노테이션([[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RolesAllowed|@RolesAllowed]])을 활성화
+	- 메서드에 접근할 수 있는 역할을 지정
+- `mode`
+	- `@EnableMethodSecurity(mode = AdviceMode.ASPECTJ, securedEnabled = true, prePostEnabled = false)`
+	- `AdviceMode.ASPECTJ` 와 `AdviceMode.PROXY` 설정 가능
+	- `AdviceMode.ASPECTJ` 설정할 경우 [[2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AOP|AOP]] 사용 가능
+## `@EnableMethodSecurity(prePostEnabled = true)`
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@PreAuthorize|@PreAuthorize]] 및 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@PostAuthorize|@PostAuthorize]] 어노테이션을 활성화(배열 아닌 처리)
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@PreFilter|@PreFilter]] 및 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@PostFilter|@PostFilter]] 어노테이션 활성화(배열 처리)
+가장 추천하는 방식이라 함
+## `@EnableMethodSecurity(securedEnabled = true)`
+[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Secured|@Secured]] 어노테이션을 활성화
+## `@EnableMethodSecurity(jsr250Enabled = true)`
+JSR-250 어노테이션([[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RolesAllowed|@RolesAllowed]])을 활성화
+
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Annotation/@ EnableMethodSecurity","slugHash":"c5687da7","content":"$14","markdownContent":"$15","title":"@ EnableMethodSecurity","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Security","Annotation"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["@EnableGlobalMethodSecurity","@EnableMethodSecurity"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

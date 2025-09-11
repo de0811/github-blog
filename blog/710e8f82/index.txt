@@ -1,0 +1,416 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","710e8f82",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","710e8f82","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","710e8f82","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","yVNF1qq8hJ7b8AyXOnnLh",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T8ea5,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  Validator
+                </h1>
+<ul>
+<li>검증을 위한 검증기 인터페이스</li>
+<li>고전적인(내부에서도 사용) 검증기를 사용하는 방식</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  Bean Validation vs Spring Validator
+                </h2>
+<ul>
+<li><a href="/github-blog/blog/9cdc016c">Bean Validation</a> vs <code>Validator</code></li>
+<li>스프링에서는 두 가지 검증 방식을 모두 사용할 수 있으며, 각각의 용도가 다름</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th align="left">구분</th>
+<th align="left">Spring Validator</th>
+<th align="left">Bean Validation (<code>@NotBlank</code> 등)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>검증 방식</strong></td>
+<td align="left"><strong>코드 기반</strong> (메소드 직접 구현)</td>
+<td align="left"><strong>어노테이션 기반</strong></td>
+</tr>
+<tr>
+<td align="left"><strong>에러 메시지</strong></td>
+<td align="left"><code>rejectValue()</code>로 직접 코딩</td>
+<td align="left"><code>messages.properties</code>와 연동</td>
+</tr>
+<tr>
+<td align="left"><strong>주요 용도</strong></td>
+<td align="left"><strong>복합 룰 검증</strong> (비즈니스 로직)</td>
+<td align="left"><strong>단일 필드 검증</strong> (데이터 형식)</td>
+</tr>
+<tr>
+<td align="left"><strong>결론</strong></td>
+<td align="left">복잡한 비즈니스 검증에 적합</td>
+<td align="left">보편적인 데이터 형식/포맷 검증에 적합</td>
+</tr>
+</tbody>
+</table>
+
+<div class="callout" style="--callout-color: 0, 184, 148;">
+  <div class="callout-title">
+    <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm.707-10.293a1 1 0 00-1.414-1.414l-3 3a1 1 0 001.414 1.414L9 9.414V13a1 1 0 102 0V9.414l.293.293a1 1 0 001.414-1.414l-3-3z" clip-rule="evenodd" /></svg></div>
+    <div class="callout-title-text">두 방식은 함께 사용 가능</div>
+  </div>
+  <div class="callout-content">
+    <p>[[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Validated-@Valid|@Validated]] 를 통해 [[2.Ref(데이터 및 정보 저장)/Spring/Validator/Bean Validation|Bean Validation]] 을 먼저 적용하고, [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@InitBinder|@InitBinder]] 로 등록한 <code>Spring Validator</code>를 추가로 동작시킬 수 있음</p>
+
+  </div>
+</div>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  직접 작성 방법
+                </h2>
+<ul>
+<li>검증기를 만드는 방법</li>
+<li>해당 기능을 사용하여 <a href="/github-blog/blog/9cdc016c">Bean Validation</a> 사용</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">인터페이스 원형</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">interface</span> <span class="hljs-title class_">Validator</span> {</span><span class="line">  <span class="hljs-type">boolean</span> <span class="hljs-title function_">supports</span><span class="hljs-params">(Class&lt;?&gt; var1)</span>; <span class="hljs-comment">// 해당 클래스가 해당 검증기가 처리할 수 있는지 확인</span></span><span class="line">  <span class="hljs-keyword">void</span> <span class="hljs-title function_">validate</span><span class="hljs-params">(Object var1, Errors var2)</span>; <span class="hljs-comment">// 검증기 기능 동작</span></span><span class="line">}</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">ItemValidator.java 작성 예제</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Component</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ItemValidator</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">Validator</span> {</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 이 Validator가 지원하는 클래스인지 확인</span></span><span class="line">    <span class="hljs-meta">@Override</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">supports</span><span class="hljs-params">(Class&lt;?&gt; clazz)</span> {</span><span class="line">        <span class="hljs-keyword">return</span> Item.class.isAssignableFrom(clazz);</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 실제 검증 로직</span></span><span class="line">    <span class="hljs-meta">@Override</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">validate</span><span class="hljs-params">(Object target, Errors errors)</span> {</span><span class="line">        <span class="hljs-type">Item</span> <span class="hljs-variable">item</span> <span class="hljs-operator">=</span> (Item) target;</span><span class="line">&nbsp;</span><span class="line">        <span class="hljs-comment">// 필드 에러 (특정 필드에 대한 검증)</span></span><span class="line">        <span class="hljs-keyword">if</span> (!StringUtils.hasText(item.getItemName())) {</span><span class="line">            <span class="hljs-comment">// &quot;itemName&quot; 필드에 대해 &quot;required&quot; 에러 코드를 추가</span></span><span class="line">            errors.rejectValue(<span class="hljs-string">&quot;itemName&quot;</span>, <span class="hljs-string">&quot;required&quot;</span>);</span><span class="line">        }</span><span class="line">        <span class="hljs-keyword">if</span> (item.getPrice() == <span class="hljs-literal">null</span> || item.getPrice() &lt; <span class="hljs-number">1000</span> || item.getPrice() &gt; <span class="hljs-number">1000000</span>) {</span><span class="line">            errors.rejectValue(<span class="hljs-string">&quot;price&quot;</span>, <span class="hljs-string">&quot;range&quot;</span>, <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>[]{<span class="hljs-number">1000</span>, <span class="hljs-number">1000000</span>}, <span class="hljs-literal">null</span>);</span><span class="line">        }</span><span class="line">&nbsp;</span><span class="line">        <span class="hljs-comment">// 글로벌 에러 (여러 필드를 조합한 복합 룰 검증)</span></span><span class="line">        <span class="hljs-keyword">if</span> (item.getPrice() != <span class="hljs-literal">null</span> &amp;&amp; item.getQuantity() != <span class="hljs-literal">null</span>) {</span><span class="line">            <span class="hljs-type">int</span> <span class="hljs-variable">resultPrice</span> <span class="hljs-operator">=</span> item.getPrice() * item.getQuantity();</span><span class="line">            <span class="hljs-keyword">if</span> (resultPrice &lt; <span class="hljs-number">10000</span>) {</span><span class="line">                <span class="hljs-comment">// 특정 필드가 아닌 객체 전체에 대한 에러</span></span><span class="line">                errors.reject(<span class="hljs-string">&quot;totalPriceMin&quot;</span>, <span class="hljs-keyword">new</span> <span class="hljs-title class_">Object</span>[]{<span class="hljs-number">10000</span>, resultPrice}, <span class="hljs-literal">null</span>);</span><span class="line">            }</span><span class="line">        }</span><span class="line">    }</span><span class="line">}</span></code></pre>
+        </div>
+      
+<blockquote>
+<p><a href="/github-blog/blog/0429bddc">BindingResult</a> 는 <code>Errors</code>의 자식 클래스이므로, <code>Errors</code>를 파라미터로 사용 가능</p>
+</blockquote>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  Validator 적용 방법
+                </h2>
+<ul>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+<li><a href="#"></a></li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  특정 컨트롤러에서 사용하는 방법
+                </h3>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            <span class="custom-code-block-title">특정 컨트롤러에서 사용할 수 있도록 등록</span>
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Controller</span></span><span class="line"><span class="hljs-meta">@RequiredArgsConstructor</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ItemController</span> {</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> ItemValidator itemValidator;</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-comment">// 이 컨트롤러가 호출될 때마다 dataBinder에 검증기를 추가</span></span><span class="line highlighted-line">    <span class="hljs-meta">@InitBinder</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">init</span><span class="hljs-params">(WebDataBinder dataBinder)</span> {</span><span class="line">        dataBinder.addValidators(itemValidator);</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@PostMapping(&quot;/add&quot;)</span></span><span class="line highlighted-line">    <span class="hljs-keyword">public</span> String <span class="hljs-title function_">addItem</span><span class="hljs-params">(<span class="hljs-meta">@Validated</span> <span class="hljs-meta">@ModelAttribute</span> Item item, BindingResult bindingResult)</span> {</span><span class="line">        <span class="hljs-comment">// @Validated가 붙으면, @InitBinder에 등록된 ItemValidator가 자동으로 실행됨</span></span><span class="line">        <span class="hljs-keyword">if</span> (bindingResult.hasErrors()) {</span><span class="line">            <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;form&quot;</span>;</span><span class="line">        }</span><span class="line">        <span class="hljs-comment">// ... 성공 로직</span></span><span class="line">    }</span><span class="line">}</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  Global Validator 등록 방법
+                </h3>
+<ul>
+<li>모든 컨트롤러에 동일한 검증기를 적용하고 싶을 때 사용</li>
+<li><a href="/github-blog/blog/9c401e7c#Global%20Validator%20%EB%93%B1%EB%A1%9D%20%EB%B0%A9%EB%B2%95">WebMvcConfigurer</a> 를 구현하여 등록</li>
+<li><a href="/github-blog/blog/dd5c85f5">@Validated</a> 어노테이션들을 이용해 사용 가능</li>
+<li>단점으로 <code>getValidator</code>함수를 통해서 하나만 등록할 수 있음</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Configuration</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">WebConfig</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">WebMvcConfigurer</span> {</span><span class="line">    <span class="hljs-meta">@Override</span></span><span class="line">    <span class="hljs-keyword">public</span> Validator <span class="hljs-title function_">getValidator</span><span class="hljs-params">()</span> {</span><span class="line">        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">ItemValidator</span>();</span><span class="line">    }</span><span class="line">}</span></code></pre>
+        </div>
+      
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@SpringBootApplication</span></span><span class="line"> <span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">ItemServiceApplication</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">WebMvcConfigurer</span> {</span><span class="line">&nbsp;</span><span class="line">     <span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">main</span><span class="hljs-params">(String[] args)</span> {</span><span class="line">         SpringApplication.run(ItemServiceApplication.class, args);</span><span class="line">&nbsp;</span><span class="line">}</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-meta">@Override</span> <span class="hljs-keyword">public</span> Validator <span class="hljs-title function_">getValidator</span><span class="hljs-params">()</span> { </span><span class="line">  <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">ItemValidator</span>();</span><span class="line">  }</span><span class="line">}</span></code></pre>
+        </div>
+      
+<ul>
+<li>다중으로 할 방법으로는 여러 <code>Validator</code>를 하나로 묶는 방법 뿐</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 50 50" width="50px" height="50px"><title>Java</title><path d="M 28.1875 0 C 30.9375 6.363281 18.328125 10.292969 17.15625 15.59375 C 16.082031 20.464844 24.648438 26.125 24.65625 26.125 C 23.355469 24.109375 22.398438 22.449219 21.09375 19.3125 C 18.886719 14.007813 34.535156 9.207031 28.1875 0 Z M 36.5625 8.8125 C 36.5625 8.8125 25.5 9.523438 24.9375 16.59375 C 24.6875 19.742188 27.847656 21.398438 27.9375 23.6875 C 28.011719 25.558594 26.0625 27.125 26.0625 27.125 C 26.0625 27.125 29.609375 26.449219 30.71875 23.59375 C 31.949219 20.425781 28.320313 18.285156 28.6875 15.75 C 29.039063 13.324219 36.5625 8.8125 36.5625 8.8125 Z M 19.1875 25.15625 C 19.1875 25.15625 9.0625 25.011719 9.0625 27.875 C 9.0625 30.867188 22.316406 31.089844 31.78125 29.25 C 31.78125 29.25 34.296875 27.519531 34.96875 26.875 C 28.765625 28.140625 14.625 28.28125 14.625 27.1875 C 14.625 26.179688 19.1875 25.15625 19.1875 25.15625 Z M 38.65625 25.15625 C 37.664063 25.234375 36.59375 25.617188 35.625 26.3125 C 37.90625 25.820313 39.84375 27.234375 39.84375 28.84375 C 39.84375 32.46875 34.59375 35.875 34.59375 35.875 C 34.59375 35.875 42.71875 34.953125 42.71875 29 C 42.71875 26.296875 40.839844 24.984375 38.65625 25.15625 Z M 16.75 30.71875 C 15.195313 30.71875 12.875 31.9375 12.875 33.09375 C 12.875 35.417969 24.5625 37.207031 33.21875 33.8125 L 30.21875 31.96875 C 24.351563 33.847656 13.546875 33.234375 16.75 30.71875 Z M 18.1875 35.9375 C 16.058594 35.9375 14.65625 37.222656 14.65625 38.1875 C 14.65625 41.171875 27.371094 41.472656 32.40625 38.4375 L 29.21875 36.40625 C 25.457031 37.996094 16.015625 38.238281 18.1875 35.9375 Z M 11.09375 38.625 C 7.625 38.554688 5.375 40.113281 5.375 41.40625 C 5.375 48.28125 40.875 47.964844 40.875 40.9375 C 40.875 39.769531 39.527344 39.203125 39.03125 38.9375 C 41.933594 45.65625 9.96875 45.121094 9.96875 41.15625 C 9.96875 40.253906 12.320313 39.390625 14.5 39.8125 L 12.65625 38.75 C 12.113281 38.667969 11.589844 38.636719 11.09375 38.625 Z M 44.625 43.25 C 39.226563 48.367188 25.546875 50.222656 11.78125 47.0625 C 25.542969 52.695313 44.558594 49.535156 44.625 43.25 Z"/></svg></span>
+              <span class="custom-code-block-lang-text">java</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-java hljs"><span class="line"><span class="hljs-meta">@Component</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">MainValidator</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">Validator</span> {</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> <span class="hljs-type">ItemValidator</span> <span class="hljs-variable">itemValidator</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">ItemValidator</span>();</span><span class="line">    <span class="hljs-keyword">private</span> <span class="hljs-keyword">final</span> <span class="hljs-type">MemberValidator</span> <span class="hljs-variable">memberValidator</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MemberValidator</span>();</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@Override</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-type">boolean</span> <span class="hljs-title function_">supports</span><span class="hljs-params">(Class&lt;?&gt; clazz)</span> {</span><span class="line">        <span class="hljs-comment">// Item 또는 Member 클래스를 지원한다고 명시</span></span><span class="line">        <span class="hljs-keyword">return</span> Item.class.isAssignableFrom(clazz) || Member.class.isAssignableFrom(clazz);</span><span class="line">    }</span><span class="line">&nbsp;</span><span class="line">    <span class="hljs-meta">@Override</span></span><span class="line">    <span class="hljs-keyword">public</span> <span class="hljs-keyword">void</span> <span class="hljs-title function_">validate</span><span class="hljs-params">(Object target, Errors errors)</span> {</span><span class="line">        <span class="hljs-comment">// 넘어온 객체의 타입에 따라 적절한 Validator에게 검증을 위임</span></span><span class="line">        <span class="hljs-keyword">if</span> (target <span class="hljs-keyword">instanceof</span> Item) {</span><span class="line">            itemValidator.validate(target, errors);</span><span class="line">        } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (target <span class="hljs-keyword">instanceof</span> Member) {</span><span class="line">            memberValidator.validate(target, errors);</span><span class="line">        }</span><span class="line">    }</span><span class="line">}</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-meta">@Configuration</span></span><span class="line"><span class="hljs-keyword">public</span> <span class="hljs-keyword">class</span> <span class="hljs-title class_">WebConfig</span> <span class="hljs-keyword">implements</span> <span class="hljs-title class_">WebMvcConfigurer</span> {</span><span class="line">    <span class="hljs-meta">@Override</span></span><span class="line">    <span class="hljs-keyword">public</span> Validator <span class="hljs-title function_">getValidator</span><span class="hljs-params">()</span> {</span><span class="line">        <span class="hljs-keyword">return</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">MainValidator</span>();</span><span class="line">    }</span><span class="line">}</span></code></pre>
+        </div>
+      
+15:T1932,---
+aliases:
+  - Validator
+  - 검증기
+tags:
+  - Spring
+  - Spring/Validation
+특징: 검증을 위한 검증기 인터페이스
+---
+# Validator
+- 검증을 위한 검증기 인터페이스
+- 고전적인(내부에서도 사용) 검증기를 사용하는 방식
+## Bean Validation vs Spring Validator
+- [[2.Ref(데이터 및 정보 저장)/Spring/Validator/Bean Validation|Bean Validation]] vs `Validator`
+- 스프링에서는 두 가지 검증 방식을 모두 사용할 수 있으며, 각각의 용도가 다름
+
+| 구분         | Spring Validator       | Bean Validation (`@NotBlank` 등) |
+| :--------- | :--------------------- | :------------------------------ |
+| **검증 방식**  | **코드 기반** (메소드 직접 구현)  | **어노테이션 기반**                    |
+| **에러 메시지** | `rejectValue()`로 직접 코딩 | `messages.properties`와 연동       |
+| **주요 용도**  | **복합 룰 검증** (비즈니스 로직)  | **단일 필드 검증** (데이터 형식)           |
+| **결론**     | 복잡한 비즈니스 검증에 적합        | 보편적인 데이터 형식/포맷 검증에 적합           |
+
+> [!tip] 두 방식은 함께 사용 가능
+> [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Validated-@Valid|@Validated]] 를 통해 [[2.Ref(데이터 및 정보 저장)/Spring/Validator/Bean Validation|Bean Validation]] 을 먼저 적용하고, [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@InitBinder|@InitBinder]] 로 등록한 `Spring Validator`를 추가로 동작시킬 수 있음
+
+## 직접 작성 방법
+- 검증기를 만드는 방법
+- 해당 기능을 사용하여 [[2.Ref(데이터 및 정보 저장)/Spring/Validator/Bean Validation|Bean Validation]] 사용
+```java title:"인터페이스 원형"
+public interface Validator {
+  boolean supports(Class<?> var1); // 해당 클래스가 해당 검증기가 처리할 수 있는지 확인
+  void validate(Object var1, Errors var2); // 검증기 기능 동작
+}
+```
+
+```java title:"ItemValidator.java 작성 예제"
+@Component
+public class ItemValidator implements Validator {
+
+    // 이 Validator가 지원하는 클래스인지 확인
+    @Override
+    public boolean supports(Class<?> clazz) {
+        return Item.class.isAssignableFrom(clazz);
+    }
+
+    // 실제 검증 로직
+    @Override
+    public void validate(Object target, Errors errors) {
+        Item item = (Item) target;
+
+        // 필드 에러 (특정 필드에 대한 검증)
+        if (!StringUtils.hasText(item.getItemName())) {
+            // "itemName" 필드에 대해 "required" 에러 코드를 추가
+            errors.rejectValue("itemName", "required");
+        }
+        if (item.getPrice() == null || item.getPrice() < 1000 || item.getPrice() > 1000000) {
+            errors.rejectValue("price", "range", new Object[]{1000, 1000000}, null);
+        }
+
+        // 글로벌 에러 (여러 필드를 조합한 복합 룰 검증)
+        if (item.getPrice() != null && item.getQuantity() != null) {
+            int resultPrice = item.getPrice() * item.getQuantity();
+            if (resultPrice < 10000) {
+                // 특정 필드가 아닌 객체 전체에 대한 에러
+                errors.reject("totalPriceMin", new Object[]{10000, resultPrice}, null);
+            }
+        }
+    }
+}
+```
+>[[2.Ref(데이터 및 정보 저장)/Spring/Validator/BindingResult|BindingResult]] 는 `Errors`의 자식 클래스이므로, `Errors`를 파라미터로 사용 가능
+## Validator 적용 방법
+- [[#특정 컨트롤러에서 사용하는 방법]]
+- [[# Global Validator Interface 등록 방법]]
+- [[#Bean Validation 사용]]
+### 특정 컨트롤러에서 사용하는 방법
+```java title:"특정 컨트롤러에서 사용할 수 있도록 등록" hl:8,14
+@Controller
+@RequiredArgsConstructor
+public class ItemController {
+
+    private final ItemValidator itemValidator;
+
+    // 이 컨트롤러가 호출될 때마다 dataBinder에 검증기를 추가
+    @InitBinder
+    public void init(WebDataBinder dataBinder) {
+        dataBinder.addValidators(itemValidator);
+    }
+
+    @PostMapping("/add")
+    public String addItem(@Validated @ModelAttribute Item item, BindingResult bindingResult) {
+        // @Validated가 붙으면, @InitBinder에 등록된 ItemValidator가 자동으로 실행됨
+        if (bindingResult.hasErrors()) {
+            return "form";
+        }
+        // ... 성공 로직
+    }
+}
+```
+
+### Global Validator 등록 방법
+- 모든 컨트롤러에 동일한 검증기를 적용하고 싶을 때 사용
+- [[2.Ref(데이터 및 정보 저장)/Spring/WebMvcConfigurer#Global Validator 등록 방법|WebMvcConfigurer]] 를 구현하여 등록
+- [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Validated-@Valid|@Validated]] 어노테이션들을 이용해 사용 가능
+- 단점으로 `getValidator`함수를 통해서 하나만 등록할 수 있음
+```java
+@Configuration
+public class WebConfig implements WebMvcConfigurer {
+    @Override
+    public Validator getValidator() {
+        return new ItemValidator();
+    }
+}
+```
+```java title:""
+@SpringBootApplication
+ public class ItemServiceApplication implements WebMvcConfigurer {
+
+     public static void main(String[] args) {
+         SpringApplication.run(ItemServiceApplication.class, args);
+
+}
+
+@Override public Validator getValidator() { 
+  return new ItemValidator();
+  }
+}
+```
+- 다중으로 할 방법으로는 여러 `Validator`를 하나로 묶는 방법 뿐
+```java
+@Component
+public class MainValidator implements Validator {
+
+    private final ItemValidator itemValidator = new ItemValidator();
+    private final MemberValidator memberValidator = new MemberValidator();
+
+    @Override
+    public boolean supports(Class<?> clazz) {
+        // Item 또는 Member 클래스를 지원한다고 명시
+        return Item.class.isAssignableFrom(clazz) || Member.class.isAssignableFrom(clazz);
+    }
+
+    @Override
+    public void validate(Object target, Errors errors) {
+        // 넘어온 객체의 타입에 따라 적절한 Validator에게 검증을 위임
+        if (target instanceof Item) {
+            itemValidator.validate(target, errors);
+        } else if (target instanceof Member) {
+            memberValidator.validate(target, errors);
+        }
+    }
+}
+
+@Configuration
+public class WebConfig implements WebMvcConfigurer {
+    @Override
+    public Validator getValidator() {
+        return new MainValidator();
+    }
+}
+```5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/Validator/Validator","slugHash":"710e8f82","content":"$14","markdownContent":"$15","title":"Validator","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["Spring","Spring/Validation"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["Validator","검증기"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}

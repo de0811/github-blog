@@ -1,0 +1,315 @@
+1:"$Sreact.fragment"
+2:I[4615,["874","static/chunks/874-ac0c32a4a9a6131e.js","177","static/chunks/app/layout-aa9facf8c991085d.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/f13864532fe49912.css","style"]
+:HL["/github-blog/_next/static/css/9977e1cbb75c82aa.css","style"]
+0:{"P":null,"b":"PsahSZRVuFaRsqDSv3j8u","p":"/github-blog","c":["","blog","940d75c1",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","940d75c1","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/f13864532fe49912.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","940d75c1","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/9977e1cbb75c82aa.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","bHADmRj5hyjTmk4I5iD3R",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[733,["63","static/chunks/63-df0ec183627b3631.js","727","static/chunks/727-6368b5a9647a1769.js","401","static/chunks/app/blog/%5BslugHash%5D/page-ae6b75d4d7185f4d.js"],"default"]
+14:T3875,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  Git Submodule
+                </h1>
+<ul>
+<li>외부 저장소를 특정 커밋 지점으로 **링크(Link)**하는 방식</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  특징 및 장단점
+                </h2>
+<ul>
+<li><strong>독립성 (장점)</strong>
+<ul>
+<li>부모 프로젝트는 서브모듈의 특정 커밋만 참조</li>
+<li>서브모듈의 히스토리가 부모와 완전히 분리되어 독립적으로 관리됨</li>
+</ul>
+</li>
+<li><strong>복잡성 (단점)</strong>
+<ul>
+<li><code>clone</code> 후 <code>submodule update</code> 등 별도의 명령어가 필요함</li>
+<li>Git에 익숙하지 않은 팀원은 사용이 어려울 수 있음</li>
+</ul>
+</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  언제 사용할까
+                </h2>
+<ul>
+<li>외부 라이브러리처럼 <strong>독립성</strong>과 명확한 <strong>버전 관리</strong>가 중요할 때</li>
+<li>포함된 저장소의 코드를 자주 수정하지 않고, 특정 버전을 가져와 사용할 때</li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  주요 명령어
+                </h2>
+<ul>
+<li><strong>추가</strong>: <span class="custom-inline-code"><code class="hljs sh">git submodule add &lt;저장소 URL&gt; &lt;저장하려는 경로&gt;</code></span></li>
+<li><strong>클론 시 포함</strong>: <span class="custom-inline-code"><code class="hljs sh">git <span class="hljs-built_in">clone</span> --recurse-submodules &lt;저장소 URL&gt;</code></span></li>
+<li><strong>초기화 및 업데이트</strong>: <span class="custom-inline-code"><code class="hljs sh">git submodule update --init --recursive</code></span></li>
+</ul>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  사용 예제 (Workflow)
+                </h2>
+<p><code>my-project</code>가 <code>shared-library</code>를 서브모듈로 사용하는 상황을 가정</p>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  서브모듈 추가하기
+                </h3>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  서브모듈 추가하기 (최신 커밋 기준)
+                </h4>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Shell Script</title><path d="M4.2 3L3 4.2l4.4 4.4L3 13.2l1.2 1.2L12 7.8l-7.8-4.8m5.6 12.6H21v-1.8H9.8v1.8Z"/></svg></span>
+              <span class="custom-code-block-lang-text">sh</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-sh hljs"><span class="line"><span class="hljs-comment"># 1. my-project 폴더에서 submodule add 실행</span></span><span class="line">git submodule add https://github.com/user/shared-library.git libs/shared</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 2. 상태 확인: .gitmodules 파일과 libs/shared 폴더가 추가됨</span></span><span class="line">git status</span><span class="line"><span class="hljs-comment"># On branch main</span></span><span class="line"><span class="hljs-comment"># Changes to be committed:</span></span><span class="line"><span class="hljs-comment">#   new file:   .gitmodules</span></span><span class="line"><span class="hljs-comment">#   new file:   libs/shared</span></span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 3. 변경사항을 커밋하여 서브모듈 추가 완료</span></span><span class="line">git commit -m <span class="hljs-string">&quot;Add shared-library submodule&quot;</span></span></code></pre>
+        </div>
+      
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  특정 Tag 서브모듈 추가하기
+                </h4>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Shell Script</title><path d="M4.2 3L3 4.2l4.4 4.4L3 13.2l1.2 1.2L12 7.8l-7.8-4.8m5.6 12.6H21v-1.8H9.8v1.8Z"/></svg></span>
+              <span class="custom-code-block-lang-text">sh</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-sh hljs"><span class="line"><span class="hljs-comment"># 1. 먼저 일반적인 방식으로 서브모듈을 추가</span></span><span class="line">git submodule add https://github.com/user/shared-library.git libs/shared</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 2. 추가된 서브모듈 폴더로 이동</span></span><span class="line"><span class="hljs-built_in">cd</span> libs/shared</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 3. 원하는 버전(태그)으로 체크아웃</span></span><span class="line"><span class="hljs-comment"># (만약 태그가 안 찾아지면 git fetch --tags 먼저 실행)</span></span><span class="line">git checkout v1.2.0</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 4. 부모 프로젝트로 돌아옴</span></span><span class="line"><span class="hljs-built_in">cd</span> ../..</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 5. 특정 버전으로 변경된 서브모듈 정보를 커밋</span></span><span class="line">git add libs/shared</span><span class="line">git commit -m <span class="hljs-string">&quot;Add shared-library submodule at v1.2.0&quot;</span></span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  서브모듈이 포함된 프로젝트 클론하기(등록된 모듈 가져오기)
+                </h3>
+<ul>
+<li>clone 시 서브모듈 폴더는 비어있으므로, 코드를 받아오는 과정이 필요함</li>
+</ul>
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  방법 1. 한번에 클론 (권장)
+                </h4>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Shell Script</title><path d="M4.2 3L3 4.2l4.4 4.4L3 13.2l1.2 1.2L12 7.8l-7.8-4.8m5.6 12.6H21v-1.8H9.8v1.8Z"/></svg></span>
+              <span class="custom-code-block-lang-text">sh</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-sh hljs"><span class="line">git <span class="hljs-built_in">clone</span> --recurse-submodules https://github.com/user/shared-library.git</span></code></pre>
+        </div>
+      
+<h4 style="color: #89DDFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h4</span>
+                  방법 2. 따로 실행
+                </h4>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Shell Script</title><path d="M4.2 3L3 4.2l4.4 4.4L3 13.2l1.2 1.2L12 7.8l-7.8-4.8m5.6 12.6H21v-1.8H9.8v1.8Z"/></svg></span>
+              <span class="custom-code-block-lang-text">sh</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-sh hljs"><span class="line">git <span class="hljs-built_in">clone</span> https://github.com/user/shared-library.git</span><span class="line"><span class="hljs-built_in">cd</span> my-project</span><span class="line">git submodule update --init --recursive</span></code></pre>
+        </div>
+      
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  기존 서브모듈을 특정 버전(Tag)으로 변경하기
+                </h3>
+<ul>
+<li>이미 사용 중인 서브모듈의 버전을 특정 태그로 고정하거나 업데이트하는 방법</li>
+</ul>
+
+        <div class="custom-code-block">
+          
+        <div class="custom-code-block-header">
+          <div class="custom-code-block-header-left">
+            <div class="custom-code-block-lang">
+              <span class="custom-code-block-icon"><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Shell Script</title><path d="M4.2 3L3 4.2l4.4 4.4L3 13.2l1.2 1.2L12 7.8l-7.8-4.8m5.6 12.6H21v-1.8H9.8v1.8Z"/></svg></span>
+              <span class="custom-code-block-lang-text">sh</span>
+            </div>
+            
+          </div>
+          <div class="custom-code-block-header-right">
+            <div class="custom-code-block-actions">
+              <button class="copy-code-button" title="Copy code">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      
+          <pre><code class="language-sh hljs"><span class="line"><span class="hljs-comment"># 1. 변경하려는 서브모듈 폴더로 이동</span></span><span class="line"><span class="hljs-built_in">cd</span> libs/shared</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 2. 원격 저장소의 최신 정보와 모든 태그를 가져옴</span></span><span class="line">git fetch --tags</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 3. 원하는 버전(태그)으로 체크아웃</span></span><span class="line">git checkout v1.2.0</span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 4. 부모 프로젝트로 돌아와 상태 확인</span></span><span class="line"><span class="hljs-built_in">cd</span> ../..</span><span class="line">git status</span><span class="line"><span class="hljs-comment"># On branch main</span></span><span class="line"><span class="hljs-comment"># Changes not staged for commit:</span></span><span class="line"><span class="hljs-comment">#   modified:   libs/shared (new commits)</span></span><span class="line">&nbsp;</span><span class="line"><span class="hljs-comment"># 5. 변경된 서브모듈의 버전 정보를 부모 프로젝트에 커밋</span></span><span class="line">git add libs/shared</span><span class="line">git commit -m <span class="hljs-string">&quot;Update shared-library to v1.2.0&quot;</span></span></code></pre>
+        </div>
+      
+15:Td94,---
+aliases:
+  - Git Submodule
+tags:
+  - GIT
+특징: 외부 저장소를 특정 커밋 지점으로 링크(Link)하는 방식
+isPublic: false
+---
+# Git Submodule
+- 외부 저장소를 특정 커밋 지점으로 **링크(Link)**하는 방식
+## 특징 및 장단점
+- **독립성 (장점)**
+    - 부모 프로젝트는 서브모듈의 특정 커밋만 참조
+    - 서브모듈의 히스토리가 부모와 완전히 분리되어 독립적으로 관리됨
+- **복잡성 (단점)**
+    - `clone` 후 `submodule update` 등 별도의 명령어가 필요함
+    - Git에 익숙하지 않은 팀원은 사용이 어려울 수 있음
+## 언제 사용할까
+- 외부 라이브러리처럼 **독립성**과 명확한 **버전 관리**가 중요할 때
+- 포함된 저장소의 코드를 자주 수정하지 않고, 특정 버전을 가져와 사용할 때
+## 주요 명령어
+- **추가**: `{sh}git submodule add <저장소 URL> <저장하려는 경로>`
+- **클론 시 포함**: `{sh}git clone --recurse-submodules <저장소 URL>`
+- **초기화 및 업데이트**: `{sh}git submodule update --init --recursive`
+## 사용 예제 (Workflow)
+`my-project`가 `shared-library`를 서브모듈로 사용하는 상황을 가정
+### 서브모듈 추가하기
+#### 서브모듈 추가하기 (최신 커밋 기준)
+```sh
+# 1. my-project 폴더에서 submodule add 실행
+git submodule add https://github.com/user/shared-library.git libs/shared
+
+# 2. 상태 확인: .gitmodules 파일과 libs/shared 폴더가 추가됨
+git status
+# On branch main
+# Changes to be committed:
+#   new file:   .gitmodules
+#   new file:   libs/shared
+
+# 3. 변경사항을 커밋하여 서브모듈 추가 완료
+git commit -m "Add shared-library submodule"
+```
+#### 특정 Tag 서브모듈 추가하기
+```sh
+# 1. 먼저 일반적인 방식으로 서브모듈을 추가
+git submodule add https://github.com/user/shared-library.git libs/shared
+
+# 2. 추가된 서브모듈 폴더로 이동
+cd libs/shared
+
+# 3. 원하는 버전(태그)으로 체크아웃
+# (만약 태그가 안 찾아지면 git fetch --tags 먼저 실행)
+git checkout v1.2.0
+
+# 4. 부모 프로젝트로 돌아옴
+cd ../..
+
+# 5. 특정 버전으로 변경된 서브모듈 정보를 커밋
+git add libs/shared
+git commit -m "Add shared-library submodule at v1.2.0"
+```
+
+### 서브모듈이 포함된 프로젝트 클론하기(등록된 모듈 가져오기)
+- clone 시 서브모듈 폴더는 비어있으므로, 코드를 받아오는 과정이 필요함
+#### 방법 1. 한번에 클론 (권장)
+```sh
+git clone --recurse-submodules https://github.com/user/shared-library.git
+```
+#### 방법 2. 따로 실행
+```sh
+git clone https://github.com/user/shared-library.git
+cd my-project
+git submodule update --init --recursive
+```
+### 기존 서브모듈을 특정 버전(Tag)으로 변경하기
+- 이미 사용 중인 서브모듈의 버전을 특정 태그로 고정하거나 업데이트하는 방법
+```sh
+# 1. 변경하려는 서브모듈 폴더로 이동
+cd libs/shared
+
+# 2. 원격 저장소의 최신 정보와 모든 태그를 가져옴
+git fetch --tags
+
+# 3. 원하는 버전(태그)으로 체크아웃
+git checkout v1.2.0
+
+# 4. 부모 프로젝트로 돌아와 상태 확인
+cd ../..
+git status
+# On branch main
+# Changes not staged for commit:
+#   modified:   libs/shared (new commits)
+
+# 5. 변경된 서브모듈의 버전 정보를 부모 프로젝트에 커밋
+git add libs/shared
+git commit -m "Update shared-library to v1.2.0"
+```
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"GIT/Git Submodule","slugHash":"940d75c1","content":"$14","markdownContent":"$15","title":"Git Submodule","createdAt":"2025-09-11","updatedAt":"2025-09-11","tags":["GIT"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["Git Submodule"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}
