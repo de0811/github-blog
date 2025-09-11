@@ -6,6 +6,7 @@ import { getAllPostsData } from '@/lib/post.lib';
 export default async function BlogListPage() {
   const allPosts = await getAllPostsData();
   const publishedPosts = allPosts.filter(post => post.isPublished);
+  console.log(publishedPosts);
 
   return (
     <div className={styles.container}>

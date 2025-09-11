@@ -15,7 +15,8 @@ export default async function BlogPostPage({ params }: Props) {
 
   const post = await getPostByUniqueKeyword(slugHash);
 
-  if (!post || !post.isPublished) {
+  // if (!post || !post.isPublished) {
+  if (!post) {
     notFound();
   }
 
