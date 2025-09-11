@@ -12,48 +12,54 @@ import path from "path";
 import {unified} from "unified";
 import remarkHtml from 'remark-html';
 import hljs from 'highlight.js';
+import { deflateSync } from 'zlib';
 
 /*
 TODO
 - [x] CALLOUT 기능 처리
-export const CALLOUT_REGEX = /\[!(?<type>[\w]+)\](?: (?<title>.+))?/g;
-
 - [x] highlight 기능 처리
-export const HIGHLIGHT_REGEX = /==(?<text>[^=]+)==/g
-export const highlightRegex = /==(.*)==/g;
-대충 이런 식으로 하면 되지 않을까
-
 - [x] inlineCode 기능 처리
-ex) `{java icon title:"초기화 방법"} String headerValue = "value";`
-구간) `{언어 icon title:"제목"} 코드 내용`
-
-- [ ] code 블록 기능 처리
-ex)
-```typescript title:"커스텀 플러그인을 만들기 위한 기본 구문"
-// src/lib/post.lib.ts
-
-import type { Root, Blockquote, Paragraph } from 'mdast';
-import { visit } from 'unist-util-visit';
-
-function remarkAdmonitions() {
-  // 이 함수는 remark 파이프라인에 의해 호출됩니다.
-  // 'tree'는 전체 문서의 AST를 나타냅니다.
-  return (tree: Root) => {
-    // 여기에 실제 변환 로직이 들어갑니다.
-  };
-}
-```
-구간)
-```언어 title:"제목"
-코드 내용
-```
-
+- [x] code 블록 기능 처리
 - [x] embed 기능 처리
-  - [x] 이미지 링크 기능 처리
-  - [x] PDF 링크 기능 처리
-  - [x] md 파일 링크 기능 처리
 - [x] wiki 링크 기능 처리
+- [x] plantuml 기능 처리
  */
+
+// PlantUML 인코딩 함수
+function encode6bit(b: number) {
+  if (b < 10) return String.fromCharCode(48 + b);
+  b -= 10;
+  if (b < 26) return String.fromCharCode(65 + b);
+  b -= 26;
+  if (b < 26) return String.fromCharCode(97 + b);
+  b -= 26;
+  if (b === 0) return '-';
+  if (b === 1) return '_';
+  return '?';
+}
+
+function append3bytes(b1: number, b2: number, b3: number) {
+  const c1 = b1 >> 2;
+  const c2 = ((b1 & 3) << 4) | (b2 >> 4);
+  const c3 = ((b2 & 15) << 2) | (b3 >> 6);
+  const c4 = b3 & 63;
+  return encode6bit(c1 & 63) +
+    encode6bit(c2 & 63) +
+    encode6bit(c3 & 63) +
+    encode6bit(c4 & 63);
+}
+
+function encodePuml(puml: string) {
+  const deflated = deflateSync(Buffer.from(puml, 'utf8'));
+  let result = '';
+  for (let i = 0; i < deflated.length; i += 3) {
+    const b1 = deflated[i];
+    const b2 = i + 1 < deflated.length ? deflated[i + 1] : 0;
+    const b3 = i + 2 < deflated.length ? deflated[i + 2] : 0;
+    result += append3bytes(b1, b2, b3);
+  }
+  return result;
+}
 
 /**
  * wikiLink 부위별 분석
@@ -701,6 +707,19 @@ export function remarkCodeBlock() {
       if (!parent || typeof index !== 'number') return;
 
       const lang = node.lang || 'text';
+      
+      if (lang === 'plantuml') {
+        const encoded = `~1${encodePuml(node.value)}`;
+        const newNode: Html = {
+            type: 'html',
+            value: `<div class="plantuml-diagram">
+                      <img src="http://www.plantuml.com/plantuml/svg/${encoded}" alt="PlantUML Diagram" />
+                    </div>`
+        };
+        parent.children.splice(index, 1, newNode);
+        return; // plantuml은 여기서 처리를 끝냅니다.
+      }
+
       const meta = node.meta || '';
 
       // 1. 메타 정보 파싱
