@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"3ab49c7c276b52b4","type":"group","x":-600,"y":-220,"width":1520,"height":2020,"label":"응답 되는 종류"},
+		{"id":"74ae0b62e2adbcff","type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/View Template/View Template.md","x":-80,"y":-200,"width":400,"height":320},
+		{"id":"9cad0e43992b98e5","type":"text","text":"# HTTP 메시지","x":360,"y":-200,"width":280,"height":60},
+		{"id":"b6799bdc7f2b00f7","type":"text","text":"![[HttpServletResponse#기본 적인 사용 방법]]","x":360,"y":-90,"width":500,"height":390},
+		{"id":"7ce4234e35e4b68c","type":"text","text":"![[HttpEntity#ResponseEntity]]","x":371,"y":340,"width":489,"height":452},
+		{"id":"81d9810566d54fbf","type":"text","text":"![[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@ResponseBody|@ResponseBody]]","x":362,"y":854,"width":518,"height":906},
+		{"id":"d40ede5e67a1c9d7","type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/Resource.md","x":-560,"y":-200,"width":400,"height":400}
+	],
+	"edges":[]
+}

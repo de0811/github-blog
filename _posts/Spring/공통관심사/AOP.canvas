@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"3a0ba208eea294c9","x":1640,"y":-60,"width":460,"height":510,"type":"group","label":"동작 시점 + Pointcut"},
+		{"id":"476ded4d24578277","x":251,"y":-340,"width":709,"height":220,"type":"group","label":"기본 개념 탑재"},
+		{"id":"a45dd437b320d1f7","x":251,"y":660,"width":709,"height":220,"type":"group","label":"따로 공부하기엔 좀 빡센"},
+		{"id":"7614c76f4efebbdd","x":271,"y":108,"width":669,"height":472,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AOP.md"},
+		{"id":"f1ad6cfb8fae2d31","x":360,"y":-320,"width":400,"height":180,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/공통관심사/Proxy.md"},
+		{"id":"db34697668c8c519","x":400,"y":680,"width":400,"height":180,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/공통관심사/AspectJ.md"},
+		{"id":"17240f323ca89cb9","x":1080,"y":-160,"width":400,"height":50,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Aspect.md"},
+		{"id":"f151c751ba6f1224","x":1660,"y":80,"width":400,"height":50,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Before.md"},
+		{"id":"c63353689c784cd5","x":1660,"y":180,"width":400,"height":50,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/Annotation/@AfterReturning.md"},
+		{"id":"d5945099f9e4df3c","x":1660,"y":280,"width":400,"height":50,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/Annotation/@AfterThrowing.md"},
+		{"id":"cb69dda4d3c541db","x":1660,"y":380,"width":400,"height":50,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/Annotation/@After.md"},
+		{"id":"63eea01fc4a84d8c","x":1660,"y":-20,"width":400,"height":50,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Around.md"},
+		{"id":"5e5f5b778c2ff8d4","x":1080,"y":20,"width":400,"height":50,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Order.md"},
+		{"id":"8bd2e13bd3dc98f7","x":1640,"y":-200,"width":400,"height":50,"type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/Annotation/@Pointcut.md"}
+	],
+	"edges":[
+		{"id":"5681aa971ced0ed1","fromNode":"7614c76f4efebbdd","fromSide":"top","toNode":"f1ad6cfb8fae2d31","toSide":"bottom"},
+		{"id":"2f883e1f6110d514","fromNode":"db34697668c8c519","fromSide":"top","toNode":"7614c76f4efebbdd","toSide":"bottom"},
+		{"id":"22a937bf7f9a5a7b","fromNode":"3a0ba208eea294c9","fromSide":"top","toNode":"8bd2e13bd3dc98f7","toSide":"bottom"},
+		{"id":"ccf6a266862e69ff","fromNode":"8bd2e13bd3dc98f7","fromSide":"left","toNode":"17240f323ca89cb9","toSide":"right"}
+	]
+}

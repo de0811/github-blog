@@ -1,0 +1,32 @@
+{
+	"nodes":[
+		{"id":"fa9730813f62cee0","type":"group","x":-680,"y":300,"width":600,"height":700,"label":"Query String & Form 방식"},
+		{"id":"23451fd1fa489034","type":"text","text":"Form 방식은 PUT, PATCH, DELETE 를 보내더라도 내부적으로 POST를 보내고 히든 필드에 PATCH 나 등등 으로 써달라고 적혀있다","x":-1240,"y":740,"width":496,"height":80},
+		{"id":"11b24836ddd74538","type":"text","text":"![[HttpServletRequest#HttpServletRequest Parameter 조회]]","x":-600,"y":1100,"width":622,"height":440},
+		{"id":"f357812bd079f784","type":"text","text":"![[HTTP Message#POST - HTML Form]]","x":-660,"y":586,"width":558,"height":398},
+		{"id":"0a01800316066e1a","type":"text","text":"![[HttpServletRequest#InputStream 으로 데이터 읽는 방법]]","x":120,"y":680,"width":560,"height":250},
+		{"id":"72de40cc222031a2","type":"text","text":"![[HTTP Message#GET - Query String or URL Params or Query Parameters, Path Variable 방법 사용]]","x":-660,"y":320,"width":560,"height":266},
+		{"id":"82cc81e868f5d65e","type":"text","text":"![[HTTP Message#HTTP message body 데이터를 직접 담아서 요청]]","x":180,"y":340,"width":560,"height":180},
+		{"id":"b92df62cf1429b20","type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/HttpServletRequest.md","x":-140,"y":-260,"width":400,"height":400},
+		{"id":"1fbfaebb39ae0927","type":"text","text":"![[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@ModelAttribute|@ModelAttribute]]","x":-626,"y":2100,"width":726,"height":300},
+		{"id":"eb323d6911850afc","type":"text","text":"![[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestParam|@RequestParam]]\n","x":-640,"y":1640,"width":720,"height":320},
+		{"id":"9a9c21b686e6f766","type":"text","text":"![[HttpServletRequest#JSON 으로 데이터 읽는 방법]]","x":726,"y":684,"width":534,"height":306},
+		{"id":"193d3d748152b5b3","type":"text","text":"## 요청 정리 \n\n| 요청방법                        | [[@RequestParam]]                         | [[@ModelAttribute]]          | [[HttpEntity]] | [[@RequestBody]] | [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestPart\\|@RequestPart]] |\n| --------------------------- | ----------------------------------------- | ---------------------------- | -------------- | ---------------- | ------------------------------------------------------------------- |\n| GET                         | int, Integer, String ... 등의 기본 데이터형 분석 가능 | @RequestParam 이 못하는 것들을 사용가능 | 사용불가           | 사용불가             | 사용불가                                                                |\n| Form                        | GET 방식과 동일                                | GET 방식과 동일                   | 사용불가           | 사용불가             | 가능                                                                  |\n| JSON(POST,PUT,PATCH,DELETE) | 사용불가                                      | 사용불가                         | 가능             | 알아서 데이터형에 맞게 삽입  | 가능                                                                  |\n","x":309,"y":-200,"width":971,"height":260},
+		{"id":"5166d37e9956d0dc","type":"file","file":"2.Ref(데이터 및 정보 저장)/Spring/HttpEntity.md","x":430,"y":1110,"width":830,"height":150},
+		{"id":"c99567197e19dbca","type":"text","text":"![[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestBody|@RequestBody]]","x":460,"y":1340,"width":780,"height":540},
+		{"id":"d1a5a3f1becfd049","x":300,"y":-660,"width":1021,"height":448,"type":"text","text":"## 요청 정리\n\n| 요청 방식 | `@RequestParam` | `@ModelAttribute` | `HttpEntity` | `@RequestBody` | `@RequestPart` |\n| :--- | :--- | :--- | :--- | :--- | :--- |\n| **주요 용도** | **단일** 파라미터 | **객체** 바인딩 | **HTTP 전체 접근** | **메시지 바디** 전체 | **Multipart 데이터** |\n| **GET** (쿼리 스트링) | **O** (핵심 용도) | **O** (객체로 받기) | △ (헤더 접근용) | X | X |\n| **POST** (`x-www-form-urlencoded`) | **O** (단일 필드) | **O** (핵심 용도) | **O** (Raw 텍스트) | X | X |\n| **POST** (`multipart/form-data`) | **O** (단일 필드) | **O** (필드→객체) | **O** (Raw 접근) | X | **O** (핵심 용도) |\n| **POST/PUT** (`application/json`) | X | X | **O** (객체/Raw) | **O** (핵심 용도) | △ (JSON+파일) |\n\n> **범례:**\n* **O**: 주된 사용 사례 (핵심 용도)\n* **△**: 사용 가능하지만 일반적이진 않거나, 특정 목적(헤더 접근, 복합 데이터)일 때 사용\n* **X**: 사용 불가 또는 부적절"}
+	],
+	"edges":[
+		{"id":"8005967262870fc0","fromNode":"b92df62cf1429b20","fromSide":"bottom","toNode":"fa9730813f62cee0","toSide":"top"},
+		{"id":"cabec47a3a526daf","fromNode":"b92df62cf1429b20","fromSide":"bottom","toNode":"82cc81e868f5d65e","toSide":"top"},
+		{"id":"87eb2ceaa233b826","fromNode":"eb323d6911850afc","fromSide":"bottom","toNode":"1fbfaebb39ae0927","toSide":"top"},
+		{"id":"ddea41e7f77061ea","fromNode":"5166d37e9956d0dc","fromSide":"bottom","toNode":"c99567197e19dbca","toSide":"top"},
+		{"id":"9f5df4e651f859e3","fromNode":"fa9730813f62cee0","fromSide":"bottom","toNode":"11b24836ddd74538","toSide":"top"},
+		{"id":"6aed43d1516a6600","fromNode":"11b24836ddd74538","fromSide":"bottom","toNode":"eb323d6911850afc","toSide":"top"},
+		{"id":"c9108ad4a8127ae1","fromNode":"0a01800316066e1a","fromSide":"bottom","toNode":"5166d37e9956d0dc","toSide":"top"},
+		{"id":"17ec466716b15b00","fromNode":"9a9c21b686e6f766","fromSide":"bottom","toNode":"5166d37e9956d0dc","toSide":"top"},
+		{"id":"25d864bb5d681072","fromNode":"82cc81e868f5d65e","fromSide":"bottom","toNode":"0a01800316066e1a","toSide":"top"},
+		{"id":"692b4204db251079","fromNode":"82cc81e868f5d65e","fromSide":"bottom","toNode":"9a9c21b686e6f766","toSide":"top"},
+		{"id":"3c2f7ea929063b7c","fromNode":"f357812bd079f784","fromSide":"left","toNode":"23451fd1fa489034","toSide":"right"}
+	]
+}
