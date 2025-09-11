@@ -11,9 +11,10 @@
   },
   "homepage": "https://de0811.github.io/github-blog",
   "dependencies": {
-    "highlight.js": "^11.11.1",
-    "next": "15.3.1",
     "gray-matter": "^4.0.3",
+    "highlight.js": "^11.11.1",
+    "html-react-parser": "^5.2.6",
+    "next": "15.3.1",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "remark": "^15.0.1",

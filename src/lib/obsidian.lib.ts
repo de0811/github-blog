@@ -5,16 +5,12 @@ import {
   markdownToHtml
 } from "@/lib/post.lib";
 import {
-  Blockquote, Break, Code, Definition, Delete, Emphasis,
-  FootnoteDefinition, FootnoteReference, Heading, Html, Image,
-  ImageReference, InlineCode, Link, LinkReference, ListItem, Paragraph, Root, Strong, Table, TableCell,
-  TableRow, Text, ThematicBreak, Yaml, List
+  Blockquote, Code, Heading, Html, Image, InlineCode, Link, Parent, Root, Text
 } from "mdast";
 import {visit} from "unist-util-visit";
 import path from "path";
 import {unified} from "unified";
 import remarkHtml from 'remark-html';
-import remarkParse from 'remark-parse';
 import hljs from 'highlight.js';
 
 /*
@@ -147,36 +143,17 @@ function parseEmbeds(embed: string): { path: string; header?: string; alias?: st
  * @param index
  */
 function textToEmbed(
-  node: Blockquote | Code | Heading | Html | List | Paragraph | Table | ThematicBreak | Definition | FootnoteDefinition | Break | Delete | Emphasis | FootnoteReference | Image | ImageReference | InlineCode | Link | LinkReference | Strong | Text | ListItem | TableRow | TableCell | Yaml | Root,
+  node: Text,
   baseBlogPathToTrim: string,
   basePublicPathToTrim: string,
   repositoryName: string,
   baseRoute: string,
   basePublic: string,
   changes: (() => void)[],
-  parent:
-    (Blockquote & { children: unknown })
-    | (Heading & { children: unknown })
-    | (List & { children: unknown })
-    | (Paragraph & { children: unknown })
-    | (Table & { children: unknown })
-    | (FootnoteDefinition & { children: unknown })
-    | (Delete & { children: unknown })
-    | (Emphasis & { children: unknown })
-    | (Link & { children: unknown })
-    | (LinkReference & { children: unknown })
-    | (Strong & { children: unknown })
-    | (ListItem & { children: unknown })
-    | (TableRow & { children: unknown })
-    | (TableCell & { children: unknown })
-    | (Root & { children: unknown }),
+  parent: Parent,
   index: number
 ) {
   return async () => {
-    // node 가 Text 타입이 아닐 경우 끝내버리기
-    if (node.type !== 'text') return;
-
-
     /////////////이 부분부터 내부 로직 처리/////////////////
 
     const embedRegex = /\!\[\[([^\]]+)\]\]/g;
@@ -200,7 +177,7 @@ function textToEmbed(
       if (basePublicPathToTrim && trimPublicPath.startsWith(basePublicPathToTrim)) {
         trimPublicPath = trimPublicPath.slice(basePublicPathToTrim.length);
       }
-      let publicPath = `/${repositoryName ? repositoryName + "/" : ""}${basePublic}/${trimPublicPath}`;
+      const publicPath = `/${repositoryName ? repositoryName + "/" : ""}${basePublic}/${trimPublicPath}`;
 
       let trimBlogPath = oriPath;
       if (baseBlogPathToTrim && trimBlogPath.startsWith(baseBlogPathToTrim)) {
@@ -282,33 +259,15 @@ function textToEmbed(
 }
 
 function textToWikiLinks(
-  node: Blockquote | Code | Heading | Html | List | Paragraph | Table | ThematicBreak | Definition | FootnoteDefinition | Break | Delete | Emphasis | FootnoteReference | Image | ImageReference | InlineCode | Link | LinkReference | Strong | Text | ListItem | TableRow | TableCell | Yaml | Root,
+  node: Text,
   baseBlogPathToTrim: string,
   repositoryName: string,
   baseRoute: string,
   changes: (() => void)[],
-  parent:
-    (Blockquote & { children: unknown })
-    | (Heading & { children: unknown })
-    | (List & { children: unknown })
-    | (Paragraph & { children: unknown })
-    | (Table & { children: unknown })
-    | (FootnoteDefinition & { children: unknown })
-    | (Delete & { children: unknown })
-    | (Emphasis & { children: unknown })
-    | (Link & { children: unknown })
-    | (LinkReference & { children: unknown })
-    | (Strong & { children: unknown })
-    | (ListItem & { children: unknown })
-    | (TableRow & { children: unknown })
-    | (TableCell & { children: unknown })
-    | (Root & { children: unknown }),
+  parent: Parent,
   index: number
 ) {
   return async () => {
-    // node 가 Text 타입이 아닐 경우 끝내버리기
-    if (node.type !== 'text') return;
-
     /////////////이 부분부터 내부 로직 처리/////////////////
 
     const wikiLinkRegex = /(?<!!)\[\[([^\]]+)\]\]/g;
@@ -370,7 +329,7 @@ function textToWikiLinks(
 function textToHighlight(
   node: Text,
   changes: (() => void)[],
-  parent: any,
+  parent: Parent,
   index: number
 ) {
   return async () => {
@@ -416,7 +375,7 @@ const HEADER_COLORS: { [key: number]: string } = {
 // 헤더 노드를 커스텀 HTML로 변환하는 함수
 export function remarkCustomHeaders() {
   return (tree: Root) => {
-    visit(tree, 'heading', (node: Heading, index, parent) => {
+    visit(tree, 'heading', (node: Heading, index?: number, parent?: Parent) => {
       if (!parent || typeof index !== 'number') return;
 
       const level = node.depth;
@@ -444,16 +403,6 @@ export function remarkCustomHeaders() {
   };
 }
 
-function printChildren(node: any, depth: number = 0) {
-  const indent = '  '.repeat(depth);
-  console.log(`${indent}- type: ${node.type}, value: ${node.value || ''}, url: ${node.url || ''}`);
-  if (node.children && Array.isArray(node.children)) {
-    node.children.forEach((child: any) => {
-      printChildren(child, depth + 1);
-    });
-  }
-}
-
 /**
  * 텍스트 노드의 줄바꿈(\n, \r\n, \r)을 <br> 태그로 변환
  * @param node
@@ -464,7 +413,7 @@ function printChildren(node: any, depth: number = 0) {
 function textToLineBreak(
   node: Text,
   changes: (() => void)[],
-  parent: any,
+  parent: Parent,
   index: number
 ) {
   return async () => {
@@ -476,7 +425,6 @@ function textToLineBreak(
 
     const newChildren: (Text | Html)[] = [];
     const lines = node.value.split(/(\r?\n|\r)/);
-    let isFirst = true;
 
     lines.forEach(line => {
       if (/(\r?\n|\r)/.test(line)) {
@@ -586,14 +534,14 @@ CALLOUT_CONFIG.error = CALLOUT_CONFIG.danger;
 
 
 function blockquoteToCallOut(
-  node: Blockquote | Code | Heading | Html | List | Paragraph | Table | ThematicBreak | Definition | FootnoteDefinition | Break | Delete | Emphasis | FootnoteReference | Image | ImageReference | InlineCode | Link | LinkReference | Strong | Text | ListItem | TableRow | TableCell | Yaml | Root,
+  node: Blockquote,
   changes: (() => void)[],
-  parent: any,
+  parent: Parent,
   index: number
 ) {
   return async () => {
     // node.type이 'blockquote'가 아니면 실행하지 않음 (타입 가드)
-    if (node.type !== 'blockquote' || !node.children.length) return;
+    if (!node.children.length) return;
 
     const firstParagraph = node.children[0];
     if (firstParagraph.type !== 'paragraph' || !firstParagraph.children.length) return;
@@ -671,7 +619,7 @@ export const LANGUAGE_ICONS: { [key: string]: string } = {
 
 export function remarkInlineCode() {
   return (tree: Root) => {
-    visit(tree, 'inlineCode', (node: InlineCode, index, parent: any) => {
+    visit(tree, 'inlineCode', (node: InlineCode, index?: number, parent?: Parent) => {
       if (!parent || typeof index !== 'number' || !node.value.startsWith('{')) {
         return;
       }
@@ -698,7 +646,7 @@ export function remarkInlineCode() {
       const icon = iconSvg.includes('xmlns=') ? iconSvg : iconSvg.replace('<svg', '<svg xmlns="http://www.w3.org/2000/svg"');
 
       const escapeHtml = (str: string) => {
-        return str.replace(/[&<>"']/g, (match) => {
+        return str.replace(/[&<>\"']/g, (match) => {
           switch (match) {
             case '&': return '&amp;';
             case '<': return '&lt;';
@@ -720,7 +668,7 @@ export function remarkInlineCode() {
           // 언어가 없거나 지원되지 않으면 자동 감지
           highlightedCode = hljs.highlightAuto(code).value;
         }
-      } catch (e) {
+      } catch {
         // 오류 발생 시 이스케이프 처리된 일반 텍스트로 대체
         highlightedCode = escapeHtml(code);
       }
@@ -749,7 +697,7 @@ export function remarkInlineCode() {
 ///////////////////////////////////codeblock test Start//////////////////////////////////////
 export function remarkCodeBlock() {
   return (tree: Root) => {
-    visit(tree, 'code', (node: Code, index, parent: any) => {
+    visit(tree, 'code', (node: Code, index?: number, parent?: Parent) => {
       if (!parent || typeof index !== 'number') return;
 
       const lang = node.lang || 'text';
@@ -802,7 +750,7 @@ export function remarkCodeBlock() {
                 }
               });
             } catch (e) {
-              console.error('Invalid regex in code block meta:', rule);
+              console.error('Invalid regex in code block meta:', rule, e);
             }
           }
         });
@@ -816,7 +764,7 @@ export function remarkCodeBlock() {
         } else {
           highlightedCode = hljs.highlightAuto(node.value).value;
         }
-      } catch (e) {
+      } catch {
         highlightedCode = node.value.replace(/</g, "&lt;").replace(/>/g, "&gt;");
       }
 
@@ -901,7 +849,7 @@ export function remarkText(options: {
 
     // 1. Callout 변환
     visit(tree, 'blockquote', (node, index, parent) => {
-      if (!parent || typeof index !== 'number' || !('children' in parent)) return;
+      if (!parent || typeof index !== 'number') return;
       const promise = blockquoteToCallOut(node, changes, parent, index)();
       promises.push(promise);
     });
@@ -914,7 +862,7 @@ export function remarkText(options: {
     // 3. 나머지 텍스트 기반 변환 (Embed, WikiLinks, Highlight)
     // 이들은 서로 영향을 주지 않으므로 한 번의 visit으로 처리 가능
     visit(tree, 'text', (node, index, parent) => {
-      if (!parent || typeof index !== 'number' || !('children' in parent)) return;
+      if (!parent || typeof index !== 'number') return;
 
       let promise;
       promise = textToEmbed(node, baseBlogPathToTrim, basePublicPathToTrim, repositoryName, baseRoute, basePublic, changes, parent, index)();
@@ -934,7 +882,7 @@ export function remarkText(options: {
 
     // 2. 줄바꿈을 <br>로 변환
     visit(tree, 'text', (node, index, parent) => {
-      if (!parent || typeof index !== 'number' || !('children' in parent)) return;
+      if (!parent || typeof index !== 'number') return;
       const promise = textToLineBreak(node, changes, parent, index)();
       promises.push(promise);
     });
@@ -965,7 +913,7 @@ export function remarkWikiLinks(options: {
     const changes: (() => void)[] = [];
 
     visit(tree, 'text', (node, index, parent) => {
-      if (!parent || typeof index !== 'number' || !('children' in parent)) return;
+      if (!parent || typeof index !== 'number') return;
 
       const wikiLinkRegex = /(?<!!)\[\[([^\]]+)\]\]/g;
       if (!wikiLinkRegex.test(node.value)) return;

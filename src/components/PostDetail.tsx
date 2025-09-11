@@ -3,6 +3,8 @@
 import styles from './PostDetail.module.scss';
 import {PostType} from '@/types/post.type';
 import {useEffect} from "react";
+import Image from 'next/image';
+import parse, { HTMLReactParserOptions, Element } from 'html-react-parser';
 
 type Props = { post: PostType };
 
@@ -47,6 +49,35 @@ export default function PostDetail({ post }: Props) {
     };
   }, [post.content]); // post.content가 바뀔 때마다 스크립트를 다시 실행
 
+  const options: HTMLReactParserOptions = {
+    replace: (domNode) => {
+      if (domNode instanceof Element && domNode.attribs && domNode.name === 'img') {
+        const { src, alt, style } = domNode.attribs;
+        let width = 800; // 기본 너비
+        let height = 450; // 기본 높이
+
+        if (style) {
+          const widthMatch = style.match(/width:\s*(\d+)px/);
+          if (widthMatch) {
+            width = parseInt(widthMatch[1], 10);
+            // 높이는 너비에 맞춰 비율을 유지하도록 조정할 수 있습니다.
+            height = (width / 16) * 9; // 예: 16:9 비율
+          }
+        }
+
+        return (
+          <Image
+            src={src}
+            alt={alt || 'image from content'}
+            width={width}
+            height={height}
+            style={{ width: '100%', height: 'auto', borderRadius: '8px' }} // 반응형 및 스타일
+          />
+        );
+      }
+    },
+  };
+
   return (
     <article className={styles.detail}>
       <h1 className={styles.title}>{post.title}</h1>
@@ -55,12 +86,20 @@ export default function PostDetail({ post }: Props) {
         {post.updatedAt && <span> | 수정일: {post.updatedAt}</span>}
       </div>
       {post.coverImgUrl && (
-        <img className={styles.cover} src={post.coverImgUrl} alt="cover" />
+        <div className={styles.coverContainer}>
+          <Image
+            className={styles.cover}
+            src={post.coverImgUrl}
+            alt="cover"
+            fill
+            style={{ objectFit: 'cover' }}
+            priority // LCP(가장 큰 콘텐츠풀 페인트) 요소일 가능성이 높으므로 우선적으로 로드합니다.
+          />
+        </div>
       )}
-      <div
-        className={styles.content}
-        dangerouslySetInnerHTML={{ __html: post.content }}
-      />
+      <div className={styles.content}>
+        {parse(post.content, options)}
+      </div>
       {post.tags && post.tags.length > 0 && (
         <div className={styles.tags}>
           {post.tags.map(tag => (
