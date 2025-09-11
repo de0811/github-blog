@@ -12,6 +12,7 @@ tags:
   - Java
   - Spring
 특징:
+isPublic: true
 ---
 # Proxy
 Proxy(대리인)

@@ -4,7 +4,8 @@ aliases:
 tags:
   - Obsidian
   - Obsidian/plugin
-특징: 
+특징:
+isPublic: true
 ---
 # plantuml
 uml 적는 플러그인

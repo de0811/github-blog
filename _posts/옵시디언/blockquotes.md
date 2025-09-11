@@ -4,6 +4,7 @@ aliases:
 tags:
   - 옵시디언
   - Obsidian
+isPublic: true
 ---
 #옵시디언 
 

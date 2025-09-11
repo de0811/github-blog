@@ -1,6 +1,12 @@
-#옵시디언 
+---
+aliases:
+  - todo
+tags:
+특징:
+isPublic: true
+---
+# todo
 
-- ["] 안녕 난 떵민
 - [ ] 이건 뭘까
 - [k]  이건 키
 - [S] 달라

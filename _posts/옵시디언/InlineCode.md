@@ -5,7 +5,7 @@ tags:
   - 옵시디언
 특징:
 noteUUID:
-isPublic: false
+isPublic: true
 ---
 # InlineCode
   

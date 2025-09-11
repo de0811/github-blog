@@ -4,7 +4,8 @@ aliases:
 tags:
   - Obsidian
   - Obsidian/plugin
-특징: 
+특징:
+isPublic: true
 ---
 # CodeStyler
 코드 줄의 숫자 넣기

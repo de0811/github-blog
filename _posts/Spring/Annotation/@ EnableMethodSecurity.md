@@ -6,7 +6,7 @@ tags:
   - Spring
   - Spring/Security
   - Annotation
-특징: 
+특징:
 ---
 # @EnableGlobalMethodSecurity / @EnableMethodSecurity
 메서드 수준의 보안 활성화
