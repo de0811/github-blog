@@ -1,0 +1,109 @@
+1:"$Sreact.fragment"
+2:I[7913,["874","static/chunks/874-2a9a337f20b19b4a.js","177","static/chunks/app/layout-650164235edda1d2.js"],"default"]
+3:I[7555,[],""]
+4:I[1295,[],""]
+6:I[9665,[],"MetadataBoundary"]
+8:I[9665,[],"OutletBoundary"]
+b:I[4911,[],"AsyncMetadataOutlet"]
+d:I[9665,[],"ViewportBoundary"]
+f:I[6614,[],""]
+:HL["/github-blog/_next/static/css/a8e036e7bd01ae38.css","style"]
+:HL["/github-blog/_next/static/css/0d98168a1605ff50.css","style"]
+0:{"P":null,"b":"wxCktvyUxeZXxH6zjqHub","p":"/github-blog","c":["","blog","ea6b3ce8",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","ea6b3ce8","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/a8e036e7bd01ae38.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","ea6b3ce8","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/0d98168a1605ff50.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","KuAEu-a2SMJnOIPrsyhQy",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+10:"$Sreact.suspense"
+11:I[4911,[],"AsyncMetadata"]
+7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
+a:null
+13:I[6704,["63","static/chunks/63-c4a44d636d6b867b.js","727","static/chunks/727-27da60f8cc92f67b.js","401","static/chunks/app/blog/%5BslugHash%5D/page-0270bde2035ebc34.js"],"default"]
+14:Td24,<h1 style="color: #82AAFF;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
+                  Giscus
+                </h1>
+<h2 style="color: #C3E88D;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
+                  ⚙️ 설정
+                </h2>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  Discussions 활성화
+                </h3>
+<ul>
+<li>Settings → General → Features → Discussions 체크<br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250912104613.png" alt="Pasted image 20250912104613.png" style="width:1000px"></li>
+</ul>
+<blockquote>
+<p>쓰려고 하는 레포지토리에서 Settings 클릭</p>
+</blockquote>
+<ul>
+<li>맨 처음에 들어가면 기본으로 General 부분<br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250912104929.png" alt="Pasted image 20250912104929.png" style="width:1000px"></li>
+<li>Features 에서 Discussions 활성화<br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250912105347.png" alt="Pasted image 20250912105347.png" style="width:1000px"></li>
+<li>메뉴에 Discussions 버튼 생성<br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250912105731.png" alt="Pasted image 20250912105731.png" style="width:1000px"></li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  댓글을 위한 카테고리 생성
+                </h3>
+<ul>
+<li>댓글을 작성할 카테고리를 생성<br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250912110121.png" alt="Pasted image 20250912110121.png" style="width:1000px"></li>
+<li>새로운 카테고리 등록(댓글을 모아놓을 카테고리)<br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250912110240.png" alt="Pasted image 20250912110240.png" style="width:1000px"></li>
+<li>카테고리에 Comment 카테고리 추가<br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250912110557.png" alt="Pasted image 20250912110557.png" style="width:1000px"></li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  Giscus 설치
+                </h3>
+<ul>
+<li><a href="https://github.com/marketplace/giscus">Giscus 접속 및 설치</a></li>
+<li>내부에 들어가면 install 버튼이 있으니 클릭</li>
+</ul>
+<h3 style="color: #C792EA;">
+                  <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h3</span>
+                  Giscus 설정
+                </h3>
+<ul>
+<li><a href="https://giscus.app/ko">Giscus 설정</a><br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250912111654.png" alt="Pasted image 20250912111654.png" style="width:600px"></li>
+<li>설정 완료되면 하단에 스크립트 있음<br><img src="/github-blog/images/AttachedFile/Pasted%20image%2020250912111958.png" alt="Pasted image 20250912111958.png" style="width:600px"></li>
+</ul>
+<blockquote>
+<p>사실 이거 가릴 필요 있나? 싶지만 일단 필요 없는 데이터 보여줄 필요는 없으니까?</p>
+</blockquote>
+15:T60f,---
+aliases:
+  - Giscus
+tags:
+  - GIT
+특징: 블로그 만들때 댓글기능으로 쓰기 위해서
+isPublic: true
+---
+# Giscus
+## ⚙️ 설정
+### Discussions 활성화
+- Settings → General → Features → Discussions 체크
+![[config/AttachedFile/Pasted image 20250912104613.png|1000]]
+> 쓰려고 하는 레포지토리에서 Settings 클릭
+- 맨 처음에 들어가면 기본으로 General 부분
+![[config/AttachedFile/Pasted image 20250912104929.png|1000]]
+- Features 에서 Discussions 활성화
+![[config/AttachedFile/Pasted image 20250912105347.png|1000]]
+- 메뉴에 Discussions 버튼 생성
+![[config/AttachedFile/Pasted image 20250912105731.png|1000]]
+### 댓글을 위한 카테고리 생성
+- 댓글을 작성할 카테고리를 생성
+![[config/AttachedFile/Pasted image 20250912110121.png|1000]]
+- 새로운 카테고리 등록(댓글을 모아놓을 카테고리)
+![[config/AttachedFile/Pasted image 20250912110240.png|1000]]
+- 카테고리에 Comment 카테고리 추가
+![[config/AttachedFile/Pasted image 20250912110557.png|1000]]
+### Giscus 설치
+- [Giscus 접속 및 설치](https://github.com/marketplace/giscus)
+- 내부에 들어가면 install 버튼이 있으니 클릭
+### Giscus 설정
+- [Giscus 설정](https://giscus.app/ko)
+![[config/AttachedFile/Pasted image 20250912111654.png|600]]
+- 설정 완료되면 하단에 스크립트 있음
+![[config/AttachedFile/Pasted image 20250912111958.png|600]]
+> 사실 이거 가릴 필요 있나? 싶지만 일단 필요 없는 데이터 보여줄 필요는 없으니까?
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"GIT/Giscus","slugHash":"ea6b3ce8","content":"$14","markdownContent":"$15","title":"Giscus","createdAt":"2025-09-12","updatedAt":"2025-09-12","tags":["GIT"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["Giscus"],"noteUUID":"$undefined"}}]}]
+e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+9:null
+12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}]],"error":null,"digest":"$undefined"}
+c:{"metadata":"$12:metadata","error":null,"digest":"$undefined"}
