@@ -31,12 +31,12 @@ export default function SearchContent({ allPosts }: SearchContentProps) {
 
   return (
     <div className={styles.container}>
-      <h1>Results for: <span>"{query || ''}"</span></h1>
+      <h1>Results for: <span>&nbsp;{query || ''}&nbsp;</span></h1>
       {query ? (
         searchResults.length > 0 ? (
           <PostList posts={searchResults} />
         ) : (
-          <p className={styles.noResults}>No posts found for "{query}".</p>
+          <p className={styles.noResults}>No posts found for &nbsp;{query}&nbsp;.</p>
         )
       ) : (
         <p className={styles.noResults}>Please enter a search term.</p>

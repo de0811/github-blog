@@ -8,8 +8,6 @@ import SearchInput from "@/components/SearchInput";
 
 export default function Header() {
   const [darkMode, setDarkMode] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
-  const router = useRouter();
 
   // 테마 변경 함수
   const toggleDarkMode = () => {
