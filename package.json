@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "gh-pages -d out"
+    "deploy": "gh-pages -d out",
+    "setup-discussions": "node scripts/get-giscus-ids.js"
   },
   "homepage": "https://de0811.github.io/github-blog",
   "dependencies": {

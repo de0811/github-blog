@@ -5,6 +5,7 @@ import {PostType} from '@/types/post.type';
 import {useEffect} from "react";
 import Image from 'next/image';
 import parse, { HTMLReactParserOptions, Element } from 'html-react-parser';
+import Comments from './Comments';
 
 type Props = { post: PostType };
 
@@ -118,6 +119,7 @@ export default function PostDetail({ post }: Props) {
           ))}
         </div>
       )}
+      <Comments title={post.title} />
     </article>
   );
 }
