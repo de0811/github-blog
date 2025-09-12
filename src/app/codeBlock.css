@@ -140,3 +140,15 @@
   padding-right: 1em;
   margin-right: -1em;
 }
+
+/* PlantUML 다이어그램 컨테이너 */
+.plantuml-diagram-container {
+  padding: 1rem;
+  text-align: center;
+  background-color: white; /* 다이어그램 배경과 어울리도록 흰색 배경 */
+}
+
+.plantuml-diagram-container img {
+  max-width: 100%;
+  height: auto;
+}

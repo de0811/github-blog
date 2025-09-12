@@ -1,12 +1,15 @@
 // src/components/Header.tsx
 "use client";
 import Link from 'next/link';
-import {useState, useEffect} from 'react';
+import {useState, useEffect, Suspense} from 'react';
+import { useRouter } from 'next/navigation';
 import styles from './Header.module.scss';
+import SearchInput from "@/components/SearchInput";
 
 export default function Header() {
   const [darkMode, setDarkMode] = useState(false);
   const [searchQuery, setSearchQuery] = useState('');
+  const router = useRouter();
 
   // 테마 변경 함수
   const toggleDarkMode = () => {
@@ -25,13 +28,6 @@ export default function Header() {
     }
   }, []);
 
-  // 검색 제출 핸들러
-  const handleSearch = (e: React.FormEvent) => {
-    e.preventDefault();
-    // 검색 로직 구현
-    console.log('검색어:', searchQuery);
-    // 검색 페이지로 이동 로직 추가
-  };
 
   return (
     <header className={styles.header}>
@@ -48,18 +44,9 @@ export default function Header() {
 
 
         <div className={styles.actions}>
-          <form className={styles.searchForm} onSubmit={handleSearch}>
-            <input
-              type="text"
-              placeholder="Search..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className={styles.searchInput}
-            />
-            <button type="submit" className={styles.searchButton}>
-              검색
-            </button>
-          </form>
+          <Suspense fallback={<div className={styles.searchInput} style={{width: '180px'}} /> }>
+            <SearchInput />
+          </Suspense>
 
           <button
             onClick={toggleDarkMode}

@@ -14,6 +14,23 @@
   color: var(--color);
 }
 
+.aliases {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.alias {
+  padding: 0.3rem 0.8rem;
+  background-color: var(--item-hover-background);
+  color: var(--text-secondary);
+  border-radius: 999px; /* 알약 모양 */
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
 .meta {
   font-size: 0.95rem;
   color: var(--neutral-500);

@@ -1,0 +1,27 @@
+.container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 1rem;
+
+    span {
+      font-style: italic;
+      color: var(--primary-color);
+    }
+  }
+
+  .noResults {
+    color: var(--text-secondary);
+    font-size: 1.1rem;
+  }
+
+  .error {
+    color: var(--danger-color, #e53e3e);
+    font-size: 1.1rem;
+  }
+}

@@ -81,6 +81,17 @@ export default function PostDetail({ post }: Props) {
   return (
     <article className={styles.detail}>
       <h1 className={styles.title}>{post.title}</h1>
+      {
+        post.aliases && post.aliases.length > 0 && (
+          <div className={styles.aliases}>
+            {post.aliases.map(
+              alias => (
+                <span key={alias} className={styles.alias}>{alias}</span>
+              )
+            )}
+          </div>
+        )
+      }
       <div className={styles.meta}>
         <span>작성일: {post.createdAt}</span>
         {post.updatedAt && <span> | 수정일: {post.updatedAt}</span>}
