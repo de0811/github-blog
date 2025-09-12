@@ -2,7 +2,6 @@
 "use client";
 import Link from 'next/link';
 import {useState, useEffect, Suspense} from 'react';
-import { useRouter } from 'next/navigation';
 import styles from './Header.module.scss';
 import SearchInput from "@/components/SearchInput";
 
