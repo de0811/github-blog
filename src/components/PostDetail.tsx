@@ -1,10 +1,11 @@
 "use client";
 
 import styles from './PostDetail.module.scss';
-import {PostType} from '@/types/post.type';
-import {useEffect} from "react";
+import { PostType } from '@/types/post.type';
+import { useEffect } from "react";
 import Image from 'next/image';
 import parse, { HTMLReactParserOptions, Element } from 'html-react-parser';
+import GiscusComments from './GiscusComments'; // Giscus 컴포넌트 import
 
 type Props = { post: PostType };
 
@@ -23,7 +24,6 @@ export default function PostDetail({ post }: Props) {
 
       try {
         await navigator.clipboard.writeText(codeElement.innerText);
-        // 사용자에게 복사되었음을 알림 (예: 아이콘 변경 또는 텍스트 표시)
         button.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>`;
         button.title = "Copied!";
 
@@ -41,27 +41,25 @@ export default function PostDetail({ post }: Props) {
       button.addEventListener('click', handleClick as unknown as EventListener);
     });
 
-    // 컴포넌트가 언마운트될 때 이벤트 리스너 제거
     return () => {
       copyButtons.forEach(button => {
         button.removeEventListener('click', handleClick as unknown as EventListener);
       });
     };
-  }, [post.content]); // post.content가 바뀔 때마다 스크립트를 다시 실행
+  }, [post.content]);
 
   const options: HTMLReactParserOptions = {
     replace: (domNode) => {
       if (domNode instanceof Element && domNode.attribs && domNode.name === 'img') {
         const { src, alt, style } = domNode.attribs;
-        let width = 800; // 기본 너비
-        let height = 450; // 기본 높이
+        let width = 800;
+        let height = 450;
 
         if (style) {
           const widthMatch = style.match(/width:\s*(\d+)px/);
           if (widthMatch) {
             width = parseInt(widthMatch[1], 10);
-            // 높이는 너비에 맞춰 비율을 유지하도록 조정할 수 있습니다.
-            height = (width / 16) * 9; // 예: 16:9 비율
+            height = (width / 16) * 9;
           }
         }
 
@@ -71,7 +69,7 @@ export default function PostDetail({ post }: Props) {
             alt={alt || 'image from content'}
             width={width}
             height={height}
-            style={{ width: '100%', height: 'auto', borderRadius: '8px' }} // 반응형 및 스타일
+            style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
           />
         );
       }
@@ -81,17 +79,6 @@ export default function PostDetail({ post }: Props) {
   return (
     <article className={styles.detail}>
       <h1 className={styles.title}>{post.title}</h1>
-      {
-        post.aliases && post.aliases.length > 0 && (
-          <div className={styles.aliases}>
-            {post.aliases.map(
-              alias => (
-                <span key={alias} className={styles.alias}>{alias}</span>
-              )
-            )}
-          </div>
-        )
-      }
       <div className={styles.meta}>
         <span>작성일: {post.createdAt}</span>
         {post.updatedAt && <span> | 수정일: {post.updatedAt}</span>}
@@ -104,7 +91,7 @@ export default function PostDetail({ post }: Props) {
             alt="cover"
             fill
             style={{ objectFit: 'cover' }}
-            priority // LCP(가장 큰 콘텐츠풀 페인트) 요소일 가능성이 높으므로 우선적으로 로드합니다.
+            priority
           />
         </div>
       )}
@@ -118,6 +105,10 @@ export default function PostDetail({ post }: Props) {
           ))}
         </div>
       )}
+      {/* 게시물 하단에 댓글 컴포넌트 추가하고, 고유 식별자로 slugHash를 전달합니다. */}
+      <div className={styles.comments}>
+        <GiscusComments term={post.slugHash} />
+      </div>
     </article>
   );
 }
