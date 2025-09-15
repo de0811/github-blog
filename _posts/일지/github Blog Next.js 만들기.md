@@ -7,6 +7,8 @@ tags:
   - Nextjs
 특징: 좌충우돌 막 만드는 블로그
 isPublic: true
+createdAt: 2025-08-09 00:42
+updatedAt: 2025-09-12 21:50
 ---
 # github Blog Next.js
 - github Blog 를 Next.js 로 만들기
@@ -36,6 +38,7 @@ isPublic: true
 - [x] alias 이름 모두 표시 ✅ 2025-09-12
 - [x] 검색 기능(isPublic 아니라도 검색 되도록) ✅ 2025-09-12
 - [x] 댓글 기능 ✅ 2025-09-12
+- [ ] 옵시디언에 생성 날짜, 수정 날짜 모두 적용 되도록 수정
 - [ ] 자기소개 페이지
 ## 작업 하면서 드는 생각
 - 다른 사람들처럼 그냥 있는거 쓰지
