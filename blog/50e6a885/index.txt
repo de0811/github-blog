@@ -9,44 +9,37 @@ d:I[9665,[],"ViewportBoundary"]
 f:I[6614,[],""]
 :HL["/github-blog/_next/static/css/a8e036e7bd01ae38.css","style"]
 :HL["/github-blog/_next/static/css/0d98168a1605ff50.css","style"]
-0:{"P":null,"b":"V1E_tq9T8rkqXHYO0UEfZ","p":"/github-blog","c":["","blog","50e6a885",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","50e6a885","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/a8e036e7bd01ae38.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","50e6a885","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/0d98168a1605ff50.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","uqLSxA2zAPEfRG1znsysm",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
+0:{"P":null,"b":"ZgYXRY4sKzVgtuAkBz3em","p":"/github-blog","c":["","blog","50e6a885",""],"i":false,"f":[[["",{"children":["blog",{"children":[["slugHash","50e6a885","d"],{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/a8e036e7bd01ae38.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"kr","children":["$","body",null,{"children":[["$","$L2",null,{}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]}]]}],{"children":["blog",["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["slugHash","50e6a885","d"],["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L4",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":["__PAGE__",["$","$1","c",{"children":["$L5",["$","$L6",null,{"children":"$L7"}],[["$","link","0",{"rel":"stylesheet","href":"/github-blog/_next/static/css/0d98168a1605ff50.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","$L8",null,{"children":["$L9","$La",["$","$Lb",null,{"promise":"$@c"}]]}]]}],{},null,false]},null,false]},null,false]},null,false],["$","$1","h",{"children":[null,["$","$1","nc_FRWEDsjprRxIVUHc_Q",{"children":[["$","$Ld",null,{"children":"$Le"}],null]}],null]}],false]],"m":"$undefined","G":["$f","$undefined"],"s":false,"S":true}
 10:"$Sreact.suspense"
 11:I[4911,[],"AsyncMetadata"]
 7:["$","$10",null,{"fallback":null,"children":["$","$L11",null,{"promise":"$@12"}]}]
 a:null
 13:I[6704,["63","static/chunks/63-c4a44d636d6b867b.js","727","static/chunks/727-27da60f8cc92f67b.js","401","static/chunks/app/blog/%5BslugHash%5D/page-0270bde2035ebc34.js"],"default"]
-14:T50e3,<h1 style="color: #82AAFF;">
+14:T516d,<h1 style="color: #82AAFF;">
                   <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h1</span>
                   DispatcherServlet
                 </h1>
 <ul>
-<li>
-<p>한곳에서 모든 <a href="/github-blog/blog/cc09bb8d">URI</a> 을 관리하기 위해 사용</p>
-</li>
-<li>
-<p>가장 우선으로 모든 요청을 받는 컨트롤러</p>
+<li>한곳에서 모든 <a href="/github-blog/blog/cc09bb8d">URI</a> 을 관리하기 위해 사용</li>
+<li>가장 우선으로 모든 요청을 받는 컨트롤러
 <ul>
 <li>스프링 MVC의 <strong>핵심</strong>이자 모든 웹 요청을 가장 먼저 받아 처리하는 <strong>프론트 컨트롤러(Front Controller)</strong><br>스프링 부트에서는 이 모든 과정이 자동 설정되어 있어 개발자가 직접 설정할 일은 거의 없음</li>
 </ul>
 </li>
-<li>
-<p><strong>과거 방식 (DispatcherServlet 없을 때)</strong></p>
+<li><strong>과거 방식 (DispatcherServlet 없을 때)</strong>
 <ul>
 <li><code>/login</code>, <code>/articles</code> 등 각 요청마다 별도의 서블릿을 구현해야 했음</li>
 <li>공통 기능(인증, 로깅 등)을 모든 서블릿에 중복으로 작성해야 해서 비효율적</li>
 </ul>
 </li>
-<li>
-<p><strong>현재 방식 (DispatcherServlet 사용)</strong></p>
+<li><strong>현재 방식 (DispatcherServlet 사용)</strong>
 <ul>
 <li>모든 요청을 <code>DispatcherServlet</code>이 일단 받음</li>
 <li>공통 기능을 처리한 후, 요청에 맞는 컨트롤러(핸들러)에게 작업을 위임</li>
 <li>개발자는 실제 비즈니스 로직을 담은 컨트롤러만 작성하면 됨</li>
 </ul>
 </li>
-<li>
-<p><code>@WebServlet(name=??, urlPatterns = "*/*")</code> 형태로 되어 있을 컨트롤러</p>
-</li>
+<li><code>@WebServlet(name=??, urlPatterns = "*/*")</code> 형태로 되어 있을 컨트롤러</li>
 </ul>
 <ol>
 <li><a href="/github-blog/blog/cc09bb8d">URI</a>를 받아서 <a href="/github-blog/blog/00e5cb0c">HandlerMapping</a>에 있는지 확인
@@ -143,50 +136,43 @@ deactivate DS
         </div>
       
 <ol>
-<li>
-<p><strong>요청 접수</strong></p>
+<li><strong>요청 접수</strong>
 <ul>
 <li>클라이언트로부터 모든 <a href="/github-blog/blog/0e7c35fd">HttpServletRequest</a>를 받음</li>
 </ul>
 </li>
-<li>
-<p><strong>핸들러 매핑 (Handler Mapping)</strong></p>
+<li><strong>핸들러 매핑 (Handler Mapping)</strong>
 <ul>
 <li>요청 <code>URI</code>에 맞는 컨트롤러(핸들러)를 찾아내도록 <a href="/github-blog/blog/00e5cb0c">HandlerMapping</a>에게 요청</li>
 <li>주로 <a href="/github-blog/blog/f1963688">@RequestMapping</a>  어노테이션을 해석하는 <a href="/github-blog/blog/00e5cb0c">RequestMappingHandlerMapping</a> 이 사용됨</li>
 <li><a href="/github-blog/blog/00e5cb0c">HandlerMapping</a>은 실행할 컨트롤러 메소드 정보가 담긴 <a href="#">HandlerExecutionChain</a>을 반환</li>
 </ul>
 </li>
-<li>
-<p><strong>핸들러 어댑터 조회 (Handler Adapter)</strong></p>
+<li><strong>핸들러 어댑터 조회 (Handler Adapter)</strong>
 <ul>
 <li>찾아낸 핸들러를 실행할 수 있는 <a href="/github-blog/blog/6708b2d8">HandlerAdapter</a>를 조회</li>
 <li><a href="/github-blog/blog/f1963688">@RequestMapping</a> 컨트롤러는 <a href="/github-blog/blog/6708b2d8">RequestMappingHandlerAdapter</a> 가 실행함</li>
 </ul>
 </li>
-<li>
-<p><strong>핸들러 어댑터 실행 → 컨트롤러 호출</strong></p>
+<li><strong>핸들러 어댑터 실행 → 컨트롤러 호출</strong>
 <ul>
 <li><a href="/github-blog/blog/6708b2d8">HandlerAdapter</a>가 실제 컨트롤러의 메소드를 호출</li>
 <li>이때 요청 인자(<a href="/github-blog/blog/1fd56626">@RequestParam</a>, <a href="/github-blog/blog/7d08fd5c">@RequestBody</a> 등)를 처리하여 메소드에 전달</li>
 </ul>
 </li>
-<li>
-<p><strong>ModelAndView 반환</strong></p>
+<li><strong>ModelAndView 반환</strong>
 <ul>
 <li>컨트롤러는 비즈니스 로직 실행 후, 뷰 이름과 모델 데이터를 담은 <a href="#">ModelAndView</a> 객체를 반환</li>
 <li>(<a href="/github-blog/blog/ea5774e3">@RestController</a>처럼 <a href="/github-blog/blog/3b7510b4">@ResponseBody</a>가 사용된 경우, <code>View</code>는 생략되고 <a href="/github-blog/blog/f9416c12">HttpMessageConverter</a>가 바로 응답 본문을 만듦)</li>
 </ul>
 </li>
-<li>
-<p><strong>뷰 리졸버 (View Resolver)</strong></p>
+<li><strong>뷰 리졸버 (View Resolver)</strong>
 <ul>
 <li><a href="#">ModelAndView</a>의 논리적인 뷰 이름(예: <code>"articles/list"</code>)을 실제 물리적인 뷰 객체로 변환</li>
 <li>(예: <a href="#">ThymeleafViewResolver</a>는 해당 이름의 HTML 파일을 찾아 렌더링할 준비를 함)</li>
 </ul>
 </li>
-<li>
-<p><strong>뷰 렌더링 (View Rendering)</strong></p>
+<li><strong>뷰 렌더링 (View Rendering)</strong>
 <ul>
 <li><code>View</code> 객체가 모델 데이터를 바탕으로 최종 결과(HTML 등)를 렌더링하여 <a href="/github-blog/blog/f2084f0b">HttpServletResponse</a>에 담아 클라이언트에게 응답</li>
 </ul>
@@ -194,7 +180,7 @@ deactivate DS
 </ol>
 <h2 style="color: #C3E88D;">
                   <span style="font-size: initial; color: #F0C292; margin-right: 0.5em;">h2</span>
-                  개발자 관점에서의 예제
+                  간략한 흐름도
                 </h2>
 <p>실제 개발 시 <code>DispatcherServlet</code>을 직접 다루진 않지만, 우리가 작성하는 컨트롤러가 이 흐름 속에서 동작함</p>
 
@@ -222,13 +208,13 @@ deactivate DS
       
 <ol>
 <li>요청: 클라이언트가 /hello?name=Spring 요청</li>
-<li>DispatcherServlet: 요청을 받음</li>
-<li>HandlerMapping: /hello를 처리할 hello() 메소드를 찾아냄</li>
-<li>HandlerAdapter: hello() 메소드를 호출하면서 @RequestParam을 해석하여 "Spring"이라는 값을 name 파라미터에 넣어줌</li>
-<li>Controller: 메소드 실행 후 "Hello, Spring" 문자열 반환</li>
-<li>DispatcherServlet: 반환된 문자열을 HttpMessageConverter를 통해 HTTP 응답 본문에 담아 클라이언트에게 전송</li>
+<li><a href="/github-blog/blog/50e6a885">DispatcherServlet</a> : 요청을 받음</li>
+<li><a href="/github-blog/blog/00e5cb0c">HandlerMapping</a> : /hello를 처리할 hello() 메소드를 찾아냄</li>
+<li><a href="/github-blog/blog/6708b2d8">HandlerAdapter</a> : hello() 메소드를 호출하면서 @RequestParam을 해석하여 "Spring"이라는 값을 name 파라미터에 넣어줌</li>
+<li><a href="/github-blog/blog/1fa201a8">Controller</a> : 메소드 실행 후 "Hello, Spring" 문자열 반환</li>
+<li><a href="/github-blog/blog/50e6a885">DispatcherServlet</a> : 반환된 문자열을 <a href="/github-blog/blog/f9416c12">HttpMessageConverter</a>  통해 HTTP 응답 본문에 담아 클라이언트에게 전송</li>
 </ol>
-15:T1824,---
+15:T19d8,---
 aliases:
   - FrontController
   - 프론트 컨트롤러
@@ -237,6 +223,8 @@ tags:
   - Spring
 특징: 한곳에서 모든 URI 관리하기 위해 사용
 isPublic: true
+createdAt: 2023-11-30 10:05
+updatedAt: 2025-09-15 15:23
 ---
 # DispatcherServlet
 - 한곳에서 모든 [[URI]] 을 관리하기 위해 사용
@@ -250,7 +238,6 @@ isPublic: true
     - 모든 요청을 `DispatcherServlet`이 일단 받음
     - 공통 기능을 처리한 후, 요청에 맞는 컨트롤러(핸들러)에게 작업을 위임
     - 개발자는 실제 비즈니스 로직을 담은 컨트롤러만 작성하면 됨
-
 - `@WebServlet(name=??, urlPatterns = "*/*")` 형태로 되어 있을 컨트롤러
 1. [[URI]]를 받아서 [[2.Ref(데이터 및 정보 저장)/Spring/HandlerMapping]]에 있는지 확인
 	1. 없다면 정적 리소스에서 찾아봄
@@ -316,32 +303,26 @@ deactivate DS
 ```
 1.  **요청 접수**
     - 클라이언트로부터 모든 [[2.Ref(데이터 및 정보 저장)/Spring/HttpServletRequest|HttpServletRequest]]를 받음
-
 2.  **핸들러 매핑 (Handler Mapping)**
     - 요청 `URI`에 맞는 컨트롤러(핸들러)를 찾아내도록 [[HandlerMapping]]에게 요청
     - 주로 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestMapping|@RequestMapping]]  어노테이션을 해석하는 [[2.Ref(데이터 및 정보 저장)/Spring/HandlerMapping|RequestMappingHandlerMapping]] 이 사용됨
     - [[HandlerMapping]]은 실행할 컨트롤러 메소드 정보가 담긴 [[HandlerExecutionChain]]을 반환
-
 3.  **핸들러 어댑터 조회 (Handler Adapter)**
     - 찾아낸 핸들러를 실행할 수 있는 [[HandlerAdapter]]를 조회
     - [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestMapping|@RequestMapping]] 컨트롤러는 [[2.Ref(데이터 및 정보 저장)/Spring/HandlerAdapter|RequestMappingHandlerAdapter]] 가 실행함
-
 4.  **핸들러 어댑터 실행 → 컨트롤러 호출**
     - [[HandlerAdapter]]가 실제 컨트롤러의 메소드를 호출
     - 이때 요청 인자([[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestParam|@RequestParam]], [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RequestBody|@RequestBody]] 등)를 처리하여 메소드에 전달
-
 5.  **ModelAndView 반환**
     - 컨트롤러는 비즈니스 로직 실행 후, 뷰 이름과 모델 데이터를 담은 [[ModelAndView]] 객체를 반환
     - ([[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@RestController|@RestController]]처럼 [[2.Ref(데이터 및 정보 저장)/Spring/Annotation/@ResponseBody|@ResponseBody]]가 사용된 경우, `View`는 생략되고 [[2.Ref(데이터 및 정보 저장)/Spring/변환기/HttpMessageConverter|HttpMessageConverter]]가 바로 응답 본문을 만듦)
-
 6.  **뷰 리졸버 (View Resolver)**
     - [[ModelAndView]]의 논리적인 뷰 이름(예: `"articles/list"`)을 실제 물리적인 뷰 객체로 변환
     - (예: [[ThymeleafViewResolver]]는 해당 이름의 HTML 파일을 찾아 렌더링할 준비를 함)
-
 7.  **뷰 렌더링 (View Rendering)**
     - `View` 객체가 모델 데이터를 바탕으로 최종 결과(HTML 등)를 렌더링하여 [[2.Ref(데이터 및 정보 저장)/Spring/HttpServletResponse|HttpServletResponse]]에 담아 클라이언트에게 응답
 
-## 개발자 관점에서의 예제
+## 간략한 흐름도
 실제 개발 시 `DispatcherServlet`을 직접 다루진 않지만, 우리가 작성하는 컨트롤러가 이 흐름 속에서 동작함
 ```java
 @RestController
@@ -354,12 +335,12 @@ public class HelloController {
 }
 ```
 1. 요청: 클라이언트가 /hello?name=Spring 요청
-2. DispatcherServlet: 요청을 받음
-3. HandlerMapping: /hello를 처리할 hello() 메소드를 찾아냄
-4. HandlerAdapter: hello() 메소드를 호출하면서 @RequestParam을 해석하여 "Spring"이라는 값을 name 파라미터에 넣어줌
-5. Controller: 메소드 실행 후 "Hello, Spring" 문자열 반환
-6. DispatcherServlet: 반환된 문자열을 HttpMessageConverter를 통해 HTTP 응답 본문에 담아 클라이언트에게 전송
-5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/DispatcherServlet","slugHash":"50e6a885","content":"$14","markdownContent":"$15","title":"DispatcherServlet","createdAt":"2025-09-12","updatedAt":"2025-09-12","tags":["Spring"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["FrontController","프론트 컨트롤러","DispatcherServlet"],"noteUUID":"$undefined"}}]}]
+2. [[2.Ref(데이터 및 정보 저장)/Spring/DispatcherServlet|DispatcherServlet]] : 요청을 받음
+3. [[2.Ref(데이터 및 정보 저장)/Spring/HandlerMapping|HandlerMapping]] : /hello를 처리할 hello() 메소드를 찾아냄
+4. [[2.Ref(데이터 및 정보 저장)/Spring/HandlerAdapter|HandlerAdapter]] : hello() 메소드를 호출하면서 @RequestParam을 해석하여 "Spring"이라는 값을 name 파라미터에 넣어줌
+5. [[2.Ref(데이터 및 정보 저장)/Spring/용어설명/Controller|Controller]] : 메소드 실행 후 "Hello, Spring" 문자열 반환
+6. [[2.Ref(데이터 및 정보 저장)/Spring/DispatcherServlet|DispatcherServlet]] : 반환된 문자열을 [[2.Ref(데이터 및 정보 저장)/Spring/변환기/HttpMessageConverter|HttpMessageConverter]]  통해 HTTP 응답 본문에 담아 클라이언트에게 전송
+5:["$","div",null,{"className":"page_container__MI3fw","children":["$","$L13",null,{"post":{"slug":"Spring/DispatcherServlet","slugHash":"50e6a885","content":"$14","markdownContent":"$15","title":"DispatcherServlet","createdAt":"2023-11-30 10:05","updatedAt":"2025-09-15 15:23","tags":["Spring"],"isPublished":true,"excerpt":"$undefined","coverImgUrl":"$undefined","aliases":["FrontController","프론트 컨트롤러","DispatcherServlet"],"noteUUID":"$undefined"}}]}]
 e:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
 9:null
 12:{"metadata":[["$","title","0",{"children":"서동민 개발 블로그"}],["$","meta","1",{"name":"description","content":"서동민 개발 블로그"}],["$","meta","2",{"property":"og:title","content":"서동민 개발 블로그"}],["$","meta","3",{"property":"og:description","content":"서동민 개발 블로그"}],["$","meta","4",{"name":"twitter:card","content":"summary"}],["$","meta","5",{"name":"twitter:title","content":"서동민 개발 블로그"}],["$","meta","6",{"name":"twitter:description","content":"서동민 개발 블로그"}],["$","link","7",{"rel":"icon","href":"/github-blog/favicon.ico","type":"image/x-icon","sizes":"16x16"}],["$","link","8",{"rel":"icon","href":"/github-blog/icon.png?0057d00b6eb4edf8","type":"image/png","sizes":"1024x1024"}],["$","link","9",{"rel":"apple-touch-icon","href":"/github-blog/apple-icon.png?2209b5b7eb9606d8","type":"image/png","sizes":"180x180"}]],"error":null,"digest":"$undefined"}
