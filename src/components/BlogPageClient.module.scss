@@ -1,0 +1,47 @@
+/* src/components/BlogPageClient.module.scss */
+
+.title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+/* 2단 컬럼 레이아웃을 위한 Grid 컨테이너 */
+.mainContent {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+/* 왼쪽 사이드바 (카테고리) */
+.sidebar {
+  position: sticky;
+  top: 2rem;
+}
+
+/* 오른쪽 메인 콘텐츠 (게시물 목록) */
+.postSection {
+  min-width: 0;
+}
+
+.emptyMessage {
+  padding: 4rem 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--neutral-600);
+  background-color: var(--neutral-100);
+  border-radius: 8px;
+}
+
+/* 화면이 900px보다 작아지면 1단 레이아웃으로 변경 */
+@media (max-width: 900px) {
+  .mainContent {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    margin-bottom: 2rem;
+  }
+}

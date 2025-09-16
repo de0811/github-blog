@@ -1,11 +1,11 @@
 // src/components/PostCard.tsx
 import Link from 'next/link';
-import Image from 'next/image'; // Next.js Image 컴포넌트 사용
+import Image from 'next/image';
 import styles from './PostCard.module.scss';
-import { PostType } from '@/types/post.type';
+import { PostMetadata } from '@/types/post.type'; // PostType 대신 PostMetadata를 import합니다.
 
 interface PostCardProps {
-  post: PostType;
+  post: PostMetadata; // 타입을 PostMetadata로 변경합니다.
 }
 
 export default function PostCard({ post }: PostCardProps) {
@@ -16,8 +16,8 @@ export default function PostCard({ post }: PostCardProps) {
           <Image
             src={post.coverImgUrl}
             alt={`${post.title} cover image`}
-            width={400} // 실제 이미지 크기나 원하는 크기로 조절
-            height={200} // 실제 이미지 크기나 원하는 크기로 조절
+            width={400}
+            height={200}
             className={styles.coverImage}
             priority // LCP(Largest Contentful Paint) 이미지일 경우 추가
           />

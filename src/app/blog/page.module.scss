@@ -1,38 +1,8 @@
 /* src/app/blog/page.module.scss */
+
+/* 이 페이지의 최상위 컨테이너 스타일 */
 .container {
   max-width: var(--max-width);
   margin: 2rem auto;
   padding: 0 1rem;
-}
-
-.title {
-  font-size: 2.5rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  color: #333;
-}
-
-.postsGrid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1.5rem;
-}
-
-.emptyMessage {
-  text-align: center;
-  font-size: 1.2rem;
-  color: #555;
-  margin-bottom: 1.5rem;
-}
-
-.homeLink {
-  display: block;
-  text-align: center;
-  font-size: 1rem;
-  color: #0070f3;
-  text-decoration: none;
-
-  &:hover {
-    text-decoration: underline;
-  }
 }
